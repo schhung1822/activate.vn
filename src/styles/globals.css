@@ -132,3 +132,45 @@ img {
 .transition-slow {
     transition-duration: 0.5s !important;
 }
+/* Nền thumbnail dự án (ProjectThumbBackdrop) */
+.project-backdrop-track {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    will-change: transform;
+    animation-duration: var(--project-backdrop-duration);
+    animation-delay: var(--project-backdrop-delay);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.project-backdrop-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-backdrop-up {
+    animation-name: project-backdrop-up;
+}
+
+.project-backdrop-down {
+    animation-name: project-backdrop-down;
+}
+
+/* Track gồm 3 bản sao cách nhau 12px: dịch đúng một bản sao = 33.3333% + 4px. */
+@keyframes project-backdrop-up {
+    from { transform: translate3d(0, 0, 0); }
+    to { transform: translate3d(0, calc(-33.3333% - 4px), 0); }
+}
+
+@keyframes project-backdrop-down {
+    from { transform: translate3d(0, calc(-33.3333% - 4px), 0); }
+    to { transform: translate3d(0, 0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-backdrop-track {
+        animation-play-state: paused;
+    }
+}

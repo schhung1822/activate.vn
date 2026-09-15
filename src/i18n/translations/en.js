@@ -369,7 +369,9 @@ export default {
                 'Nextgency helped us optimise our business operations with professionalism, dedication and creative thinking.',
                 'Nextgency consistently brings creative ideas that are practical and effective for our communication projects.',
                 'Nextgency understood our brand needs and delivered solutions that were fitting, polished and effective.',
-                'Nextgency has walked alongside us with professionalism, creativity and genuinely dedicated support.'
+                'Nextgency has walked alongside us with professionalism, creativity and genuinely dedicated support.',
+                'We have partnered with Nextgency on several projects and have always appreciated the team’s professionalism and effectiveness.',
+                'Nextgency provides dedicated support, responds quickly and stays closely involved throughout the entire implementation.'
             ]
         },
         clients: {

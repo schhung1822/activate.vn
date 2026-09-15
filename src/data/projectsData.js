@@ -900,7 +900,7 @@ export const projectsData = [
         },
         videoUrl: '/assets/images/website&landingpage/video.mp4',
         slides: [
-            '/assets/images/projects/miniapp_1.webp',
+            '/assets/images/projects/miniapp-1.webp',
             '/assets/images/projects/miniapp_2.webp',
             '/assets/images/projects/miniapp_3.webp',
             '/assets/images/projects/miniapp_4.webp',

@@ -370,7 +370,9 @@ export default {
                 'Nextgency đã giúp chúng tôi tối ưu hoạt động kinh doanh bằng sự chuyên nghiệp, tận tâm và tư duy sáng tạo.',
                 'Nextgency luôn mang đến những ý tưởng sáng tạo, thực tế và hiệu quả cho các dự án truyền thông của chúng tôi.',
                 'Nextgency thấu hiểu nhu cầu thương hiệu và mang đến cho chúng tôi những giải pháp phù hợp, chỉn chu và hiệu quả.',
-                'Nextgency đã đồng hành cùng chúng tôi bằng sự chuyên nghiệp, sáng tạo và tinh thần hỗ trợ rất tận tâm.'
+                'Nextgency đã đồng hành cùng chúng tôi bằng sự chuyên nghiệp, sáng tạo và tinh thần hỗ trợ rất tận tâm.',
+                'Chúng tôi đã hợp tác cùng Nextgency qua nhiều dự án và luôn hài lòng với sự chuyên nghiệp, hiệu quả của đội ngũ.',
+                'Nextgency hỗ trợ rất tận tình, phản hồi nhanh và luôn đồng hành sát sao trong suốt quá trình triển khai.'
             ]
         },
         clients: {

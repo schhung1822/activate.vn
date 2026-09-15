@@ -145,17 +145,11 @@ const Header = () => {
                         {/* Logo */}
                         <div className="flex-shrink-0">
                             <Link to="/" className="block">
-                                {/* Desktop Logo */}
+                                {/* Dùng chung logo đầy đủ cho mọi kích thước màn hình */}
                                 <img
                                     src="/assets/images/header/navbarlogoblack.png"
                                     alt="Nextgency Logo"
-                                    className="hidden sm:block h-6 lg:h-7 w-auto object-contain"
-                                />
-                                {/* Mobile Logo */}
-                                <img
-                                    src="/assets/images/header/navbarfavicon.png"
-                                    alt="Nextgency Logo"
-                                    className="block sm:hidden h-8 w-auto object-contain"
+                                    className="block h-6 lg:h-7 w-auto object-contain"
                                 />
                             </Link>
                         </div>
@@ -367,9 +361,9 @@ const Header = () => {
                             <div className="flex-shrink-0">
                                 <Link to="/" className="block">
                                     <img
-                                        src="/assets/images/header/navbarfavicon.png"
+                                        src="/assets/images/header/navbarlogoblack.png"
                                         alt="Nextgency Logo"
-                                        className="h-8 w-auto object-contain"
+                                        className="h-6 w-auto object-contain"
                                     />
                                 </Link>
                             </div>

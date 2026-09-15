@@ -141,9 +141,9 @@ const AboutUsSection = () => {
 
                         {/* Card B với ảnh */}
                         <div ref={cardBRef} className="relative rounded-md overflow-hidden">
-                            <div className="aspect-[8/7] w-full">
+                            <div className="aspect-[4/3] w-full">
                                 <img
-                                    src="/assets/images/tien-phong.webp"
+                                    src="/assets/images/banner-about.webp"
                                     alt="Our team at work"
                                     className="w-full h-full object-cover"
                                 />

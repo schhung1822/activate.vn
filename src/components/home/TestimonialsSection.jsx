@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import {ChevronLeft, ChevronRight, Star, Quote, ArrowUpRight} from 'lucide-react';
+import { ChevronRight, Quote } from 'lucide-react';
 import { useI18n } from "../../i18n";
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -29,12 +29,14 @@ const TestimonialsSection = () => {
     // Tên người và công ty là danh từ riêng nên giữ nguyên; chỉ lời nhận xét được dịch.
     const quotes = tm('home.testimonials.items');
     const testimonials = [
-        {id: 1, author: "Võ Anh Dũng", company: "EAC Group"},
-        {id: 2, author: "Sumi Han", company: "Beauty Summit"},
-        {id: 3, author: "Nguyễn Trung Kiên", company: "Tuki Group"},
-        {id: 4, author: "Trần Viết Tín", company: "Topmus Entertainment"},
-        {id: 5, author: "Thủy Kat", company: "Kat Skin"},
-        {id: 6, author: "Hoàng Hà", company: "Mewart"}
+        {id: 1, author: "Võ Anh Dũng", company: "EAC Group", image: "/assets/images/projects/srx-1.webp"},
+        {id: 2, author: "Sumi Han", company: "Beauty Summit", image: "/assets/images/portfolio/11.webp"},
+        {id: 3, author: "Nguyễn Trung Kiên", company: "Tuki Group", image: "/assets/images/portfolio/35.webp"},
+        {id: 4, author: "Trần Viết Tín", company: "Topmus Entertainment", image: "/assets/images/projects/topmus1.webp"},
+        {id: 5, author: "Thủy Kat", company: "Kat Skin", image: "/assets/images/portfolio/13.webp"},
+        {id: 6, author: "Hoàng Hà", company: "Mewart", image: "/assets/images/portfolio/40.webp"},
+        {id: 7, author: "Bá Quyền", company: "QC House", image: "/assets/images/projects/qchoue_1.webp"},
+        {id: 8, author: "Hoàng Minh", company: "Hoàng Minh Logistics", image: "/assets/images/projects/hm1.webp"}
     ].map((item, index) => ({...item, content: quotes[index] || ''}));
 
     const itemsPerSlide = window.innerWidth < 768 ? 1 : 2;
@@ -183,10 +185,10 @@ const TestimonialsSection = () => {
                 </div>
 
                 {/* Main Content Container */}
-                <div ref={mainContainerRef} className="grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-8 p-4 rounded-md bg-gradient-to-br from-[#2B144D] via-black to-[#2B144D]">
+                <div ref={mainContainerRef} className="grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-8 p-2 rounded-md bg-gradient-to-br from-[#2B144D] via-black to-[#2B144D]">
                     {/* Left Column - Description & CTA */}
                     <div ref={leftColumnRef} className="lg:col-span-1 flex flex-col justify-between">
-                        <div className="mb-6 lg:mb-0 p-4">
+                        <div className="mb-2 lg:mb-6 lg:mb-0 p-4">
                             <p className="text-[15px] lg:text-[18px] text-white text-justify">
                                 {t('home.testimonials.description')}
                             </p>
@@ -216,29 +218,31 @@ const TestimonialsSection = () => {
                                                     <div
                                                         key={testimonial.id}
                                                         ref={el => cardsRef.current[slideIndex * itemsPerSlide + cardIndex] = el}
-                                                        className="relative bg-white rounded-sm p-8 lg:p-12 transition-all  group flex flex-col justify-between min-h-[280px] overflow-hidden"
+                                                        className="relative bg-white rounded-[10px] transition-all group flex min-h-[320px] sm:min-h-[420px] flex-col overflow-hidden"
                                                     >
                                                         {/* Shine Effect */}
                                                         <div className=" transform -translate-x-full opacity-0"></div>
-
-                                                        {/* Top Section - Quote Icon & Content */}
-                                                        <div className="relative z-10">
-                                                            {/* Quote Icon */}
-                                                            <div className="mb-4">
-                                                                <Quote className="w-8 h-8 text-[#2B144D] fill-[#2B144D]"/>
+                                                        <div className="relative z-10 flex flex-1 flex-col justify-between p-4 lg:p-6">
+                                                            <img
+                                                                src={testimonial.image}
+                                                                alt={testimonial.company}
+                                                                className="aspect-video w-full rounded-[8px] border border-[#2a164b] object-cover"
+                                                                loading="lazy"
+                                                            />
+                                                            {/* Feedback Content */}
+                                                            <div className="relative pl-10">
+                                                                <Quote className="absolute left-0 top-0 h-6 w-6 fill-[#2B144D] text-[#2B144D] opacity-[0.5]" />
+                                                                <p className="text-black text-[14px] lg:text-[16px]">
+                                                                    {testimonial.content}
+                                                                </p>
                                                             </div>
 
-                                                            {/* Content */}
-                                                            <p className="text-black text-[14px] lg:text-[16px]">
-                                                                {testimonial.content}
-                                                            </p>
-                                                        </div>
-
-                                                        {/* Bottom Section - Author Info */}
-                                                        <div className="pt-4 border-t border-gray-600 relative z-10 mt-6">
-                                                            <p className="text-[11px] sm:text-[13px] font-archivo font-medium text-[#2B144D] uppercase tracking-widest">
-                                                                {testimonial.company}
-                                                            </p>
+                                                            {/* Bottom Section - Author Info */}
+                                                            <div className="relative z-10 text-right">
+                                                                <p className="text-[11px] sm:text-[13px] font-archivo font-medium text-[#2B144D] uppercase tracking-widest">
+                                                                    {testimonial.company}
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 ))}

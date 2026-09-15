@@ -34,7 +34,7 @@ const ServicesSection = () => {
             id: 0,
             key: 'aiData',
             icon: <Bot className="w-4 h-4" />,
-            image: '/assets/images/services/automation.webp',
+            image: '/assets/images/services/data-ai.webp',
             technologies: [
                 { icon: <Code className="w-4 h-4" />, name: 'AI Automation' },
                 { icon: <Code className="w-4 h-4" />, name: 'n8n' },
@@ -47,7 +47,7 @@ const ServicesSection = () => {
             id: 1,
             key: 'googleAds',
             icon: <Target className="w-4 h-4" />,
-            image: '/assets/images/services/gg-ads.webp',
+            image: '/assets/images/services/google-ads.webp',
             technologies: [
                 { icon: <Code className="w-4 h-4" />, name: 'Search Ads' },
                 { icon: <Code className="w-4 h-4" />, name: 'Display Ads' },
@@ -60,7 +60,7 @@ const ServicesSection = () => {
             id: 2,
             key: 'facebookAds',
             icon: <Smartphone className="w-4 h-4" />,
-            image: '/assets/images/services/fb-ads.webp',
+            image: '/assets/images/services/facebook-ads.webp',
             technologies: [
                 { icon: <Code className="w-4 h-4" />, name: 'Meta Ads' },
                 { icon: <Code className="w-4 h-4" />, name: 'Pixel Tracking' },
@@ -73,7 +73,7 @@ const ServicesSection = () => {
             id: 3,
             key: 'websiteLanding',
             icon: <Globe className="w-4 h-4" />,
-            image: '/assets/images/services/web-ladi.webp',
+            image: '/assets/images/portfolio/15.webp',
             technologies: [
                 { icon: <Code className="w-4 h-4" />, name: 'React' },
                 { icon: <Code className="w-4 h-4" />, name: 'Next.js' },
@@ -99,7 +99,7 @@ const ServicesSection = () => {
             id: 5,
             key: 'facebookCrm',
             icon: <Users className="w-4 h-4" />,
-            image: '/assets/images/services/dataset.webp',
+            image: '/assets/images/services/crm.webp',
             technologies: [
                 { icon: <Code className="w-4 h-4" />, name: 'Meta Dataset' },
                 { icon: <Code className="w-4 h-4" />, name: 'CRM Sync' },
@@ -352,17 +352,10 @@ const ServicesSection = () => {
                                         </h3>
 
                                         {/* Row 2: Two columns */}
-                                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+                                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 sm:min-h-[480px]">
                                             {/* Column 1: Description & Image */}
                                             <div className="space-y-12 p-4">
-                                                <div className="animate-content">
-                                                    <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.descriptionLabel')}</h4>
-                                                    <p className="text-white text-[14px] sm:text-[16px] text-justify">
-                                                        {service.description}
-                                                    </p>
-                                                </div>
-
-                                                <div ref={imageRef} className="animate-content relative h-64 sm:h-80 lg:h-96 rounded-xl overflow-hidden group border border-gray-800">
+                                                <div ref={imageRef} className="animate-content relative aspect-radio-[16/9] rounded-xl overflow-hidden group border border-gray-800">
 
                                                     <img
                                                         src={service.image}
@@ -375,6 +368,13 @@ const ServicesSection = () => {
                                             {/* Column 2: Technologies, Date, Note */}
                                             <div className="">
                                                 <div className="space-y-12 p-4">
+                                                    <div className="animate-content">
+                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.descriptionLabel')}</h4>
+                                                        <p className="text-white text-[14px] sm:text-[16px] text-justify">
+                                                            {service.description}
+                                                        </p>
+                                                    </div>
+
                                                     {/* Technologies */}
                                                     <div className="animate-content">
                                                         <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.technologiesLabel')}</h4>
@@ -390,20 +390,11 @@ const ServicesSection = () => {
                                                             ))}
                                                         </div>
                                                     </div>
-
                                                     {/* Completed Date */}
                                                     <div className="animate-content">
                                                         <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.durationLabel')}</h4>
                                                         <p className="text-[14px] lg:text-[16px] text-white inline-block">
                                                             {service.completedDate}
-                                                        </p>
-                                                    </div>
-
-                                                    {/* Note */}
-                                                    <div className="animate-content">
-                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.noteLabel')}</h4>
-                                                        <p className="text-[14px] lg:text-[16px] text-white">
-                                                            {service.note}
                                                         </p>
                                                     </div>
                                                 </div>
