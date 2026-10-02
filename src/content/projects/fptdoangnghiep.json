@@ -1,0 +1,83 @@
+{
+  "id": "fptdoangnghiep",
+  "status": "published",
+  "order": 28,
+  "date": "03/2026",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Chi nhánh phân phối của FPT Telecom",
+  "technologies": [
+    "WordPress",
+    "Elementor",
+    "RankMath SEO",
+    "Fluent Forms",
+    "Google Analytics 4"
+  ],
+  "metrics": [
+    {
+      "value": "+25%"
+    },
+    {
+      "value": "> 2:30s"
+    },
+    {
+      "value": "95/100"
+    }
+  ],
+  "ctaUrl": "https://fptdoanhnghep.com/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/fpt1.webp",
+    "/assets/images/projects/fp2.webp",
+    "/assets/images/projects/fpt3.webp",
+    "/assets/images/projects/fpt4.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website FPT Telecom",
+      "summary": "Tối ưu hóa kênh đăng ký dịch vụ viễn thông và hạ tầng số cho phân khúc khách hàng B2B.",
+      "description": "Dự án tập trung vào việc xây dựng một cổng thông tin chuyên biệt, giúp đơn giản hóa quá trình tiếp cận các dịch vụ phức tạp của FPT Telecom như Internet doanh nghiệp, Chữ ký số, Hóa đơn điện tử và Tổng đài ảo. Chúng tôi tập trung vào việc chuyển đổi các thông số kỹ thuật khô khan thành các gói giải pháp dễ hiểu, giúp chủ doanh nghiệp và bộ phận IT có thể đưa ra quyết định đăng ký nhanh chóng ngay trên website.",
+      "details": [
+        "Website được xây dựng trên nền tảng WordPress tối ưu hóa, sử dụng cấu trúc silo để phân loại rõ ràng các nhóm dịch vụ: Internet cáp quang, Dịch vụ số (FPT CA, iHĐ), và Giải pháp hạ tầng. Điều này giúp tối ưu hóa điểm chất lượng SEO và nâng cao trải nghiệm tìm kiếm thông tin của khách hàng doanh nghiệp.",
+        "Chúng tôi triển khai hệ thống nút kêu gọi hành động (CTA) thông minh và các Form đăng ký nhanh được tích hợp sâu vào từng bài viết dịch vụ. Hệ thống được thiết kế để tự động phân loại yêu cầu của khách hàng (nhu cầu lắp mạng hay nhu cầu mua chữ ký số) trước khi gửi về bộ phận tư vấn, giúp rút ngắn thời gian phản hồi.",
+        "Về kỹ thuật, dự án tập trung tối ưu hóa giao diện di động và tốc độ phản hồi trang để đáp ứng tiêu chuẩn Core Web Vitals của Google. Toàn bộ nội dung được trình bày dưới dạng bảng so sánh thông số và bảng giá minh bạch, giúp tăng tỷ lệ tin tưởng và chuyển đổi từ người truy cập thành khách hàng tiềm năng."
+      ],
+      "metrics": [
+        "Tỷ lệ chuyển đổi Lead",
+        "Thời gian trên trang",
+        "Điểm SEO On-page"
+      ]
+    },
+    "en": {
+      "name": "FPT Telecom Website",
+      "summary": "Optimising the sign-up channel for telecom and digital infrastructure services in the B2B segment.",
+      "description": "The project built a dedicated portal simplifying access to FPT Telecom’s more complex services: business internet, digital signatures, e-invoicing and virtual switchboards. We focused on turning dry technical specifications into solution packages that are easy to understand, so business owners and IT teams can decide and sign up right on the site.",
+      "details": [
+        "The site was built on an optimised WordPress stack using a silo structure to classify the service groups clearly: fibre internet, digital services (FPT CA, e-invoicing) and infrastructure solutions. That lifts SEO quality score and improves how business customers find information.",
+        "We implemented smart calls to action and quick sign-up forms integrated deep into each service page. The system classifies each request automatically (internet installation versus digital signature) before routing it to the consulting team, shortening response time.",
+        "Technically, the project focused on optimising the mobile interface and page response to meet Google’s Core Web Vitals standards. All content is presented as spec comparison tables and transparent price tables, raising trust and conversion from visitor to prospect."
+      ],
+      "metrics": [
+        "Lead conversion rate",
+        "Time on page",
+        "On-page SEO score"
+      ]
+    },
+    "cn": {
+      "name": "FPT Telecom 网站",
+      "summary": "面向 B2B 客户，优化电信与数字基础设施服务的注册渠道。",
+      "description": "项目搭建了一个专门的信息门户，简化用户接触 FPT Telecom 各类复杂服务的过程，如企业宽带、数字签名、电子发票与虚拟总机。我们着力把枯燥的技术参数转化为易懂的解决方案套餐，让企业主与 IT 部门能在网站上迅速做出注册决定。",
+      "details": [
+        "网站基于优化过的 WordPress 搭建，采用 silo 结构清晰划分服务类别：光纤宽带、数字服务（FPT CA、电子发票）与基础设施方案。这提升了 SEO 质量得分，也改善了企业客户查找信息的体验。",
+        "我们落地了智能的行动号召（CTA）体系，并把快速注册表单深度嵌入每一篇服务文章。系统在把需求转给咨询部门之前会自动分类（是装宽带还是买数字签名），从而缩短响应时间。",
+        "技术上，项目重点优化移动端界面与页面响应速度，以满足 Google 的 Core Web Vitals 标准。全部内容以参数对比表与透明报价表的形式呈现，提升信任度并把访客更好地转化为潜在客户。"
+      ],
+      "metrics": [
+        "线索转化率",
+        "页面停留时长",
+        "On-page SEO 得分"
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "usobebe",
+  "status": "published",
+  "order": 21,
+  "date": "02/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Usobebe",
+  "technologies": [
+    "Ladipage",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "Tối ưu"
+    },
+    {
+      "value": "Dễ vận hành"
+    },
+    {
+      "value": "Nhanh gọn"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/14.webp",
+    "/assets/images/portfolio/45.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-commerce Usobebe",
+      "summary": "Thiết kế và triển khai website thương mại điện tử cho thương hiệu Usobebe.",
+      "description": "Dự án tập trung xây dựng website e-commerce cho Usobebe nhằm phục vụ hoạt động bán hàng trực tuyến, giới thiệu sản phẩm và tối ưu trải nghiệm mua sắm trên đa thiết bị. Website được thiết kế hướng đến khả năng mở rộng, dễ quản trị và hỗ trợ tốt cho các chiến dịch marketing.",
+      "details": [
+        "Thiết kế website thương mại điện tử với cấu trúc rõ ràng: trang sản phẩm, danh mục, chi tiết sản phẩm và luồng đặt hàng.",
+        "Tối ưu giao diện mua sắm trên mobile và desktop, giúp người dùng dễ tìm sản phẩm và hoàn tất đơn hàng nhanh chóng.",
+        "Thiết lập đo lường GA4 để theo dõi hành vi mua hàng, phục vụ tối ưu chuyển đổi và các chiến dịch marketing sau này."
+      ],
+      "metrics": [
+        "Trải nghiệm mua sắm",
+        "Khả năng quản trị",
+        "Tốc độ triển khai"
+      ]
+    },
+    "en": {
+      "name": "Usobebe E-commerce Website",
+      "summary": "Design and delivery of an e-commerce website for the Usobebe brand.",
+      "description": "The project built an e-commerce website for Usobebe supporting online sales, product presentation and an optimised shopping experience across devices. The site was designed to be scalable, easy to administer and supportive of marketing campaigns.",
+      "details": [
+        "An e-commerce website designed with a clear structure: product pages, categories, product detail and the ordering flow.",
+        "A shopping interface optimised for mobile and desktop, so users find products and complete orders quickly.",
+        "GA4 measurement set up to track purchase behaviour, feeding conversion optimisation and later marketing campaigns."
+      ],
+      "metrics": [
+        "Shopping experience",
+        "Ease of administration",
+        "Delivery speed"
+      ]
+    },
+    "cn": {
+      "name": "Usobebe 电商网站",
+      "summary": "为 Usobebe 品牌设计并落地电商网站。",
+      "description": "项目为 Usobebe 搭建电商网站，支撑线上销售、产品展示，并优化多端购物体验。网站在设计上兼顾可扩展性、易于管理，并能很好地配合营销活动。",
+      "details": [
+        "电商网站结构清晰：产品页、分类页、产品详情与下单流程。",
+        "针对移动端与桌面端优化购物界面，让用户轻松找到产品并快速完成下单。",
+        "配置 GA4 衡量以追踪购买行为，服务后续的转化优化与营销投放。"
+      ],
+      "metrics": [
+        "购物体验",
+        "后台易用性",
+        "交付速度"
+      ]
+    }
+  }
+}

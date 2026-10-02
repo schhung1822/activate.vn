@@ -1,0 +1,78 @@
+{
+  "id": "the-thao-pharma",
+  "status": "published",
+  "order": 18,
+  "date": "01/2025",
+  "category": [
+    "Automations & Data"
+  ],
+  "partner": "Thế Thảo Pharma",
+  "technologies": [
+    "Larkbasse",
+    "Automations",
+    "Data"
+  ],
+  "metrics": [
+    {
+      "value": "-35%"
+    },
+    {
+      "value": "+28%"
+    },
+    {
+      "value": "+40%"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/HRM.avif"
+  ],
+  "content": {
+    "vi": {
+      "name": "Hệ thống Lark base quản lý CV & nhân viên",
+      "summary": "Chuẩn hóa quy trình tuyển dụng và quản lý nhân sự trên Lark Base.",
+      "description": "Dự án tập trung xây dựng hệ thống Lark Base phục vụ quản lý nhân sự và tuyển dụng cho Thế Thảo Pharma. Giải pháp giúp tập trung toàn bộ dữ liệu CV, ứng viên và nhân sự hiện tại vào một nền tảng duy nhất, đồng thời tự động hóa các khâu sàng lọc, đặt lịch và gửi email phỏng vấn.",
+      "details": [
+        "Cung cấp template Lark Base quản lý CV và hồ sơ ứng viên, cho phép phân loại theo vị trí, trạng thái tuyển dụng và nguồn ứng viên.",
+        "Thiết kế bảng quản lý lịch hẹn phỏng vấn, liên kết trực tiếp với từng ứng viên và nhân sự phụ trách, giúp theo dõi tiến trình tuyển dụng rõ ràng.",
+        "Xây dựng template email phỏng vấn tự động, hỗ trợ gửi thư mời phỏng vấn, xác nhận lịch và cập nhật trạng thái cho ứng viên nhanh chóng."
+      ],
+      "metrics": [
+        "Thời gian xử lý hồ sơ",
+        "Tỷ lệ phản hồi ứng viên",
+        "Độ minh bạch quy trình"
+      ]
+    },
+    "en": {
+      "name": "Lark Base CV & Staff Management System",
+      "summary": "Standardising recruitment and HR management on Lark Base.",
+      "description": "The project built a Lark Base system for HR and recruitment management at The Thao Pharma. It brings all CV, candidate and current staff data onto a single platform while automating screening, scheduling and interview emails.",
+      "details": [
+        "A Lark Base template for managing CVs and candidate profiles, allowing classification by role, recruitment status and candidate source.",
+        "An interview scheduling board linked directly to each candidate and the responsible staff member, keeping the recruitment pipeline clear.",
+        "Automated interview email templates supporting interview invitations, schedule confirmations and fast status updates for candidates."
+      ],
+      "metrics": [
+        "Application handling time",
+        "Candidate response rate",
+        "Process transparency"
+      ]
+    },
+    "cn": {
+      "name": "Lark Base 简历与员工管理系统",
+      "summary": "在 Lark Base 上规范招聘与人事管理流程。",
+      "description": "项目为 The Thao Pharma 搭建 Lark Base 系统，用于人事与招聘管理。方案把简历、候选人与在职员工数据集中到同一个平台，同时把筛选、约面与面试邮件等环节自动化。",
+      "details": [
+        "提供用于管理简历与候选人档案的 Lark Base 模板，可按岗位、招聘状态与候选人来源进行分类。",
+        "设计面试排期表，直接关联到每位候选人与负责的人事同事，让招聘进度一目了然。",
+        "搭建自动化面试邮件模板，支持发送面试邀请、确认时间并快速更新候选人状态。"
+      ],
+      "metrics": [
+        "简历处理耗时",
+        "候选人回复率",
+        "流程透明度"
+      ]
+    }
+  }
+}

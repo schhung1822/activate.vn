@@ -243,7 +243,7 @@
       "destination": "/cn/projects/miniapp-beautysummit-2026/index.html"
     },
     {
-      "source": "/(.*)",
+      "source": "/((?!api/).*)",
       "destination": "/index.html"
     }
   ]

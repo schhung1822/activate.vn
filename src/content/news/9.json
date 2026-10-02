@@ -1,0 +1,18 @@
+{
+  "id": 9,
+  "slug": "content-strategy",
+  "status": "published",
+  "title": "Content Strategy: Xây dựng nội dung hiệu quả",
+  "description": "Chiến lược nội dung để thu hút và giữ chân khách hàng",
+  "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
+  "date": "2024-12-25",
+  "categories": [
+    "Marketing",
+    "Content"
+  ],
+  "tags": [
+    "content strategy",
+    "marketing",
+    "engagement"
+  ]
+}

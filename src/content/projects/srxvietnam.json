@@ -1,0 +1,84 @@
+{
+  "id": "srxvietnam",
+  "status": "published",
+  "order": 29,
+  "date": "04/2026",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "SRX Việt Nam",
+  "technologies": [
+    "Nextjs",
+    "Website",
+    "MySQL",
+    "Affiliate System",
+    "Custom CRM"
+  ],
+  "metrics": [
+    {
+      "value": "> 500"
+    },
+    {
+      "value": "+45%"
+    },
+    {
+      "value": "-15%"
+    }
+  ],
+  "ctaUrl": "https://srx.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/srx-1.webp",
+    "/assets/images/projects/srx-2.webp",
+    "/assets/images/projects/srx-3.webp",
+    "/assets/images/projects/srx-4.webp",
+    "/assets/images/projects/srx-5.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website SRX Việt Nam",
+      "summary": "Xây dựng nền tảng E-commerce mỹ phẩm B2C tích hợp hệ thống Affiliate và quản trị CRM.",
+      "description": "Dự án xây dựng một nền tảng bán lẻ mỹ phẩm trực tuyến toàn diện, không chỉ tối ưu hóa trải nghiệm mua sắm (B2C) của khách hàng mà còn cung cấp công cụ quản trị mạnh mẽ cho đội ngũ vận hành. Trọng tâm của hệ thống là sự kết hợp mượt mà giữa cửa hàng trực tuyến, trang blog chia sẻ kiến thức làm đẹp chuyên sâu và mạng lưới tiếp thị liên kết (Affiliate), tạo đà tăng trưởng doanh thu đa kênh.",
+      "details": [
+        "Về mặt Front-end, giao diện được thiết kế tối ưu UI/UX dành riêng cho ngành hàng làm đẹp, làm nổi bật hình ảnh, thành phần sản phẩm và đánh giá thực tế. Luồng xem hàng và thanh toán được tinh gọn tối đa. Đồng thời, chuyên mục Blog được cấu trúc chuẩn SEO, đóng vai trò như một phễu thu hút khách hàng tiềm năng qua các nội dung hướng dẫn chăm sóc da.",
+        "Điểm nhấn kỹ thuật của dự án là việc quy hoạch và triển khai thành công hệ thống Affiliate Marketing. Cấu trúc cơ sở dữ liệu được tối ưu hóa để quản lý khối lượng lớn mã giảm giá, hệ thống banner quảng cáo cho đối tác và tài khoản cộng tác viên. Tính năng phân cấp tài khoản và cập nhật trạng thái người dùng hàng loạt giúp hệ thống tính toán hoa hồng tự động, minh bạch và chính xác.",
+        "Về khía cạnh quản trị, một Admin CRM chuyên biệt được tích hợp sâu vào hệ thống. Ban quản trị có thể dễ dàng kiểm soát tồn kho, quản lý trạng thái đơn hàng, và phân tích hiệu suất bán hàng của từng chiến dịch Affiliate theo thời gian thực, từ đó đưa ra các quyết định vận hành dựa trên dữ liệu chuẩn xác."
+      ],
+      "metrics": [
+        "Cộng tác viên kích hoạt mới",
+        "Tăng trưởng doanh thu Affiliate",
+        "Tỷ lệ bỏ rơi giỏ hàng"
+      ]
+    },
+    "en": {
+      "name": "SRX Vietnam Website",
+      "summary": "A B2C cosmetics e-commerce platform with an integrated affiliate system and CRM administration.",
+      "description": "The project built a complete online cosmetics retail platform, optimising not only the B2C shopping experience but also giving the operations team powerful administration tools. At its heart is a smooth combination of online store, in-depth beauty knowledge blog and affiliate marketing network, driving multi-channel revenue growth.",
+      "details": [
+        "On the front end, the interface was designed with UI/UX built specifically for the beauty category, highlighting imagery, ingredients and real reviews. The browse and checkout flow was streamlined as far as possible. The blog section is structured for SEO and acts as a funnel drawing in prospects through skincare guidance content.",
+        "The technical highlight was planning and successfully delivering the affiliate marketing system. The database was optimised to manage a large volume of discount codes, partner banner systems and affiliate accounts. Account tiering and bulk user status updates let the system calculate commission automatically, transparently and accurately.",
+        "On the administration side, a dedicated admin CRM is integrated deep into the system. The team can easily control stock, manage order status and analyse sales performance for each affiliate campaign in real time, making operational decisions on accurate data."
+      ],
+      "metrics": [
+        "New affiliates activated",
+        "Affiliate revenue growth",
+        "Cart abandonment rate"
+      ]
+    },
+    "cn": {
+      "name": "SRX 越南网站",
+      "summary": "搭建集成分销联盟体系与 CRM 后台的 B2C 美妆电商平台。",
+      "description": "项目搭建了一个完整的线上美妆零售平台，既优化客户的 B2C 购物体验，也为运营团队提供强大的管理工具。系统的核心在于把线上商城、深度美妆知识博客与分销联盟（Affiliate）网络顺畅结合，推动多渠道营收增长。",
+      "details": [
+        "前端方面，界面按美妆品类专属的 UI/UX 设计，突出图片、成分与真实评价。浏览与结账动线被最大程度精简。同时，博客栏目按 SEO 规范搭建，通过护肤指导类内容充当吸引潜在客户的漏斗。",
+        "项目的技术亮点在于成功规划并落地了分销联盟体系。数据库结构经过优化，可管理海量优惠码、合作伙伴广告位与推广员账户。账户分级与批量更新用户状态的功能，让系统能自动、透明、准确地计算佣金。",
+        "管理层面，一套专用的 Admin CRM 被深度集成到系统中。管理团队可轻松掌控库存、管理订单状态，并实时分析每个分销活动的销售表现，从而基于准确数据做出运营决策。"
+      ],
+      "metrics": [
+        "新激活推广员",
+        "分销营收增长",
+        "购物车弃单率"
+      ]
+    }
+  }
+}

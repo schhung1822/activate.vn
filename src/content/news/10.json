@@ -1,0 +1,18 @@
+{
+  "id": 10,
+  "slug": "mobile-first-design",
+  "status": "published",
+  "title": "Mobile-First Design: Thiết kế ưu tiên thiết bị di động",
+  "description": "Phương pháp thiết kế mobile-first cho website hiện đại",
+  "thumbnail": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=250&fit=crop",
+  "date": "2024-12-22",
+  "categories": [
+    "Design",
+    "Mobile"
+  ],
+  "tags": [
+    "mobile-first",
+    "responsive",
+    "design"
+  ]
+}

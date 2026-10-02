@@ -1,0 +1,82 @@
+{
+  "id": "hoang-minh-logistic",
+  "status": "published",
+  "order": 32,
+  "date": "07/2026",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Hoàng Minh Logistics",
+  "technologies": [
+    "Website",
+    "Responsive Design",
+    "UI/UX",
+    "SEO"
+  ],
+  "metrics": [
+    {
+      "value": "< 2 giây"
+    },
+    {
+      "value": "> 3 phút"
+    },
+    {
+      "value": "+35%"
+    }
+  ],
+  "ctaUrl": "https://hoangminhlogistics.com/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/hm1.webp",
+    "/assets/images/projects/hm2.webp",
+    "/assets/images/projects/hm3.webp",
+    "/assets/images/projects/hm4.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Web Hoàng Minh Logistic",
+      "summary": "Thiết kế website doanh nghiệp chuyên nghiệp cho hệ thống logistics chính ngạch Trung Quốc - Việt Nam.",
+      "description": "Dự án xây dựng website doanh nghiệp toàn diện cho Hoàng Minh Logistics, giới thiệu rõ năng lực vận chuyển chính ngạch Trung Quốc - Việt Nam, mạng lưới đối tác, hệ thống dịch vụ và quy trình hợp tác. Giao diện sử dụng nhất quán nhận diện xanh navy - đỏ của thương hiệu, giúp doanh nghiệp truyền tải hình ảnh uy tín, chuyên nghiệp và tạo thuận lợi cho khách hàng gửi yêu cầu tư vấn.",
+      "details": [
+        "Cấu trúc nội dung được tổ chức theo hành trình tìm hiểu của khách hàng, từ tổng quan doanh nghiệp, nhóm dịch vụ vận chuyển - kho bãi - hải quan đến quy trình tiếp nhận, báo giá, ký kết và giao hàng. Các nút tư vấn được bố trí rõ ràng để rút ngắn đường dẫn từ nhu cầu đến liên hệ.",
+        "Mạng lưới đối tác và quy mô vận hành được trực quan hóa bằng bản đồ, số liệu nổi bật và các khu vực nội dung dễ quét. Cách trình bày này giúp khách hàng nhanh chóng nắm được tuyến kết nối, năng lực xử lý hàng hóa và mức độ phủ dịch vụ của Hoàng Minh Logistics.",
+        "Website được tối ưu responsive trên desktop, tablet và mobile, đồng thời xây dựng khu vực tin tức để doanh nghiệp chủ động cập nhật thông tin ngành. Giao diện ưu tiên tốc độ, khả năng đọc và cấu trúc thân thiện với SEO nhằm hỗ trợ phát triển kênh tìm kiếm dài hạn."
+      ],
+      "metrics": [
+        "Đối tác cung cấp",
+        "Mặt hàng",
+        "Ngành hàng nổi bật"
+      ]
+    },
+    "en": {
+      "name": "Hoang Minh Logistics Website",
+      "summary": "A professional corporate website for an official China–Vietnam logistics network.",
+      "description": "The project delivered a complete corporate website for Hoang Minh Logistics, clearly presenting its official China–Vietnam freight capabilities, partner network, service portfolio and working process. A consistent navy-and-red visual system reinforces the brand’s reliable, professional image while making it easy for prospective customers to request advice.",
+      "details": [
+        "Content follows the customer’s research journey, from the company overview and freight, warehousing and customs services through to enquiry, quotation, contracting and delivery. Consultation calls to action are placed clearly to shorten the path from need to contact.",
+        "The partner network and operational scale are visualised through maps, key figures and scannable content areas. This presentation helps visitors quickly understand available routes, cargo-handling capacity and the breadth of Hoang Minh Logistics’ services.",
+        "The website is responsive across desktop, tablet and mobile and includes a news area for industry updates. The interface prioritises performance, readability and an SEO-friendly structure to support long-term organic visibility."
+      ],
+      "metrics": [
+        "Suppliers",
+        "Product types",
+        "Key industries"
+      ]
+    },
+    "cn": {
+      "name": "Hoang Minh Logistics 企业网站",
+      "summary": "为中越正规跨境物流体系打造的专业企业网站。",
+      "description": "项目为 Hoang Minh Logistics 打造了一套完整的企业网站，清晰展示中越正规运输能力、合作伙伴网络、服务体系与合作流程。界面统一采用品牌的海军蓝与红色视觉识别，传递可靠、专业的企业形象，同时方便潜在客户提交咨询需求。",
+      "details": [
+        "内容结构按照客户了解服务的路径组织，从企业概况、运输、仓储与海关服务，到需求接收、报价、签约和交付流程。咨询行动按钮布局清晰，缩短了从产生需求到联系企业的路径。",
+        "网站通过地图、核心数字与易于浏览的内容区块，将合作伙伴网络和运营规模可视化，帮助访客快速了解连接线路、货物处理能力以及 Hoang Minh Logistics 的服务覆盖范围。",
+        "网站针对桌面、平板和手机进行响应式优化，并设置新闻栏目供企业主动更新行业资讯。界面强调加载性能、可读性和 SEO 友好结构，为长期自然搜索曝光提供支持。"
+      ],
+      "metrics": [
+        "供应合作伙伴",
+        "商品种类",
+        "重点行业"
+      ]
+    }
+  }
+}

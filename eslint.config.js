@@ -28,8 +28,8 @@ export default defineConfig([
   },
   {
     // Script chạy bằng Node lúc build (prerender SEO, kiểm tra bản dịch),
-    // không chạy trong trình duyệt nên cần globals của Node.
-    files: ['src/scripts/**/*.js'],
+    // cùng API của trang /admin (server/, api/) - không chạy trong trình duyệt nên cần globals của Node.
+    files: ['src/scripts/**/*.js', 'server/**/*.js', 'api/**/*.js', 'vite.config.js'],
     languageOptions: {
       globals: globals.node,
     },

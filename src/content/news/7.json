@@ -1,0 +1,18 @@
+{
+  "id": 7,
+  "slug": "microinteractions-chi-tiet-nho",
+  "status": "published",
+  "title": "Microinteractions: Chi tiết nhỏ tạo nên trải nghiệm lớn",
+  "description": "Cách sử dụng microinteractions để nâng cao trải nghiệm người dùng",
+  "thumbnail": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=250&fit=crop",
+  "date": "2025-01-01",
+  "categories": [
+    "Design",
+    "UX/UI"
+  ],
+  "tags": [
+    "microinteractions",
+    "animation",
+    "UX"
+  ]
+}

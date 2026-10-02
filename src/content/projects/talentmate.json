@@ -1,0 +1,79 @@
+{
+  "id": "talentmate",
+  "status": "published",
+  "order": 8,
+  "date": "11/2025",
+  "category": [
+    "Graphic Design & Branding"
+  ],
+  "partner": "Talentmate",
+  "technologies": [
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "100%"
+    },
+    {
+      "value": "Cao"
+    },
+    {
+      "value": "Tốt"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/tlm1.webp",
+    "/assets/images/projects/tlm2.webp",
+    "/assets/images/projects/tlm3.webp",
+    "/assets/images/projects/tlm4.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website tìm việc Talentmate",
+      "summary": "Thiết kế website nền tảng tìm việc và tuyển dụng cho Talentmate.",
+      "description": "Dự án tập trung thiết kế giao diện website cho Talentmate – nền tảng kết nối nhà tuyển dụng và ứng viên. Website được xây dựng với mục tiêu thể hiện rõ giá trị sản phẩm, tạo trải nghiệm trực quan, dễ sử dụng và truyền tải hình ảnh thương hiệu chuyên nghiệp trong lĩnh vực nhân sự – tuyển dụng.",
+      "details": [
+        "Chúng tôi thiết kế giao diện tổng thể cho website tìm việc, bao gồm trang chủ, trang danh sách việc làm, chi tiết việc làm, giới thiệu doanh nghiệp và các trang thông tin hỗ trợ, đảm bảo luồng trải nghiệm rõ ràng cho cả ứng viên và nhà tuyển dụng.",
+        "UI/UX được xây dựng theo hướng hiện đại, tối giản, tập trung vào khả năng tìm kiếm – lọc công việc nhanh chóng, giúp người dùng dễ tiếp cận vị trí phù hợp chỉ sau vài thao tác.",
+        "Toàn bộ hệ thống giao diện được thiết kế trên Figma với đầy đủ component và guideline, giúp đội ngũ phát triển dễ dàng triển khai website và mở rộng tính năng trong tương lai."
+      ],
+      "metrics": [
+        "Hoàn thiện bộ giao diện",
+        "Tỷ lệ hài lòng khách hàng",
+        "Khả năng mở rộng thiết kế"
+      ]
+    },
+    "en": {
+      "name": "Talentmate Job Website",
+      "summary": "Website design for the Talentmate job and recruitment platform.",
+      "description": "The project focused on designing the website interface for Talentmate, a platform connecting employers and candidates. The site was built to communicate the product value clearly, create an intuitive and easy experience, and convey a professional brand image in the HR and recruitment space.",
+      "details": [
+        "We designed the whole interface for the job site: homepage, job listings, job detail, company profiles and supporting information pages, giving both candidates and employers a clear experience flow.",
+        "The UI/UX is modern and minimal, focused on fast search and job filtering so users reach a suitable role in a few clicks.",
+        "The full interface system was designed in Figma with complete components and guidelines, so the development team can build the site and extend features easily in future."
+      ],
+      "metrics": [
+        "Interface system completed",
+        "Client satisfaction rate",
+        "Design scalability"
+      ]
+    },
+    "cn": {
+      "name": "Talentmate 求职网站",
+      "summary": "为 Talentmate 求职与招聘平台所做的网站设计。",
+      "description": "项目为 Talentmate（连接雇主与求职者的平台）设计网站界面。网站旨在清晰传达产品价值、营造直观易用的体验，并在人力资源与招聘领域树立专业的品牌形象。",
+      "details": [
+        "我们设计了求职网站的整体界面，包括首页、职位列表、职位详情、企业介绍与各类辅助信息页，让求职者与雇主都拥有清晰的体验动线。",
+        "UI/UX 走现代、极简路线，重点放在快速搜索与职位筛选上，让用户几步之内就能找到合适的岗位。",
+        "整套界面在 Figma 上完成设计，配有完整的组件与规范，方便开发团队落地网站并在未来扩展功能。"
+      ],
+      "metrics": [
+        "界面体系完成度",
+        "客户满意度",
+        "设计可扩展性"
+      ]
+    }
+  }
+}

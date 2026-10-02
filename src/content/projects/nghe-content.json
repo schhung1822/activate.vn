@@ -1,0 +1,87 @@
+{
+  "id": "nghe-content",
+  "status": "published",
+  "order": 7,
+  "date": "06/2025",
+  "category": [
+    "Website & Landing Page",
+    "Automations & Data",
+    "Facebook Ads"
+  ],
+  "partner": "Nghề content",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel",
+    "Automations",
+    "Data",
+    "LMS",
+    "Email Marketing"
+  ],
+  "metrics": [
+    {
+      "value": "+38%"
+    },
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "-18%"
+    }
+  ],
+  "ctaUrl": "https://khoahoc.nghecontent.com/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/16.webp",
+    "/assets/images/portfolio/21.webp",
+    "/assets/images/portfolio/22.webp",
+    "/assets/images/portfolio/23.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-learning Nghề Content",
+      "summary": "Website e-learning đào tạo Content viral và cung cấp các dịch vụ hỗ trợ sáng tạo nội dung.",
+      "description": "Dự án tập trung xây dựng nền tảng e-learning cho Nghề Content, vừa là nơi đào tạo chuyên sâu về Content Marketing, vừa là kênh giới thiệu các dịch vụ liên quan như tư vấn, đào tạo và hỗ trợ triển khai nội dung cho doanh nghiệp. Website được thiết kế để dẫn dắt người học từ tìm hiểu → đăng ký khóa học → học tập → sử dụng các dịch vụ mở rộng.",
+      "details": [
+        "Hệ thống e-learning (LMS) được xây dựng đầy đủ các chức năng: bán khóa học, quản lý học viên, phân quyền truy cập bài giảng, theo dõi tiến độ học tập và cấp quyền học tự động sau khi thanh toán.",
+        "Website đồng thời đóng vai trò như một kênh giới thiệu dịch vụ, trình bày rõ các gói đào tạo, mentoring và dịch vụ content cho cá nhân và doanh nghiệp, giúp mở rộng nguồn doanh thu ngoài bán khóa học.",
+        "Toàn bộ hành trình người dùng được đo lường và tự động hóa với GA4, Meta Pixel, email marketing và hệ thống automation, hỗ trợ nuôi dưỡng học viên tiềm năng, nhắc học, upsell khóa học và giới thiệu dịch vụ phù hợp theo từng nhóm người dùng."
+      ],
+      "metrics": [
+        "Tăng trưởng doanh thu",
+        "Tỷ lệ chuyển đổi",
+        "CPA"
+      ]
+    },
+    "en": {
+      "name": "Nghe Content E-learning Website",
+      "summary": "An e-learning site teaching viral content, plus services supporting content creation.",
+      "description": "The project built an e-learning platform for Nghe Content: both a place for in-depth content marketing training and a channel presenting related services such as consulting, training and content delivery support for businesses. The site guides learners from discovery → course enrolment → learning → wider services.",
+      "details": [
+        "The LMS was built with the full feature set: course sales, learner management, lesson access control, progress tracking and automatic access provisioning after payment.",
+        "The site doubles as a services channel, laying out the training packages, mentoring and content services for individuals and companies, widening revenue beyond course sales.",
+        "The entire user journey is measured and automated with GA4, Meta Pixel, email marketing and automation, supporting lead nurturing, study reminders, course upsells and relevant service recommendations per user segment."
+      ],
+      "metrics": [
+        "Revenue growth",
+        "Conversion rate",
+        "CPA"
+      ]
+    },
+    "cn": {
+      "name": "Nghe Content 在线学习网站",
+      "summary": "教授爆款内容创作的在线学习网站，并提供内容创作相关服务。",
+      "description": "项目为 Nghe Content 搭建在线学习平台，既是内容营销的深度培训阵地，也是相关服务（咨询、培训与企业内容落地支持）的展示渠道。网站引导学员从了解 → 报名课程 → 学习 → 使用延伸服务。",
+      "details": [
+        "在线学习系统（LMS）功能完整：课程售卖、学员管理、课件权限控制、学习进度追踪，以及付款后自动开通学习权限。",
+        "网站同时充当服务展示渠道，清晰呈现面向个人与企业的培训套餐、导师辅导与内容服务，拓宽课程销售之外的营收来源。",
+        "完整的用户旅程通过 GA4、Meta Pixel、邮件营销与自动化体系进行衡量与自动化，支撑潜在学员培育、学习提醒、课程追加销售，以及按人群推荐合适的服务。"
+      ],
+      "metrics": [
+        "营收增长",
+        "转化率",
+        "CPA"
+      ]
+    }
+  }
+}

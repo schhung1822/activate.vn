@@ -1,0 +1,82 @@
+{
+  "id": "qc-house",
+  "status": "published",
+  "order": 26,
+  "date": "02/2026",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "QC House",
+  "technologies": [
+    "WordPress",
+    "Elementor",
+    "GSAP Animation",
+    "Litespeed Cache"
+  ],
+  "metrics": [
+    {
+      "value": "< 2 giây"
+    },
+    {
+      "value": "> 3 phút"
+    },
+    {
+      "value": "+35%"
+    }
+  ],
+  "ctaUrl": "https://qchouse.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/qchoue_1.webp",
+    "/assets/images/projects/qchouse_2.webp",
+    "/assets/images/projects/qchouse_3.webp",
+    "/assets/images/projects/qchouse_4.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website QC House",
+      "summary": "Xây dựng không gian trưng bày dự án trực tuyến và tối ưu phễu khách hàng mảng thiết kế - thi công.",
+      "description": "Dự án tập trung vào việc tạo ra một trải nghiệm thị giác ấn tượng, truyền tải trọn vẹn phong cách thiết kế và năng lực thi công của QC House. Website không chỉ đóng vai trò là một profile điện tử chuyên nghiệp mà còn là một \"showroom trực tuyến\", nơi khách hàng có thể dễ dàng khám phá các không gian sống thực tế, tìm hiểu quy trình làm việc và đăng ký nhận tư vấn chuyên sâu.",
+      "details": [
+        "Giao diện được thiết kế theo phong cách hiện đại, ưu tiên không gian hiển thị hình ảnh (image-centric) để tôn lên vẻ đẹp của các công trình kiến trúc và nội thất. Cấu trúc danh mục dự án được phân chia thông minh theo loại hình (Căn hộ, Nhà phố, Biệt thự) và phong cách thiết kế, giúp khách hàng tiềm năng nhanh chóng tìm thấy nguồn cảm hứng phù hợp với nhu cầu.",
+        "Về mặt kỹ thuật, hệ thống thư viện ảnh (Gallery) độ phân giải cao được tối ưu hóa triệt để bằng định dạng WebP và kỹ thuật Lazy-loading. Điều này đảm bảo tốc độ tải trang cực nhanh và mượt mà trên cả thiết bị di động lẫn máy tính bàn, không làm gián đoạn cảm xúc của người xem.",
+        "Bên cạnh trải nghiệm thị giác, luồng chuyển đổi (Lead Generation) được lồng ghép khéo léo thông qua các nút Call-to-Action tinh tế, hệ thống form nhận báo giá sơ bộ và kết nối trực tiếp với Zalo OA/Hotline. Nhờ cấu trúc chuẩn SEO On-page, website đạt thứ hạng tốt cho các từ khóa ngách về thiết kế nội thất, mang lại nguồn khách hàng tự nhiên ổn định."
+      ],
+      "metrics": [
+        "Tốc độ tải trang (LCP)",
+        "Thời gian trên trang",
+        "Lượt yêu cầu tư vấn"
+      ]
+    },
+    "en": {
+      "name": "QC House Website",
+      "summary": "An online project showroom and an optimised customer funnel for design and construction.",
+      "description": "The project focused on creating a striking visual experience that carries QC House’s design style and construction capability in full. The website is not only a professional digital profile but an \"online showroom\" where customers can explore real living spaces, understand the working process and request in-depth consultation.",
+      "details": [
+        "The interface was designed in a modern, image-centric style to show off the architecture and interiors. The project catalogue is split intelligently by type (apartment, townhouse, villa) and design style, so prospects quickly find inspiration matching their needs.",
+        "Technically, the high-resolution gallery is thoroughly optimised with WebP and lazy loading. That keeps page loads extremely fast and smooth on both mobile and desktop, so the viewer’s emotional flow is never interrupted.",
+        "Alongside the visual experience, lead generation is woven in through subtle calls to action, a preliminary quote request form and direct connections to Zalo OA and hotline. With a solid on-page SEO structure, the site ranks well for niche interior design keywords, delivering a steady stream of organic customers."
+      ],
+      "metrics": [
+        "Page load speed (LCP)",
+        "Time on page",
+        "Consultation requests"
+      ]
+    },
+    "cn": {
+      "name": "QC House 网站",
+      "summary": "线上项目展厅，并优化设计施工板块的客户漏斗。",
+      "description": "项目着力打造出色的视觉体验，完整传达 QC House 的设计风格与施工实力。网站不只是一份专业的电子档案，更是一个「线上展厅」，客户可以在此轻松探索真实的居住空间、了解工作流程并预约深度咨询。",
+      "details": [
+        "界面按现代、以图片为核心（image-centric）的风格设计，衬托建筑与室内作品之美。项目目录按类型（公寓、联排、别墅）与设计风格智能划分，让潜在客户迅速找到契合自身需求的灵感。",
+        "技术层面，高分辨率图库通过 WebP 格式与懒加载做了彻底优化。这保证了在移动端与桌面端都极快、顺滑的加载速度，不打断观看者的情绪。",
+        "在视觉体验之外，线索转化被巧妙地融入其中：精致的行动号召按钮、初步报价表单，以及与 Zalo OA／热线的直接连接。凭借规范的 On-page SEO 结构，网站在室内设计的细分关键词上取得了不错的排名，带来稳定的自然客源。"
+      ],
+      "metrics": [
+        "页面加载速度（LCP）",
+        "页面停留时长",
+        "咨询请求数"
+      ]
+    }
+  }
+}

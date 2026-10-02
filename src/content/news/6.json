@@ -1,0 +1,18 @@
+{
+  "id": 6,
+  "slug": "headless-cms-tuong-lai",
+  "status": "published",
+  "title": "Headless CMS: Tương lai của quản lý nội dung",
+  "description": "Tại sao Headless CMS là lựa chọn tốt cho các dự án web hiện đại",
+  "thumbnail": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop",
+  "date": "2025-01-03",
+  "categories": [
+    "Technology",
+    "Development"
+  ],
+  "tags": [
+    "CMS",
+    "headless",
+    "content management"
+  ]
+}

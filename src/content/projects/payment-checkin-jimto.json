@@ -1,0 +1,82 @@
+{
+  "id": "payment-checkin-jimto",
+  "status": "published",
+  "order": 12,
+  "date": "09/2025",
+  "category": [
+    "Automations & Data"
+  ],
+  "partner": "Jim Tồ",
+  "technologies": [
+    "Ladipage",
+    "Automations",
+    "Data",
+    "Email Marketing",
+    "ZBS Zalo"
+  ],
+  "metrics": [
+    {
+      "value": "-50%"
+    },
+    {
+      "value": "100%"
+    },
+    {
+      "value": "Đáng kể"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/jimto1.webp",
+    "/assets/images/projects/jimto2.webp",
+    "/assets/images/projects/jim3.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Hệ thống check-in sự kiện Jimto",
+      "summary": "Hệ thống landing page, check-in và tự động hóa truyền thông cho sự kiện Jimto.",
+      "description": "Dự án xây dựng hệ thống phục vụ sự kiện cho Jimto, bao gồm landing page giới thiệu sự kiện, quản lý đăng ký và giải pháp check-in tại điểm diễn ra. Hệ thống được thiết kế nhằm tối ưu trải nghiệm người tham dự, đồng thời giảm tối đa các thao tác thủ công trong khâu vận hành sự kiện.",
+      "details": [
+        "Chúng tôi triển khai landing page sự kiện trên nền tảng Ladipage, trình bày rõ thông tin chương trình, diễn giả và quyền lợi tham dự, đồng thời tối ưu luồng đăng ký để gia tăng tỷ lệ hoàn tất form.",
+        "Giải pháp check-in tự động bằng mã QR được tích hợp, giúp ban tổ chức kiểm soát danh sách người tham dự, trạng thái đăng ký và check-in nhanh chóng, chính xác ngay tại sự kiện.",
+        "Hệ thống email marketing và ZBS Zalo được thiết lập tự động để gửi thông tin xác nhận, vé điện tử và các thông báo trước – trong – sau sự kiện, giúp duy trì tương tác với khách tham dự mà không cần xử lý thủ công."
+      ],
+      "metrics": [
+        "Thời gian check-in",
+        "Tỷ lệ gửi thông báo tự động",
+        "Giảm tải vận hành thủ công"
+      ]
+    },
+    "en": {
+      "name": "Jimto Event Check-in System",
+      "summary": "Landing page, check-in and communication automation for the Jimto event.",
+      "description": "The project built an event system for Jimto covering the event landing page, registration management and on-site check-in. It was designed to optimise the attendee experience while minimising manual steps in event operations.",
+      "details": [
+        "We built the event landing page on Ladipage, laying out the programme, speakers and attendance benefits clearly while optimising the registration flow to raise form completion.",
+        "Automated QR-code check-in was integrated so the organisers could control the attendee list, registration status and check-in quickly and accurately at the event.",
+        "Email marketing and ZBS Zalo were set up to send confirmations, e-tickets and pre, during and post-event notifications automatically, keeping attendees engaged without manual handling."
+      ],
+      "metrics": [
+        "Check-in time",
+        "Automated notification rate",
+        "Manual workload reduced"
+      ]
+    },
+    "cn": {
+      "name": "Jimto 活动签到系统",
+      "summary": "为 Jimto 活动打造的落地页、签到与传播自动化系统。",
+      "description": "项目为 Jimto 搭建活动系统，包括活动介绍落地页、报名管理与现场签到方案。系统旨在优化参会者体验，同时把活动运营中的人工操作降到最低。",
+      "details": [
+        "我们在 Ladipage 上搭建活动落地页，清晰呈现议程、讲师与参会权益，并优化报名流程以提升表单完成率。",
+        "集成了二维码自动签到方案，帮助主办方在现场快速、准确地掌控参会名单、报名状态与签到情况。",
+        "邮件营销与 ZBS Zalo 被配置为自动发送确认信息、电子门票，以及会前、会中、会后的各类通知，无需人工处理即可维持与参会者的互动。"
+      ],
+      "metrics": [
+        "签到耗时",
+        "自动通知发送率",
+        "人工运营负担下降"
+      ]
+    }
+  }
+}

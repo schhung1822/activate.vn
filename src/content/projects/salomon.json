@@ -1,0 +1,82 @@
+{
+  "id": "salomon",
+  "status": "published",
+  "order": 30,
+  "date": "03/2026",
+  "category": [
+    "E-Learning Platform & Automation"
+  ],
+  "partner": "Phúc BANI (Phúc GPT)",
+  "technologies": [
+    "WordPress",
+    "MasterStudy LMS",
+    "Digits OTP",
+    "Zalo Business"
+  ],
+  "metrics": [
+    {
+      "value": "+28%"
+    },
+    {
+      "value": "< 1 phút"
+    },
+    {
+      "value": "95%"
+    }
+  ],
+  "ctaUrl": "https://khoahoc.phucgpt.com/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/bani0.webp",
+    "/assets/images/projects/bani3.webp",
+    "/assets/images/projects/bani2.webp",
+    "/assets/images/projects/bani1.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website khóa học Phúc BANI",
+      "summary": "Xây dựng hệ thống đào tạo trực tuyến tự động hóa và tối ưu hành trình học tập.",
+      "description": "Dự án xây dựng một nền tảng e-learning toàn diện, không chỉ đóng vai trò là nơi lưu trữ bài giảng chất lượng cao mà còn là một phễu bán hàng tự động. Trọng tâm của hệ thống là xóa bỏ rào cản công nghệ cho học viên, tạo ra một luồng trải nghiệm liền mạch từ lúc tìm hiểu thông tin khóa học, thanh toán, cho đến khi chính thức vào lớp học.",
+      "details": [
+        "Giao diện trang đích (Landing Page) của từng khóa học được thiết kế trực quan, làm nổi bật lộ trình giảng dạy và kết quả đầu ra. Trình phát video bài giảng được cấu hình tối ưu băng thông, đảm bảo tốc độ tải mượt mà, không giật lag và đáp ứng tốt tiêu chuẩn mobile-first cho người dùng học trên điện thoại.",
+        "Nhằm tăng tỷ lệ chuyển đổi và đơn giản hóa bước tạo tài khoản, hệ thống được tích hợp tính năng xác thực đăng nhập bằng số điện thoại thông qua mã OTP. Điều này giúp học viên mới bỏ qua được các bước xác thực qua email rườm rà, truy cập thẳng vào hệ thống quản lý học tập một cách nhanh chóng và bảo mật cao.",
+        "Toàn bộ quy trình từ lúc khách hàng chuyển khoản đến khi vào học được tự động hóa 100%. Ngay khi giao dịch thanh toán thành công, hệ thống webhook sẽ lập tức được kích hoạt để mở khóa nội dung khóa học, đồng thời tự động gửi tin nhắn thông báo xác nhận và hướng dẫn học tập qua Zalo Business Solution (ZBS) trực tiếp đến tài khoản Zalo của học viên."
+      ],
+      "metrics": [
+        "Tỷ lệ chốt sale (CVR)",
+        "Tốc độ cấp quyền học",
+        "Tỷ lệ đăng nhập OTP"
+      ]
+    },
+    "en": {
+      "name": "Phuc BANI Course Website",
+      "summary": "An automated online training system with an optimised learning journey.",
+      "description": "The project built a complete e-learning platform that is not only a home for high-quality lessons but an automated sales funnel. At its heart is removing the technology barrier for learners, creating a seamless flow from researching the course, to payment, to officially entering the classroom.",
+      "details": [
+        "Each course landing page was designed to be intuitive, highlighting the teaching path and the outcomes. The lesson video player is configured for optimal bandwidth, keeping playback fast and smooth with no stutter and meeting mobile-first standards for learners on their phones.",
+        "To raise conversion and simplify account creation, the system integrates phone-number login with OTP verification. New learners skip the cumbersome email verification steps and go straight into the learning management system, quickly and securely.",
+        "The whole journey from payment to classroom access is 100% automated. The moment a payment succeeds, a webhook fires to unlock the course content and automatically sends a confirmation message and study instructions through Zalo Business Solution (ZBS) directly to the learner’s Zalo account."
+      ],
+      "metrics": [
+        "Close rate (CVR)",
+        "Access provisioning speed",
+        "OTP login rate"
+      ]
+    },
+    "cn": {
+      "name": "Phuc BANI 课程网站",
+      "summary": "搭建自动化的线上培训系统，并优化学习旅程。",
+      "description": "项目搭建了一个完整的在线学习平台，它不只是高质量课件的存放处，更是一条自动化的销售漏斗。系统的核心在于为学员扫除技术门槛，从了解课程信息、付款，到正式进入课堂，形成一条顺畅无缝的体验动线。",
+      "details": [
+        "每门课程的落地页设计直观，突出教学路径与学习成果。课件视频播放器针对带宽做了优化配置，保证加载顺滑、不卡顿，并很好地满足移动优先标准，适合用手机学习的用户。",
+        "为提升转化率并简化注册步骤，系统集成了手机号 OTP 验证登录。新学员无需再走繁琐的邮箱验证流程，可以快速且安全地直接进入学习管理系统。",
+        "从客户转账到进入课堂的完整流程实现了 100% 自动化。付款成功的瞬间，Webhook 会立即触发解锁课程内容，并通过 Zalo Business Solution（ZBS）自动把确认消息与学习指引直接发送到学员的 Zalo 账户。"
+      ],
+      "metrics": [
+        "成单率（CVR）",
+        "学习权限开通速度",
+        "OTP 登录率"
+      ]
+    }
+  }
+}

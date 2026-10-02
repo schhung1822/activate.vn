@@ -1,0 +1,83 @@
+{
+  "id": "crm-1900",
+  "status": "published",
+  "order": 13,
+  "date": "09/2025",
+  "category": [
+    "Automations & Data",
+    "Facebook Ads",
+    "CRM"
+  ],
+  "partner": "1900 Hair Salon",
+  "technologies": [
+    "Ladipage",
+    "Automations",
+    "Data",
+    "CRM"
+  ],
+  "metrics": [
+    {
+      "value": "+25%"
+    },
+    {
+      "value": "+32%"
+    },
+    {
+      "value": "-40%"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/29.webp",
+    "/assets/images/portfolio/28.webp",
+    "/assets/images/portfolio/30.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Hệ thống CRM & xác nhận đánh giá tại quầy với 1900 Hair Salon",
+      "summary": "Chuẩn hóa dữ liệu khách hàng và tăng hiệu quả chốt sale tại điểm bán.",
+      "description": "Dự án tập trung xây dựng hệ thống Dataset và CRM nhằm chuẩn hóa toàn bộ dữ liệu khách hàng, lịch sử mua hàng và hành vi tương tác, giúp đội ngũ Sales khai thác dữ liệu hiệu quả hơn trong quá trình tư vấn và chăm sóc khách hàng. Giải pháp giúp Sales nắm rõ thông tin khách hàng ngay tại quầy, rút ngắn thời gian tư vấn, tăng tỷ lệ chốt đơn và nâng cao trải nghiệm dịch vụ.",
+      "details": [
+        "Mục tiêu chính của dự án là tạo ra một kho dữ liệu khách hàng tập trung (Dataset), đồng bộ dữ liệu từ nhiều nguồn như website, landing page, form đăng ký, và tương tác tại cửa hàng. Từ đó giúp đội ngũ Sales có cái nhìn đầy đủ về chân dung và giá trị vòng đời của từng khách hàng.",
+        "Hệ thống CRM được thiết kế xoay quanh hành trình làm việc thực tế của Sales tại quầy, bao gồm: xác nhận thông tin khách hàng, ghi nhận đánh giá dịch vụ, theo dõi lịch sử mua hàng và gợi ý chăm sóc lại. Mọi thao tác đều được tối giản để phù hợp với môi trường bán lẻ tốc độ cao.",
+        "Ngoài ra, dữ liệu từ CRM được sử dụng để phân nhóm khách hàng theo tần suất mua, giá trị đơn hàng và mức độ trung thành, giúp Sales và quản lý chủ động triển khai các chương trình upsell, cross-sell và tái kích hoạt khách hàng hiệu quả."
+      ],
+      "metrics": [
+        "Tỷ lệ chốt sale tại quầy",
+        "Khách hàng quay lại",
+        "Thời gian xử lý thông tin"
+      ]
+    },
+    "en": {
+      "name": "CRM & In-store Review Confirmation with 1900 Hair Salon",
+      "summary": "Standardising customer data and lifting close rates at the point of sale.",
+      "description": "The project built a dataset and CRM system to standardise all customer data, purchase history and engagement behaviour so the sales team could work that data harder during consultation and customer care. It gives sales full customer context right at the counter, shortening consultation time, raising close rate and improving the service experience.",
+      "details": [
+        "The main goal was a central customer dataset, syncing data from several sources: the website, landing pages, registration forms and in-store interactions. That gives the sales team a full picture of each customer profile and lifetime value.",
+        "The CRM was designed around how sales actually work at the counter: confirming customer details, recording service reviews, tracking purchase history and suggesting follow-up care. Every step was kept minimal to suit a fast-moving retail environment.",
+        "CRM data is also used to segment customers by purchase frequency, order value and loyalty, so sales and management can run upsell, cross-sell and reactivation programmes proactively."
+      ],
+      "metrics": [
+        "In-store close rate",
+        "Returning customers",
+        "Information handling time"
+      ]
+    },
+    "cn": {
+      "name": "1900 Hair Salon 门店 CRM 与评价确认系统",
+      "summary": "规范客户数据，提升门店端的成单效率。",
+      "description": "项目搭建数据集与 CRM 系统，规范全部客户数据、消费记录与互动行为，让销售团队在咨询与客户维护过程中更好地利用这些数据。方案让销售在柜台就能掌握完整客户信息，缩短咨询时间、提升成单率并改善服务体验。",
+      "details": [
+        "项目的核心目标是建立集中的客户数据仓库（Dataset），把来自网站、落地页、报名表单与门店互动等多个来源的数据打通，让销售团队对每位客户的画像与生命周期价值有完整认知。",
+        "CRM 围绕销售在柜台的真实工作动线设计，包括：确认客户信息、记录服务评价、查看消费历史与推荐再次维护。所有操作都尽量精简，以适应节奏很快的零售环境。",
+        "此外，CRM 数据还用于按购买频次、订单金额与忠诚度对客户分群，帮助销售与管理层主动开展追加销售、交叉销售与客户唤醒。"
+      ],
+      "metrics": [
+        "门店成单率",
+        "客户回头率",
+        "信息处理耗时"
+      ]
+    }
+  }
+}

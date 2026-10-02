@@ -1,0 +1,81 @@
+{
+  "id": "wordplus",
+  "status": "published",
+  "order": 1,
+  "date": "01/2025",
+  "category": [
+    "Website & Landing Page",
+    "Graphic Design & Branding"
+  ],
+  "partner": "Woodplus",
+  "technologies": [
+    "React",
+    "Tailwind",
+    "Figma",
+    "GA4"
+  ],
+  "metrics": [
+    {
+      "value": "+38%"
+    },
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "-18%"
+    }
+  ],
+  "ctaUrl": "https://www.nhadepwoodplus.com/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/website&landingpage/woodplus.webp",
+    "/assets/images/portfolio/44.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website WoodPlus",
+      "summary": "Tăng trưởng doanh thu website WoodPlus thông qua tối ưu funnel và remarketing hành vi.",
+      "description": "Dự án Website WoodPlus tập trung tối ưu toàn bộ hành trình mua hàng trên website, từ tiếp cận sản phẩm, trải nghiệm duyệt trang đến quyết định thanh toán và tái mua. Đội ngũ triển khai tập trung xử lý các điểm nghẽn gây rớt đơn, đồng bộ dữ liệu hành vi người dùng và xây dựng nền tảng đo lường giúp WoodPlus tăng trưởng doanh thu bền vững thông qua kênh website.",
+      "details": [
+        "Dự án bắt đầu bằng việc phân tích hành vi người dùng trên website WoodPlus nhằm xác định các điểm rơi khiến khách hàng thoát trang hoặc không hoàn tất mua hàng. Từ đó, nhóm triển khai tái cấu trúc các trang sản phẩm, danh mục và luồng thanh toán để giảm ma sát trong quá trình mua.",
+        "Song song, hệ thống dữ liệu được đồng bộ để phục vụ remarketing theo hành vi như: xem sản phẩm, thêm giỏ nhưng chưa mua và khách hàng đã mua trước đó. Các kịch bản nuôi dưỡng và re-engagement được thiết kế phù hợp với đặc thù sản phẩm nội thất và đồ gia dụng của WordPlus.",
+        "Ngoài ra, website được tối ưu tốc độ tải trang và giao diện người dùng theo nguyên tắc “less click – more clarity”. Các điểm chốt đơn được A/B testing liên tục trong 8 tuần, giúp cải thiện tỷ lệ chuyển đổi và tối ưu chi phí trên mỗi đơn hàng."
+      ],
+      "metrics": [
+        "Tăng trưởng doanh thu",
+        "Tỷ lệ chuyển đổi",
+        "CPA"
+      ]
+    },
+    "en": {
+      "name": "WoodPlus Website",
+      "summary": "Revenue growth for the WoodPlus website through funnel optimisation and behavioural remarketing.",
+      "description": "The WoodPlus website project focused on optimising the entire purchase journey on site, from first product contact and browsing experience through to checkout and repeat purchase. The team worked on the bottlenecks causing dropped orders, synced user behaviour data and built the measurement foundation that lets WoodPlus grow revenue sustainably through the website channel.",
+      "details": [
+        "The project began with an analysis of user behaviour on the WoodPlus website to identify the drop-off points where customers left or abandoned their purchase. From there the team restructured the product, category and checkout pages to reduce friction in the buying process.",
+        "In parallel, the data layer was synced to power behavioural remarketing: product viewed, added to cart but not purchased, and existing customers. Nurture and re-engagement sequences were designed around the specifics of WoodPlus furniture and homeware.",
+        "The website was also optimised for load speed and interface design under a \"less click – more clarity\" principle. Order-closing points were A/B tested continuously over eight weeks, improving conversion rate and lowering cost per order."
+      ],
+      "metrics": [
+        "Revenue growth",
+        "Conversion rate",
+        "CPA"
+      ]
+    },
+    "cn": {
+      "name": "WoodPlus 网站",
+      "summary": "通过漏斗优化与行为再营销，推动 WoodPlus 网站的营收增长。",
+      "description": "WoodPlus 网站项目聚焦于优化网站上的完整购买旅程：从接触产品、浏览体验，到付款决策与复购。团队重点处理导致订单流失的卡点，打通用户行为数据，并搭建衡量体系，帮助 WoodPlus 通过网站渠道实现可持续的营收增长。",
+      "details": [
+        "项目从分析 WoodPlus 网站上的用户行为入手，找出客户退出页面或未完成购买的流失点。在此基础上，团队重构了产品页、分类页与结账流程，减少购买过程中的摩擦。",
+        "与此同时，数据体系被打通以支撑行为再营销：浏览过产品、加购未购买以及已购客户。培育与再互动的话术脚本，均按 WoodPlus 家具与家居用品的品类特性来设计。",
+        "此外，网站还按照「更少点击、更高清晰度」的原则优化了加载速度与界面。成单节点在 8 周内持续做 A/B 测试，从而提升转化率并降低单均获客成本。"
+      ],
+      "metrics": [
+        "营收增长",
+        "转化率",
+        "CPA"
+      ]
+    }
+  }
+}

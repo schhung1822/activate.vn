@@ -1,0 +1,82 @@
+{
+  "id": "miniapp-beautysummit-2026",
+  "status": "published",
+  "order": 31,
+  "date": "04/2026",
+  "category": [
+    "Zalo Mini App & Gamification"
+  ],
+  "partner": "Beauty Summit",
+  "technologies": [
+    "Zalo Mini App",
+    "Tailwind CSS",
+    "Zalo OA API",
+    "QR Code System"
+  ],
+  "metrics": [
+    {
+      "value": "+65%"
+    },
+    {
+      "value": "+500%"
+    },
+    {
+      "value": "> 4,000"
+    }
+  ],
+  "ctaUrl": "https://zalo.me/s/3374320125227368636/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/miniapp-1.webp",
+    "/assets/images/projects/miniapp_2.webp",
+    "/assets/images/projects/miniapp_3.webp",
+    "/assets/images/projects/miniapp_4.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Mini app Beauty Summit 2026",
+      "summary": "Giải pháp tương tác sự kiện qua Zalo Mini App với hệ thống nhiệm vụ tích điểm đổi quà.",
+      "description": "Dự án đem đến làn gió mới cho sự kiện làm đẹp. Bằng hệ thống làm nhiệm vụ tích điểm đổi quà cho những khách mua vé tham dự, mini app không chỉ tăng tương tác mà còn thúc đẩy doanh thu từ các gói vé VIP. Hệ thống tích điểm được thiết kế trực quan, giúp khách hàng dễ dàng tham gia và nhận quà tặng hấp dẫn ngay trên nền tảng Zalo quen thuộc mà không cần tải thêm ứng dụng ngoài.",
+      "details": [
+        "Để đảm bảo trải nghiệm mượt mà tại không gian sự kiện đông người, giao diện mini app được phát triển theo hướng mobile-first. Chúng tôi đặc biệt chú trọng xây dựng hệ thống trang hướng dẫn (User Instruction) rõ ràng, kết hợp UI/UX tối ưu giúp người dùng mọi lứa tuổi dễ dàng nắm bắt luồng thao tác tham gia sự kiện.",
+        "Luồng tính năng cốt lõi xoay quanh các nhiệm vụ tương tác thực tế (Gamification): người tham dự thực hiện quét mã QR check-in tại các gian hàng và nhấn quan tâm Zalo Official Account (OA) của ban tổ chức để tích lũy điểm thưởng. Các tác vụ này giúp số hóa toàn bộ hành trình trải nghiệm, biến mỗi bước chân của khách mời thành một điểm chạm đo lường được.",
+        "Điểm số sau khi tích lũy có thể sử dụng để quy đổi thành các phần quà hiện vật hoặc ưu đãi nâng cấp hạng vé VIP. Nhờ tận dụng hệ sinh thái Zalo, giải pháp này không chỉ đẩy mạnh không khí sôi động tại hiện trường mà còn giúp ban tổ chức tự động thu thập lượng lớn data người dùng chất lượng để tiếp tục chăm sóc (Remarketing) qua kênh Zalo OA sau khi sự kiện kết thúc."
+      ],
+      "metrics": [
+        "Tương tác sự kiện",
+        "Lượt Follow Zalo OA",
+        "Lượt quét QR Check-in"
+      ]
+    },
+    "en": {
+      "name": "Beauty Summit 2026 Mini App",
+      "summary": "An event engagement solution on Zalo Mini App with a quest, points and rewards system.",
+      "description": "The project brought something new to a beauty event. Through a quest system that earns points redeemable for rewards for ticket holders, the mini app lifted engagement and drove revenue from VIP ticket tiers. The points system was designed to be intuitive, so attendees could take part easily and claim appealing rewards right inside the familiar Zalo platform, with no extra app to download.",
+      "details": [
+        "To keep the experience smooth in a crowded event space, the mini app interface was developed mobile-first. We paid particular attention to a clear user instruction section, combined with optimised UI/UX so attendees of any age could grasp the flow quickly.",
+        "The core feature flow revolves around real-world gamified quests: attendees scan QR codes to check in at booths and follow the organiser’s Zalo Official Account (OA) to earn points. These tasks digitise the whole experience journey, turning every step a guest takes into a measurable touchpoint.",
+        "Accumulated points can be redeemed for physical rewards or VIP ticket upgrades. By leaning on the Zalo ecosystem, the solution not only lifted the energy on the floor but also let the organisers automatically collect a large volume of quality user data for continued remarketing through Zalo OA after the event."
+      ],
+      "metrics": [
+        "Event engagement",
+        "Zalo OA follows",
+        "QR check-in scans"
+      ]
+    },
+    "cn": {
+      "name": "Beauty Summit 2026 小程序",
+      "summary": "基于 Zalo Mini App 的活动互动方案，配合任务积分兑换礼品体系。",
+      "description": "项目为美妆展会带来了新气象。通过面向购票参会者的任务积分兑换礼品体系，小程序不仅提升了互动，也带动了 VIP 票档的营收。积分体系设计直观，让客户在熟悉的 Zalo 平台上就能轻松参与并领取有吸引力的礼品，无需另外下载应用。",
+      "details": [
+        "为确保在人流密集的活动现场也有顺滑体验，小程序界面按移动优先原则开发。我们特别重视搭建清晰的使用指引页面，配合优化过的 UI/UX，让各个年龄段的用户都能快速上手参与流程。",
+        "核心功能动线围绕真实的互动任务（游戏化）展开：参会者在各展位扫码签到，并关注主办方的 Zalo 官方账号（OA）以累积积分。这些任务把完整的体验旅程数字化，让嘉宾的每一步都成为可衡量的触点。",
+        "累积的积分可兑换实物礼品或升级 VIP 票档。借助 Zalo 生态，该方案不仅带动了现场氛围，也让主办方自动沉淀了大量优质用户数据，可在活动结束后继续通过 Zalo OA 做再营销。"
+      ],
+      "metrics": [
+        "活动互动量",
+        "Zalo OA 关注数",
+        "二维码签到次数"
+      ]
+    }
+  }
+}

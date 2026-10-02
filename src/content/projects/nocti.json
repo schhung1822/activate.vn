@@ -1,0 +1,80 @@
+{
+  "id": "nocti",
+  "status": "published",
+  "order": 22,
+  "date": "03/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Nocti",
+  "technologies": [
+    "Ladipage",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "Tối ưu"
+    },
+    {
+      "value": "Dễ vận hành"
+    },
+    {
+      "value": "Nhanh gọn"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/noc1.webp",
+    "/assets/images/projects/noc2.webp",
+    "/assets/images/projects/noc3.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-commerce Nocti",
+      "summary": "Thiết kế và triển khai website thương mại điện tử cho thương hiệu Nocti.",
+      "description": "Dự án tập trung xây dựng website e-commerce cho Nocti nhằm phục vụ hoạt động bán hàng trực tuyến, giới thiệu sản phẩm và phát triển kênh online bền vững. Website được thiết kế tối ưu trải nghiệm người dùng, hỗ trợ đầy đủ hành trình mua hàng từ xem sản phẩm đến đặt đơn.",
+      "details": [
+        "Thiết kế website thương mại điện tử với cấu trúc đầy đủ: danh mục sản phẩm, trang chi tiết sản phẩm và luồng đặt hàng.",
+        "Tối ưu giao diện mua sắm trên mobile và desktop, giúp khách hàng dễ dàng lựa chọn sản phẩm và hoàn tất thanh toán.",
+        "Thiết lập đo lường GA4 để theo dõi hành vi người dùng, hỗ trợ tối ưu chuyển đổi và các chiến dịch marketing."
+      ],
+      "metrics": [
+        "Trải nghiệm mua sắm",
+        "Khả năng quản trị",
+        "Tốc độ triển khai"
+      ]
+    },
+    "en": {
+      "name": "Nocti E-commerce Website",
+      "summary": "Design and delivery of an e-commerce website for the Nocti brand.",
+      "description": "The project built an e-commerce website for Nocti supporting online sales, product presentation and sustainable growth of the online channel. The design optimises the user experience and supports the full purchase journey from product view to order.",
+      "details": [
+        "An e-commerce website designed with a complete structure: product catalogue, product detail pages and the ordering flow.",
+        "A shopping interface optimised for mobile and desktop, so customers choose products and complete checkout easily.",
+        "GA4 measurement set up to track user behaviour, supporting conversion optimisation and marketing campaigns."
+      ],
+      "metrics": [
+        "Shopping experience",
+        "Ease of administration",
+        "Delivery speed"
+      ]
+    },
+    "cn": {
+      "name": "Nocti 电商网站",
+      "summary": "为 Nocti 品牌设计并落地电商网站。",
+      "description": "项目为 Nocti 搭建电商网站，支撑线上销售、产品展示与线上渠道的可持续发展。设计上优化用户体验，完整支撑从浏览产品到下单的购买旅程。",
+      "details": [
+        "电商网站结构完整：产品目录、产品详情页与下单流程。",
+        "针对移动端与桌面端优化购物界面，让客户轻松选品并完成付款。",
+        "配置 GA4 衡量以追踪用户行为，支撑转化优化与营销投放。"
+      ],
+      "metrics": [
+        "购物体验",
+        "后台易用性",
+        "交付速度"
+      ]
+    }
+  }
+}

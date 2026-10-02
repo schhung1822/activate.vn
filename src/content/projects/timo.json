@@ -1,0 +1,78 @@
+{
+  "id": "timo",
+  "status": "published",
+  "order": 20,
+  "date": "01/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Timo",
+  "technologies": [
+    "Ladipage",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "Chuyên nghiệp hơn"
+    },
+    {
+      "value": "Tối ưu"
+    },
+    {
+      "value": "Nhanh gọn"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/19.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website giới thiệu vải may Timo",
+      "summary": "Thiết kế website giới thiệu thương hiệu và danh mục vải may Timo.",
+      "description": "Dự án tập trung xây dựng website giới thiệu thương hiệu vải may Timo, nhằm thể hiện rõ năng lực sản xuất, danh mục sản phẩm và định vị thương hiệu trong ngành dệt may. Website đóng vai trò kênh giới thiệu chính thức cho đối tác, xưởng may và khách hàng doanh nghiệp.",
+      "details": [
+        "Thiết kế website giới thiệu thương hiệu, tập trung vào hình ảnh sản phẩm vải, thông tin chất liệu, ứng dụng và năng lực cung ứng.",
+        "Xây dựng cấu trúc nội dung rõ ràng: giới thiệu thương hiệu, danh mục vải may, ứng dụng thực tế và thông tin liên hệ.",
+        "Thiết kế giao diện trực quan, dễ xem trên cả desktop và mobile, hỗ trợ tốt cho hoạt động giới thiệu và tư vấn bán hàng."
+      ],
+      "metrics": [
+        "Hình ảnh thương hiệu",
+        "Trải nghiệm người dùng",
+        "Thời gian triển khai"
+      ]
+    },
+    "en": {
+      "name": "Timo Fabric Brand Website",
+      "summary": "A brand and catalogue website for the Timo fabric brand.",
+      "description": "The project built the brand website for Timo fabrics, showing production capability, the product range and the brand position within the textile industry. The site is the official channel for partners, garment workshops and business customers.",
+      "details": [
+        "A brand website design leading with fabric imagery, material information, applications and supply capability.",
+        "A clear content structure: brand introduction, fabric catalogue, real-world applications and contact details.",
+        "An intuitive interface that reads well on both desktop and mobile, supporting brand presentation and sales consultation."
+      ],
+      "metrics": [
+        "Brand image",
+        "User experience",
+        "Delivery time"
+      ]
+    },
+    "cn": {
+      "name": "Timo 面料品牌网站",
+      "summary": "为 Timo 面料品牌打造的品牌与产品目录网站。",
+      "description": "项目为 Timo 面料搭建品牌网站，清晰展现生产能力、产品目录以及在纺织行业中的品牌定位。网站是面向合作伙伴、成衣工厂与企业客户的官方介绍渠道。",
+      "details": [
+        "品牌网站设计以面料图片为主，配合材质信息、应用场景与供应能力介绍。",
+        "内容结构清晰：品牌介绍、面料目录、实际应用与联系方式。",
+        "界面直观，在桌面端与移动端都易于浏览，很好地支撑品牌介绍与销售咨询。"
+      ],
+      "metrics": [
+        "品牌形象",
+        "用户体验",
+        "交付周期"
+      ]
+    }
+  }
+}

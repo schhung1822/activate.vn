@@ -1,0 +1,79 @@
+{
+  "id": "doan-bac-ninh",
+  "status": "published",
+  "order": 4,
+  "date": "02/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Tỉnh Bắc Ninh",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "+45%"
+    },
+    {
+      "value": "+32%"
+    },
+    {
+      "value": "-20%"
+    }
+  ],
+  "ctaUrl": "https://thanhthieunhibacninh.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/bn1.webp",
+    "/assets/images/projects/bn2.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website trung tâm Thanh thiếu nhi tỉnh Bắc Ninh",
+      "summary": "Website thông tin, blog và tuyển dụng cho Trung tâm Thanh thiếu nhi tỉnh Bắc Ninh.",
+      "description": "Dự án xây dựng website chính thức cho Trung tâm Thanh thiếu nhi tỉnh Bắc Ninh với vai trò là kênh thông tin tập trung, phục vụ truyền thông hoạt động, chia sẻ tin tức – bài viết chuyên đề và đăng tải thông tin tuyển dụng. Website được thiết kế theo định hướng rõ ràng, dễ truy cập, phù hợp với nhóm đối tượng thanh thiếu nhi, phụ huynh và cán bộ đoàn thể.",
+      "details": [
+        "Website được triển khai với cấu trúc nội dung dạng blog, cho phép cập nhật tin tức, sự kiện, hoạt động phong trào và các bài viết tuyên truyền một cách linh hoạt, dễ quản trị. Hệ thống phân loại chuyên mục rõ ràng giúp người đọc nhanh chóng tiếp cận thông tin cần thiết.",
+        "Chúng tôi xây dựng chuyên trang tuyển dụng riêng, hỗ trợ đăng tải thông báo tuyển dụng, mô tả vị trí công việc và tiếp nhận hồ sơ online, giúp đơn vị tiết kiệm thời gian và chuẩn hóa quy trình tuyển dụng.",
+        "Giao diện được thiết kế hiện đại, thân thiện, tối ưu trải nghiệm trên cả desktop và thiết bị di động. Đồng thời, hệ thống đo lường cơ bản được tích hợp để theo dõi lượt truy cập, mức độ quan tâm tới các nội dung và phục vụ cho việc cải thiện truyền thông lâu dài."
+      ],
+      "metrics": [
+        "Lượt truy cập hàng tháng",
+        "Thời gian truy cập trung bình",
+        "Tỷ lệ thoát trang"
+      ]
+    },
+    "en": {
+      "name": "Bac Ninh Youth Centre Website",
+      "summary": "An information, blog and recruitment website for the Bac Ninh Provincial Youth Centre.",
+      "description": "The project built the official website for the Bac Ninh Provincial Youth Centre as a central information channel: communicating activities, sharing news and feature articles, and posting recruitment notices. The site was designed to be clear and accessible for young people, parents and youth union officers alike.",
+      "details": [
+        "The website uses a blog-style content structure so news, events, movement activities and outreach articles can be updated flexibly and managed easily. Clear category classification helps readers reach the information they need quickly.",
+        "We built a dedicated recruitment section supporting job postings, role descriptions and online applications, saving the organisation time and standardising the recruitment process.",
+        "The interface is modern and friendly, optimised for both desktop and mobile. Basic measurement was integrated to track visits and interest in each type of content, feeding long-term communication improvements."
+      ],
+      "metrics": [
+        "Monthly visits",
+        "Average time on site",
+        "Bounce rate"
+      ]
+    },
+    "cn": {
+      "name": "北宁省青少年中心网站",
+      "summary": "为北宁省青少年中心搭建的信息、博客与招聘网站。",
+      "description": "项目为北宁省青少年中心搭建官方网站，作为集中的信息渠道：宣传各项活动、发布新闻与专题文章，以及刊登招聘信息。网站方向清晰、易于访问，适合青少年、家长与团委干部使用。",
+      "details": [
+        "网站采用博客式的内容结构，可灵活更新新闻、活动、运动项目与宣传文章，后台易于管理。清晰的栏目分类让读者能快速找到所需信息。",
+        "我们搭建了独立的招聘专区，支持发布招聘公告、岗位描述与在线收取简历，帮助单位节省时间并规范招聘流程。",
+        "界面现代、亲和，在桌面端与移动设备上都做了体验优化。同时接入基础衡量工具，用于追踪访问量与各类内容的关注度，服务长期的传播改进。"
+      ],
+      "metrics": [
+        "月访问量",
+        "平均访问时长",
+        "跳出率"
+      ]
+    }
+  }
+}

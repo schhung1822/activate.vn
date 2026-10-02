@@ -1,0 +1,86 @@
+{
+  "id": "eac-group",
+  "status": "published",
+  "order": 17,
+  "date": "12/2025",
+  "category": [
+    "Website & Landing Page",
+    "Automations & Data",
+    "Facebook Ads",
+    "CRM"
+  ],
+  "partner": "EAC Group",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel",
+    "Automations",
+    "Data",
+    "E-learning"
+  ],
+  "metrics": [
+    {
+      "value": "-40%"
+    },
+    {
+      "value": "+30%"
+    },
+    {
+      "value": "+25%"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/CRM_dashboard.webp",
+    "/assets/images/portfolio/a%20(17).webp",
+    "/assets/images/portfolio/a%20(18).webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Hệ thống automation & CRM Dashboard EAC Group",
+      "summary": "Xây dựng hệ thống CRM dashboard và tập trung dữ liệu phục vụ quản lý & ra quyết định.",
+      "description": "Dự án tập trung xây dựng hệ thống automation và CRM dashboard cho EAC Group, giúp tổng hợp toàn bộ dữ liệu kinh doanh, marketing và vận hành về một mối. Giải pháp dựa trên dataset nhằm hỗ trợ đội ngũ quản lý theo dõi hiệu suất, kiểm soát pipeline và đưa ra quyết định dựa trên dữ liệu thời gian thực.",
+      "details": [
+        "Mục tiêu chính của dự án là chuẩn hóa và tập trung dữ liệu từ nhiều nguồn (website, marketing, bán hàng) về một hệ thống CRM dashboard thống nhất, giúp ban lãnh đạo dễ dàng theo dõi và quản lý.",
+        "Hệ thống dataset được xây dựng để lưu trữ và đồng bộ dữ liệu khách hàng, lead, hoạt động bán hàng và hiệu quả marketing. Dữ liệu được cập nhật tự động và hiển thị trực quan trên dashboard.",
+        "Giải pháp automation giúp giảm thao tác thủ công, tự động hóa quy trình cập nhật dữ liệu, báo cáo và theo dõi hiệu suất theo ngày, tuần và tháng."
+      ],
+      "metrics": [
+        "Thời gian tổng hợp báo cáo",
+        "Độ chính xác dữ liệu",
+        "Hiệu suất xử lý dữ liệu"
+      ]
+    },
+    "en": {
+      "name": "EAC Group Automation & CRM Dashboard",
+      "summary": "A CRM dashboard and centralised data to support management and decision making.",
+      "description": "The project built an automation and CRM dashboard system for EAC Group, bringing all business, marketing and operational data into one place. Built on a dataset, it helps the management team track performance, control the pipeline and make decisions on real-time data.",
+      "details": [
+        "The main goal was to standardise and centralise data from several sources (website, marketing, sales) into a single CRM dashboard so leadership can track and manage it easily.",
+        "The dataset was built to store and sync customer data, leads, sales activity and marketing performance. Data updates automatically and is visualised on the dashboard.",
+        "Automation cut manual work by automating data updates, reporting and performance tracking on a daily, weekly and monthly basis."
+      ],
+      "metrics": [
+        "Report compilation time",
+        "Data accuracy",
+        "Data processing efficiency"
+      ]
+    },
+    "cn": {
+      "name": "EAC Group 自动化与 CRM 仪表盘",
+      "summary": "搭建 CRM 仪表盘并集中数据，支撑管理与决策。",
+      "description": "项目为 EAC Group 搭建自动化与 CRM 仪表盘系统，把经营、营销与运营数据汇聚到同一处。方案基于数据集，帮助管理团队跟踪绩效、掌控销售管线，并依据实时数据做出决策。",
+      "details": [
+        "核心目标是把来自多个来源（网站、营销、销售）的数据规范并集中到统一的 CRM 仪表盘，方便管理层跟踪与管理。",
+        "数据集用于存储并同步客户数据、线索、销售活动与营销效果。数据自动更新，并在仪表盘上可视化呈现。",
+        "自动化方案减少人工操作，把数据更新、报表与绩效跟踪按日、周、月自动化处理。"
+      ],
+      "metrics": [
+        "报表汇总耗时",
+        "数据准确度",
+        "数据处理效率"
+      ]
+    }
+  }
+}

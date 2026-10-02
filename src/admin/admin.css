@@ -1,0 +1,82 @@
+/* src/admin/admin.css
+ * Kiểu chữ trong khung soạn thảo của /admin. Tailwind preflight xoá hết kiểu mặc định
+ * của heading/list nên phải định nghĩa lại để người viết thấy gần giống trang tin tức. */
+
+.admin-editor .mdxeditor-toolbar {
+    border-radius: 0;
+    border-bottom: 1px solid #e2e8f0;
+    background: #f8fafc;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.admin-prose {
+    min-height: 480px;
+    padding: 1.25rem 1.5rem 2rem;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #334155;
+}
+
+.admin-prose h1,
+.admin-prose h2,
+.admin-prose h3,
+.admin-prose h4 {
+    color: #0f172a;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 1.6em 0 0.6em;
+}
+
+.admin-prose h1 { font-size: 1.9rem; }
+.admin-prose h2 { font-size: 1.5rem; }
+.admin-prose h3 { font-size: 1.25rem; }
+.admin-prose h4 { font-size: 1.1rem; }
+.admin-prose > :first-child { margin-top: 0; }
+
+.admin-prose p { margin: 0.8em 0; }
+.admin-prose ul { list-style: disc; padding-left: 1.5rem; margin: 0.8em 0; }
+.admin-prose ol { list-style: decimal; padding-left: 1.5rem; margin: 0.8em 0; }
+.admin-prose li { margin: 0.25em 0; }
+.admin-prose strong { color: #0f172a; font-weight: 600; }
+.admin-prose a { color: #4f46e5; text-decoration: underline; text-underline-offset: 3px; }
+
+.admin-prose blockquote {
+    margin: 1.2em 0;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #818cf8;
+    border-radius: 0 1rem 1rem 0;
+    background: #eef2ff;
+}
+
+.admin-prose code {
+    padding: 0.1em 0.4em;
+    border-radius: 0.375rem;
+    background: #f1f5f9;
+    color: #4338ca;
+    font-size: 0.92em;
+}
+
+.admin-prose hr { margin: 2em 0; border-color: #e2e8f0; }
+.admin-prose img { max-width: 100%; border-radius: 1rem; }
+
+.admin-prose table { border-collapse: collapse; margin: 1.2em 0; }
+.admin-prose th,
+.admin-prose td { border: 1px solid #e2e8f0; padding: 0.5em 0.75em; }
+.admin-prose th { background: #f8fafc; font-weight: 600; text-align: left; }
+
+.admin-prose pre {
+    margin: 1.2em 0;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+    background: #0f172a;
+    color: #e2e8f0;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    overflow-x: auto;
+}
+.admin-prose pre code { padding: 0; background: transparent; color: inherit; font-size: inherit; }
+
+/* Trang hướng dẫn: không cần chiều cao tối thiểu như khung soạn thảo */
+.admin-doc { min-height: 0; padding: 1.5rem; }
+@media (min-width: 640px) { .admin-doc { padding: 2rem 2.5rem; } }

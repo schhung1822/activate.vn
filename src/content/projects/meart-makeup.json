@@ -1,0 +1,84 @@
+{
+  "id": "meart-makeup",
+  "status": "published",
+  "order": 16,
+  "date": "12/2025",
+  "category": [
+    "Website & Landing Page",
+    "Automations & Data",
+    "Facebook Ads"
+  ],
+  "partner": "Hiền Mew",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel",
+    "Automations",
+    "Data",
+    "E-learning"
+  ],
+  "metrics": [
+    {
+      "value": "+26%"
+    },
+    {
+      "value": "+22%"
+    },
+    {
+      "value": "-15%"
+    }
+  ],
+  "ctaUrl": "https://khoahoc.mewartmakeup.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/40.webp",
+    "/assets/images/portfolio/41.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-learning Meart Makeup",
+      "summary": "Xây dựng nền tảng đào tạo trực tuyến và hệ thống dữ liệu phục vụ tăng trưởng học viên.",
+      "description": "Dự án tập trung xây dựng website E-learning cho Meart Makeup, đồng thời triển khai hệ thống dataset nhằm quản lý học viên, khóa học và hành vi học tập một cách tập trung. Giải pháp giúp thương hiệu vận hành đào tạo online hiệu quả, chuẩn hóa dữ liệu và có nền tảng mở rộng các hoạt động marketing – bán khóa học trong dài hạn.",
+      "details": [
+        "Mục tiêu chính của dự án là xây dựng nền tảng E-learning chuyên nghiệp, dễ sử dụng cho học viên và đội ngũ vận hành, đồng thời chuẩn hóa dữ liệu học viên và khóa học để phục vụ quản lý và phân tích.",
+        "Website được phát triển trên nền tảng WordPress tích hợp hệ thống E-learning, cho phép quản lý khóa học, bài giảng, học viên, tiến trình học và kết quả học tập. Dataset được thiết kế để lưu trữ thông tin đăng ký, lịch sử học và hành vi truy cập.",
+        "Hệ thống được tích hợp GA4 và Meta Pixel nhằm theo dõi hiệu quả marketing, đồng thời hỗ trợ các luồng automation để phục vụ email thông báo, chăm sóc học viên và remarketing dựa trên dữ liệu."
+      ],
+      "metrics": [
+        "Tỷ lệ đăng ký khóa học",
+        "Tỷ lệ hoàn thành khóa học",
+        "Chi phí/đăng ký"
+      ]
+    },
+    "en": {
+      "name": "Meart Makeup E-learning Website",
+      "summary": "Building an online training platform and a data system for learner growth.",
+      "description": "The project built an e-learning website for Meart Makeup alongside a dataset implementation, managing learners, courses and study behaviour centrally. It lets the brand run online training effectively, standardise its data and build a foundation for long-term marketing and course sales.",
+      "details": [
+        "The main goal was a professional e-learning platform that is easy for learners and the operations team, while standardising learner and course data for management and analysis.",
+        "The site was developed on WordPress with an integrated e-learning system, managing courses, lessons, learners, progress and results. The dataset was designed to store registration details, study history and visit behaviour.",
+        "GA4 and Meta Pixel were integrated to track marketing performance, alongside automation flows supporting notification emails, learner care and data-driven remarketing."
+      ],
+      "metrics": [
+        "Course enrolment rate",
+        "Course completion rate",
+        "Cost per enrolment"
+      ]
+    },
+    "cn": {
+      "name": "Meart Makeup 在线学习网站",
+      "summary": "搭建线上培训平台与数据体系，支撑学员规模增长。",
+      "description": "项目为 Meart Makeup 搭建在线学习网站，并同步落地数据集系统，集中管理学员、课程与学习行为。方案让品牌高效运营线上培训、规范数据，并为长期的营销与课程销售奠定基础。",
+      "details": [
+        "核心目标是打造专业、对学员与运营团队都易用的在线学习平台，同时规范学员与课程数据，服务管理与分析。",
+        "网站基于 WordPress 并集成在线学习系统开发，可管理课程、课件、学员、学习进度与学习结果。数据集用于存储报名信息、学习记录与访问行为。",
+        "系统接入 GA4 与 Meta Pixel 以追踪营销效果，同时支撑自动化流程，用于通知邮件、学员维护与基于数据的再营销。"
+      ],
+      "metrics": [
+        "课程报名率",
+        "课程完成率",
+        "单次报名成本"
+      ]
+    }
+  }
+}

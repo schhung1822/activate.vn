@@ -1,5 +1,5 @@
 // App.jsx - routing đa ngôn ngữ + Header/Footer có điều kiện
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
@@ -32,6 +32,9 @@ import DatLich from "./pages/DatLich.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import { LanguageProvider, getLocalePrefix, stripLocaleFromPath, useI18n } from './i18n';
 
+// Trang quản trị nội dung - nạp riêng khi mở /admin để không làm nặng website
+const AdminApp = lazy(() => import('./admin/AdminApp.jsx'));
+
 // Landing page tự mang header/footer riêng - ẩn header/footer chung của site.
 // So khớp với đường dẫn ĐÃ bỏ prefix ngôn ngữ, nên /en/dat-lich cũng được tính là standalone.
 const STANDALONE_PATHS = ['/tiktok-verification/', '/dat-lich'];
@@ -55,6 +58,17 @@ const RouterContent = () => {
 
     // Trang standalone (TiktokVerification, landing đặt lịch) tự lo header/footer
     const isStandalonePage = STANDALONE_PATHS.includes(stripLocaleFromPath(location.pathname));
+
+    // /admin có giao diện riêng hoàn toàn (không header/footer, không SEO, không đa ngôn ngữ)
+    if (location.pathname === '/admin' || location.pathname.startsWith('/admin/')) {
+        return (
+            <Suspense fallback={null}>
+                <Routes>
+                    <Route path="/admin/*" element={<AdminApp />} />
+                </Routes>
+            </Suspense>
+        );
+    }
 
     return (
         <div className="App min-h-screen flex flex-col">

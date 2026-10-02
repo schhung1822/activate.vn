@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "slug": "react-19-features",
+  "status": "published",
+  "title": "React 19 Features: Những tính năng mới đáng chú ý",
+  "description": "Tìm hiểu về các tính năng mới trong React 19 và cách áp dụng vào dự án",
+  "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop",
+  "date": "2025-01-12",
+  "categories": [
+    "Technology",
+    "Development"
+  ],
+  "tags": [
+    "react",
+    "javascript",
+    "frontend"
+  ]
+}

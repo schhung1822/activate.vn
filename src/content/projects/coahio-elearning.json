@@ -1,0 +1,83 @@
+{
+  "id": "coahio-elearning",
+  "status": "published",
+  "order": 15,
+  "date": "10/2025",
+  "category": [
+    "Website & Landing Page",
+    "Automations & Data",
+    "Facebook Ads"
+  ],
+  "partner": "Coahio",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel",
+    "Automations",
+    "Data",
+    "LMS"
+  ],
+  "metrics": [
+    {
+      "value": "+24%"
+    },
+    {
+      "value": "+19%"
+    },
+    {
+      "value": "-17%"
+    }
+  ],
+  "ctaUrl": "https://khoahoc.coahio.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/39.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-learning Coahio",
+      "summary": "Xây dựng nền tảng E-learning và chuẩn hóa dữ liệu phục vụ tăng trưởng dài hạn.",
+      "description": "Dự án tập trung xây dựng website E-learning cho Coahio, kết hợp triển khai hệ thống dataset nhằm quản lý học viên, khóa học và hành vi học tập một cách tập trung. Giải pháp giúp Coahio không chỉ vận hành nền tảng đào tạo trực tuyến ổn định mà còn có dữ liệu rõ ràng để tối ưu marketing, bán khóa học và chăm sóc học viên sau đào tạo.",
+      "details": [
+        "Mục tiêu chính của dự án là xây dựng nền tảng E-learning dễ sử dụng cho cả học viên và đội ngũ vận hành, đồng thời chuẩn hóa dữ liệu người dùng, khóa học và tiến trình học tập để phục vụ phân tích và mở rộng quy mô.",
+        "Website được phát triển trên nền tảng WordPress tích hợp hệ thống LMS, cho phép quản lý khóa học, bài giảng, học viên và trạng thái học tập. Dataset được thiết kế để thu thập và lưu trữ thông tin đăng ký, lịch sử học, hành vi truy cập và kết quả học tập.",
+        "Ngoài ra, dự án còn tích hợp GA4 và Meta Pixel để theo dõi hiệu quả marketing, đồng thời kết nối các luồng automation nhằm hỗ trợ email thông báo, nhắc học và remarketing dựa trên dữ liệu học viên."
+      ],
+      "metrics": [
+        "Tỷ lệ hoàn thành khóa học",
+        "Tỷ lệ đăng ký khóa học",
+        "Chi phí/đăng ký"
+      ]
+    },
+    "en": {
+      "name": "Coahio E-learning Website",
+      "summary": "Building an e-learning platform and standardising data for long-term growth.",
+      "description": "The project built an e-learning website for Coahio combined with a dataset implementation, managing learners, courses and study behaviour centrally. It gives Coahio not just a stable online training platform but clear data for optimising marketing, course sales and post-training learner care.",
+      "details": [
+        "The main goal was an e-learning platform that is easy for both learners and the operations team, while standardising user, course and progress data for analysis and scale.",
+        "The site was developed on WordPress with an integrated LMS, managing courses, lessons, learners and study status. The dataset was designed to collect and store registration details, study history, visit behaviour and results.",
+        "The project also integrated GA4 and Meta Pixel to track marketing performance, and connected automation flows supporting notification emails, study reminders and remarketing based on learner data."
+      ],
+      "metrics": [
+        "Course completion rate",
+        "Course enrolment rate",
+        "Cost per enrolment"
+      ]
+    },
+    "cn": {
+      "name": "Coahio 在线学习网站",
+      "summary": "搭建在线学习平台并规范数据，支撑长期增长。",
+      "description": "项目为 Coahio 搭建在线学习网站，并同步落地数据集系统，集中管理学员、课程与学习行为。方案不仅让 Coahio 拥有稳定的线上培训平台，还提供清晰的数据用于优化营销、课程销售与课后学员维护。",
+      "details": [
+        "核心目标是打造一个对学员与运营团队都友好的在线学习平台，同时规范用户、课程与学习进度数据，服务分析与规模化扩展。",
+        "网站基于 WordPress 并集成 LMS 系统开发，可管理课程、课件、学员与学习状态。数据集用于采集并存储报名信息、学习记录、访问行为与学习结果。",
+        "此外，项目还接入 GA4 与 Meta Pixel 追踪营销效果，并串联自动化流程，支撑通知邮件、学习提醒以及基于学员数据的再营销。"
+      ],
+      "metrics": [
+        "课程完成率",
+        "课程报名率",
+        "单次报名成本"
+      ]
+    }
+  }
+}

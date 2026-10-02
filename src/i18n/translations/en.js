@@ -1796,7 +1796,7 @@ export default {
     },
 
     // ================================================================
-    // Nội dung 31 dự án (bản tiếng Anh)
+    // Giao diện các trang dự án (nội dung dự án: src/content/projects, sửa qua /admin)
     // ================================================================
     projects: {
         viewDetail: 'View details',
@@ -1869,372 +1869,6 @@ export default {
                 'Sales pipeline reporting'
             ]
         },
-
-        items: {
-            'wordplus': {
-                name: 'WoodPlus Website',
-                summary: 'Revenue growth for the WoodPlus website through funnel optimisation and behavioural remarketing.',
-                description: 'The WoodPlus website project focused on optimising the entire purchase journey on site, from first product contact and browsing experience through to checkout and repeat purchase. The team worked on the bottlenecks causing dropped orders, synced user behaviour data and built the measurement foundation that lets WoodPlus grow revenue sustainably through the website channel.',
-                details: [
-                    'The project began with an analysis of user behaviour on the WoodPlus website to identify the drop-off points where customers left or abandoned their purchase. From there the team restructured the product, category and checkout pages to reduce friction in the buying process.',
-                    'In parallel, the data layer was synced to power behavioural remarketing: product viewed, added to cart but not purchased, and existing customers. Nurture and re-engagement sequences were designed around the specifics of WoodPlus furniture and homeware.',
-                    'The website was also optimised for load speed and interface design under a "less click – more clarity" principle. Order-closing points were A/B tested continuously over eight weeks, improving conversion rate and lowering cost per order.'
-                ],
-                metrics: ['Revenue growth', 'Conversion rate', 'CPA']
-            },
-            'beauty-summit-2025': {
-                name: 'Beauty Summit 2025',
-                summary: 'A complete digital ecosystem for a beauty industry event.',
-                description: 'The project built a website and data ecosystem around the Beauty Summit 2025 event, covering the event website, a personalised invitation landing page, a payment and check-in gateway, the Beauty Awards voting platform and a dataset system powering conversion advertising. The goal was to digitise the whole attendee journey: registration → payment → check-in → voting → post-event remarketing.',
-                details: [
-                    'The event website sat at the centre, carrying the programme, speakers, booths and ticketing. The invitation landing page was personalised per guest segment and made it easy to share via Zalo, Facebook and email to spread the event.',
-                    'The payment and check-in gateway was rolled out end to end, letting people pay online, generating a unique QR code per ticket and enabling fast check-in on the day. Check-in data updated in real time for operations and reporting.',
-                    'The Beauty Awards voting site was built to lift engagement and capture data on interested attendees. Every behaviour (page views, registration, payment, check-in, voting) was collected into a central dataset to power conversion advertising, remarketing and campaign analysis.'
-                ],
-                metrics: ['Revenue growth', 'Conversion rate', 'CPA']
-            },
-            'kat-skin': {
-                name: 'Kat Skin Website',
-                summary: 'An e-commerce and brand website for the Kat Skin cosmetics brand.',
-                description: 'The project built an e-commerce site combined with a brand website for Kat Skin, presenting a professional image, building trust and driving online sales conversion. The system was designed around the user experience, so customers could explore products and treatments and complete a purchase in a few steps.',
-                details: [
-                    'The site was built for e-commerce with the full selling toolkit: product catalogue, variants, cart, checkout and order management. Content and layout were tuned both to tell the brand story and to guide buying behaviour naturally.',
-                    'We rebuilt the UI/UX around "clear – easy – convincing", streamlining the path from product page to order page while improving load speed on both desktop and mobile.',
-                    'Measurement was implemented from day one with GA4, tracking key behaviours such as product views, add to cart and completed purchase, creating the data foundation for advertising campaigns and conversion optimisation in later phases.'
-                ],
-                metrics: ['Revenue growth', 'Conversion rate', 'CPA']
-            },
-            'doan-bac-ninh': {
-                name: 'Bac Ninh Youth Centre Website',
-                summary: 'An information, blog and recruitment website for the Bac Ninh Provincial Youth Centre.',
-                description: 'The project built the official website for the Bac Ninh Provincial Youth Centre as a central information channel: communicating activities, sharing news and feature articles, and posting recruitment notices. The site was designed to be clear and accessible for young people, parents and youth union officers alike.',
-                details: [
-                    'The website uses a blog-style content structure so news, events, movement activities and outreach articles can be updated flexibly and managed easily. Clear category classification helps readers reach the information they need quickly.',
-                    'We built a dedicated recruitment section supporting job postings, role descriptions and online applications, saving the organisation time and standardising the recruitment process.',
-                    'The interface is modern and friendly, optimised for both desktop and mobile. Basic measurement was integrated to track visits and interest in each type of content, feeding long-term communication improvements.'
-                ],
-                metrics: ['Monthly visits', 'Average time on site', 'Bounce rate']
-            },
-            'aloha-villa': {
-                name: 'Aloha Villa Website',
-                summary: 'A brand, blog and booking website for the Aloha Villa resort.',
-                description: 'The project built the Aloha Villa website to raise the brand image, convey the resort experience and drive online booking demand. The site acts as the official information channel where guests can explore the villa, its amenities and services, and reach a booking decision easily.',
-                details: [
-                    'The site was designed in a premium resort style, leading with imagery and visual experience so guests feel the space, the amenities and what makes Aloha Villa different from their very first visit.',
-                    'We built a blog sharing travel tips, itinerary suggestions and destination information, adding content value, improving SEO and attracting steady organic traffic.',
-                    'Booking was integrated directly into the site, letting guests check room details and stay dates and send a booking request quickly. Behaviour tracking was implemented to monitor room views, engagement and booking demand, laying the foundation for later marketing and conversion work.'
-                ],
-                metrics: ['Website visits', 'Booking request rate', 'Bounce rate']
-            },
-            'rino-authentic': {
-                name: 'Rino Authentic E-commerce Website',
-                summary: 'A menswear e-commerce website with a clear brand position and conversion optimisation.',
-                description: 'The project built an e-commerce website for the menswear brand Rino Authentic as its central sales channel and a platform for long-term brand growth. The design conveys a masculine, modern style while optimising the shopping experience to lift conversion rate and order value.',
-                details: [
-                    'The site was implemented as a complete e-commerce build: product catalogue, filters by size, colour and cut, cart and checkout. Product content was standardised both to carry brand value and to support fast purchase decisions.',
-                    'We optimised the UI/UX around how menswear customers actually shop, shortening the path from product view to order while ensuring strong display on mobile, where most of the traffic comes from.',
-                    'Measurement and data were integrated from the start with GA4 and Meta Pixel, fully tracking product views, add to cart and completed checkout. That is the foundation for conversion campaigns, remarketing and business optimisation in later phases.'
-                ],
-                metrics: ['Revenue growth', 'Conversion rate', 'CPA']
-            },
-            'nghe-content': {
-                name: 'Nghe Content E-learning Website',
-                summary: 'An e-learning site teaching viral content, plus services supporting content creation.',
-                description: 'The project built an e-learning platform for Nghe Content: both a place for in-depth content marketing training and a channel presenting related services such as consulting, training and content delivery support for businesses. The site guides learners from discovery → course enrolment → learning → wider services.',
-                details: [
-                    'The LMS was built with the full feature set: course sales, learner management, lesson access control, progress tracking and automatic access provisioning after payment.',
-                    'The site doubles as a services channel, laying out the training packages, mentoring and content services for individuals and companies, widening revenue beyond course sales.',
-                    'The entire user journey is measured and automated with GA4, Meta Pixel, email marketing and automation, supporting lead nurturing, study reminders, course upsells and relevant service recommendations per user segment.'
-                ],
-                metrics: ['Revenue growth', 'Conversion rate', 'CPA']
-            },
-            'talentmate': {
-                name: 'Talentmate Job Website',
-                summary: 'Website design for the Talentmate job and recruitment platform.',
-                description: 'The project focused on designing the website interface for Talentmate, a platform connecting employers and candidates. The site was built to communicate the product value clearly, create an intuitive and easy experience, and convey a professional brand image in the HR and recruitment space.',
-                details: [
-                    'We designed the whole interface for the job site: homepage, job listings, job detail, company profiles and supporting information pages, giving both candidates and employers a clear experience flow.',
-                    'The UI/UX is modern and minimal, focused on fast search and job filtering so users reach a suitable role in a few clicks.',
-                    'The full interface system was designed in Figma with complete components and guidelines, so the development team can build the site and extend features easily in future.'
-                ],
-                metrics: ['Interface system completed', 'Client satisfaction rate', 'Design scalability']
-            },
-            'dataset-teahui': {
-                name: 'Conversion Dataset Implementation with Teahui',
-                summary: 'Dataset and automation work to optimise conversion advertising for Teahui.',
-                description: 'The project applied a dataset approach alongside the Smax.ai platform to improve conversion advertising performance for the Teahui brand. The system collects, standardises and works customer behaviour data so the ad algorithm learns faster and delivers to the right prospects.',
-                details: [
-                    'We implemented a dataset solution collecting data from the landing page and marketing touchpoints, including form fills, engagement and conversions, creating a clean and consistent data source for advertising.',
-                    'The dataset was connected to Smax.ai to classify and process customer data automatically while supporting fast replies to prospects through a chatbot, raising the chance of closing during the conversation.',
-                    'All conversion data is synced and monitored continuously, creating the foundation for optimising Facebook campaigns around data quality, lowering cost per conversion and improving business results.'
-                ],
-                metrics: ['Revenue growth', 'Conversion rate', 'CPA']
-            },
-            'an-vat-ho-chu': {
-                name: 'Conversion Dataset Implementation with An Vat Ho Chu',
-                summary: 'Dataset work plus POS integration to optimise conversion advertising for An Vat Ho Chu.',
-                description: 'The project applied a dataset approach together with POS integration to sync online and offline sales data for the An Vat Ho Chu brand. The main goal was an accurate conversion data source so Facebook campaigns perform better and reflect real revenue.',
-                details: [
-                    'We built a dataset system collecting data from the landing page and marketing touchpoints, including form fills, orders and engagement, creating a clean data foundation for conversion campaigns.',
-                    'The POS system was integrated to sync order status and real revenue, making sure conversions are recorded accurately and limiting the gap between ad numbers and actual sales.',
-                    'All online and offline data is unified and tracked centrally, letting the marketing team optimise against real revenue while lowering cost per conversion and improving operational efficiency.'
-                ],
-                metrics: ['Revenue growth', 'Accurate conversion tracking', 'CPA']
-            },
-            'payment-checkin-tuki-group': {
-                name: 'Tuki Group Event Payment & Check-in System',
-                summary: 'Payment, check-in and communication automation for Tuki Group events.',
-                description: 'The project built an event system for Tuki Group covering payment, guest list management and on-site check-in. It was designed to reduce manual operations, keep check-in fast and accurate, and give attendees a professional experience.',
-                details: [
-                    'We implemented automated QR-code check-in for each attendee, allowing real-time control of the guest list, payment status and check-in counts right at the event.',
-                    'Email marketing and ZBS Zalo were integrated to send registration confirmations, e-tickets and pre, during and post-event notifications automatically, keeping engagement going without manual work.',
-                    'All registration, payment and check-in data is synced and managed centrally, creating the basis for fast post-event reporting and later care and remarketing activity.'
-                ],
-                metrics: ['Check-in time', 'Automated notification rate', 'Operational errors']
-            },
-            'payment-checkin-jimto': {
-                name: 'Jimto Event Check-in System',
-                summary: 'Landing page, check-in and communication automation for the Jimto event.',
-                description: 'The project built an event system for Jimto covering the event landing page, registration management and on-site check-in. It was designed to optimise the attendee experience while minimising manual steps in event operations.',
-                details: [
-                    'We built the event landing page on Ladipage, laying out the programme, speakers and attendance benefits clearly while optimising the registration flow to raise form completion.',
-                    'Automated QR-code check-in was integrated so the organisers could control the attendee list, registration status and check-in quickly and accurately at the event.',
-                    'Email marketing and ZBS Zalo were set up to send confirmations, e-tickets and pre, during and post-event notifications automatically, keeping attendees engaged without manual handling.'
-                ],
-                metrics: ['Check-in time', 'Automated notification rate', 'Manual workload reduced']
-            },
-            'crm-1900': {
-                name: 'CRM & In-store Review Confirmation with 1900 Hair Salon',
-                summary: 'Standardising customer data and lifting close rates at the point of sale.',
-                description: 'The project built a dataset and CRM system to standardise all customer data, purchase history and engagement behaviour so the sales team could work that data harder during consultation and customer care. It gives sales full customer context right at the counter, shortening consultation time, raising close rate and improving the service experience.',
-                details: [
-                    'The main goal was a central customer dataset, syncing data from several sources: the website, landing pages, registration forms and in-store interactions. That gives the sales team a full picture of each customer profile and lifetime value.',
-                    'The CRM was designed around how sales actually work at the counter: confirming customer details, recording service reviews, tracking purchase history and suggesting follow-up care. Every step was kept minimal to suit a fast-moving retail environment.',
-                    'CRM data is also used to segment customers by purchase frequency, order value and loyalty, so sales and management can run upsell, cross-sell and reactivation programmes proactively.'
-                ],
-                metrics: ['In-store close rate', 'Returning customers', 'Information handling time']
-            },
-            'home-english': {
-                name: 'Home English Website Optimisation & Upgrade',
-                summary: 'Improving user experience and conversion performance on an existing website.',
-                description: 'The project reworked and upgraded the existing Home English website to fix limitations in interface, user experience and conversion. Rather than rebuilding from scratch, we optimised the content structure, navigation flow and calls to action so the site works harder for the business and for course consultation.',
-                details: [
-                    'The main goal was to lift the performance of the old site by reviewing the whole page structure, content and user behaviour. Key pages were re-ordered along the discover → enrol → contact journey so users reach course information easily.',
-                    'The interface was reworked to be clearer, more modern and easier to read, with display optimised for mobile. Distracting or redundant elements from the old version were removed to cut the number of steps a user has to take.',
-                    'The project also integrated and standardised measurement with GA4 and Meta Pixel, so the Home English team can track traffic sources, user behaviour and campaign performance accurately.'
-                ],
-                metrics: ['Time on site', 'Conversion rate', 'Bounce rate']
-            },
-            'coahio-elearning': {
-                name: 'Coahio E-learning Website',
-                summary: 'Building an e-learning platform and standardising data for long-term growth.',
-                description: 'The project built an e-learning website for Coahio combined with a dataset implementation, managing learners, courses and study behaviour centrally. It gives Coahio not just a stable online training platform but clear data for optimising marketing, course sales and post-training learner care.',
-                details: [
-                    'The main goal was an e-learning platform that is easy for both learners and the operations team, while standardising user, course and progress data for analysis and scale.',
-                    'The site was developed on WordPress with an integrated LMS, managing courses, lessons, learners and study status. The dataset was designed to collect and store registration details, study history, visit behaviour and results.',
-                    'The project also integrated GA4 and Meta Pixel to track marketing performance, and connected automation flows supporting notification emails, study reminders and remarketing based on learner data.'
-                ],
-                metrics: ['Course completion rate', 'Course enrolment rate', 'Cost per enrolment']
-            },
-            'meart-makeup': {
-                name: 'Meart Makeup E-learning Website',
-                summary: 'Building an online training platform and a data system for learner growth.',
-                description: 'The project built an e-learning website for Meart Makeup alongside a dataset implementation, managing learners, courses and study behaviour centrally. It lets the brand run online training effectively, standardise its data and build a foundation for long-term marketing and course sales.',
-                details: [
-                    'The main goal was a professional e-learning platform that is easy for learners and the operations team, while standardising learner and course data for management and analysis.',
-                    'The site was developed on WordPress with an integrated e-learning system, managing courses, lessons, learners, progress and results. The dataset was designed to store registration details, study history and visit behaviour.',
-                    'GA4 and Meta Pixel were integrated to track marketing performance, alongside automation flows supporting notification emails, learner care and data-driven remarketing.'
-                ],
-                metrics: ['Course enrolment rate', 'Course completion rate', 'Cost per enrolment']
-            },
-            'eac-group': {
-                name: 'EAC Group Automation & CRM Dashboard',
-                summary: 'A CRM dashboard and centralised data to support management and decision making.',
-                description: 'The project built an automation and CRM dashboard system for EAC Group, bringing all business, marketing and operational data into one place. Built on a dataset, it helps the management team track performance, control the pipeline and make decisions on real-time data.',
-                details: [
-                    'The main goal was to standardise and centralise data from several sources (website, marketing, sales) into a single CRM dashboard so leadership can track and manage it easily.',
-                    'The dataset was built to store and sync customer data, leads, sales activity and marketing performance. Data updates automatically and is visualised on the dashboard.',
-                    'Automation cut manual work by automating data updates, reporting and performance tracking on a daily, weekly and monthly basis.'
-                ],
-                metrics: ['Report compilation time', 'Data accuracy', 'Data processing efficiency']
-            },
-            'the-thao-pharma': {
-                name: 'Lark Base CV & Staff Management System',
-                summary: 'Standardising recruitment and HR management on Lark Base.',
-                description: 'The project built a Lark Base system for HR and recruitment management at The Thao Pharma. It brings all CV, candidate and current staff data onto a single platform while automating screening, scheduling and interview emails.',
-                details: [
-                    'A Lark Base template for managing CVs and candidate profiles, allowing classification by role, recruitment status and candidate source.',
-                    'An interview scheduling board linked directly to each candidate and the responsible staff member, keeping the recruitment pipeline clear.',
-                    'Automated interview email templates supporting interview invitations, schedule confirmations and fast status updates for candidates.'
-                ],
-                metrics: ['Application handling time', 'Candidate response rate', 'Process transparency']
-            },
-            's-men-femme': {
-                name: 'S-men & S-femme Ladipage Set',
-                summary: 'A conversion-optimised Ladipage set for personal care products.',
-                description: 'The project designed and delivered a set of selling Ladipages for the S-men and S-femme product lines. The main goal was to optimise the user experience, communicate product benefits clearly and lift conversion from paid traffic.',
-                details: [
-                    'A set of selling Ladipages built to a conversion structure, optimised for Facebook Ads and social commerce campaigns.',
-                    'An intuitive interface design that separates the S-men and S-femme lines clearly, keeping the message consistent with the brand positioning.',
-                    'GA4 measurement set up and content layout optimised on a "see fast – understand clearly – act now" principle.'
-                ],
-                metrics: ['Conversion rate', 'Cost per lead', 'Delivery speed']
-            },
-            'timo': {
-                name: 'Timo Fabric Brand Website',
-                summary: 'A brand and catalogue website for the Timo fabric brand.',
-                description: 'The project built the brand website for Timo fabrics, showing production capability, the product range and the brand position within the textile industry. The site is the official channel for partners, garment workshops and business customers.',
-                details: [
-                    'A brand website design leading with fabric imagery, material information, applications and supply capability.',
-                    'A clear content structure: brand introduction, fabric catalogue, real-world applications and contact details.',
-                    'An intuitive interface that reads well on both desktop and mobile, supporting brand presentation and sales consultation.'
-                ],
-                metrics: ['Brand image', 'User experience', 'Delivery time']
-            },
-            'usobebe': {
-                name: 'Usobebe E-commerce Website',
-                summary: 'Design and delivery of an e-commerce website for the Usobebe brand.',
-                description: 'The project built an e-commerce website for Usobebe supporting online sales, product presentation and an optimised shopping experience across devices. The site was designed to be scalable, easy to administer and supportive of marketing campaigns.',
-                details: [
-                    'An e-commerce website designed with a clear structure: product pages, categories, product detail and the ordering flow.',
-                    'A shopping interface optimised for mobile and desktop, so users find products and complete orders quickly.',
-                    'GA4 measurement set up to track purchase behaviour, feeding conversion optimisation and later marketing campaigns.'
-                ],
-                metrics: ['Shopping experience', 'Ease of administration', 'Delivery speed']
-            },
-            'nocti': {
-                name: 'Nocti E-commerce Website',
-                summary: 'Design and delivery of an e-commerce website for the Nocti brand.',
-                description: 'The project built an e-commerce website for Nocti supporting online sales, product presentation and sustainable growth of the online channel. The design optimises the user experience and supports the full purchase journey from product view to order.',
-                details: [
-                    'An e-commerce website designed with a complete structure: product catalogue, product detail pages and the ordering flow.',
-                    'A shopping interface optimised for mobile and desktop, so customers choose products and complete checkout easily.',
-                    'GA4 measurement set up to track user behaviour, supporting conversion optimisation and marketing campaigns.'
-                ],
-                metrics: ['Shopping experience', 'Ease of administration', 'Delivery speed']
-            },
-            'emis': {
-                name: 'Emis English E-learning Website',
-                summary: 'Design and delivery of an English learning website for children.',
-                description: 'The project built an e-learning website for Emis English serving children learning English. The system was designed to be friendly for young learners, easy for parents and supportive of online teaching and study.',
-                details: [
-                    'An English learning website for children with an intuitive interface, friendly colours and simple interactions.',
-                    'A lesson, course and content structure suited to each age group.',
-                    'GA4 measurement set up to track study behaviour, supporting experience optimisation and better training outcomes.'
-                ],
-                metrics: ['Learning experience', 'Ease of administration', 'Delivery speed']
-            },
-            'safiman': {
-                name: 'Safiman E-commerce Website',
-                summary: 'Design and delivery of an e-commerce website for the Safiman brand.',
-                description: 'The project built an e-commerce website for Safiman presenting products, supporting online sales and optimising the shopping experience across devices. The site is modern, easy to use and optimised for online advertising campaigns.',
-                details: [
-                    'An e-commerce website with an intuitive interface and clear structure, optimised for shopping on mobile and desktop.',
-                    'Product pages, cart and a simple ordering flow built to raise conversion rate.',
-                    'GA4 measurement set up to track user behaviour, feeding content optimisation and business performance.'
-                ],
-                metrics: ['Shopping experience', 'Conversion rate', 'Delivery speed']
-            },
-            'evenhub': {
-                name: 'EvenHub Corporate Website',
-                summary: 'A corporate website design with a clear, modern and professional position.',
-                description: 'The project designed and delivered the EvenHub corporate website, communicating the company’s capability, services and core values. It was built to optimise the user experience, raise credibility and support marketing and sales effectively.',
-                details: [
-                    'A clear corporate website structure: About – Services – Projects – Partners – Contact.',
-                    'A modern interface aligned with the brand identity and the company’s positioning.',
-                    'User experience and page speed optimised, supporting SEO and brand campaigns.'
-                ],
-                metrics: ['Brand credibility', 'User experience', 'Delivery speed']
-            },
-            'qc-house': {
-                name: 'QC House Website',
-                summary: 'An online project showroom and an optimised customer funnel for design and construction.',
-                description: 'The project focused on creating a striking visual experience that carries QC House’s design style and construction capability in full. The website is not only a professional digital profile but an "online showroom" where customers can explore real living spaces, understand the working process and request in-depth consultation.',
-                details: [
-                    'The interface was designed in a modern, image-centric style to show off the architecture and interiors. The project catalogue is split intelligently by type (apartment, townhouse, villa) and design style, so prospects quickly find inspiration matching their needs.',
-                    'Technically, the high-resolution gallery is thoroughly optimised with WebP and lazy loading. That keeps page loads extremely fast and smooth on both mobile and desktop, so the viewer’s emotional flow is never interrupted.',
-                    'Alongside the visual experience, lead generation is woven in through subtle calls to action, a preliminary quote request form and direct connections to Zalo OA and hotline. With a solid on-page SEO structure, the site ranks well for niche interior design keywords, delivering a steady stream of organic customers.'
-                ],
-                metrics: ['Page load speed (LCP)', 'Time on page', 'Consultation requests']
-            },
-            'topmus': {
-                name: 'Topmus Website',
-                summary: 'A middleware system automating application data sync and CRM integration.',
-                description: 'The project solved the problem of handling a large volume of applications by building a robust integration layer. We focused on fully automating the data flow from the moment a candidate fills in the form on the website until the information appears in the internal CRM, keeping it seamless, secure and able to handle complex file attachments.',
-                details: [
-                    'The main challenge was handling application forms that require multimedia data to be transferred accurately. To solve it, we developed and integrated the TOPMUS Middleware V2 solution as a dedicated WordPress plugin.',
-                    'The system uses Fluent Forms to capture information on the front end. The core technical highlight is its ability to capture and process webhook flows, including restructuring data to the multipart/form-data standard so CV files upload smoothly to a third-party server.',
-                    'Once through the middleware layer, all data is synced automatically to the external CRM in real time. This removes manual data entry entirely, streamlines the HR team’s workflow and makes sure no promising application is ever lost.'
-                ],
-                metrics: ['Data flow automation', 'CV sync speed', 'Processing time saved']
-            },
-            'fptdoangnghiep': {
-                name: 'FPT Telecom Website',
-                summary: 'Optimising the sign-up channel for telecom and digital infrastructure services in the B2B segment.',
-                description: 'The project built a dedicated portal simplifying access to FPT Telecom’s more complex services: business internet, digital signatures, e-invoicing and virtual switchboards. We focused on turning dry technical specifications into solution packages that are easy to understand, so business owners and IT teams can decide and sign up right on the site.',
-                details: [
-                    'The site was built on an optimised WordPress stack using a silo structure to classify the service groups clearly: fibre internet, digital services (FPT CA, e-invoicing) and infrastructure solutions. That lifts SEO quality score and improves how business customers find information.',
-                    'We implemented smart calls to action and quick sign-up forms integrated deep into each service page. The system classifies each request automatically (internet installation versus digital signature) before routing it to the consulting team, shortening response time.',
-                    'Technically, the project focused on optimising the mobile interface and page response to meet Google’s Core Web Vitals standards. All content is presented as spec comparison tables and transparent price tables, raising trust and conversion from visitor to prospect.'
-                ],
-                metrics: ['Lead conversion rate', 'Time on page', 'On-page SEO score']
-            },
-            'srxvietnam': {
-                name: 'SRX Vietnam Website',
-                summary: 'A B2C cosmetics e-commerce platform with an integrated affiliate system and CRM administration.',
-                description: 'The project built a complete online cosmetics retail platform, optimising not only the B2C shopping experience but also giving the operations team powerful administration tools. At its heart is a smooth combination of online store, in-depth beauty knowledge blog and affiliate marketing network, driving multi-channel revenue growth.',
-                details: [
-                    'On the front end, the interface was designed with UI/UX built specifically for the beauty category, highlighting imagery, ingredients and real reviews. The browse and checkout flow was streamlined as far as possible. The blog section is structured for SEO and acts as a funnel drawing in prospects through skincare guidance content.',
-                    'The technical highlight was planning and successfully delivering the affiliate marketing system. The database was optimised to manage a large volume of discount codes, partner banner systems and affiliate accounts. Account tiering and bulk user status updates let the system calculate commission automatically, transparently and accurately.',
-                    'On the administration side, a dedicated admin CRM is integrated deep into the system. The team can easily control stock, manage order status and analyse sales performance for each affiliate campaign in real time, making operational decisions on accurate data.'
-                ],
-                metrics: ['New affiliates activated', 'Affiliate revenue growth', 'Cart abandonment rate']
-            },
-            'salomon': {
-                name: 'Phuc BANI Course Website',
-                summary: 'An automated online training system with an optimised learning journey.',
-                description: 'The project built a complete e-learning platform that is not only a home for high-quality lessons but an automated sales funnel. At its heart is removing the technology barrier for learners, creating a seamless flow from researching the course, to payment, to officially entering the classroom.',
-                details: [
-                    'Each course landing page was designed to be intuitive, highlighting the teaching path and the outcomes. The lesson video player is configured for optimal bandwidth, keeping playback fast and smooth with no stutter and meeting mobile-first standards for learners on their phones.',
-                    'To raise conversion and simplify account creation, the system integrates phone-number login with OTP verification. New learners skip the cumbersome email verification steps and go straight into the learning management system, quickly and securely.',
-                    'The whole journey from payment to classroom access is 100% automated. The moment a payment succeeds, a webhook fires to unlock the course content and automatically sends a confirmation message and study instructions through Zalo Business Solution (ZBS) directly to the learner’s Zalo account.'
-                ],
-                metrics: ['Close rate (CVR)', 'Access provisioning speed', 'OTP login rate']
-            },
-            'miniapp-beautysummit-2026': {
-                name: 'Beauty Summit 2026 Mini App',
-                summary: 'An event engagement solution on Zalo Mini App with a quest, points and rewards system.',
-                description: 'The project brought something new to a beauty event. Through a quest system that earns points redeemable for rewards for ticket holders, the mini app lifted engagement and drove revenue from VIP ticket tiers. The points system was designed to be intuitive, so attendees could take part easily and claim appealing rewards right inside the familiar Zalo platform, with no extra app to download.',
-                details: [
-                    'To keep the experience smooth in a crowded event space, the mini app interface was developed mobile-first. We paid particular attention to a clear user instruction section, combined with optimised UI/UX so attendees of any age could grasp the flow quickly.',
-                    'The core feature flow revolves around real-world gamified quests: attendees scan QR codes to check in at booths and follow the organiser’s Zalo Official Account (OA) to earn points. These tasks digitise the whole experience journey, turning every step a guest takes into a measurable touchpoint.',
-                    'Accumulated points can be redeemed for physical rewards or VIP ticket upgrades. By leaning on the Zalo ecosystem, the solution not only lifted the energy on the floor but also let the organisers automatically collect a large volume of quality user data for continued remarketing through Zalo OA after the event.'
-                ],
-                metrics: ['Event engagement', 'Zalo OA follows', 'QR check-in scans']
-            },
-            'hoang-minh-logistic': {
-                name: 'Hoang Minh Logistics Website',
-                summary: 'A professional corporate website for an official China–Vietnam logistics network.',
-                description: 'The project delivered a complete corporate website for Hoang Minh Logistics, clearly presenting its official China–Vietnam freight capabilities, partner network, service portfolio and working process. A consistent navy-and-red visual system reinforces the brand’s reliable, professional image while making it easy for prospective customers to request advice.',
-                details: [
-                    'Content follows the customer’s research journey, from the company overview and freight, warehousing and customs services through to enquiry, quotation, contracting and delivery. Consultation calls to action are placed clearly to shorten the path from need to contact.',
-                    'The partner network and operational scale are visualised through maps, key figures and scannable content areas. This presentation helps visitors quickly understand available routes, cargo-handling capacity and the breadth of Hoang Minh Logistics’ services.',
-                    'The website is responsive across desktop, tablet and mobile and includes a news area for industry updates. The interface prioritises performance, readability and an SEO-friendly structure to support long-term organic visibility.'
-                ],
-                metrics: ['Suppliers', 'Product types', 'Key industries']
-            },
-            'ladipage-topmus': {
-                name: 'Topmus Landing Page',
-                summary: 'A striking, responsive NPC Live Creator recruitment landing page with an optimised application journey.',
-                description: 'The recruitment landing page for Topmus Entertainment was designed to attract NPC Live Creator applicants through a modern neon visual style aligned with the brand. Its content creates a clear persuasive journey, moving from the opportunity, benefits and income potential to a direct application call to action.',
-                details: [
-                    'The hero uses energetic key visuals to bring the recruitment message and primary call to action into the first screen. Each section has a clear information hierarchy so applicants can quickly understand the benefits, development path and working environment at Topmus.',
-                    'The mobile experience is prioritised with a responsive interface, prominent calls to action and a concise form. Important actions are streamlined so younger users can review the information and complete an application quickly on their phones.',
-                    'The landing page is optimised for application conversion and paid campaign compatibility. Colour, effects and action-led copy are coordinated to maintain the brand mood throughout without compromising speed or ease of use.'
-                ],
-                metrics: ['Creators in the network', 'Stable monthly income', 'Markets served']
-            }
-        }
     },
 
     // ================================================================
@@ -2242,17 +1876,20 @@ export default {
     // ================================================================
     news: {
         list: {
+            badge: 'News',
             title: 'News & Insights',
             subtitle:
                 'Articles on technology, AI, marketing and web design, organised so they are easy to find and easy to read.',
-            searchLabel: 'Search',
-            searchPlaceholder: 'Title, description, tag...',
-            categoryLabel: 'Category',
-            allCategories: 'All categories',
-            results: 'Results',
+            searchLabel: 'Search articles',
+            searchPlaceholder: 'Search articles...',
+            allCategories: 'All',
+            count: '{{count}} articles',
+            featured: 'Latest article',
+            readArticle: 'Read article',
             clearFilters: 'Clear filters',
-            ready: 'Ready',
-            loadMore: 'Load more'
+            empty: 'No matching articles found.',
+            emptyHint: 'Try another keyword or clear the filters to see every article.',
+            loadMore: 'Load more articles'
         },
         detail: {
             breadcrumb: 'News',
@@ -2260,22 +1897,21 @@ export default {
             notFoundTitle: 'Article not found',
             notFoundDescription: 'The article you are looking for may have changed or no longer exists.',
             backToNews: 'Back to news',
-            previous: 'Previous article',
-            next: 'Next article',
+            readingTime: '{{count}} min read',
+            toc: 'Contents',
             share: 'Share',
-            shareTitle: 'Share this article',
-            shareDescription: 'Send it to a teammate, or save the link to read later.',
+            shareFacebook: 'Share on Facebook',
+            shareLinkedin: 'Share on LinkedIn',
             copyLinkLabel: 'Copy the article link:',
             copied: 'Copied',
             copyLink: 'Copy link',
-            toc: 'Contents',
-            tocEmpty: 'This article has no headings to build a table of contents from.',
+            previous: 'Previous article',
+            next: 'Next article',
+            ctaTitle: 'Need a digital solution for your business?',
+            ctaDescription: 'Talk to Nextgency for advice tailored to your goals and budget.',
             related: 'Related',
             relatedTitle: 'Related articles',
-            relatedDescription: 'Three articles picked at random to keep you reading along the same thread.',
-            viewAll: 'View all',
-            loadMore: 'Load more',
-            empty: 'No matching articles.'
+            viewAll: 'View all articles'
         }
     },
 

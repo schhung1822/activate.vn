@@ -1,0 +1,92 @@
+{
+  "id": "beauty-summit-2025",
+  "status": "published",
+  "order": 2,
+  "date": "02/2025",
+  "category": [
+    "Website & Landing Page",
+    "Automations & Data",
+    "Facebook Ads"
+  ],
+  "partner": "Hana HP Group",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel",
+    "Automations",
+    "Data",
+    "n8n",
+    "Email Marketing",
+    "ZBS Zalo"
+  ],
+  "metrics": [
+    {
+      "value": "+38%"
+    },
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "-18%"
+    }
+  ],
+  "ctaUrl": "https://beautysummit.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/website&landingpage/beautysummit.webp",
+    "/assets/images/portfolio/12.webp",
+    "/assets/images/portfolio/a%20(9).webp",
+    "/assets/images/portfolio/a%20(10).webp",
+    "/assets/images/portfolio/a%20(11).webp",
+    "/assets/images/portfolio/a%20(12).webp",
+    "/assets/images/portfolio/a%20(13).webp",
+    "/assets/images/portfolio/a%20(14).webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Beauty Summit 2025",
+      "summary": "Hệ sinh thái số toàn diện cho sự kiện ngành làm đẹp.",
+      "description": "Dự án xây dựng hệ sinh thái website và dữ liệu xoay quanh sự kiện Beauty Summit 2025, bao gồm website giới thiệu sự kiện, landing page tạo thiệp mời cá nhân hóa, cổng thanh toán & check-in, nền tảng bình chọn Beauty Awards và hệ thống dataset phục vụ quảng cáo chuyển đổi. Mục tiêu là số hóa toàn bộ hành trình người tham gia từ đăng ký → thanh toán → check-in → bình chọn → remarketing sau sự kiện.",
+      "details": [
+        "Hệ thống website sự kiện đóng vai trò trung tâm, cung cấp thông tin chương trình, diễn giả, gian hàng và vé. Landing page tạo thiệp mời được cá nhân hóa theo từng nhóm khách mời, hỗ trợ chia sẻ nhanh qua Zalo, Facebook và email để lan tỏa sự kiện.",
+        "Cổng thanh toán & check-in được triển khai đồng bộ, cho phép người dùng thanh toán online, sinh mã QR riêng cho từng vé và check-in nhanh tại sự kiện. Dữ liệu check-in được cập nhật theo thời gian thực để phục vụ vận hành và báo cáo.",
+        "Website bình chọn Beauty Awards được xây dựng nhằm tăng tương tác và thu thập dữ liệu người quan tâm. Toàn bộ hành vi (xem trang, đăng ký, thanh toán, check-in, bình chọn) được gom về dataset trung tâm để chạy quảng cáo chuyển đổi, remarketing và phân tích hiệu quả chiến dịch."
+      ],
+      "metrics": [
+        "Tăng trưởng doanh thu",
+        "Tỷ lệ chuyển đổi",
+        "CPA"
+      ]
+    },
+    "en": {
+      "name": "Beauty Summit 2025",
+      "summary": "A complete digital ecosystem for a beauty industry event.",
+      "description": "The project built a website and data ecosystem around the Beauty Summit 2025 event, covering the event website, a personalised invitation landing page, a payment and check-in gateway, the Beauty Awards voting platform and a dataset system powering conversion advertising. The goal was to digitise the whole attendee journey: registration → payment → check-in → voting → post-event remarketing.",
+      "details": [
+        "The event website sat at the centre, carrying the programme, speakers, booths and ticketing. The invitation landing page was personalised per guest segment and made it easy to share via Zalo, Facebook and email to spread the event.",
+        "The payment and check-in gateway was rolled out end to end, letting people pay online, generating a unique QR code per ticket and enabling fast check-in on the day. Check-in data updated in real time for operations and reporting.",
+        "The Beauty Awards voting site was built to lift engagement and capture data on interested attendees. Every behaviour (page views, registration, payment, check-in, voting) was collected into a central dataset to power conversion advertising, remarketing and campaign analysis."
+      ],
+      "metrics": [
+        "Revenue growth",
+        "Conversion rate",
+        "CPA"
+      ]
+    },
+    "cn": {
+      "name": "Beauty Summit 2025",
+      "summary": "为美业展会打造的完整数字生态。",
+      "description": "项目围绕 Beauty Summit 2025 搭建了网站与数据生态，包括活动介绍网站、个性化电子请柬落地页、支付与签到通道、Beauty Awards 投票平台，以及支撑转化广告的数据集系统。目标是把参会者的完整旅程数字化：报名 → 支付 → 签到 → 投票 → 会后再营销。",
+      "details": [
+        "活动网站是整个体系的中心，承载议程、讲师、展位与票务信息。电子请柬落地页按不同嘉宾人群做个性化，并支持通过 Zalo、Facebook 与邮件快速分享，扩大活动声量。",
+        "支付与签到通道同步落地，用户可在线付款，系统为每张票生成专属二维码，现场即可快速签到。签到数据实时更新，支撑现场运营与报表。",
+        "Beauty Awards 投票网站用于提升互动并沉淀潜在人群数据。所有行为（浏览、报名、支付、签到、投票）都汇总到中央数据集，用于转化广告、再营销与活动效果分析。"
+      ],
+      "metrics": [
+        "营收增长",
+        "转化率",
+        "CPA"
+      ]
+    }
+  }
+}

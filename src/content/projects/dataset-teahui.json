@@ -1,0 +1,79 @@
+{
+  "id": "dataset-teahui",
+  "status": "published",
+  "order": 9,
+  "date": "10/2025",
+  "category": [
+    "Facebook Ads"
+  ],
+  "partner": "Teahui",
+  "technologies": [
+    "Dataset",
+    "Ladipage",
+    "Automations",
+    "Data"
+  ],
+  "metrics": [
+    {
+      "value": "+38%"
+    },
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "-18%"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/dataset.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Ứng dụng dataset chạy chuyển đổi với Teahui",
+      "summary": "Triển khai dataset và tự động hóa để tối ưu quảng cáo chuyển đổi cho Teahui.",
+      "description": "Dự án tập trung ứng dụng dataset kết hợp nền tảng Smax.ai nhằm cải thiện hiệu quả quảng cáo chuyển đổi cho thương hiệu Teahui. Hệ thống được xây dựng để thu thập, chuẩn hóa và khai thác dữ liệu hành vi khách hàng, từ đó hỗ trợ thuật toán quảng cáo học nhanh hơn và phân phối tới đúng nhóm khách hàng tiềm năng.",
+      "details": [
+        "Chúng tôi triển khai giải pháp dataset để thu thập dữ liệu từ landing page và các điểm chạm marketing, bao gồm hành vi điền form, tương tác và chuyển đổi, giúp tạo nguồn dữ liệu sạch và nhất quán cho các chiến dịch quảng cáo.",
+        "Dataset được kết nối với Smax.ai để tự động phân loại và xử lý dữ liệu khách hàng, đồng thời hỗ trợ phản hồi nhanh cho khách hàng tiềm năng thông qua chatbot, tăng khả năng chốt đơn ngay trong quá trình tư vấn.",
+        "Toàn bộ dữ liệu chuyển đổi được đồng bộ và theo dõi liên tục, tạo nền tảng cho việc tối ưu chiến dịch quảng cáo Facebook theo hướng tập trung vào chất lượng data, giảm chi phí trên mỗi chuyển đổi và nâng cao hiệu quả kinh doanh."
+      ],
+      "metrics": [
+        "Tăng trưởng doanh thu",
+        "Tỷ lệ chuyển đổi",
+        "CPA"
+      ]
+    },
+    "en": {
+      "name": "Conversion Dataset Implementation with Teahui",
+      "summary": "Dataset and automation work to optimise conversion advertising for Teahui.",
+      "description": "The project applied a dataset approach alongside the Smax.ai platform to improve conversion advertising performance for the Teahui brand. The system collects, standardises and works customer behaviour data so the ad algorithm learns faster and delivers to the right prospects.",
+      "details": [
+        "We implemented a dataset solution collecting data from the landing page and marketing touchpoints, including form fills, engagement and conversions, creating a clean and consistent data source for advertising.",
+        "The dataset was connected to Smax.ai to classify and process customer data automatically while supporting fast replies to prospects through a chatbot, raising the chance of closing during the conversation.",
+        "All conversion data is synced and monitored continuously, creating the foundation for optimising Facebook campaigns around data quality, lowering cost per conversion and improving business results."
+      ],
+      "metrics": [
+        "Revenue growth",
+        "Conversion rate",
+        "CPA"
+      ]
+    },
+    "cn": {
+      "name": "Teahui 转化数据集落地",
+      "summary": "通过数据集与自动化，优化 Teahui 的转化广告效果。",
+      "description": "项目结合 Smax.ai 平台运用数据集方案，提升 Teahui 品牌的转化广告效果。系统负责采集、规范并利用客户行为数据，从而让广告算法学得更快，并投放给真正的潜在客户。",
+      "details": [
+        "我们落地数据集方案，从落地页与各营销触点采集数据，包括表单填写、互动与转化行为，为广告投放建立干净、一致的数据源。",
+        "数据集与 Smax.ai 打通，自动对客户数据做分类与处理，同时通过聊天机器人快速响应潜在客户，提高在沟通过程中成单的概率。",
+        "全部转化数据持续同步与监控，为围绕数据质量优化 Facebook 广告打下基础，降低单次转化成本并提升经营成效。"
+      ],
+      "metrics": [
+        "营收增长",
+        "转化率",
+        "CPA"
+      ]
+    }
+  }
+}

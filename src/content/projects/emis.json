@@ -1,0 +1,79 @@
+{
+  "id": "emis",
+  "status": "published",
+  "order": 23,
+  "date": "04/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Emis",
+  "technologies": [
+    "Ladipage",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "Thân thiện cho trẻ em"
+    },
+    {
+      "value": "Dễ vận hành"
+    },
+    {
+      "value": "Nhanh gọn"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/em1.webp",
+    "/assets/images/projects/em2.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-learning Emis English",
+      "summary": "Thiết kế và triển khai website học tập tiếng Anh cho trẻ em.",
+      "description": "Dự án tập trung xây dựng website e-learning cho Emis English nhằm phục vụ nhu cầu học tiếng Anh của trẻ em. Hệ thống được thiết kế thân thiện với trẻ nhỏ, dễ sử dụng cho phụ huynh và hỗ trợ tốt cho hoạt động giảng dạy, học tập trực tuyến.",
+      "details": [
+        "Thiết kế website học tập tiếng Anh cho bé với giao diện trực quan, màu sắc thân thiện và dễ thao tác.",
+        "Xây dựng cấu trúc bài học, khóa học và nội dung học tập phù hợp với từng độ tuổi.",
+        "Thiết lập đo lường GA4 để theo dõi hành vi học tập, hỗ trợ tối ưu trải nghiệm và cải thiện hiệu quả đào tạo."
+      ],
+      "metrics": [
+        "Trải nghiệm học tập",
+        "Khả năng quản trị",
+        "Tốc độ triển khai"
+      ]
+    },
+    "en": {
+      "name": "Emis English E-learning Website",
+      "summary": "Design and delivery of an English learning website for children.",
+      "description": "The project built an e-learning website for Emis English serving children learning English. The system was designed to be friendly for young learners, easy for parents and supportive of online teaching and study.",
+      "details": [
+        "An English learning website for children with an intuitive interface, friendly colours and simple interactions.",
+        "A lesson, course and content structure suited to each age group.",
+        "GA4 measurement set up to track study behaviour, supporting experience optimisation and better training outcomes."
+      ],
+      "metrics": [
+        "Learning experience",
+        "Ease of administration",
+        "Delivery speed"
+      ]
+    },
+    "cn": {
+      "name": "Emis English 在线学习网站",
+      "summary": "为儿童设计并落地的英语学习网站。",
+      "description": "项目为 Emis English 搭建面向儿童英语学习的在线学习网站。系统对小朋友友好、便于家长使用，并能很好地支撑线上教学与学习。",
+      "details": [
+        "儿童英语学习网站，界面直观、配色亲和、操作简单。",
+        "按不同年龄段搭建课节、课程与学习内容结构。",
+        "配置 GA4 衡量以追踪学习行为，支撑体验优化并提升培训成效。"
+      ],
+      "metrics": [
+        "学习体验",
+        "后台易用性",
+        "交付速度"
+      ]
+    }
+  }
+}

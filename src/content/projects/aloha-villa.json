@@ -1,0 +1,80 @@
+{
+  "id": "aloha-villa",
+  "status": "published",
+  "order": 5,
+  "date": "05/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Aloha Villa",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel",
+    "Automations",
+    "Data"
+  ],
+  "metrics": [
+    {
+      "value": "+42%"
+    },
+    {
+      "value": "+27%"
+    },
+    {
+      "value": "-19%"
+    }
+  ],
+  "ctaUrl": "https://aloha.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/18.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website Aloha Villa",
+      "summary": "Website giới thiệu, blog và đặt phòng cho khu nghỉ dưỡng Aloha Villa.",
+      "description": "Dự án tập trung xây dựng website giới thiệu Aloha Villa với mục tiêu nâng cao hình ảnh thương hiệu, truyền tải trải nghiệm nghỉ dưỡng và thúc đẩy nhu cầu đặt phòng trực tuyến. Website đóng vai trò là kênh thông tin chính thức, nơi khách hàng có thể khám phá không gian villa, tiện ích, dịch vụ và dễ dàng đưa ra quyết định đặt phòng.",
+      "details": [
+        "Website được thiết kế theo phong cách nghỉ dưỡng cao cấp, tập trung vào hình ảnh và trải nghiệm thị giác, giúp khách hàng cảm nhận được không gian, tiện ích và giá trị khác biệt của Aloha Villa ngay từ lần truy cập đầu tiên.",
+        "Chúng tôi xây dựng hệ thống blog chia sẻ kinh nghiệm du lịch, gợi ý lịch trình và thông tin điểm đến, góp phần tăng giá trị nội dung, cải thiện SEO và thu hút lượng truy cập tự nhiên ổn định.",
+        "Chức năng đặt phòng được tích hợp trực tiếp trên website, cho phép khách hàng kiểm tra thông tin phòng, thời gian lưu trú và gửi yêu cầu đặt phòng nhanh chóng. Đồng thời, hệ thống đo lường hành vi được triển khai để theo dõi lượt xem phòng, tương tác và nhu cầu đặt phòng, tạo nền tảng cho các hoạt động marketing và tối ưu chuyển đổi về sau."
+      ],
+      "metrics": [
+        "Lượt truy cập website",
+        "Tỷ lệ gửi yêu cầu đặt phòng",
+        "Tỷ lệ thoát trang"
+      ]
+    },
+    "en": {
+      "name": "Aloha Villa Website",
+      "summary": "A brand, blog and booking website for the Aloha Villa resort.",
+      "description": "The project built the Aloha Villa website to raise the brand image, convey the resort experience and drive online booking demand. The site acts as the official information channel where guests can explore the villa, its amenities and services, and reach a booking decision easily.",
+      "details": [
+        "The site was designed in a premium resort style, leading with imagery and visual experience so guests feel the space, the amenities and what makes Aloha Villa different from their very first visit.",
+        "We built a blog sharing travel tips, itinerary suggestions and destination information, adding content value, improving SEO and attracting steady organic traffic.",
+        "Booking was integrated directly into the site, letting guests check room details and stay dates and send a booking request quickly. Behaviour tracking was implemented to monitor room views, engagement and booking demand, laying the foundation for later marketing and conversion work."
+      ],
+      "metrics": [
+        "Website visits",
+        "Booking request rate",
+        "Bounce rate"
+      ]
+    },
+    "cn": {
+      "name": "Aloha Villa 网站",
+      "summary": "为 Aloha Villa 度假别墅打造的品牌、博客与预订网站。",
+      "description": "项目搭建 Aloha Villa 官网，旨在提升品牌形象、传递度假体验并带动线上预订需求。网站是官方信息渠道，客人可在此了解别墅空间、配套与服务，并轻松做出预订决定。",
+      "details": [
+        "网站采用高端度假风格设计，以图片与视觉体验为主，让客人在第一次访问时就能感受到 Aloha Villa 的空间、配套与独特价值。",
+        "我们搭建了博客板块，分享旅行经验、行程建议与目的地信息，提升内容价值、改善 SEO 并带来稳定的自然流量。",
+        "预订功能直接集成在网站上，客人可查看房型信息与入住时间并快速提交预订请求。同时落地行为追踪，监测房型浏览、互动与预订需求，为后续的营销与转化优化奠定基础。"
+      ],
+      "metrics": [
+        "网站访问量",
+        "预订请求率",
+        "跳出率"
+      ]
+    }
+  }
+}

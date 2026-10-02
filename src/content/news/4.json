@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "slug": "ux-ui-best-practices",
+  "status": "published",
+  "title": "UX/UI Best Practices: Tạo trải nghiệm người dùng tốt nhất",
+  "description": "Những nguyên tắc cơ bản để thiết kế giao diện người dùng chuyên nghiệp",
+  "thumbnail": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=400&h=250&fit=crop",
+  "date": "2025-01-08",
+  "categories": [
+    "Design",
+    "UX/UI"
+  ],
+  "tags": [
+    "UX",
+    "UI",
+    "design principles"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "rino-authentic",
+  "status": "published",
+  "order": 6,
+  "date": "04/2025",
+  "category": [
+    "Website & Landing Page",
+    "Automations & Data",
+    "Facebook Ads"
+  ],
+  "partner": "Nextgen",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel",
+    "Automations",
+    "Data"
+  ],
+  "metrics": [
+    {
+      "value": "+38%"
+    },
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "-18%"
+    }
+  ],
+  "ctaUrl": "https://rino.com.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/test.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-commerce Rino Authentic",
+      "summary": "Website e-commerce bán thời trang nam với định hướng thương hiệu rõ ràng và tối ưu chuyển đổi.",
+      "description": "Dự án tập trung xây dựng website e-commerce cho thương hiệu thời trang nam Rino Authentic, đóng vai trò là kênh bán hàng trung tâm và nền tảng phát triển thương hiệu dài hạn. Website được thiết kế nhằm thể hiện phong cách nam tính, hiện đại, đồng thời tối ưu trải nghiệm mua sắm để gia tăng tỷ lệ chuyển đổi và giá trị đơn hàng.",
+      "details": [
+        "Website được triển khai theo mô hình e-commerce hoàn chỉnh, bao gồm danh mục sản phẩm, bộ lọc theo size – màu – kiểu dáng, giỏ hàng và thanh toán. Nội dung sản phẩm được chuẩn hóa để vừa truyền tải giá trị thương hiệu, vừa hỗ trợ quyết định mua nhanh chóng.",
+        "Chúng tôi tối ưu UI/UX theo hành vi mua sắm của khách hàng thời trang nam, rút ngắn luồng từ xem sản phẩm đến đặt hàng, đồng thời đảm bảo hiển thị tốt trên thiết bị di động – nơi chiếm phần lớn lưu lượng truy cập.",
+        "Hệ thống đo lường và dữ liệu được tích hợp ngay từ đầu với GA4 và Meta Pixel, theo dõi đầy đủ các hành vi như xem sản phẩm, thêm vào giỏ và hoàn tất thanh toán. Đây là nền tảng để triển khai các chiến dịch quảng cáo chuyển đổi, remarketing và tối ưu hiệu quả kinh doanh trong các giai đoạn tiếp theo."
+      ],
+      "metrics": [
+        "Tăng trưởng doanh thu",
+        "Tỷ lệ chuyển đổi",
+        "CPA"
+      ]
+    },
+    "en": {
+      "name": "Rino Authentic E-commerce Website",
+      "summary": "A menswear e-commerce website with a clear brand position and conversion optimisation.",
+      "description": "The project built an e-commerce website for the menswear brand Rino Authentic as its central sales channel and a platform for long-term brand growth. The design conveys a masculine, modern style while optimising the shopping experience to lift conversion rate and order value.",
+      "details": [
+        "The site was implemented as a complete e-commerce build: product catalogue, filters by size, colour and cut, cart and checkout. Product content was standardised both to carry brand value and to support fast purchase decisions.",
+        "We optimised the UI/UX around how menswear customers actually shop, shortening the path from product view to order while ensuring strong display on mobile, where most of the traffic comes from.",
+        "Measurement and data were integrated from the start with GA4 and Meta Pixel, fully tracking product views, add to cart and completed checkout. That is the foundation for conversion campaigns, remarketing and business optimisation in later phases."
+      ],
+      "metrics": [
+        "Revenue growth",
+        "Conversion rate",
+        "CPA"
+      ]
+    },
+    "cn": {
+      "name": "Rino Authentic 电商网站",
+      "summary": "定位清晰、以转化为导向的男装电商网站。",
+      "description": "项目为男装品牌 Rino Authentic 搭建电商网站，作为核心销售渠道与长期品牌建设平台。设计上体现阳刚、现代的风格，同时优化购物体验以提升转化率与客单价。",
+      "details": [
+        "网站按完整电商模式落地，包含产品目录，按尺码、颜色、版型的筛选，购物车与结账。产品内容做了标准化，既传递品牌价值，也支撑快速的购买决策。",
+        "我们围绕男装客户的真实购买行为优化 UI/UX，缩短从浏览产品到下单的路径，同时确保在移动端良好展示——那里贡献了绝大部分流量。",
+        "衡量与数据体系从一开始就通过 GA4 与 Meta Pixel 落地，完整追踪浏览产品、加入购物车与完成付款等行为，为后续的转化广告、再营销与经营优化打下基础。"
+      ],
+      "metrics": [
+        "营收增长",
+        "转化率",
+        "CPA"
+      ]
+    }
+  }
+}

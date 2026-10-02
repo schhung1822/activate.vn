@@ -1,0 +1,80 @@
+{
+  "id": "ladipage-topmus",
+  "status": "published",
+  "order": 33,
+  "date": "08/2026",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Topmus Entertainment",
+  "technologies": [
+    "Ladipage",
+    "Responsive Design",
+    "UI/UX",
+    "Conversion Optimization"
+  ],
+  "metrics": [
+    {
+      "value": "< 2 giây"
+    },
+    {
+      "value": "> +500%"
+    },
+    {
+      "value": "+300%"
+    }
+  ],
+  "ctaUrl": "https://dangkynpc.topmus.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/ladi-topmus1.webp",
+    "/assets/images/projects/ladi-topmus2.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Ladipage Topmus",
+      "summary": "Landing page tuyển dụng NPC Live Creator nổi bật, responsive và tối ưu hành trình ứng tuyển.",
+      "description": "Dự án thiết kế landing page tuyển dụng cho Topmus Entertainment, tập trung thu hút ứng viên NPC Live Creator bằng phong cách visual neon hiện đại và bám sát nhận diện thương hiệu. Nội dung được xây dựng theo một hành trình thuyết phục rõ ràng, từ giới thiệu cơ hội, quyền lợi và thu nhập đến lời kêu gọi ứng tuyển trực tiếp.",
+      "details": [
+        "Phần hero sử dụng hình ảnh chủ đạo giàu năng lượng, làm nổi bật thông điệp tuyển dụng và CTA ngay trong màn hình đầu tiên. Bố cục từng section được phân cấp rõ ràng để ứng viên dễ dàng nắm bắt quyền lợi, lộ trình phát triển và môi trường làm việc tại Topmus.",
+        "Trải nghiệm mobile được ưu tiên với giao diện responsive, CTA dễ nhìn và biểu mẫu gọn gàng. Các thao tác quan trọng được tinh giản để người dùng trẻ có thể đọc thông tin và hoàn tất đăng ký nhanh trên điện thoại.",
+        "Landing page được tối ưu cho mục tiêu chuyển đổi ứng tuyển và khả năng kết hợp với các chiến dịch quảng cáo. Màu sắc, hiệu ứng và nội dung hành động được đồng bộ để duy trì cảm xúc thương hiệu xuyên suốt nhưng vẫn đảm bảo tốc độ và tính dễ sử dụng."
+      ],
+      "metrics": [
+        "Nhà sáng tạo đồng hành",
+        "Thu nhập ổn định mỗi tháng",
+        "Thị trường triển khai"
+      ]
+    },
+    "en": {
+      "name": "Topmus Landing Page",
+      "summary": "A striking, responsive NPC Live Creator recruitment landing page with an optimised application journey.",
+      "description": "The recruitment landing page for Topmus Entertainment was designed to attract NPC Live Creator applicants through a modern neon visual style aligned with the brand. Its content creates a clear persuasive journey, moving from the opportunity, benefits and income potential to a direct application call to action.",
+      "details": [
+        "The hero uses energetic key visuals to bring the recruitment message and primary call to action into the first screen. Each section has a clear information hierarchy so applicants can quickly understand the benefits, development path and working environment at Topmus.",
+        "The mobile experience is prioritised with a responsive interface, prominent calls to action and a concise form. Important actions are streamlined so younger users can review the information and complete an application quickly on their phones.",
+        "The landing page is optimised for application conversion and paid campaign compatibility. Colour, effects and action-led copy are coordinated to maintain the brand mood throughout without compromising speed or ease of use."
+      ],
+      "metrics": [
+        "Creators in the network",
+        "Stable monthly income",
+        "Markets served"
+      ]
+    },
+    "cn": {
+      "name": "Topmus 招聘落地页",
+      "summary": "醒目且响应式的 NPC Live Creator 招聘落地页，优化完整应聘路径。",
+      "description": "项目为 Topmus Entertainment 设计招聘落地页，以符合品牌识别的现代霓虹视觉风格吸引 NPC Live Creator 应聘者。内容形成清晰的说服路径，从介绍机会、福利与收入潜力，自然引导至直接应聘的行动号召。",
+      "details": [
+        "首屏采用富有能量感的主视觉，突出招聘信息和核心行动按钮。各内容区块层级明确，让应聘者能够快速掌握福利、成长路径以及 Topmus 的工作环境。",
+        "项目优先优化移动端体验，采用响应式界面、醒目的行动按钮与精简表单。关键操作被进一步简化，让年轻用户可以在手机上快速阅读信息并完成报名。",
+        "落地页针对应聘转化与广告投放兼容性进行优化。色彩、动效与行动文案保持统一，在延续品牌氛围的同时兼顾速度与易用性。"
+      ],
+      "metrics": [
+        "合作创作者",
+        "月收入稳定比例",
+        "覆盖市场"
+      ]
+    }
+  }
+}

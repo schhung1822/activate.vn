@@ -1,0 +1,79 @@
+{
+  "id": "an-vat-ho-chu",
+  "status": "published",
+  "order": 10,
+  "date": "12/2025",
+  "category": [
+    "Facebook Ads"
+  ],
+  "partner": "Ăn vặt họ Chu",
+  "technologies": [
+    "Dataset",
+    "Ladipage",
+    "Automations",
+    "Data"
+  ],
+  "metrics": [
+    {
+      "value": "+38%"
+    },
+    {
+      "value": "+95%"
+    },
+    {
+      "value": "-10%"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/dataset.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Ứng dụng dataset chạy chuyển đổi với Ăn vặt họ Chu",
+      "summary": "Triển khai dataset và tích hợp POS để tối ưu quảng cáo chuyển đổi cho Ăn vặt họ Chu.",
+      "description": "Dự án tập trung ứng dụng dataset kết hợp tích hợp hệ thống POS nhằm đồng bộ dữ liệu bán hàng online – offline cho thương hiệu Ăn vặt họ Chu. Mục tiêu chính là tạo nguồn dữ liệu chuyển đổi chính xác, giúp các chiến dịch quảng cáo Facebook hoạt động hiệu quả hơn và phản ánh đúng doanh thu thực tế.",
+      "details": [
+        "Chúng tôi xây dựng hệ thống dataset thu thập dữ liệu từ landing page và các điểm chạm marketing, bao gồm hành vi điền form, đặt hàng và tương tác, tạo nền tảng dữ liệu sạch cho các chiến dịch quảng cáo chuyển đổi.",
+        "Hệ thống POS được tích hợp để đồng bộ trạng thái đơn hàng và doanh thu thực, đảm bảo dữ liệu chuyển đổi được ghi nhận chính xác, hạn chế sai lệch giữa số liệu quảng cáo và bán hàng thực tế.",
+        "Toàn bộ dữ liệu online – offline được hợp nhất và theo dõi tập trung, giúp đội ngũ marketing tối ưu quảng cáo dựa trên doanh thu thật, đồng thời giảm chi phí trên mỗi chuyển đổi và nâng cao hiệu quả vận hành."
+      ],
+      "metrics": [
+        "Tăng trưởng doanh thu",
+        "Tỷ lệ ghi nhận chuyển đổi chính xác",
+        "CPA"
+      ]
+    },
+    "en": {
+      "name": "Conversion Dataset Implementation with An Vat Ho Chu",
+      "summary": "Dataset work plus POS integration to optimise conversion advertising for An Vat Ho Chu.",
+      "description": "The project applied a dataset approach together with POS integration to sync online and offline sales data for the An Vat Ho Chu brand. The main goal was an accurate conversion data source so Facebook campaigns perform better and reflect real revenue.",
+      "details": [
+        "We built a dataset system collecting data from the landing page and marketing touchpoints, including form fills, orders and engagement, creating a clean data foundation for conversion campaigns.",
+        "The POS system was integrated to sync order status and real revenue, making sure conversions are recorded accurately and limiting the gap between ad numbers and actual sales.",
+        "All online and offline data is unified and tracked centrally, letting the marketing team optimise against real revenue while lowering cost per conversion and improving operational efficiency."
+      ],
+      "metrics": [
+        "Revenue growth",
+        "Accurate conversion tracking",
+        "CPA"
+      ]
+    },
+    "cn": {
+      "name": "An Vat Ho Chu 转化数据集落地",
+      "summary": "通过数据集与 POS 集成，优化 An Vat Ho Chu 的转化广告效果。",
+      "description": "项目运用数据集方案并集成 POS 系统，为 An Vat Ho Chu 品牌打通线上与线下的销售数据。核心目标是获得准确的转化数据源，让 Facebook 广告投放更有效，并真实反映实际营收。",
+      "details": [
+        "我们搭建数据集系统，从落地页与各营销触点采集数据，包括表单填写、下单与互动行为，为转化广告建立干净的数据基础。",
+        "POS 系统被集成进来以同步订单状态与真实营收，确保转化数据被准确记录，减少广告数据与实际销售之间的偏差。",
+        "线上与线下数据统一汇总并集中监控，帮助营销团队基于真实营收优化广告，同时降低单次转化成本并提升运营效率。"
+      ],
+      "metrics": [
+        "营收增长",
+        "转化数据准确率",
+        "CPA"
+      ]
+    }
+  }
+}

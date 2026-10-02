@@ -1,0 +1,79 @@
+{
+  "id": "s-men-femme",
+  "status": "published",
+  "order": 19,
+  "date": "07/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "S-femme x S-men",
+  "technologies": [
+    "Ladipage",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "-18%"
+    },
+    {
+      "value": "Nhanh gọn"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/s1.webp",
+    "/assets/images/projects/s2.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Bộ Ladipage S-men & S-femme",
+      "summary": "Thiết kế bộ Ladipage tối ưu chuyển đổi cho sản phẩm chăm sóc cá nhân.",
+      "description": "Dự án tập trung thiết kế và triển khai bộ Ladipage bán hàng cho hai dòng sản phẩm S-men và S-femme. Mục tiêu chính là tối ưu trải nghiệm người dùng, truyền tải rõ lợi ích sản phẩm và tăng tỷ lệ chuyển đổi từ traffic quảng cáo.",
+      "details": [
+        "Cung cấp bộ Ladipage bán hàng chuẩn cấu trúc chuyển đổi, tối ưu cho các chiến dịch Facebook Ads và social commerce.",
+        "Thiết kế giao diện trực quan, phân tách rõ từng dòng sản phẩm S-men và S-femme, đảm bảo thông điệp nhất quán với định vị thương hiệu.",
+        "Thiết lập đo lường GA4 và tối ưu bố cục nội dung theo nguyên tắc “xem nhanh – hiểu rõ – hành động ngay”."
+      ],
+      "metrics": [
+        "Tỷ lệ chuyển đổi",
+        "Chi phí/lead",
+        "Tốc độ triển khai"
+      ]
+    },
+    "en": {
+      "name": "S-men & S-femme Ladipage Set",
+      "summary": "A conversion-optimised Ladipage set for personal care products.",
+      "description": "The project designed and delivered a set of selling Ladipages for the S-men and S-femme product lines. The main goal was to optimise the user experience, communicate product benefits clearly and lift conversion from paid traffic.",
+      "details": [
+        "A set of selling Ladipages built to a conversion structure, optimised for Facebook Ads and social commerce campaigns.",
+        "An intuitive interface design that separates the S-men and S-femme lines clearly, keeping the message consistent with the brand positioning.",
+        "GA4 measurement set up and content layout optimised on a \"see fast – understand clearly – act now\" principle."
+      ],
+      "metrics": [
+        "Conversion rate",
+        "Cost per lead",
+        "Delivery speed"
+      ]
+    },
+    "cn": {
+      "name": "S-men 与 S-femme Ladipage 套件",
+      "summary": "为个护产品打造的高转化 Ladipage 套件。",
+      "description": "项目为 S-men 与 S-femme 两条产品线设计并落地销售型 Ladipage 套件。核心目标是优化用户体验、清晰传达产品利益点，并提升广告流量的转化率。",
+      "details": [
+        "提供符合转化结构的销售型 Ladipage 套件，针对 Facebook 广告与社交电商投放做了优化。",
+        "界面设计直观，把 S-men 与 S-femme 两条产品线清晰区分，确保信息与品牌定位一致。",
+        "配置 GA4 衡量，并按「看得快—看得懂—立刻行动」的原则优化内容版式。"
+      ],
+      "metrics": [
+        "转化率",
+        "单个线索成本",
+        "交付速度"
+      ]
+    }
+  }
+}

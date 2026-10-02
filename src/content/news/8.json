@@ -1,0 +1,18 @@
+{
+  "id": 8,
+  "slug": "jamstack-architecture",
+  "status": "published",
+  "title": "JAMstack Architecture: Xây dựng website hiệu suất cao",
+  "description": "Tìm hiểu về kiến trúc JAMstack và lợi ích trong phát triển web",
+  "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop",
+  "date": "2024-12-28",
+  "categories": [
+    "Technology",
+    "Development"
+  ],
+  "tags": [
+    "JAMstack",
+    "architecture",
+    "performance"
+  ]
+}

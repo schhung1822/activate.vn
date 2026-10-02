@@ -1,0 +1,83 @@
+{
+  "id": "payment-checkin-tuki-group",
+  "status": "published",
+  "order": 11,
+  "date": "08/2025",
+  "category": [
+    "Automations & Data"
+  ],
+  "partner": "Tuki Group",
+  "technologies": [
+    "Ladipage",
+    "Automations",
+    "Data",
+    "Email Marketing",
+    "ZBS Zalo"
+  ],
+  "metrics": [
+    {
+      "value": "-50%"
+    },
+    {
+      "value": "100%"
+    },
+    {
+      "value": "-90%"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/35.webp",
+    "/assets/images/portfolio/34.webp",
+    "/assets/images/portfolio/33.webp",
+    "/assets/images/portfolio/32.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Hệ thống thanh toán & check-in sự kiện Tuki Group",
+      "summary": "Hệ thống thanh toán, check-in và tự động hóa truyền thông cho sự kiện của Tuki Group.",
+      "description": "Dự án xây dựng hệ thống phục vụ sự kiện cho Tuki Group, bao gồm thanh toán, quản lý danh sách khách mời và check-in tại sự kiện. Hệ thống được thiết kế nhằm giảm tải vận hành thủ công, đảm bảo quy trình check-in nhanh gọn, chính xác và tạo trải nghiệm chuyên nghiệp cho người tham dự.",
+      "details": [
+        "Chúng tôi triển khai hệ thống check-in tự động sử dụng mã QR cho từng khách tham dự, cho phép kiểm soát danh sách khách, trạng thái thanh toán và lượt check-in theo thời gian thực ngay tại sự kiện.",
+        "Hệ thống email marketing và ZBS Zalo được tích hợp để tự động gửi thông tin xác nhận đăng ký, vé điện tử, thông báo trước – trong – sau sự kiện, giúp duy trì tương tác với khách hàng mà không cần thao tác thủ công.",
+        "Toàn bộ dữ liệu đăng ký, thanh toán và check-in được đồng bộ và quản lý tập trung, tạo nền tảng cho việc thống kê, báo cáo nhanh sau sự kiện và phục vụ các hoạt động chăm sóc, remarketing về sau."
+      ],
+      "metrics": [
+        "Thời gian check-in",
+        "Tỷ lệ gửi thông báo tự động",
+        "Sai sót vận hành"
+      ]
+    },
+    "en": {
+      "name": "Tuki Group Event Payment & Check-in System",
+      "summary": "Payment, check-in and communication automation for Tuki Group events.",
+      "description": "The project built an event system for Tuki Group covering payment, guest list management and on-site check-in. It was designed to reduce manual operations, keep check-in fast and accurate, and give attendees a professional experience.",
+      "details": [
+        "We implemented automated QR-code check-in for each attendee, allowing real-time control of the guest list, payment status and check-in counts right at the event.",
+        "Email marketing and ZBS Zalo were integrated to send registration confirmations, e-tickets and pre, during and post-event notifications automatically, keeping engagement going without manual work.",
+        "All registration, payment and check-in data is synced and managed centrally, creating the basis for fast post-event reporting and later care and remarketing activity."
+      ],
+      "metrics": [
+        "Check-in time",
+        "Automated notification rate",
+        "Operational errors"
+      ]
+    },
+    "cn": {
+      "name": "Tuki Group 活动支付与签到系统",
+      "summary": "为 Tuki Group 活动打造的支付、签到与传播自动化系统。",
+      "description": "项目为 Tuki Group 搭建活动系统，涵盖支付、嘉宾名单管理与现场签到。系统旨在减轻人工运营负担，让签到流程快速准确，并为参会者营造专业体验。",
+      "details": [
+        "我们落地了基于二维码的自动签到系统，可在活动现场实时掌控嘉宾名单、付款状态与签到情况。",
+        "邮件营销与 ZBS Zalo 被集成进来，自动发送报名确认、电子门票，以及会前、会中、会后的各类通知，无需人工操作即可维持互动。",
+        "全部报名、支付与签到数据统一同步与集中管理，为会后快速统计报表以及后续的客户维护与再营销打下基础。"
+      ],
+      "metrics": [
+        "签到耗时",
+        "自动通知发送率",
+        "运营差错"
+      ]
+    }
+  }
+}

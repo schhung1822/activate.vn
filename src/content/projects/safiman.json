@@ -1,0 +1,78 @@
+{
+  "id": "safiman",
+  "status": "published",
+  "order": 24,
+  "date": "10/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Safiman",
+  "technologies": [
+    "Ladipage",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "Mượt mà"
+    },
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "Nhanh gọn"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/test.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website E-commerce Safiman",
+      "summary": "Thiết kế và triển khai website thương mại điện tử cho thương hiệu Safiman.",
+      "description": "Dự án tập trung xây dựng website thương mại điện tử cho Safiman nhằm giới thiệu sản phẩm, hỗ trợ bán hàng trực tuyến và tối ưu trải nghiệm mua sắm trên đa thiết bị. Website được thiết kế hiện đại, dễ sử dụng và tối ưu cho các chiến dịch quảng cáo online.",
+      "details": [
+        "Thiết kế website thương mại điện tử với giao diện trực quan, cấu trúc rõ ràng, tối ưu trải nghiệm mua sắm trên mobile và desktop.",
+        "Xây dựng hệ thống trang sản phẩm, giỏ hàng và luồng đặt hàng đơn giản nhằm tăng tỷ lệ chuyển đổi.",
+        "Thiết lập đo lường GA4 để theo dõi hành vi người dùng, phục vụ tối ưu nội dung và hiệu quả kinh doanh."
+      ],
+      "metrics": [
+        "Trải nghiệm mua sắm",
+        "Tỷ lệ chuyển đổi",
+        "Tốc độ triển khai"
+      ]
+    },
+    "en": {
+      "name": "Safiman E-commerce Website",
+      "summary": "Design and delivery of an e-commerce website for the Safiman brand.",
+      "description": "The project built an e-commerce website for Safiman presenting products, supporting online sales and optimising the shopping experience across devices. The site is modern, easy to use and optimised for online advertising campaigns.",
+      "details": [
+        "An e-commerce website with an intuitive interface and clear structure, optimised for shopping on mobile and desktop.",
+        "Product pages, cart and a simple ordering flow built to raise conversion rate.",
+        "GA4 measurement set up to track user behaviour, feeding content optimisation and business performance."
+      ],
+      "metrics": [
+        "Shopping experience",
+        "Conversion rate",
+        "Delivery speed"
+      ]
+    },
+    "cn": {
+      "name": "Safiman 电商网站",
+      "summary": "为 Safiman 品牌设计并落地电商网站。",
+      "description": "项目为 Safiman 搭建电商网站，用于展示产品、支撑线上销售并优化多端购物体验。网站现代、易用，并针对线上广告投放做了优化。",
+      "details": [
+        "电商网站界面直观、结构清晰，针对移动端与桌面端的购物体验做了优化。",
+        "搭建产品页、购物车与简洁的下单流程，以提升转化率。",
+        "配置 GA4 衡量以追踪用户行为，服务内容优化与经营成效。"
+      ],
+      "metrics": [
+        "购物体验",
+        "转化率",
+        "交付速度"
+      ]
+    }
+  }
+}

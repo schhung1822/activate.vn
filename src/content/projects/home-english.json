@@ -1,0 +1,80 @@
+{
+  "id": "home-english",
+  "status": "published",
+  "order": 14,
+  "date": "10/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Home English",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Meta Pixel"
+  ],
+  "metrics": [
+    {
+      "value": "+27%"
+    },
+    {
+      "value": "+19%"
+    },
+    {
+      "value": "-22%"
+    }
+  ],
+  "ctaUrl": "https://homeenglish.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/hom1.webp",
+    "/assets/images/projects/hom2.webp",
+    "/assets/images/projects/hom3.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Tối ưu & nâng cấp website Home English",
+      "summary": "Cải thiện trải nghiệm người dùng và hiệu quả chuyển đổi trên nền website cũ.",
+      "description": "Dự án tập trung vào việc chỉnh sửa và nâng cấp website hiện tại của Home English nhằm khắc phục các hạn chế về giao diện, trải nghiệm người dùng và khả năng chuyển đổi. Thay vì xây mới hoàn toàn, chúng tôi tối ưu lại cấu trúc nội dung, luồng điều hướng và các điểm kêu gọi hành động để website vận hành hiệu quả hơn, hỗ trợ tốt cho hoạt động kinh doanh và tư vấn khóa học.",
+      "details": [
+        "Mục tiêu chính của dự án là cải thiện hiệu suất website cũ bằng cách rà soát lại toàn bộ cấu trúc trang, nội dung và hành vi người dùng. Các trang quan trọng được sắp xếp lại theo hành trình tìm hiểu – đăng ký – liên hệ, giúp người dùng dễ dàng tiếp cận thông tin khóa học.",
+        "Website được chỉnh sửa giao diện theo hướng rõ ràng, hiện đại và dễ đọc hơn, đồng thời tối ưu hiển thị trên thiết bị di động. Các yếu tố gây nhiễu hoặc dư thừa trong phiên bản cũ được loại bỏ để giảm số bước thao tác của người dùng.",
+        "Ngoài ra, dự án còn tích hợp và chuẩn hóa hệ thống đo lường bằng GA4 và Meta Pixel, giúp đội ngũ Home English theo dõi chính xác nguồn traffic, hành vi người dùng và hiệu quả các chiến dịch quảng cáo."
+      ],
+      "metrics": [
+        "Thời gian onsite",
+        "Tỷ lệ chuyển đổi",
+        "Tỷ lệ thoát trang"
+      ]
+    },
+    "en": {
+      "name": "Home English Website Optimisation & Upgrade",
+      "summary": "Improving user experience and conversion performance on an existing website.",
+      "description": "The project reworked and upgraded the existing Home English website to fix limitations in interface, user experience and conversion. Rather than rebuilding from scratch, we optimised the content structure, navigation flow and calls to action so the site works harder for the business and for course consultation.",
+      "details": [
+        "The main goal was to lift the performance of the old site by reviewing the whole page structure, content and user behaviour. Key pages were re-ordered along the discover → enrol → contact journey so users reach course information easily.",
+        "The interface was reworked to be clearer, more modern and easier to read, with display optimised for mobile. Distracting or redundant elements from the old version were removed to cut the number of steps a user has to take.",
+        "The project also integrated and standardised measurement with GA4 and Meta Pixel, so the Home English team can track traffic sources, user behaviour and campaign performance accurately."
+      ],
+      "metrics": [
+        "Time on site",
+        "Conversion rate",
+        "Bounce rate"
+      ]
+    },
+    "cn": {
+      "name": "Home English 网站优化与升级",
+      "summary": "在原有网站基础上改善用户体验与转化效果。",
+      "description": "项目针对 Home English 现有网站进行改造升级，解决界面、用户体验与转化能力方面的不足。我们没有推倒重建，而是重新梳理内容结构、导航动线与行动号召，让网站运转得更高效，更好地支撑经营与课程咨询。",
+      "details": [
+        "核心目标是通过全面梳理页面结构、内容与用户行为来提升老网站的表现。重要页面按「了解—报名—联系」的旅程重新排布，让用户更容易获取课程信息。",
+        "界面朝更清晰、更现代、更易读的方向改造，同时优化移动端展示。旧版中干扰或冗余的元素被去掉，以减少用户的操作步骤。",
+        "此外，项目还接入并规范了 GA4 与 Meta Pixel 衡量体系，帮助 Home English 团队准确追踪流量来源、用户行为与广告效果。"
+      ],
+      "metrics": [
+        "页面停留时长",
+        "转化率",
+        "跳出率"
+      ]
+    }
+  }
+}

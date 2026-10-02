@@ -1,0 +1,80 @@
+{
+  "id": "kat-skin",
+  "status": "published",
+  "order": 3,
+  "date": "06/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "Thủy Kat Skin",
+  "technologies": [
+    "Wordpress",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "+38%"
+    },
+    {
+      "value": "+21%"
+    },
+    {
+      "value": "-18%"
+    }
+  ],
+  "ctaUrl": "https://katskin.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/portfolio/13.webp",
+    "/assets/images/portfolio/37.webp",
+    "/assets/images/portfolio/38.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website Kat Skin",
+      "summary": "Website e-commerce & giới thiệu thương hiệu mỹ phẩm Kat Skin.",
+      "description": "Dự án tập trung xây dựng website e-commerce kết hợp website giới thiệu thương hiệu Kat Skin, nhằm thể hiện hình ảnh chuyên nghiệp, tăng độ tin cậy và thúc đẩy chuyển đổi bán hàng online. Hệ thống được thiết kế xoay quanh trải nghiệm người dùng, giúp khách hàng dễ dàng tìm hiểu sản phẩm, liệu trình và thực hiện mua sắm chỉ với vài thao tác.",
+      "details": [
+        "Website được xây dựng theo hướng e-commerce, tích hợp đầy đủ các tính năng bán hàng: danh mục sản phẩm, biến thể, giỏ hàng, thanh toán và quản lý đơn hàng. Nội dung và bố cục được tối ưu để vừa giới thiệu câu chuyện thương hiệu, vừa dẫn dắt hành vi mua sắm tự nhiên.",
+        "Chúng tôi tái cấu trúc UI/UX theo tiêu chí “rõ ràng – dễ dùng – thuyết phục”, tối ưu luồng truy cập từ trang giới thiệu sản phẩm đến trang đặt hàng, đồng thời cải thiện tốc độ tải trang trên cả desktop và mobile.",
+        "Hệ thống đo lường được triển khai ngay từ đầu với GA4, theo dõi các hành vi quan trọng như xem sản phẩm, thêm vào giỏ và hoàn tất mua hàng, tạo nền tảng dữ liệu cho các chiến dịch quảng cáo và tối ưu chuyển đổi trong các giai đoạn tiếp theo."
+      ],
+      "metrics": [
+        "Tăng trưởng doanh thu",
+        "Tỷ lệ chuyển đổi",
+        "CPA"
+      ]
+    },
+    "en": {
+      "name": "Kat Skin Website",
+      "summary": "An e-commerce and brand website for the Kat Skin cosmetics brand.",
+      "description": "The project built an e-commerce site combined with a brand website for Kat Skin, presenting a professional image, building trust and driving online sales conversion. The system was designed around the user experience, so customers could explore products and treatments and complete a purchase in a few steps.",
+      "details": [
+        "The site was built for e-commerce with the full selling toolkit: product catalogue, variants, cart, checkout and order management. Content and layout were tuned both to tell the brand story and to guide buying behaviour naturally.",
+        "We rebuilt the UI/UX around \"clear – easy – convincing\", streamlining the path from product page to order page while improving load speed on both desktop and mobile.",
+        "Measurement was implemented from day one with GA4, tracking key behaviours such as product views, add to cart and completed purchase, creating the data foundation for advertising campaigns and conversion optimisation in later phases."
+      ],
+      "metrics": [
+        "Revenue growth",
+        "Conversion rate",
+        "CPA"
+      ]
+    },
+    "cn": {
+      "name": "Kat Skin 网站",
+      "summary": "为化妆品品牌 Kat Skin 打造的电商与品牌网站。",
+      "description": "项目将电商网站与 Kat Skin 品牌官网结合，展现专业形象、提升可信度并推动线上销售转化。系统围绕用户体验设计，让客户能轻松了解产品与疗程，并在几步之内完成购买。",
+      "details": [
+        "网站按电商方向搭建，具备完整的销售功能：产品目录、规格变体、购物车、支付与订单管理。内容与版式既讲述品牌故事，也自然引导购买行为。",
+        "我们按「清晰—易用—有说服力」的标准重构 UI/UX，优化了从产品介绍页到下单页的访问路径，同时提升了桌面端与移动端的加载速度。",
+        "衡量体系从一开始就通过 GA4 落地，追踪浏览产品、加入购物车、完成购买等关键行为，为后续广告投放与转化优化打下数据基础。"
+      ],
+      "metrics": [
+        "营收增长",
+        "转化率",
+        "CPA"
+      ]
+    }
+  }
+}

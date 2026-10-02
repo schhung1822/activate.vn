@@ -1,0 +1,78 @@
+{
+  "id": "evenhub",
+  "status": "published",
+  "order": 25,
+  "date": "04/2025",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "EvenHub",
+  "technologies": [
+    "Ladipage",
+    "GA4",
+    "Figma"
+  ],
+  "metrics": [
+    {
+      "value": "Tăng mạnh"
+    },
+    {
+      "value": "Tối ưu"
+    },
+    {
+      "value": "Nhanh gọn"
+    }
+  ],
+  "ctaUrl": "",
+  "videoUrl": "https://eventhub.vn/",
+  "slides": [
+    "/assets/images/test.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website giới thiệu doanh nghiệp EvenHub",
+      "summary": "Thiết kế website giới thiệu doanh nghiệp với định vị rõ ràng, hiện đại và chuyên nghiệp.",
+      "description": "Dự án tập trung thiết kế và triển khai website giới thiệu doanh nghiệp EvenHub, nhằm truyền tải rõ năng lực, dịch vụ và giá trị cốt lõi của thương hiệu. Website được xây dựng theo hướng tối ưu trải nghiệm người dùng, tăng độ tin cậy và hỗ trợ hiệu quả cho các hoạt động marketing – bán hàng.",
+      "details": [
+        "Xây dựng cấu trúc website giới thiệu doanh nghiệp rõ ràng: Giới thiệu – Dịch vụ – Dự án – Đối tác – Liên hệ.",
+        "Thiết kế giao diện hiện đại, đồng bộ nhận diện thương hiệu, phù hợp với định vị doanh nghiệp.",
+        "Tối ưu trải nghiệm người dùng và tốc độ tải trang, hỗ trợ tốt cho SEO và chiến dịch quảng bá thương hiệu."
+      ],
+      "metrics": [
+        "Độ tin cậy thương hiệu",
+        "Trải nghiệm người dùng",
+        "Tốc độ triển khai"
+      ]
+    },
+    "en": {
+      "name": "EvenHub Corporate Website",
+      "summary": "A corporate website design with a clear, modern and professional position.",
+      "description": "The project designed and delivered the EvenHub corporate website, communicating the company’s capability, services and core values. It was built to optimise the user experience, raise credibility and support marketing and sales effectively.",
+      "details": [
+        "A clear corporate website structure: About – Services – Projects – Partners – Contact.",
+        "A modern interface aligned with the brand identity and the company’s positioning.",
+        "User experience and page speed optimised, supporting SEO and brand campaigns."
+      ],
+      "metrics": [
+        "Brand credibility",
+        "User experience",
+        "Delivery speed"
+      ]
+    },
+    "cn": {
+      "name": "EvenHub 企业官网",
+      "summary": "定位清晰、现代且专业的企业官网设计。",
+      "description": "项目设计并落地 EvenHub 企业官网，清晰传达企业的能力、服务与核心价值。网站以优化用户体验、提升可信度为方向，并有效支撑营销与销售活动。",
+      "details": [
+        "企业官网结构清晰：关于我们—服务—项目—合作伙伴—联系我们。",
+        "界面现代，与品牌识别一致，契合企业定位。",
+        "优化用户体验与页面加载速度，很好地支撑 SEO 与品牌推广活动。"
+      ],
+      "metrics": [
+        "品牌可信度",
+        "用户体验",
+        "交付速度"
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "topmus",
+  "status": "published",
+  "order": 27,
+  "date": "03/2026",
+  "category": [
+    "Website & Landing Page"
+  ],
+  "partner": "TOPMUS Entertaiment",
+  "technologies": [
+    "WordPress",
+    "PHP",
+    "Fluent Forms",
+    "REST API/Webhook",
+    "CRM"
+  ],
+  "metrics": [
+    {
+      "value": "100%"
+    },
+    {
+      "value": "< 2 giây"
+    },
+    {
+      "value": "+40 giờ/tháng"
+    }
+  ],
+  "ctaUrl": "https://topmus.vn/",
+  "videoUrl": "/assets/images/website&landingpage/video.mp4",
+  "slides": [
+    "/assets/images/projects/topmus1.webp",
+    "/assets/images/projects/topmus2.webp",
+    "/assets/images/projects/topmus3.webp",
+    "/assets/images/projects/topmus4.webp"
+  ],
+  "content": {
+    "vi": {
+      "name": "Website Topmus",
+      "summary": "Xây dựng hệ thống Middleware tự động hóa đồng bộ dữ liệu ứng tuyển và tích hợp CRM.",
+      "description": "Dự án giải quyết bài toán xử lý khối lượng lớn hồ sơ bằng cách xây dựng một hệ thống kết nối trung gian mạnh mẽ. Chúng tôi tập trung vào việc tự động hóa hoàn toàn luồng dữ liệu từ lúc ứng viên điền form trên website cho đến khi thông tin xuất hiện trên hệ thống quản lý CRM nội bộ, đảm bảo tính liền mạch, bảo mật và khả năng xử lý các tệp tin đính kèm phức tạp.",
+      "details": [
+        "Thách thức chính của dự án là việc xử lý các form ứng tuyển đòi hỏi phải truyền tải dữ liệu đa phương tiện một cách chính xác. Để giải quyết vấn đề này, chúng tôi đã phát triển và tích hợp giải pháp TOPMUS Middleware V2 dưới dạng một plugin WordPress chuyên biệt.",
+        "Hệ thống tận dụng sức mạnh của Fluent Forms để thu thập thông tin trên front-end. Điểm nhấn kỹ thuật cốt lõi là khả năng bắt và xử lý các luồng Webhook, bao gồm việc tái cấu trúc dữ liệu theo chuẩn multipart/form-data để hỗ trợ tải lên các tệp hồ sơ năng lực (CV) một cách mượt mà sang server bên thứ ba.",
+        "Toàn bộ dữ liệu sau khi đi qua lớp Middleware sẽ được tự động đồng bộ về hệ thống CRM bên ngoài theo thời gian thực. Giải pháp này giúp loại bỏ hoàn toàn các thao tác nhập liệu thủ công, tối ưu hóa quy trình làm việc của bộ phận nhân sự và đảm bảo không có bất kỳ hồ sơ tiềm năng nào bị thất lạc."
+      ],
+      "metrics": [
+        "Tự động hóa luồng dữ liệu",
+        "Tốc độ đồng bộ tệp CV",
+        "Tiết kiệm thời gian xử lý"
+      ]
+    },
+    "en": {
+      "name": "Topmus Website",
+      "summary": "A middleware system automating application data sync and CRM integration.",
+      "description": "The project solved the problem of handling a large volume of applications by building a robust integration layer. We focused on fully automating the data flow from the moment a candidate fills in the form on the website until the information appears in the internal CRM, keeping it seamless, secure and able to handle complex file attachments.",
+      "details": [
+        "The main challenge was handling application forms that require multimedia data to be transferred accurately. To solve it, we developed and integrated the TOPMUS Middleware V2 solution as a dedicated WordPress plugin.",
+        "The system uses Fluent Forms to capture information on the front end. The core technical highlight is its ability to capture and process webhook flows, including restructuring data to the multipart/form-data standard so CV files upload smoothly to a third-party server.",
+        "Once through the middleware layer, all data is synced automatically to the external CRM in real time. This removes manual data entry entirely, streamlines the HR team’s workflow and makes sure no promising application is ever lost."
+      ],
+      "metrics": [
+        "Data flow automation",
+        "CV sync speed",
+        "Processing time saved"
+      ]
+    },
+    "cn": {
+      "name": "Topmus 网站",
+      "summary": "搭建中间件系统，自动同步应聘数据并集成 CRM。",
+      "description": "项目通过搭建一套强健的中间连接系统，解决了海量简历处理的难题。我们专注于把数据流完全自动化——从候选人在网站填写表单，到信息出现在内部 CRM 管理系统——确保流程顺畅、安全，并能处理复杂的附件文件。",
+      "details": [
+        "项目的主要挑战在于处理需要准确传输多媒体数据的应聘表单。为解决这一问题，我们开发并集成了 TOPMUS Middleware V2 方案，形式是一个专用的 WordPress 插件。",
+        "系统借助 Fluent Forms 在前端采集信息。核心技术亮点在于捕获与处理 Webhook 流的能力，包括按 multipart/form-data 标准重构数据，以支持把简历文件顺畅上传至第三方服务器。",
+        "数据经过中间件层后，会实时自动同步到外部 CRM 系统。该方案彻底免除了人工录入，优化了人事部门的工作流程，并确保没有任何有潜力的简历被遗漏。"
+      ],
+      "metrics": [
+        "数据流自动化",
+        "简历同步速度",
+        "节省的处理时间"
+      ]
+    }
+  }
+}
