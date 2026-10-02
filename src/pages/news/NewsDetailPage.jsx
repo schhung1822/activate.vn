@@ -14,7 +14,8 @@ import { slugify } from '../../utils/slugify.js';
 import { ArticleCard, NewsMeta, PillLabel } from '../../components/news/NewsParts.jsx';
 import { newsPath, toDate } from '../../components/news/newsUtils.js';
 import SEOManager from '../../components/SEO/SEOManager.jsx';
-import { generateArticleSchema } from '../../components/SEO/schemas.js';
+import { generateArticleSchema, generateBreadcrumbSchema } from '../../components/SEO/schemas.js';
+import { getNewsSeo } from '../seo-configs.js';
 
 const sortedNews = [...newsItems].sort((left, right) => toDate(right.date) - toDate(left.date));
 
@@ -414,22 +415,26 @@ const NewsDetailPage = () => {
     if (!news) return <NotFound />;
 
     const hasToc = toc.length > 1;
+    // Cùng nguồn với bản prerender (generate-static.js) để thẻ meta không lệch nhau
+    const seo = getNewsSeo(news);
 
     return (
         <div className="bg-white text-black">
             <SEOManager
-                title={`${news.title} | Nextgency`}
-                description={news.description}
-                image={news.thumbnail}
-                ogUrl={newsPath(news)}
+                title={seo.title}
+                description={seo.description}
+                keywords={seo.keywords}
+                image={seo.image}
+                ogUrl={seo.path}
                 type="article"
-                structuredData={generateArticleSchema({
-                    title: news.title,
-                    description: news.description,
-                    image: news.thumbnail,
-                    url: newsPath(news),
-                    publishedTime: news.date
-                })}
+                structuredData={[
+                    generateArticleSchema(seo),
+                    generateBreadcrumbSchema([
+                        { name: t('common.home'), url: '/' },
+                        { name: t('nav.news'), url: '/news' },
+                        { name: seo.headline, url: seo.path }
+                    ])
+                ]}
             />
             <ReadingProgress targetRef={articleRef} />
 

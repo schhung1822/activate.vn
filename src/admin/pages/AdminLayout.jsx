@@ -35,7 +35,7 @@ const AdminLayout = ({children}) => {
     return (
         <div className="min-h-screen bg-slate-50 text-slate-900">
             <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur">
-                <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 px-4 py-3 sm:px-6">
+                <div className="mx-auto flex max-w-[1600px] flex-wrap items-center gap-3 px-4 py-3 sm:px-6">
                     <a href="/admin" className="mr-2 flex items-center gap-2.5">
                         <img src="/assets/images/header/navbarfavicon.png" alt="" className="h-8 w-8 rounded-lg" />
                         <span className="font-bold">Nextgency Admin</span>
@@ -67,7 +67,7 @@ const AdminLayout = ({children}) => {
                     </div>
                 </div>
             </header>
-            <main className="mx-auto max-w-6xl space-y-6 px-4 py-6 sm:px-6 sm:py-8">
+            <main className="mx-auto max-w-[1600px] space-y-6 px-4 py-6 sm:px-6 sm:py-8">
                 {!pathname.startsWith('/admin/docs') && <StorageNotice />}
                 {children}
             </main>

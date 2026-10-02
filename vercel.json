@@ -51,6 +51,18 @@
       "destination": "/cn/news/index.html"
     },
     {
+      "source": "/news/:slug",
+      "destination": "/news/:slug/index.html"
+    },
+    {
+      "source": "/en/news/:slug",
+      "destination": "/en/news/:slug/index.html"
+    },
+    {
+      "source": "/cn/news/:slug",
+      "destination": "/cn/news/:slug/index.html"
+    },
+    {
       "source": "/contact",
       "destination": "/contact/index.html"
     },

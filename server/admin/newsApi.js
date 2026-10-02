@@ -16,6 +16,7 @@ import crypto from 'node:crypto';
 import TurndownService from 'turndown';
 import {gfm} from 'turndown-plugin-gfm';
 import {SITE} from '../../src/pages/seo-configs.js';
+import {markdownExcerpt} from '../../src/utils/markdownExcerpt.js';
 import {createStorage, StorageError} from './storage.js';
 import {deleteContent, listContent, saveContent, uploadImage} from './content.js';
 
@@ -76,22 +77,6 @@ const htmlToMarkdown = (html) =>
 
 const todayInVietnam = () => new Intl.DateTimeFormat('en-CA', {timeZone: 'Asia/Ho_Chi_Minh'}).format(new Date());
 
-/** Mô tả mặc định: đoạn văn đầu tiên của nội dung, bỏ ký hiệu markdown, tối đa 160 ký tự. */
-const excerpt = (markdown) => {
-    const paragraph =
-        String(markdown || '')
-            .split(/\n\s*\n/)
-            .map((block) => block.trim())
-            .find((block) => block && !/^(#|!\[|```|\||-{3,}|>)/.test(block)) || '';
-    const plain = paragraph
-        .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
-        .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
-        .replace(/[*_`~]/g, '')
-        .replace(/\s+/g, ' ')
-        .trim();
-    return plain.length > 160 ? `${plain.slice(0, 157).trimEnd()}...` : plain;
-};
-
 const publicUrl = (item) => `${SITE.baseUrl}/news/${item.slug}-${item.id}`;
 
 const present = (item, {withContent = false} = {}) => {
@@ -139,7 +124,7 @@ const mergeInput = (body, existing) => {
 
     // Bài mới mà đổi tiêu đề thì slug đi theo tiêu đề; bài cũ giữ slug để không gãy link
     if (!existing && body.slug === undefined) item.slug = '';
-    if (!item.description && body.description === undefined) item.description = excerpt(content);
+    if (!item.description && body.description === undefined) item.description = markdownExcerpt(content);
 
     return {item, content, upload: body.thumbnailUpload};
 };

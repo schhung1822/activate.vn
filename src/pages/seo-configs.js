@@ -9,6 +9,7 @@
 // tiếng Việt dưới địa chỉ /en hoặc /cn. Dịch xong chỉ cần thêm khối translations.
 
 import {DEFAULT_LOCALE, LOCALES, localizePath, splitLocaleFromPath} from '../i18n/config.js';
+import {markdownExcerpt} from '../utils/markdownExcerpt.js';
 
 export const SITE = {
     baseUrl: 'https://nextgency.vn',
@@ -571,3 +572,36 @@ export const getSeoAlternates = (route) => {
 /** Mọi cặp (route × ngôn ngữ) - dùng cho prerender và kiểm tra rewrite. */
 export const getLocalizedSeoRoutes = () =>
     seoRoutes.flatMap((route) => LOCALES.map((locale) => resolveSeoForLocale(route, locale.code)));
+
+/* ------------------------------------------------------------ bài viết tin tức */
+
+/**
+ * Cấu hình SEO của một bài viết (/news/<slug>-<id>), cùng dạng với các route tĩnh ở trên.
+ * Dùng chung cho NewsDetailPage (client) và generate-static.js (prerender), nên thẻ
+ * chia sẻ Facebook / Zalo luôn là ảnh bìa + mô tả ngắn của chính bài viết.
+ *
+ * Bài viết chỉ có tiếng Việt (không có `translations`), nên bản /en, /cn bị noindex.
+ *
+ * @param {object} news - metadata bài viết (src/content/news/<id>.json), kèm `context`
+ *                        là nội dung markdown để lấy mô tả dự phòng khi thiếu description.
+ */
+export const getNewsSeo = (news) => {
+    const description =
+        String(news.description || '').trim() || markdownExcerpt(news.context) || seoConfigs.news.description;
+    const tags = (news.tags || []).map((tag) => String(tag).trim()).filter(Boolean);
+
+    return {
+        path: `/news/${news.slug}-${news.id}`,
+        title: `${news.title} | ${SITE.name}`,
+        headline: news.title,
+        description,
+        keywords: tags.join(', '),
+        image: news.thumbnail ? {url: news.thumbnail, alt: news.title} : null,
+        type: 'article',
+        publishedTime: news.date,
+        section: news.categories?.[0] || '',
+        tags,
+        priority: 0.6,
+        changefreq: 'monthly'
+    };
+};

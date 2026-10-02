@@ -22,6 +22,14 @@ export const organizationSchema = {
     }
 };
 
+const organizationReference = {
+    '@type': 'Organization',
+    '@id': ORGANIZATION_ID,
+    name: SITE.name,
+    url: SITE.baseUrl,
+    logo: {'@type': 'ImageObject', url: organizationSchema.logo}
+};
+
 export const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -62,15 +70,34 @@ export const generateBreadcrumbSchema = (items) => ({
     }))
 });
 
-export const generateArticleSchema = ({title, description, image, url, publishedTime, modifiedTime}) => ({
+/**
+ * Nhận trực tiếp kết quả getNewsSeo() (headline, path, section, tags...) hoặc các trường
+ * cũ (title, url). `image` có thể là string hoặc {url, alt}.
+ */
+export const generateArticleSchema = ({
+                                          headline,
+                                          title,
+                                          description,
+                                          image,
+                                          path,
+                                          url,
+                                          publishedTime,
+                                          modifiedTime,
+                                          section,
+                                          tags = []
+                                      }) => ({
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: title,
+    headline: headline || title,
     description,
-    image: toAbsoluteUrl(image || DEFAULT_OG_IMAGE.url),
-    mainEntityOfPage: {'@type': 'WebPage', '@id': toAbsoluteUrl(url)},
+    image: toAbsoluteUrl((typeof image === 'string' ? image : image?.url) || DEFAULT_OG_IMAGE.url),
+    mainEntityOfPage: {'@type': 'WebPage', '@id': toAbsoluteUrl(path || url)},
     datePublished: publishedTime,
     dateModified: modifiedTime || publishedTime,
-    author: {'@id': ORGANIZATION_ID},
-    publisher: {'@id': ORGANIZATION_ID}
+    inLanguage: SITE.lang,
+    ...(section ? {articleSection: section} : {}),
+    ...(tags.length ? {keywords: tags.join(', ')} : {}),
+    // Google cần tên + logo publisher ngay trong Article, không chỉ @id
+    author: organizationReference,
+    publisher: organizationReference
 });

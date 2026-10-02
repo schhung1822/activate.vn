@@ -13,6 +13,10 @@
 //   - Ngôn ngữ chưa dịch       -> noindex, KHÔNG vào sitemap, KHÔNG có hreflang.
 // Nhờ vậy Google không index nội dung tiếng Việt dưới địa chỉ /en hay /cn; dịch xong
 // chỉ cần thêm khối `translations` trong seo-configs.js là trang tự được mở index.
+//
+// BÀI VIẾT TIN TỨC: mỗi bài trong src/content/news/ cũng được prerender thành
+// /news/<slug>-<id>/index.html với ảnh bìa + mô tả ngắn của bài. Đăng/sửa bài qua
+// /admin hoặc API đều tạo commit -> Vercel build lại -> chạy script này.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -21,11 +25,15 @@ import {
     DEFAULT_OG_IMAGE,
     SITE,
     getLocalizedSeoRoutes,
+    getNewsSeo,
     getSeoAlternates,
     resolveOgImage,
+    resolveSeoForLocale,
+    seoConfigs,
     seoRoutes,
     toAbsoluteUrl
 } from '../pages/seo-configs.js';
+import {generateArticleSchema, generateBreadcrumbSchema} from '../components/SEO/schemas.js';
 import {LOCALES, getLocaleConfig} from '../i18n/config.js';
 import {translate} from '../i18n/translate.js';
 
@@ -44,8 +52,98 @@ const escapeHtml = (value) =>
         .replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;');
 
+/* --------------------------------------------------------------- bài viết */
+
+const newsDir = path.join(projectRoot, 'src', 'content', 'news');
+
+const IMAGE_TYPES = {
+    '.webp': 'image/webp',
+    '.png': 'image/png',
+    '.jpg': 'image/jpeg',
+    '.jpeg': 'image/jpeg',
+    '.gif': 'image/gif'
+};
+
+/** Đọc kích thước ảnh từ header file (PNG, GIF, WebP, JPEG). Không nhận ra thì trả về null. */
+const readImageSize = (buffer) => {
+    if (buffer.length >= 24 && buffer.readUInt32BE(0) === 0x89504e47) {
+        return {width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20)};
+    }
+    if (buffer.length >= 10 && buffer.toString('ascii', 0, 3) === 'GIF') {
+        return {width: buffer.readUInt16LE(6), height: buffer.readUInt16LE(8)};
+    }
+    if (buffer.length >= 30 && buffer.toString('ascii', 0, 4) === 'RIFF' && buffer.toString('ascii', 8, 12) === 'WEBP') {
+        const chunk = buffer.toString('ascii', 12, 16);
+        if (chunk === 'VP8X') return {width: buffer.readUIntLE(24, 3) + 1, height: buffer.readUIntLE(27, 3) + 1};
+        if (chunk === 'VP8 ') return {width: buffer.readUInt16LE(26) & 0x3fff, height: buffer.readUInt16LE(28) & 0x3fff};
+        if (chunk === 'VP8L') {
+            const bits = buffer.readUInt32LE(21);
+            return {width: (bits & 0x3fff) + 1, height: ((bits >> 14) & 0x3fff) + 1};
+        }
+    }
+    if (buffer[0] === 0xff && buffer[1] === 0xd8) {
+        let offset = 2;
+        while (offset + 9 < buffer.length) {
+            if (buffer[offset] !== 0xff) {
+                offset += 1;
+                continue;
+            }
+            const marker = buffer[offset + 1];
+            // SOF0-SOF15 (trừ DHT, JPG, DAC) chứa kích thước ảnh
+            if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+                return {height: buffer.readUInt16BE(offset + 5), width: buffer.readUInt16BE(offset + 7)};
+            }
+            offset += 2 + buffer.readUInt16BE(offset + 2);
+        }
+    }
+    return null;
+};
+
+// Facebook chỉ hiện ảnh ngay lần chia sẻ đầu tiên khi biết trước kích thước ảnh,
+// nên với ảnh nằm trong public/ ta đọc sẵn width/height/type.
+const withImageDetails = (image) => {
+    if (!image) return image;
+    const pathname = image.url.split(/[?#]/)[0];
+    const type = IMAGE_TYPES[path.extname(pathname).toLowerCase()];
+    if (!pathname.startsWith('/')) return type ? {...image, type} : image;
+
+    const filePath = path.join(publicDir, decodeURIComponent(pathname));
+    if (!fs.existsSync(filePath)) {
+        console.warn(`⚠️  Không tìm thấy ảnh bìa ${pathname} trong public/`);
+        return image;
+    }
+    const size = readImageSize(fs.readFileSync(filePath));
+    return {...image, ...(type ? {type} : {}), ...(size || {})};
+};
+
+/** Bài viết đã xuất bản, dưới dạng route SEO (xem getNewsSeo trong seo-configs.js). */
+const loadNewsRoutes = () => {
+    if (!fs.existsSync(newsDir)) return [];
+    return fs
+        .readdirSync(newsDir)
+        .filter((file) => file.endsWith('.json'))
+        .map((file) => {
+            const meta = JSON.parse(fs.readFileSync(path.join(newsDir, file), 'utf8'));
+            const bodyPath = path.join(newsDir, file.replace(/\.json$/, '.md'));
+            const context = fs.existsSync(bodyPath) ? fs.readFileSync(bodyPath, 'utf8') : '';
+            return {...meta, context};
+        })
+        .filter((news) => news.status !== 'draft' && news.slug && news.id !== undefined)
+        .map((news) => {
+            const route = getNewsSeo(news);
+            return {...route, image: withImageDetails(route.image)};
+        });
+};
+
+const newsRoutes = loadNewsRoutes();
+
 // Mọi cặp (route × ngôn ngữ). Chỉ những cặp đã dịch mới được index / lên sitemap.
-const localizedRoutes = getLocalizedSeoRoutes();
+// Bài viết chỉ có tiếng Việt nên bản /en, /cn của bài bị noindex.
+const staticRoutes = getLocalizedSeoRoutes();
+const localizedNewsRoutes = newsRoutes.flatMap((route) =>
+    LOCALES.map((locale) => resolveSeoForLocale(route, locale.code))
+);
+const localizedRoutes = [...staticRoutes, ...localizedNewsRoutes];
 const indexableRoutes = localizedRoutes.filter((route) => route.hasTranslation);
 
 /* ------------------------------------------------------------------ sitemap */
@@ -62,17 +160,23 @@ const generateSitemap = () => {
                 )
                 .join('');
 
+            // Bài viết: ngày đăng thật + ảnh bìa (Google Images)
+            const image =
+                route.type === 'article' && route.image
+                    ? `\n    <image:image>\n      <image:loc>${escapeHtml(resolveOgImage(route.image).url)}</image:loc>\n    </image:image>`
+                    : '';
+
             return `  <url>
     <loc>${toAbsoluteUrl(route.path)}</loc>${alternates}
-    <lastmod>${lastmod}</lastmod>
+    <lastmod>${route.publishedTime || lastmod}</lastmod>
     <changefreq>${route.changefreq || 'monthly'}</changefreq>
-    <priority>${(route.priority ?? 0.5).toFixed(1)}</priority>
+    <priority>${(route.priority ?? 0.5).toFixed(1)}</priority>${image}
   </url>`;
         })
         .join('\n');
 
     return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls}
 </urlset>
 `;
@@ -108,6 +212,17 @@ const buildSchemas = (route) => {
             addressCountry: 'VN'
         }
     };
+
+    if (route.type === 'article' && route.headline) {
+        return [
+            generateBreadcrumbSchema([
+                {name: translate(locale, 'common.home'), url: getLocaleConfig(locale).prefix || '/'},
+                {name: translate(locale, 'nav.news'), url: seoConfigs.news.path},
+                {name: route.headline, url: route.basePath}
+            ]),
+            generateArticleSchema(route)
+        ];
+    }
 
     if (route.basePath === '/') {
         return [
@@ -199,9 +314,17 @@ const buildHead = (route) => {
         tags.push(`<meta property="og:locale:alternate" content="${item.ogLocale}" />`);
     });
 
+    if (type === 'article') {
+        if (route.publishedTime) tags.push(`<meta property="article:published_time" content="${escapeHtml(route.publishedTime)}" />`);
+        if (route.section) tags.push(`<meta property="article:section" content="${escapeHtml(route.section)}" />`);
+        (route.tags || []).forEach((tag) => tags.push(`<meta property="article:tag" content="${escapeHtml(tag)}" />`));
+    }
+
+    // URL ảnh có thể chứa "&" (vd ảnh Unsplash ?w=400&h=250) -> phải escape trong thuộc tính
+    const imageUrl = escapeHtml(image.url);
     tags.push(
-        `<meta property="og:image" content="${image.url}" />`,
-        `<meta property="og:image:secure_url" content="${image.url}" />`,
+        `<meta property="og:image" content="${imageUrl}" />`,
+        `<meta property="og:image:secure_url" content="${imageUrl}" />`,
         `<meta property="og:image:alt" content="${escapeHtml(image.alt)}" />`
     );
 
@@ -213,7 +336,7 @@ const buildHead = (route) => {
         '<meta name="twitter:card" content="summary_large_image" />',
         `<meta name="twitter:title" content="${escapeHtml(route.title)}" />`,
         `<meta name="twitter:description" content="${escapeHtml(route.description)}" />`,
-        `<meta name="twitter:image" content="${image.url}" />`,
+        `<meta name="twitter:image" content="${imageUrl}" />`,
         `<meta name="twitter:image:alt" content="${escapeHtml(image.alt)}" />`,
         `<meta name="twitter:site" content="${SITE.twitterHandle}" />`,
         `<meta name="twitter:creator" content="${SITE.twitterHandle}" />`
@@ -268,6 +391,16 @@ const prerender = () => {
         count += 1;
     });
 
+    // Link bài viết không có bản prerender (gõ sai slug, bài đã xoá...) -> Vercel trả 404.html.
+    // Vẫn là app React nên trang NotFound (hoặc đúng bài nếu id khớp) hiện bình thường.
+    const notFoundHead = [
+        `<title>${escapeHtml(translate('vi', 'notFound.seoTitle'))}</title>`,
+        '<meta name="robots" content="noindex, follow" />'
+    ]
+        .map((tag) => `    ${tag}`)
+        .join('\n');
+    fs.writeFileSync(path.join(distDir, '404.html'), `${before}\n${notFoundHead}\n${after}`, 'utf8');
+
     return count;
 };
 
@@ -275,20 +408,26 @@ const prerender = () => {
 
 // Mỗi route prerender cần một rewrite tường minh trong vercel.json, nếu không
 // rewrite bắt-tất-cả sẽ trả về index.html của trang chủ và crawler đọc sai thẻ meta.
+// Bài viết dùng chung một rule dạng "/news/:slug" cho mỗi ngôn ngữ.
 const checkVercelRewrites = () => {
     const vercelConfigPath = path.join(projectRoot, 'vercel.json');
     if (!fs.existsSync(vercelConfigPath)) return;
 
     const rewrites = JSON.parse(fs.readFileSync(vercelConfigPath, 'utf8')).rewrites || [];
     const declared = new Set(rewrites.map((rule) => rule.source));
-    const missing = localizedRoutes
-        .map((route) => route.path)
-        .filter((routePath) => routePath !== '/' && !declared.has(routePath));
+    const required = staticRoutes.map((route) => ({source: route.path, destination: `${route.path}/index.html`}));
+    if (newsRoutes.length) {
+        LOCALES.forEach((locale) => {
+            const source = `${getLocaleConfig(locale.code).prefix || ''}/news/:slug`;
+            required.push({source, destination: `${source}/index.html`});
+        });
+    }
+    const missing = required.filter((rule) => rule.source !== '/' && !declared.has(rule.source));
 
     if (missing.length) {
         console.warn('⚠️  Thiếu rewrite trong vercel.json cho các route sau:');
-        missing.forEach((routePath) => {
-            console.warn(`     { "source": "${routePath}", "destination": "${routePath}/index.html" },`);
+        missing.forEach((rule) => {
+            console.warn(`     { "source": "${rule.source}", "destination": "${rule.destination}" },`);
         });
         console.warn('     Thêm vào TRƯỚC rule "/(.*)" để trang được phục vụ đúng HTML đã prerender.');
     }
@@ -309,9 +448,11 @@ const prerendered = prerender();
 checkVercelRewrites();
 
 const localeSummary = LOCALES.map((locale) => {
-    const done = indexableRoutes.filter((route) => route.locale === locale.code).length;
+    const done = staticRoutes.filter((route) => route.hasTranslation && route.locale === locale.code).length;
     return `${locale.code}: ${done}/${seoRoutes.length}`;
 }).join(', ');
 
-console.log(`✅ sitemap.xml + robots.txt (${indexableRoutes.length} URL đã dịch - ${localeSummary})`);
+console.log(
+    `✅ sitemap.xml + robots.txt (${indexableRoutes.length} URL - trang tĩnh ${localeSummary}, ${newsRoutes.length} bài viết)`
+);
 if (prerendered) console.log(`✅ Prerender thẻ SEO cho ${prerendered} trang trong dist/`);
