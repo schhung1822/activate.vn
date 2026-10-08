@@ -89,7 +89,7 @@ const MyStorySection = () => {
     }, []);
 
     return (
-        <section ref={sectionRef} className="bg-gradient-to-t from-black via-black to-[#2B144D] py-[60px] lg:py-[90px]">
+        <section ref={sectionRef} className="bg-gradient-to-t from-black via-black to-[#2D0F3B] py-[60px] lg:py-[90px]">
             <div className="max-w-[1380px] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center ">
 
@@ -137,17 +137,17 @@ const MyStorySection = () => {
                         {/* Descriptions with dot icons */}
                         <div className="space-y-4">
                             {/* Subtitle */}
-                            <p ref={subtitleRef} className="text-[15px] md:text-[18px] text-[#c08dfe]">
+                            <p ref={subtitleRef} className="text-[15px] md:text-[18px] text-[#ee3e99]">
                                 {t('about.story.subtitle')}
                             </p>
                             <div ref={el => descriptionRefs.current[0] = el} className="flex gap-4">
-                                <div className="w-2 h-2 bg-[#c08dfe] rounded-full mt-2 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#ee3e99] rounded-full mt-2 flex-shrink-0"></div>
                                 <p className="text-white text-[14px] md:text-[16px] max-w-lg">
                                     {t('about.story.paragraph1')}
                                 </p>
                             </div>
                             <div ref={el => descriptionRefs.current[1] = el} className="flex gap-4">
-                                <div className="w-2 h-2 bg-[#c08dfe] rounded-full mt-2 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#ee3e99] rounded-full mt-2 flex-shrink-0"></div>
                                 <p className="text-white text-[14px] md:text-[16px] max-w-lg">
                                     {t('about.story.paragraph2')}
                                 </p>

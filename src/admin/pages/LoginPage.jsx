@@ -27,10 +27,10 @@ const LoginPage = ({configured, onLoggedIn}) => {
         <div className="flex min-h-screen items-center justify-center bg-gradient-to-b from-slate-50 to-indigo-50 px-4 py-12">
             <form onSubmit={submit} className="w-full max-w-sm rounded-2xl border border-slate-200 bg-white p-7 shadow-xl shadow-slate-900/5">
                 <div className="mb-6 flex items-center gap-3">
-                    <img src="/assets/images/header/navbarfavicon.png" alt="" className="h-10 w-10 rounded-xl" />
+                    <img src="/assets/images/brand/activate-mark.svg" alt="" className="h-10 w-10 rounded-xl" />
                     <div>
                         <h1 className="text-lg font-bold text-slate-900">Quản trị nội dung</h1>
-                        <p className="text-sm text-slate-500">Nextgency</p>
+                        <p className="text-sm text-slate-500">Activate</p>
                     </div>
                 </div>
 

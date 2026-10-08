@@ -1,34 +1,22 @@
 // App.jsx - routing đa ngôn ngữ + Header/Footer có điều kiện
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Footer from "./components/Footer.jsx";
-import WebsiteLandingPage from "./pages/services/WebsiteLandingPage.jsx";
-import AiData from "./pages/services/AiData.jsx";
-import ToolContentAI from "./pages/services/ToolContentAI.jsx";
-import GoogleAds from "./pages/services/GoogleAds.jsx";
 import PageTransition from './components/PageTransition';
 import { usePageTransition } from './hooks/usePageTransition';
-import FacebookAds from "./pages/services/FacebookAds.jsx";
-import TiktokAds from "./pages/services/TiktokAds.jsx";
-import FacebookCrm from "./pages/services/FacebookCrm.jsx";
-import MarketingOutsource from "./pages/services/MarketingOutsource.jsx";
 import About from "./pages/About.jsx";
-import Tick from "./pages/services/Tick.jsx";
+import FieldsOverview from "./pages/fields/FieldsOverview.jsx";
+import FieldDetailPage from "./pages/fields/FieldDetailPage.jsx";
+import { BUSINESS_FIELDS, FIELDS_OVERVIEW_PATH } from "./data/businessFields.js";
 import { useSEO } from './hooks/useSEO';
 import NewsListPage from "./pages/news/NewsListPage.jsx";
 import Contact from "./pages/Contact.jsx";
-import Projects from "./pages/projects/Projects.jsx";
-import Portfolio from "./pages/projects/Portfolio.jsx";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage.jsx";
 import TiktokVerification from "./pages/TiktokVerification.jsx";
-import WorkflowAutomation from "./pages/projects/WorkflowAutomation.jsx";
-import ProjectDetail from "./pages/projects/ProjectDetail.jsx";
 import NewsDetailPage from "./pages/news/NewsDetailPage.jsx";
-import MiniAppBeautyVerse from "./pages/projects/MiniAppBeautyVerse.jsx";
 import RouteSEO from "./components/SEO/RouteSEO.jsx";
-import DatLich from "./pages/DatLich.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import { LanguageProvider, getLocalePrefix, stripLocaleFromPath, useI18n } from './i18n';
 
@@ -36,13 +24,13 @@ import { LanguageProvider, getLocalePrefix, stripLocaleFromPath, useI18n } from 
 const AdminApp = lazy(() => import('./admin/AdminApp.jsx'));
 
 // Landing page tự mang header/footer riêng - ẩn header/footer chung của site.
-// So khớp với đường dẫn ĐÃ bỏ prefix ngôn ngữ, nên /en/dat-lich cũng được tính là standalone.
-const STANDALONE_PATHS = ['/tiktok-verification/', '/dat-lich'];
+// So khớp với đường dẫn ĐÃ bỏ prefix ngôn ngữ, nên /en/... cũng được tính là standalone.
+const STANDALONE_PATHS = ['/tiktok-verification/'];
 
 // Router Content Component
 const RouterContent = () => {
     const location = useLocation();
-    const { locale, localePath } = useI18n();
+    const { locale } = useI18n();
     const {
         isTransitioning,
         handleTransitionComplete
@@ -83,35 +71,20 @@ const RouterContent = () => {
                     {/* Trang chủ */}
                     <Route path={routePath('/')} element={<Home />} />
                     <Route path={routePath('/about')} element={<About />} />
-                    <Route path={routePath('/news')} element={<NewsListPage />} />
-                    <Route path={routePath('/contact')} element={<Contact />} />
-                    <Route path={routePath('/dat-lich')} element={<DatLich />} />
 
-                    {/* Các trang dịch vụ */}
-                    <Route path={routePath('/services/website-landing-page')} element={<WebsiteLandingPage />} />
-                    <Route path={routePath('/services/ai-data')} element={<AiData />} />
-                    <Route path={routePath('/ai')} element={<ToolContentAI />} />
-                    {/* URL cũ của trang Tool Content AI - giữ lại để không gãy link đã chia sẻ */}
-                    <Route path={routePath('/services/tool-content-ai')} element={<Navigate to={localePath('/ai')} replace />} />
-                    <Route path={routePath('/services/google-ads')} element={<GoogleAds />} />
-                    <Route path={routePath('/services/facebook-ads')} element={<FacebookAds />} />
-                    <Route path={routePath('/services/tiktok-ads')} element={<TiktokAds />} />
-                    <Route path={routePath('/services/facebook-crm')} element={<FacebookCrm />} />
-                    <Route path={routePath('/services/marketing-outsource')} element={<MarketingOutsource />} />
-                    <Route path={routePath('/services/tick-xanh-facebook')} element={<Tick />} />
+                    {/* Lĩnh vực hoạt động: trang tổng quan + mỗi lĩnh vực một trang */}
+                    <Route path={routePath(FIELDS_OVERVIEW_PATH)} element={<FieldsOverview />} />
+                    {BUSINESS_FIELDS.map((field) => (
+                        <Route key={field.key} path={routePath(field.path)} element={<FieldDetailPage fieldKey={field.key} />} />
+                    ))}
+
+                    <Route path={routePath('/news')} element={<NewsListPage />} />
+                    <Route path={routePath('/news/:slug')} element={<NewsDetailPage />} />
+                    <Route path={routePath('/contact')} element={<Contact />} />
                     <Route path={routePath('/chinh-sach-bao-mat')} element={<PrivacyPolicyPage />} />
                     <Route path={routePath('/tiktok-verification/')} element={<TiktokVerification />} />
 
-                    {/* Các trang dự án */}
-                    <Route path={routePath('/projects/all')} element={<Projects />} />
-                    <Route path={routePath('/projects/portfolio')} element={<Portfolio />} />
-                    <Route path={routePath('/projects/workflow')} element={<WorkflowAutomation />} />
-                    <Route path={routePath('/miniapp')} element={<MiniAppBeautyVerse />} />
-                    <Route path={routePath('/projects/miniapp-beautysummit-2026')} element={<MiniAppBeautyVerse />} />
-                    <Route path={routePath('/projects/:slug')} element={<ProjectDetail />} />
-                    {/* Trang chi tiết tin tức công nghệ */}
-                    <Route path={routePath('/news/:slug')} element={<NewsDetailPage />} />
-
+                    {/* Các trang dịch vụ agency, dự án, /ai, /dat-lich cũ đã gỡ khỏi routing - URL cũ rơi vào 404 */}
                     {/* Route không khớp -> trang 404 */}
                     <Route path="*" element={<NotFound />} />
                 </Routes>
@@ -124,7 +97,7 @@ const RouterContent = () => {
             <PageTransition
                 isTransitioning={isTransitioning}
                 onTransitionComplete={handleTransitionComplete}
-                logoSrc="/assets/images/header/navbarfavicon.png"
+                logoSrc="/assets/images/brand/activate-mark.svg"
             />
         </div>
     );

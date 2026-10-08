@@ -24,8 +24,8 @@ const WhyChooseUs = () => {
                 <div className="text-center mb-4 lg:mb-8">
                     <h2 className="text-[20px] md:text-[28px] font-archivo font-bold leading-none">
                         {t('shared.whyChooseUs.titleLine1')}<br />
-                        <span className="bg-gradient-to-r from-black to-[#c08dfe] bg-clip-text text-transparent font-archivo text-[36px] md:text-[50px] lg:text-[60px] uppercase">
-              Nextgency?
+                        <span className="bg-gradient-to-r from-black to-[#ee3e99] bg-clip-text text-transparent font-archivo text-[36px] md:text-[50px] lg:text-[60px] uppercase">
+              Activate?
             </span>
                     </h2>
                     <p className="hidden lg:block text-black text-[15px] lg:text-[18px] max-w-lg mx-auto">
@@ -49,13 +49,13 @@ const WhyChooseUs = () => {
 
                                 {/* Cột badges */}
                                 <div className="flex flex-wrap gap-3 items-center justify-center">
-                                    <div className="bg-gradient-to-r from-[#1a4498] via-black to-black text-white px-3 py-2 rounded-full text-[11px] lg:text-[13px] font-medium transform -rotate-3 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-cyan-500/25">
+                                    <div className="bg-gradient-to-r from-[#6a4fdb] via-black to-black text-white px-3 py-2 rounded-full text-[11px] lg:text-[13px] font-medium transform -rotate-3 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-cyan-500/25">
                                         {t('shared.whyChooseUs.badges.enthusiastic')}
                                     </div>
-                                    <div className="bg-gradient-to-r from-black via-black to-[#c08dfe] text-white px-3 py-2 rounded-full text-[11px] lg:text-[13px] font-medium transform rotate-2 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-purple-500/25">
+                                    <div className="bg-gradient-to-r from-black via-black to-[#ee3e99] text-white px-3 py-2 rounded-full text-[11px] lg:text-[13px] font-medium transform rotate-2 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-fuchsia-500/25">
                                         {t('shared.whyChooseUs.badges.young')}
                                     </div>
-                                    <div className="bg-gradient-to-r from-[#1a4498] via-black to-[#c08dfe] text-white px-3 py-2 rounded-full text-[11px] lg:text-[13px] font-medium transform -rotate-1 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-indigo-500/25">
+                                    <div className="bg-gradient-to-r from-[#6a4fdb] via-black to-[#ee3e99] text-white px-3 py-2 rounded-full text-[11px] lg:text-[13px] font-medium transform -rotate-1 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-indigo-500/25">
                                         {t('shared.whyChooseUs.badges.experienced')}
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
                     </div>
 
                     {/* Cột B (60%) */}
-                    <div className="lg:col-span-3 space-y-3 lg:h-[500px] bg-gradient-to-tl from-[#1a4498] via-black to-black p-2 rounded-xl">
+                    <div className="lg:col-span-3 space-y-3 lg:h-[500px] bg-gradient-to-tl from-[#6a4fdb] via-black to-black p-2 rounded-xl">
                         {/* Row A (50%) */}
                         <div className="grid grid-cols-1 md:grid-cols-5 gap-4 lg:h-[236px]">
                             {/* Cột 60% */}

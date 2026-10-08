@@ -4,4 +4,4 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /tiktok-verification/
 
-Sitemap: https://nextgency.vn/sitemap.xml
+Sitemap: https://activate.vn/sitemap.xml

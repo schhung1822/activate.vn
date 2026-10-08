@@ -2,7 +2,7 @@
 // Structured data (JSON-LD). Giữ đồng bộ với src/scripts/generate-static.js -
 // script prerender sinh lại các schema tương đương cho bản HTML tĩnh.
 
-import {DEFAULT_OG_IMAGE, SITE, toAbsoluteUrl} from '../../pages/seo-configs.js';
+import {COMPANY, DEFAULT_OG_IMAGE, SITE, toAbsoluteUrl} from '../../pages/seo-configs.js';
 
 const ORGANIZATION_ID = `${SITE.baseUrl}/#organization`;
 
@@ -12,13 +12,28 @@ export const organizationSchema = {
     '@id': ORGANIZATION_ID,
     name: SITE.name,
     url: SITE.baseUrl,
-    logo: toAbsoluteUrl('/assets/images/header/navbarlogoblack.png'),
+    logo: toAbsoluteUrl(SITE.logo),
     image: toAbsoluteUrl(DEFAULT_OG_IMAGE.url),
-    description: 'Agency digital marketing: thiết kế website, quảng cáo online, AI và chuyển đổi số.',
+    legalName: COMPANY.legalName,
+    alternateName: COMPANY.website,
+    taxID: COMPANY.taxId,
+    email: COMPANY.email,
+    telephone: COMPANY.phone,
+    description: 'Activate - doanh nghiệp thương mại bán buôn, xuất nhập khẩu và đại lý phân phối.',
     address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Hồ Chí Minh',
+        streetAddress: COMPANY.address.street,
+        addressLocality: COMPANY.address.ward,
+        addressRegion: COMPANY.address.city,
         addressCountry: 'VN'
+    },
+    contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer service',
+        telephone: COMPANY.phone,
+        email: COMPANY.email,
+        areaServed: 'VN',
+        availableLanguage: ['Vietnamese', 'English']
     }
 };
 

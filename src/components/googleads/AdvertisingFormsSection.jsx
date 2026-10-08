@@ -11,7 +11,7 @@ const AdvertisingFormsSection = () => {
         title,
         description: ['(Google Search)', '(Google Display)', '(YouTube Ads)', '(Google Max)', '(Google Local)', '(Google Shopping)', '(Google Discovery)', '(Google Smart)', '(Google App)'][index],
         image: ['ggsearch', 'ggdisplay', 'ggvideo', 'ggmax', 'gglocal', 'ggshopping', 'ggdiscovery', 'ggsmart', 'ggapp'].map((name) => `/assets/images/googleads/${name}.webp`)[index],
-        bgColor: index % 2 === 0 ? 'bg-[#c08dfe]' : 'bg-black'
+        bgColor: index % 2 === 0 ? 'bg-[#ee3e99]' : 'bg-black'
     }));
 
     const scrollToContact = (e) => {

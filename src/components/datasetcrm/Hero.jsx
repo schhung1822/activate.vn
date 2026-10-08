@@ -58,7 +58,7 @@ const Hero = () => {
                                     <div className="space-y-4">
                                         {tm('servicePages.facebookCrm.hero.bullets').map((bullet, index) => (
                                             <div key={index} className="flex items-start space-x-2">
-                                                <div className="w-1.5 h-1.5 bg-[#c08dfe] rounded-full mt-2 flex-shrink-0"></div>
+                                                <div className="w-1.5 h-1.5 bg-[#ee3e99] rounded-full mt-2 flex-shrink-0"></div>
                                                 <p className="text-[13px] lg:text-[16px] text-gray-700">
                                                     {bullet}
                                                 </p>

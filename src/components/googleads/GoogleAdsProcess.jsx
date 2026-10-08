@@ -19,7 +19,7 @@ const GoogleAdsProcess = () => {
         return (
             <div className={`border-2 rounded-lg p-5 transition-all shadow-md duration-300 flex flex-col h-full ${
                 isLastCard
-                    ? 'bg-gradient-to-br from-black via-black to-[#1a4498] border-black'
+                    ? 'bg-gradient-to-br from-black via-black to-[#6a4fdb] border-black'
                     : ' border-white'
             }`}>
                 {/* Card Header with Number */}

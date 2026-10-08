@@ -149,7 +149,7 @@ const AboutHeroSection = () => {
             title: "Partnership",
             subtitle: t('about.hero.cards.partnership.subtitle'),
             description: t('about.hero.cards.partnership.description'),
-            style: "bg-gradient-to-b from-black via-black to-[#c08dfe] text-white border-t-2 border-white",
+            style: "bg-gradient-to-b from-black via-black to-[#ee3e99] text-white border-t-2 border-white",
             position: "right-10 bottom-0",
             mobilePosition: "top-[168px] right-24"
         }
@@ -231,7 +231,7 @@ const AboutHeroSection = () => {
                                 >
                                     <div className="space-y-2">
                                         <div>
-                                            <p className={`text-[11px] font-archivo font-medium text-[#c08dfe] uppercase tracking-widest mb-1 
+                                            <p className={`text-[11px] font-archivo font-medium text-[#ee3e99] uppercase tracking-widest mb-1 
                         ${card.style.includes('bg-white') ? '' : ''}`}>
                                                 {card.subtitle}
                                             </p>
@@ -272,7 +272,7 @@ const AboutHeroSection = () => {
                                 >
                                     <div className="space-y-2">
                                         <div>
-                                            <p className={`text-[13px] font-archivo font-medium text-[#c08dfe] uppercase tracking-widest mb-1 
+                                            <p className={`text-[13px] font-archivo font-medium text-[#ee3e99] uppercase tracking-widest mb-1 
                         ${card.style.includes('bg-white') ? '' : ''}`}>
                                                 {card.subtitle}
                                             </p>

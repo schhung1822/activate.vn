@@ -3,7 +3,7 @@
 
 export const CONSULTANT = {
     name: 'Ngô Hồng Sơn',
-    role: 'Growth Manager · Nextgency',
+    role: 'Growth Manager · Activate',
     // Thả ảnh chân dung vào đúng đường dẫn này; chưa có file thì tự rơi về ô chữ cái đầu.
     avatar: '/assets/images/chauson.webp',
     initials: 'NS',

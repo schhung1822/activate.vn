@@ -298,7 +298,7 @@ const ServicesSection = () => {
     }, [activeTab]);
 
     return (
-        <section ref={sectionRef} className="bg-gradient-to-t from-black via-black to-[#2B144D] py-[60px] lg:py-[90px]">
+        <section ref={sectionRef} className="bg-gradient-to-t from-black via-black to-[#2D0F3B] py-[60px] lg:py-[90px]">
             <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div ref={headerRef} className="mb-4 sm:mb-8">
@@ -369,7 +369,7 @@ const ServicesSection = () => {
                                             <div className="">
                                                 <div className="space-y-12 p-4">
                                                     <div className="animate-content">
-                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.descriptionLabel')}</h4>
+                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#ee3e99] mb-4 uppercase tracking-widest">{t('home.services.descriptionLabel')}</h4>
                                                         <p className="text-white text-[14px] sm:text-[16px] text-justify">
                                                             {service.description}
                                                         </p>
@@ -377,7 +377,7 @@ const ServicesSection = () => {
 
                                                     {/* Technologies */}
                                                     <div className="animate-content">
-                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.technologiesLabel')}</h4>
+                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#ee3e99] mb-4 uppercase tracking-widest">{t('home.services.technologiesLabel')}</h4>
                                                         <div className="flex flex-wrap gap-3">
                                                             {service.technologies.map((tech, idx) => (
                                                                 <div
@@ -392,7 +392,7 @@ const ServicesSection = () => {
                                                     </div>
                                                     {/* Completed Date */}
                                                     <div className="animate-content">
-                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#c08dfe] mb-4 uppercase tracking-widest">{t('home.services.durationLabel')}</h4>
+                                                        <h4 className="text-[11px] sm:text-[13px] font-medium text-[#ee3e99] mb-4 uppercase tracking-widest">{t('home.services.durationLabel')}</h4>
                                                         <p className="text-[14px] lg:text-[16px] text-white inline-block">
                                                             {service.completedDate}
                                                         </p>
@@ -404,7 +404,7 @@ const ServicesSection = () => {
                                                     <div className="flex items-center space-x-2 ">
                                                         <Link
                                                             to={service.link}
-                                                            className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#2B144D] text-[15px] sm:text-[16px] text-white rounded-full transition-all duration-300 hover:scale-105 group animate-gradient-shift"
+                                                            className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#6A4FDB] text-[15px] sm:text-[16px] text-white rounded-full transition-all duration-300 hover:scale-105 group animate-gradient-shift"
                                                         >
                                                             <span className="">
                                                                 {t('home.services.cta')}

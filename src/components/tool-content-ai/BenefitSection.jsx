@@ -12,7 +12,7 @@ const BenefitSection = () => {
         discountLabel: index === 1 ? t('servicePages.toolContentAi.benefits.inLabel') : undefined,
         discountSuffix: index === 1 ? '1' : undefined,
         align: index === 3 ? undefined : 'left',
-        gradient: index === 0 ? 'from-[#D4CEF5] to-[#C5BCF1]' : 'from-[#C5BCF1] to-[#C5BCF1]',
+        gradient: index === 0 ? 'from-[#D4CEF5] to-[#EEC3E0]' : 'from-[#EEC3E0] to-[#EEC3E0]',
         isRadial: index === 3,
         isWhiteText: index === 3,
         compactHighlight: index === 0 || index === 3
@@ -34,7 +34,7 @@ const BenefitSection = () => {
                 {/* Offers Grid */}
                 <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
                     {offers.map((offer) => {
-                        const textColor = offer.isWhiteText ? 'text-white' : 'text-[#5534bb]';
+                        const textColor = offer.isWhiteText ? 'text-white' : 'text-[#6a4fdb]';
                         const highlightSize = offer.compactHighlight
                             ? 'text-[32px] sm:text-[36px] lg:text-[40px]'
                             : 'text-[44px] sm:text-[54px] lg:text-[64px]';
@@ -52,7 +52,7 @@ const BenefitSection = () => {
                                         style={{
                                             clipPath: 'polygon(0% 0%, 75% 0%, 100% 25%, 100% 100%, 25% 100%, 0% 75%)',
                                             ...(offer.isRadial && {
-                                                background: 'radial-gradient(circle at center, #5534bb, #8866ee , #B3BDEE)'
+                                                background: 'radial-gradient(circle at center, #6a4fdb, #7a6cea , #B3BDEE)'
                                             })
                                         }}
                                     >

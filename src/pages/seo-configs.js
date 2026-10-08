@@ -12,22 +12,43 @@ import {DEFAULT_LOCALE, LOCALES, localizePath, splitLocaleFromPath} from '../i18
 import {markdownExcerpt} from '../utils/markdownExcerpt.js';
 
 export const SITE = {
-    baseUrl: 'https://nextgency.vn',
-    name: 'Nextgency',
-    siteName: 'Nextgency - Digital Marketing Agency',
+    baseUrl: 'https://activate.vn',
+    name: 'Activate',
+    siteName: 'Activate - Thương mại · Phân phối · Xuất nhập khẩu',
     locale: 'vi_VN',
     lang: 'vi',
-    twitterHandle: '@nextgency',
-    themeColor: '#000000'
+    twitterHandle: '',
+    themeColor: '#EE3E99',
+    logo: '/assets/images/brand/activate-icon.png'
+};
+
+// Thông tin pháp lý của doanh nghiệp - dùng chung cho footer, trang liên hệ và schema Organization
+export const COMPANY = {
+    brand: 'Activate',
+    legalName: 'CIVI GLOBAL COMPANY LIMITED',
+    taxId: '0111450660',
+    email: 'contact@activate.vn',
+    phone: '+84332083366',
+    phoneDisplay: '(+84) 33 208 3366',
+    website: 'activate.vn',
+    // Hồ sơ năng lực cho nút "Tải hồ sơ năng lực" - thay file PDF tại đường dẫn này khi có bản chính thức
+    profilePdf: '/assets/docs/activate-ho-so-nang-luc.pdf',
+    address: {
+        street: 'Số 16, Ngõ 250 Trịnh Đình Cửu',
+        ward: 'Phường Định Công',
+        city: 'TP Hà Nội',
+        country: 'Việt Nam',
+        full: 'Số 16, Ngõ 250 Trịnh Đình Cửu, Phường Định Công, TP Hà Nội, Việt Nam'
+    }
 };
 
 // Ảnh thumbnail mặc định khi chia sẻ link lên mạng xã hội (Facebook, Zalo, LinkedIn, X...)
 export const DEFAULT_OG_IMAGE = {
-    url: '/assets/images/seo-banner.webp',
-    width: 2721,
-    height: 1258,
-    type: 'image/webp',
-    alt: 'Nextgency - Giải pháp Digital Marketing toàn diện'
+    url: '/assets/images/brand/activate-og.png',
+    width: 1200,
+    height: 630,
+    type: 'image/png',
+    alt: 'Activate - Kết nối nguồn cung. Kích hoạt thị trường.'
 };
 
 /** Đổi đường dẫn tương đối thành URL tuyệt đối (bắt buộc với og:image, og:url, canonical). */
@@ -49,154 +70,239 @@ export const resolveOgImage = (image) => {
 export const seoConfigs = {
     home: {
         path: '/',
-        title: 'Nextgency - Giải pháp Digital Marketing toàn diện',
-        description: 'Nextgency là agency digital marketing chuyên thiết kế website, quảng cáo Google Ads, Facebook Ads, TikTok Ads và các giải pháp marketing tổng thể cho doanh nghiệp.',
-        keywords: 'nextgency, digital marketing agency, thiết kế website, google ads, facebook ads, tiktok ads, marketing agency vietnam',
+        title: 'Activate - Thương mại, Phân phối & Xuất nhập khẩu | CIVI GLOBAL',
+        description: 'Activate (CIVI GLOBAL COMPANY LIMITED, MST 0111450660) - doanh nghiệp thương mại bán buôn, xuất nhập khẩu và đại lý phân phối. Đối tác cung ứng tin cậy cho nhà phân phối, nhà sản xuất và tổ chức tài chính.',
+        keywords: 'activate, civi global company limited, công ty thương mại hà nội, phân phối bán buôn, xuất nhập khẩu, đại lý phân phối, nhà cung cấp b2b',
         priority: 1.0,
         changefreq: 'weekly',
         translations: {
             en: {
-                title: 'Nextgency - End-to-end Digital Marketing solutions',
+                title: 'Activate - Trading, Distribution & Import-Export | CIVI GLOBAL',
                 description:
-                    'Nextgency is a digital marketing agency specialising in web design, Google Ads, Facebook Ads, TikTok Ads and full-stack marketing solutions for businesses.',
+                    'Activate (CIVI GLOBAL COMPANY LIMITED, Tax ID 0111450660) is a wholesale trading, import & export and distribution agency company - a trusted supply partner for distributors, manufacturers and financial institutions.',
                 keywords:
-                    'nextgency, digital marketing agency, web design, google ads, facebook ads, tiktok ads, marketing agency vietnam'
+                    'activate, civi global company limited, vietnam trading company, wholesale distribution, import export vietnam, distribution agency, b2b supplier'
             },
             cn: {
-                title: 'Nextgency - 全方位数字营销解决方案',
+                title: 'Activate - 贸易、分销与进出口 | CIVI GLOBAL',
                 description:
-                    'Nextgency 是一家数字营销代理机构，专注于网站设计、谷歌广告、Facebook 广告、TikTok 广告以及面向企业的整体营销解决方案。',
-                keywords: 'nextgency, 数字营销, 网站设计, 谷歌广告, facebook 广告, tiktok 广告, 越南营销公司'
+                    'Activate（CIVI GLOBAL COMPANY LIMITED，税号 0111450660）是一家从事批发贸易、进出口及分销代理的企业，是分销商、生产商与金融机构值得信赖的供应合作伙伴。',
+                keywords: 'activate, civi global, 越南贸易公司, 批发分销, 越南进出口, 分销代理, b2b 供应商'
             }
         }
     },
     about: {
         path: '/about',
-        title: 'Về Nextgency - Đội ngũ Digital Marketing',
-        description: 'Tìm hiểu về Nextgency - đội ngũ chuyên gia digital marketing nhiều năm kinh nghiệm trong quảng cáo online, công nghệ và phát triển thương hiệu.',
-        keywords: 'về nextgency, digital marketing team, marketing agency ho chi minh',
+        title: 'Giới thiệu Activate - CIVI GLOBAL COMPANY LIMITED',
+        description: 'Tầm nhìn, sứ mệnh, giá trị cốt lõi và hồ sơ pháp lý của Activate - thương hiệu thương mại của CIVI GLOBAL COMPANY LIMITED (MST 0111450660), trụ sở tại Hà Nội.',
+        keywords: 'giới thiệu activate, civi global company limited, hồ sơ pháp lý, mã số thuế 0111450660, công ty thương mại hà nội',
         priority: 0.8,
         changefreq: 'monthly',
         translations: {
             en: {
-                title: 'About Nextgency - Our Digital Marketing team',
+                title: 'About Activate - CIVI GLOBAL COMPANY LIMITED',
                 description:
-                    'Get to know Nextgency - a team of digital marketing specialists with years of experience in online advertising, technology and brand building.',
-                keywords: 'about nextgency, digital marketing team, marketing agency vietnam'
+                    'Vision, mission, core values and legal profile of Activate - the trading brand of CIVI GLOBAL COMPANY LIMITED (Tax ID 0111450660), headquartered in Hanoi.',
+                keywords: 'about activate, civi global company limited, legal profile, tax id 0111450660, hanoi trading company'
             },
             cn: {
-                title: '关于 Nextgency - 数字营销团队',
+                title: '关于 Activate - CIVI GLOBAL COMPANY LIMITED',
                 description:
-                    '了解 Nextgency——一支在网络广告、技术与品牌建设领域拥有多年经验的数字营销专家团队。',
-                keywords: '关于 nextgency, 数字营销团队, 越南营销公司'
+                    'Activate 的愿景、使命、核心价值与法律档案——CIVI GLOBAL COMPANY LIMITED（税号 0111450660）旗下贸易品牌，总部位于河内。',
+                keywords: '关于 activate, civi global, 法律档案, 税号 0111450660, 河内贸易公司'
             }
         }
     },
     news: {
         path: '/news',
-        title: 'Tin tức & Kiến thức Marketing | Nextgency',
-        description: 'Cập nhật tin tức, xu hướng và kiến thức thực chiến về digital marketing, quảng cáo online, AI và chuyển đổi số từ đội ngũ Nextgency.',
-        keywords: 'tin tức marketing, kiến thức digital marketing, xu hướng quảng cáo, blog nextgency',
+        title: 'Tin tức doanh nghiệp | Activate',
+        description: 'Tin tức doanh nghiệp, hoạt động hợp tác và góc nhìn thị trường thương mại, phân phối, xuất nhập khẩu từ Activate.',
+        keywords: 'tin tức activate, tin tức doanh nghiệp, thị trường phân phối, xuất nhập khẩu',
         priority: 0.7,
         changefreq: 'weekly',
         translations: {
             en: {
-                title: 'Marketing news & insights | Nextgency',
+                title: 'Company news | Activate',
                 description:
-                    'News, trends and hands-on knowledge about digital marketing, online advertising, AI and digital transformation from the Nextgency team.',
-                keywords: 'marketing news, digital marketing insights, advertising trends, nextgency blog'
+                    'Company news, partnership updates and market perspectives on trading, distribution and import & export from Activate.',
+                keywords: 'activate news, company news, distribution market, import export'
             },
             cn: {
-                title: '营销资讯与知识 | Nextgency',
-                description:
-                    '来自 Nextgency 团队的数字营销、网络广告、AI 与数字化转型方面的资讯、趋势与实战经验。',
-                keywords: '营销资讯, 数字营销知识, 广告趋势, nextgency 博客'
+                title: '企业新闻 | Activate',
+                description: '来自 Activate 的企业新闻、合作动态，以及贸易、分销与进出口市场观察。',
+                keywords: 'activate 新闻, 企业新闻, 分销市场, 进出口'
             }
         }
     },
     contact: {
         path: '/contact',
-        title: 'Liên hệ Nextgency - Tư vấn Digital Marketing',
-        description: 'Liên hệ Nextgency để được tư vấn miễn phí về website, quảng cáo online và giải pháp marketing phù hợp với ngân sách của doanh nghiệp bạn.',
-        keywords: 'liên hệ nextgency, tư vấn marketing, báo giá digital marketing',
+        title: 'Liên hệ hợp tác | Activate',
+        description: 'Cổng thông tin đối tác của Activate: gửi đề xuất hợp tác phân phối, cung ứng, xuất nhập khẩu hoặc tài chính. Hotline (+84) 33 208 3366 · contact@activate.vn.',
+        keywords: 'liên hệ activate, hợp tác phân phối, trở thành nhà cung cấp, đại lý phân phối, hợp tác xuất nhập khẩu',
         priority: 0.7,
         changefreq: 'monthly',
         translations: {
             en: {
-                title: 'Contact Nextgency - Digital Marketing consultation',
+                title: 'Partner with us | Activate',
                 description:
-                    'Contact Nextgency for a free consultation on websites, online advertising and the marketing solution that fits your budget.',
-                keywords: 'contact nextgency, marketing consultation, digital marketing quote'
+                    'Activate partner portal: send a distribution, supply, import-export or financial partnership proposal. Phone (+84) 33 208 3366 · contact@activate.vn.',
+                keywords: 'contact activate, distribution partnership, become a supplier, distribution agent, import export partnership'
             },
             cn: {
-                title: '联系 Nextgency - 数字营销咨询',
+                title: '洽谈合作 | Activate',
                 description:
-                    '联系 Nextgency，免费咨询网站建设、网络广告以及符合您预算的营销解决方案。',
-                keywords: '联系 nextgency, 营销咨询, 数字营销报价'
+                    'Activate 合作伙伴门户：提交分销、供货、进出口或金融合作意向。电话 (+84) 33 208 3366 · contact@activate.vn。',
+                keywords: '联系 activate, 分销合作, 成为供应商, 分销代理, 进出口合作'
+            }
+        }
+    },
+    fields: {
+        overview: {
+            path: '/linh-vuc',
+            title: 'Lĩnh vực hoạt động | Activate',
+            description: 'Ba trụ cột năng lực của Activate: thương mại & phân phối bán buôn, xuất nhập khẩu & thương mại quốc tế, đại lý & giải pháp bán lẻ trung gian.',
+            keywords: 'lĩnh vực hoạt động activate, phân phối bán buôn, xuất nhập khẩu, đại lý phân phối',
+            priority: 0.9,
+            changefreq: 'monthly',
+            translations: {
+                en: {
+                    title: 'Business areas | Activate',
+                    description:
+                        'Activate’s three pillars: wholesale trading & distribution, import & export and international trade, and agency & intermediary retail solutions.',
+                    keywords: 'activate business areas, wholesale distribution, import export, distribution agency'
+                },
+                cn: {
+                    title: '业务领域 | Activate',
+                    description: 'Activate 的三大支柱：批发贸易与分销、进出口与国际贸易、代理与中间零售解决方案。',
+                    keywords: 'activate 业务领域, 批发分销, 进出口, 分销代理'
+                }
+            }
+        },
+        wholesale: {
+            path: '/linh-vuc/thuong-mai-phan-phoi',
+            title: 'Thương mại & Phân phối bán buôn | Activate',
+            description: 'Activate cung ứng hàng tiêu dùng, gia dụng, thời trang và sản phẩm kỹ thuật quy mô lớn cho nhà phân phối, đại lý và chuỗi bán lẻ - nguồn cung ổn định, giá bán buôn minh bạch.',
+            keywords: 'phân phối bán buôn, nhà cung cấp bán buôn, cung ứng hàng tiêu dùng, nhà phân phối hà nội',
+            priority: 0.9,
+            changefreq: 'monthly',
+            translations: {
+                en: {
+                    title: 'Wholesale Trading & Distribution | Activate',
+                    description:
+                        'Activate supplies consumer goods, household, fashion and technical products at scale to distributors, agents and retail chains - steady supply and transparent wholesale pricing.',
+                    keywords: 'wholesale distribution vietnam, wholesale supplier, consumer goods supply, distributor hanoi'
+                },
+                cn: {
+                    title: '批发贸易与分销 | Activate',
+                    description: 'Activate 为分销商、代理商及零售连锁规模化供应日用消费品、家居、服装及技术类产品——供应稳定，批发价格透明。',
+                    keywords: '越南批发分销, 批发供应商, 消费品供应, 河内分销商'
+                }
+            }
+        },
+        trade: {
+            path: '/linh-vuc/xuat-nhap-khau',
+            title: 'Xuất nhập khẩu & Thương mại quốc tế | Activate',
+            description: 'Dịch vụ xuất nhập khẩu của Activate: tìm nguồn và thẩm định nhà cung cấp quốc tế, thông quan, chứng từ và logistics đa phương thức; nhận uỷ thác xuất nhập khẩu.',
+            keywords: 'xuất nhập khẩu, uỷ thác xuất nhập khẩu, nhập khẩu trọn gói, thông quan hàng hoá, logistics quốc tế',
+            priority: 0.9,
+            changefreq: 'monthly',
+            translations: {
+                en: {
+                    title: 'Import & Export and International Trade | Activate',
+                    description:
+                        'Activate’s import & export services: sourcing and vetting international suppliers, customs clearance, documentation and multimodal logistics; import/export entrustment.',
+                    keywords: 'import export vietnam, import export entrustment, full-service import, customs clearance, international logistics'
+                },
+                cn: {
+                    title: '进出口与国际贸易 | Activate',
+                    description: 'Activate 进出口服务：寻找并审核国际供应商、通关、单证及多式联运物流，并承接进出口委托。',
+                    keywords: '越南进出口, 进出口委托, 一站式进口, 货物通关, 国际物流'
+                }
+            }
+        },
+        agency: {
+            path: '/linh-vuc/dai-ly-ban-le',
+            title: 'Đại lý & Giải pháp bán lẻ trung gian | Activate',
+            description: 'Activate đại diện nhà sản xuất và thương hiệu phát triển mạng lưới đại lý, điểm bán và cửa hàng chuyên doanh; chuẩn hoá chính sách kênh, hỗ trợ trưng bày và đào tạo.',
+            keywords: 'đại lý phân phối, phát triển mạng lưới đại lý, phân phối thương hiệu, kênh bán lẻ',
+            priority: 0.9,
+            changefreq: 'monthly',
+            translations: {
+                en: {
+                    title: 'Agency & Intermediary Retail Solutions | Activate',
+                    description:
+                        'Activate represents manufacturers and brands in building agent, outlet and specialist-store networks, standardising channel policy and supporting merchandising and training.',
+                    keywords: 'distribution agent vietnam, agent network development, brand distribution, retail channel'
+                },
+                cn: {
+                    title: '代理与中间零售解决方案 | Activate',
+                    description: 'Activate 代表生产商与品牌发展代理、网点及专卖店网络，规范渠道政策，并提供陈列与培训支持。',
+                    keywords: '越南分销代理, 代理网络发展, 品牌分销, 零售渠道'
+                }
             }
         }
     },
     privacy: {
         path: '/chinh-sach-bao-mat',
-        title: 'Chính sách bảo mật | Nextgency',
-        description: 'Chính sách bảo mật của Nextgency: cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ dữ liệu cá nhân của khách hàng.',
-        keywords: 'chính sách bảo mật, bảo vệ dữ liệu cá nhân, nextgency',
+        title: 'Chính sách bảo mật | Activate',
+        description: 'Chính sách bảo mật của Activate: cách chúng tôi thu thập, sử dụng, lưu trữ và bảo vệ dữ liệu cá nhân của khách hàng.',
+        keywords: 'chính sách bảo mật, bảo vệ dữ liệu cá nhân, activate',
         priority: 0.3,
         changefreq: 'yearly',
         translations: {
             en: {
-                title: 'Privacy policy | Nextgency',
+                title: 'Privacy policy | Activate',
                 description:
-                    'Nextgency’s privacy policy: how we collect, use, store and protect our customers’ personal data.',
-                keywords: 'privacy policy, personal data protection, nextgency'
+                    'Activate’s privacy policy: how we collect, use, store and protect our customers’ personal data.',
+                keywords: 'privacy policy, personal data protection, activate'
             },
             cn: {
-                title: '隐私政策 | Nextgency',
+                title: '隐私政策 | Activate',
                 description:
-                    'Nextgency 的隐私政策：我们如何收集、使用、存储与保护客户的个人数据。',
-                keywords: '隐私政策, 个人数据保护, nextgency'
+                    'Activate 的隐私政策：我们如何收集、使用、存储与保护客户的个人数据。',
+                keywords: '隐私政策, 个人数据保护, activate'
             }
         }
     },
     datLich: {
         path: '/dat-lich',
-        title: 'Đặt buổi Growth Call 30 phút với Ngô Hồng Sơn | Nextgency',
+        title: 'Đặt buổi Growth Call 30 phút với Ngô Hồng Sơn | Activate',
         description: 'Đặt buổi tư vấn tăng trưởng 1-1 miễn phí 30 phút: soi kênh đang chạy, chỉ đúng điểm nghẽn và vạch đường ưu tiên. Cọc giữ chỗ hoàn 100% bất kỳ lúc nào.',
-        keywords: 'đặt lịch tư vấn, growth call, tư vấn tăng trưởng, tư vấn marketing 1-1, nextgency',
+        keywords: 'đặt lịch tư vấn, growth call, tư vấn tăng trưởng, tư vấn marketing 1-1, activate',
         priority: 0.8,
         changefreq: 'monthly',
         translations: {
             en: {
-                title: 'Book a 30-minute Growth Call with Ngo Hong Son | Nextgency',
+                title: 'Book a 30-minute Growth Call with Ngo Hong Son | Activate',
                 description:
                     'Book a free 30-minute 1-to-1 growth consultation: a look at the channels you run, the real bottleneck named and a priority path set out. The holding deposit is refunded in full at any time.',
-                keywords: 'book a consultation, growth call, growth consulting, 1-to-1 marketing consultation, nextgency'
+                keywords: 'book a consultation, growth call, growth consulting, 1-to-1 marketing consultation, activate'
             },
             cn: {
-                title: '预约与 Ngo Hong Son 的 30 分钟 Growth Call | Nextgency',
+                title: '预约与 Ngo Hong Son 的 30 分钟 Growth Call | Activate',
                 description:
                     '预约免费的 30 分钟一对一增长咨询：梳理正在跑的渠道、指出真正的卡点、划出优先路径。占位定金随时 100% 退还。',
-                keywords: '预约咨询, growth call, 增长咨询, 一对一营销咨询, nextgency'
+                keywords: '预约咨询, growth call, 增长咨询, 一对一营销咨询, activate'
             }
         }
     },
     services: {
         'website-landing-page': {
             path: '/services/website-landing-page',
-            title: 'Thiết kế Website & Landing Page chuẩn SEO | Nextgency',
+            title: 'Thiết kế Website & Landing Page chuẩn SEO | Activate',
             description: 'Dịch vụ thiết kế website và landing page chuyên nghiệp: tối ưu chuyển đổi, responsive, chuẩn SEO và cam kết hiệu quả kinh doanh.',
             keywords: 'thiết kế website, landing page, website chuyên nghiệp, thiết kế web responsive',
             priority: 0.9,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'SEO-ready website & landing page design | Nextgency',
+                    title: 'SEO-ready website & landing page design | Activate',
                     description:
                         'Professional website and landing page design: optimised for conversion, responsive, SEO-ready and committed to business results.',
                     keywords: 'website design, landing page, professional website, responsive web design'
                 },
                 cn: {
-                    title: '符合 SEO 规范的网站与落地页设计 | Nextgency',
+                    title: '符合 SEO 规范的网站与落地页设计 | Activate',
                     description:
                         '专业的网站与落地页设计：以转化为导向、响应式、符合 SEO 规范，并对经营成效负责。',
                     keywords: '网站设计, 落地页, 专业网站, 响应式网页设计'
@@ -205,20 +311,20 @@ export const seoConfigs = {
         },
         'ai-data': {
             path: '/services/ai-data',
-            title: 'AI & Data Analytics cho Marketing | Nextgency',
+            title: 'AI & Data Analytics cho Marketing | Activate',
             description: 'Ứng dụng AI và phân tích dữ liệu để tối ưu chiến dịch marketing: dự đoán xu hướng, phân tích hành vi khách hàng và tối ưu ROI.',
             keywords: 'ai marketing, data analytics, marketing automation, predictive analytics',
             priority: 0.9,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'AI & data analytics for marketing | Nextgency',
+                    title: 'AI & data analytics for marketing | Activate',
                     description:
                         'Applying AI and data analysis to optimise marketing campaigns: predicting trends, analysing customer behaviour and improving ROI.',
                     keywords: 'ai marketing, data analytics, marketing automation, predictive analytics'
                 },
                 cn: {
-                    title: '面向营销的 AI 与数据分析 | Nextgency',
+                    title: '面向营销的 AI 与数据分析 | Activate',
                     description:
                         '运用 AI 与数据分析优化营销活动：预测趋势、分析客户行为并提升 ROI。',
                     keywords: 'ai 营销, 数据分析, 营销自动化, 预测分析'
@@ -227,7 +333,7 @@ export const seoConfigs = {
         },
         'tool-content-ai': {
             path: '/ai',
-            title: 'Tool Content AI - Tự động hóa nội dung SEO | Nextgency',
+            title: 'Tool Content AI - Tự động hóa nội dung SEO | Activate',
             description: 'Nền tảng AI phân tích social & sàn TMĐT, lên kế hoạch và viết nội dung chuẩn SEO - AEO - GEO, tự động đi internal link, backlink và xuất bản đa kênh.',
             keywords: 'tool content ai, automation content, viết content ai, seo aeo geo, tự động đi internal link, xuất bản đa kênh',
             // Thumbnail riêng của trang này khi chia sẻ lên mạng xã hội
@@ -236,19 +342,19 @@ export const seoConfigs = {
                 width: 1672,
                 height: 941,
                 type: 'image/webp',
-                alt: 'Automation Tool Content AI - Nextgency'
+                alt: 'Automation Tool Content AI - Activate'
             },
             priority: 0.9,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Automation Tool Content AI - SEO content on autopilot | Nextgency',
+                    title: 'Automation Tool Content AI - SEO content on autopilot | Activate',
                     description:
                         'An AI platform that analyses social and marketplace data, plans and writes SEO, AEO and GEO-ready content, builds internal links and backlinks automatically and publishes across channels.',
                     keywords: 'content ai tool, content automation, ai writing, seo aeo geo, automatic internal linking, multi-channel publishing'
                 },
                 cn: {
-                    title: 'Automation Tool Content AI —— 自动化 SEO 内容 | Nextgency',
+                    title: 'Automation Tool Content AI —— 自动化 SEO 内容 | Activate',
                     description:
                         '一个 AI 平台：分析社媒与电商平台数据，规划并撰写符合 SEO、AEO、GEO 标准的内容，自动布置站内链接与外链，并实现多渠道发布。',
                     keywords: '内容 ai 工具, 内容自动化, ai 写作, seo aeo geo, 自动站内链接, 多渠道发布'
@@ -257,20 +363,20 @@ export const seoConfigs = {
         },
         'google-ads': {
             path: '/services/google-ads',
-            title: 'Dịch vụ quảng cáo Google Ads chuyên nghiệp | Nextgency',
+            title: 'Dịch vụ quảng cáo Google Ads chuyên nghiệp | Activate',
             description: 'Quản lý và tối ưu chiến dịch Google Ads hiệu quả: tăng doanh số, giảm chi phí quảng cáo với đội ngũ chuyên gia nhiều năm kinh nghiệm.',
             keywords: 'google ads, quảng cáo google, google advertising, sem, search ads',
             priority: 0.9,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Professional Google Ads management | Nextgency',
+                    title: 'Professional Google Ads management | Activate',
                     description:
                         'Managing and optimising Google Ads campaigns that work: more sales, lower ad costs, run by a team with years of hands-on experience.',
                     keywords: 'google ads, google advertising, sem, search ads, ppc management'
                 },
                 cn: {
-                    title: '专业谷歌广告投放服务 | Nextgency',
+                    title: '专业谷歌广告投放服务 | Activate',
                     description:
                         '管理并优化真正有效的谷歌广告：提升销售额、降低广告成本，由拥有多年实战经验的团队执行。',
                     keywords: '谷歌广告, google ads, sem, 搜索广告, 竞价托管'
@@ -279,20 +385,20 @@ export const seoConfigs = {
         },
         'facebook-ads': {
             path: '/services/facebook-ads',
-            title: 'Dịch vụ quảng cáo Facebook Ads hiệu quả | Nextgency',
+            title: 'Dịch vụ quảng cáo Facebook Ads hiệu quả | Activate',
             description: 'Chạy quảng cáo Facebook Ads chuyên nghiệp: target đúng khách hàng, tối ưu chi phí và tăng doanh thu bền vững cho doanh nghiệp.',
             keywords: 'facebook ads, quảng cáo facebook, facebook advertising, social media marketing',
             priority: 0.9,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Facebook Ads services that deliver | Nextgency',
+                    title: 'Facebook Ads services that deliver | Activate',
                     description:
                         'Professional Facebook Ads management: reaching the right customers, optimising spend and growing revenue sustainably for your business.',
                     keywords: 'facebook ads, facebook advertising, meta ads, social media marketing'
                 },
                 cn: {
-                    title: '高效的 Facebook 广告投放服务 | Nextgency',
+                    title: '高效的 Facebook 广告投放服务 | Activate',
                     description:
                         '专业的 Facebook 广告投放：精准触达目标客户、优化投放成本，为企业带来可持续的营收增长。',
                     keywords: 'facebook 广告, facebook advertising, meta 广告, 社交媒体营销'
@@ -301,20 +407,20 @@ export const seoConfigs = {
         },
         'tiktok-ads': {
             path: '/services/tiktok-ads',
-            title: 'Dịch vụ quảng cáo TikTok Ads | Nextgency',
+            title: 'Dịch vụ quảng cáo TikTok Ads | Activate',
             description: 'Khai thác sức mạnh TikTok Ads để tiếp cận khách hàng trẻ với chiến dịch sáng tạo, khả năng lan tỏa cao và chi phí tối ưu.',
             keywords: 'tiktok ads, quảng cáo tiktok, tiktok advertising, tiktok marketing',
             priority: 0.9,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'TikTok Ads services | Nextgency',
+                    title: 'TikTok Ads services | Activate',
                     description:
                         'Harnessing TikTok Ads to reach younger audiences with creative campaigns, strong reach potential and optimised costs.',
                     keywords: 'tiktok ads, tiktok advertising, tiktok marketing, short video ads'
                 },
                 cn: {
-                    title: 'TikTok 广告投放服务 | Nextgency',
+                    title: 'TikTok 广告投放服务 | Activate',
                     description:
                         '借助 TikTok 广告触达年轻人群：创意突出、传播力强、成本可控。',
                     keywords: 'tiktok 广告, tiktok advertising, tiktok 营销, 短视频广告'
@@ -323,20 +429,20 @@ export const seoConfigs = {
         },
         'facebook-crm': {
             path: '/services/facebook-crm',
-            title: 'Facebook CRM - Quản lý khách hàng Facebook | Nextgency',
+            title: 'Facebook CRM - Quản lý khách hàng Facebook | Activate',
             description: 'Giải pháp CRM tích hợp Facebook: quản lý tin nhắn, bình luận và khách hàng tiềm năng từ fanpage một cách tập trung, hiệu quả.',
             keywords: 'facebook crm, quản lý khách hàng facebook, social crm, facebook integration',
             priority: 0.8,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Facebook CRM - manage Facebook customers | Nextgency',
+                    title: 'Facebook CRM - manage Facebook customers | Activate',
                     description:
                         'A CRM solution integrated with Facebook: managing messages, comments and leads from your fanpage in one place, efficiently.',
                     keywords: 'facebook crm, facebook customer management, social crm, facebook integration'
                 },
                 cn: {
-                    title: 'Facebook CRM —— 管理 Facebook 客户 | Nextgency',
+                    title: 'Facebook CRM —— 管理 Facebook 客户 | Activate',
                     description:
                         '与 Facebook 打通的 CRM 方案：集中、高效地管理来自主页的私信、评论与潜在客户。',
                     keywords: 'facebook crm, facebook 客户管理, 社交 crm, facebook 集成'
@@ -345,20 +451,20 @@ export const seoConfigs = {
         },
         'marketing-outsource': {
             path: '/services/marketing-outsource',
-            title: 'Marketing Outsource - Thuê ngoài Marketing | Nextgency',
+            title: 'Marketing Outsource - Thuê ngoài Marketing | Activate',
             description: 'Dịch vụ thuê ngoài marketing toàn diện: tiết kiệm chi phí nhân sự, vận hành chuyên nghiệp với đội ngũ chuyên gia đa lĩnh vực.',
             keywords: 'marketing outsource, thuê ngoài marketing, outsourcing marketing, marketing agency',
             priority: 0.9,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Marketing outsourcing services | Nextgency',
+                    title: 'Marketing outsourcing services | Activate',
                     description:
                         'End-to-end marketing outsourcing: saving on headcount costs and running professionally with a multi-disciplinary specialist team.',
                     keywords: 'marketing outsourcing, outsourced marketing team, marketing agency'
                 },
                 cn: {
-                    title: '营销外包服务 | Nextgency',
+                    title: '营销外包服务 | Activate',
                     description:
                         '一站式营销外包：节省人力成本，由跨领域的专家团队专业运营。',
                     keywords: '营销外包, 外包营销团队, 营销代理机构'
@@ -367,20 +473,20 @@ export const seoConfigs = {
         },
         'tick-xanh-facebook': {
             path: '/services/tick-xanh-facebook',
-            title: 'Dịch vụ Tick xanh Facebook | Nextgency',
+            title: 'Dịch vụ Tick xanh Facebook | Activate',
             description: 'Hỗ trợ xác minh tick xanh Facebook cho doanh nghiệp và thương hiệu, tăng uy tín cùng độ tin cậy cho fanpage của bạn.',
             keywords: 'tick xanh facebook, facebook verification, xác minh facebook, blue tick facebook',
             priority: 0.7,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Facebook blue badge verification service | Nextgency',
+                    title: 'Facebook blue badge verification service | Activate',
                     description:
                         'Support with Facebook blue badge verification for businesses and brands, adding credibility and trust to your fanpage.',
                     keywords: 'facebook blue badge, facebook verification, blue tick facebook, page verification'
                 },
                 cn: {
-                    title: 'Facebook 蓝标认证服务 | Nextgency',
+                    title: 'Facebook 蓝标认证服务 | Activate',
                     description:
                         '为企业与品牌提供 Facebook 蓝标认证支持，提升主页的公信力与可信度。',
                     keywords: 'facebook 蓝标, facebook 认证, 蓝 v 认证, 主页认证'
@@ -391,64 +497,64 @@ export const seoConfigs = {
     projects: {
         all: {
             path: '/projects/all',
-            title: 'Dự án tiêu biểu | Nextgency',
-            description: 'Tổng hợp các dự án website, mini app, chiến dịch quảng cáo và giải pháp chuyển đổi số Nextgency đã triển khai cho khách hàng.',
-            keywords: 'dự án nextgency, case study marketing, dự án website, dự án chuyển đổi số',
+            title: 'Dự án tiêu biểu | Activate',
+            description: 'Tổng hợp các dự án website, mini app, chiến dịch quảng cáo và giải pháp chuyển đổi số Activate đã triển khai cho khách hàng.',
+            keywords: 'dự án activate, case study marketing, dự án website, dự án chuyển đổi số',
             priority: 0.8,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Selected projects | Nextgency',
+                    title: 'Selected projects | Activate',
                     description:
-                        'Every website, mini app, advertising campaign and digital transformation project Nextgency has delivered for its clients.',
-                    keywords: 'nextgency projects, marketing case study, website projects, digital transformation projects'
+                        'Every website, mini app, advertising campaign and digital transformation project Activate has delivered for its clients.',
+                    keywords: 'activate projects, marketing case study, website projects, digital transformation projects'
                 },
                 cn: {
-                    title: '代表项目 | Nextgency',
+                    title: '代表项目 | Activate',
                     description:
-                        'Nextgency 为客户交付过的网站、小程序、广告投放与数字化转型项目汇总。',
-                    keywords: 'nextgency 项目, 营销案例, 网站项目, 数字化转型项目'
+                        'Activate 为客户交付过的网站、小程序、广告投放与数字化转型项目汇总。',
+                    keywords: 'activate 项目, 营销案例, 网站项目, 数字化转型项目'
                 }
             }
         },
         portfolio: {
             path: '/projects/portfolio',
-            title: 'Portfolio dự án | Nextgency',
-            description: 'Bộ sưu tập hình ảnh các sản phẩm thiết kế, website và ấn phẩm truyền thông do Nextgency thực hiện.',
-            keywords: 'portfolio nextgency, mẫu thiết kế website, ấn phẩm truyền thông',
+            title: 'Portfolio dự án | Activate',
+            description: 'Bộ sưu tập hình ảnh các sản phẩm thiết kế, website và ấn phẩm truyền thông do Activate thực hiện.',
+            keywords: 'portfolio activate, mẫu thiết kế website, ấn phẩm truyền thông',
             priority: 0.6,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Project portfolio | Nextgency',
+                    title: 'Project portfolio | Activate',
                     description:
-                        'A gallery of the design work, websites and communication materials produced by Nextgency.',
-                    keywords: 'nextgency portfolio, website design samples, communication materials'
+                        'A gallery of the design work, websites and communication materials produced by Activate.',
+                    keywords: 'activate portfolio, website design samples, communication materials'
                 },
                 cn: {
-                    title: '项目作品集 | Nextgency',
+                    title: '项目作品集 | Activate',
                     description:
-                        'Nextgency 所完成的设计作品、网站与传播物料图集。',
-                    keywords: 'nextgency 作品集, 网站设计案例, 传播物料'
+                        'Activate 所完成的设计作品、网站与传播物料图集。',
+                    keywords: 'activate 作品集, 网站设计案例, 传播物料'
                 }
             }
         },
         workflow: {
             path: '/projects/workflow',
-            title: 'Workflow Automation - Thư viện quy trình tự động | Nextgency',
+            title: 'Workflow Automation - Thư viện quy trình tự động | Activate',
             description: 'Thư viện các workflow tự động hóa marketing và vận hành: tạo nội dung AI, đồng bộ dữ liệu, chăm sóc khách hàng đa kênh.',
             keywords: 'workflow automation, tự động hóa quy trình, n8n workflow, automation marketing',
             priority: 0.7,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Workflow automation - a library of automated processes | Nextgency',
+                    title: 'Workflow automation - a library of automated processes | Activate',
                     description:
                         'A library of marketing and operations automation workflows: AI content generation, data sync and multi-channel customer care.',
                     keywords: 'workflow automation, process automation, n8n workflow, marketing automation'
                 },
                 cn: {
-                    title: '自动化工作流 —— 流程模板库 | Nextgency',
+                    title: '自动化工作流 —— 流程模板库 | Activate',
                     description:
                         '营销与运营自动化工作流合集：AI 内容生成、数据同步与多渠道客户维护。',
                     keywords: '自动化工作流, 流程自动化, n8n workflow, 营销自动化'
@@ -457,24 +563,24 @@ export const seoConfigs = {
         },
         'miniapp-beautysummit-2026': {
             path: '/projects/miniapp-beautysummit-2026',
-            title: 'Mini App Beauty Summit 2026 - BEAUTYVERSE | Nextgency',
-            description: 'Case study Zalo Mini App BEAUTYVERSE do Nextgency thiết kế và vận hành cho Beauty Summit Vietnam 2026: gamification, check-in QR và hệ điểm BPoint.',
-            keywords: 'Zalo Mini App, Beauty Summit 2026, BEAUTYVERSE, Nextgency, gamification, check-in QR, BPoint',
+            title: 'Mini App Beauty Summit 2026 - BEAUTYVERSE | Activate',
+            description: 'Case study Zalo Mini App BEAUTYVERSE do Activate thiết kế và vận hành cho Beauty Summit Vietnam 2026: gamification, check-in QR và hệ điểm BPoint.',
+            keywords: 'Zalo Mini App, Beauty Summit 2026, BEAUTYVERSE, Activate, gamification, check-in QR, BPoint',
             type: 'article',
             priority: 0.8,
             changefreq: 'monthly',
             translations: {
                 en: {
-                    title: 'Beauty Summit 2026 Mini App - BEAUTYVERSE | Nextgency',
+                    title: 'Beauty Summit 2026 Mini App - BEAUTYVERSE | Activate',
                     description:
-                        'A case study of the BEAUTYVERSE Zalo Mini App designed and run by Nextgency for Beauty Summit Vietnam 2026: gamification, QR check-in and the BPoint rewards system.',
-                    keywords: 'Zalo Mini App, Beauty Summit 2026, BEAUTYVERSE, Nextgency, gamification, QR check-in, BPoint'
+                        'A case study of the BEAUTYVERSE Zalo Mini App designed and run by Activate for Beauty Summit Vietnam 2026: gamification, QR check-in and the BPoint rewards system.',
+                    keywords: 'Zalo Mini App, Beauty Summit 2026, BEAUTYVERSE, Activate, gamification, QR check-in, BPoint'
                 },
                 cn: {
-                    title: 'Beauty Summit 2026 小程序 —— BEAUTYVERSE | Nextgency',
+                    title: 'Beauty Summit 2026 小程序 —— BEAUTYVERSE | Activate',
                     description:
-                        'Nextgency 为 Beauty Summit Vietnam 2026 设计并运营的 BEAUTYVERSE Zalo 小程序案例：游戏化、二维码签到与 BPoint 积分体系。',
-                    keywords: 'Zalo 小程序, Beauty Summit 2026, BEAUTYVERSE, Nextgency, 游戏化, 二维码签到, BPoint'
+                        'Activate 为 Beauty Summit Vietnam 2026 设计并运营的 BEAUTYVERSE Zalo 小程序案例：游戏化、二维码签到与 BPoint 积分体系。',
+                    keywords: 'Zalo 小程序, Beauty Summit 2026, BEAUTYVERSE, Activate, 游戏化, 二维码签到, BPoint'
                 }
             }
         }
@@ -485,12 +591,10 @@ export const seoConfigs = {
 export const seoRoutes = [
     seoConfigs.home,
     seoConfigs.about,
+    ...Object.values(seoConfigs.fields),
     seoConfigs.news,
     seoConfigs.contact,
-    seoConfigs.privacy,
-    seoConfigs.datLich,
-    ...Object.values(seoConfigs.services),
-    ...Object.values(seoConfigs.projects)
+    seoConfigs.privacy
 ];
 
 /** Tra cứu route theo đường dẫn KHÔNG có prefix ngôn ngữ. */

@@ -29,7 +29,7 @@ const HeroSection = () => {
                                {t('servicePages.tickXanh.hero.title')}
                             </h1>
                             <div className="flex items-center gap-4">
-                                <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#c08dfe] bg-clip-text text-transparent leading-none tracking-tight">
+                                <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#ee3e99] bg-clip-text text-transparent leading-none tracking-tight">
                                     FACEBOOK
                                 </h1>
                                 {/* SVG Circles */}
@@ -46,7 +46,7 @@ const HeroSection = () => {
                                             cx="25.4404"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#f3e8ff"
+                                            fill="#fdeef6"
                                             className="animate-pulse"
                                             style={{ animationDelay: '0s', animationDuration: '2s' }}
                                         />
@@ -54,7 +54,7 @@ const HeroSection = () => {
                                             cx="40.1005"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#e9d5ff"
+                                            fill="#fbd5e8"
                                             className="animate-pulse"
                                             style={{ animationDelay: '0.5s', animationDuration: '2s' }}
                                         />
@@ -62,7 +62,7 @@ const HeroSection = () => {
                                             cx="53.8994"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#d8b4fe"
+                                            fill="#f7b3d6"
                                             className="animate-pulse"
                                             style={{ animationDelay: '1s', animationDuration: '2s' }}
                                         />
@@ -70,7 +70,7 @@ const HeroSection = () => {
                                             cx="68.5596"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#c59efe"
+                                            fill="#f06aae"
                                             className="animate-pulse"
                                             style={{ animationDelay: '1.5s', animationDuration: '2s' }}
                                         />
@@ -121,7 +121,7 @@ const HeroSection = () => {
                         <div className="relative">
                             <div className="relative p-2 bg-gray-50 rounded-2xl">
                                 {/* Main card */}
-                                <div className="relative bg-gradient-to-br from-black via-black to-[#c08dfe] rounded-xl p-6 sm:p-8 shadow-md">
+                                <div className="relative bg-gradient-to-br from-black via-black to-[#ee3e99] rounded-xl p-6 sm:p-8 shadow-md">
                                     {/* Facebook profile mockup */}
                                     <div className="relative bg-white rounded-lg p-4 ">
                                         <div className="flex items-center gap-4">
@@ -134,7 +134,7 @@ const HeroSection = () => {
                                             </div>
                                             <div>
                                                 <h3 className="text-[15px] lg:text-[18px] font-bold text-black flex items-center gap-2">
-                                                    Nextgency
+                                                    Activate
                                                     <CheckCircle2 className="w-5 h-5 text-black" />
                                                 </h3>
                                                 <p className="text-sm text-blue-600 font-medium mt-1">{t('servicePages.tickXanh.hero.badges.verified')}</p>

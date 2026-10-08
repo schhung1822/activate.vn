@@ -47,8 +47,8 @@ const PainPointSection = () => {
                             <div key={index} className="group relative">
                                 {/* Connection line */}
                                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30 hidden md:block">
-                                    <div className="w-12 h-12 bg-white border-2 border-gray-200 rounded-full flex items-center justify-center neu-shadow-xs shadow-lg group-hover:border-[#c08dfe] transition-all duration-300">
-                                        <ChevronRight className="w-5 h-5 text-[#c08dfe] transition-transform duration-300" />
+                                    <div className="w-12 h-12 bg-white border-2 border-gray-200 rounded-full flex items-center justify-center neu-shadow-xs shadow-lg group-hover:border-[#ee3e99] transition-all duration-300">
+                                        <ChevronRight className="w-5 h-5 text-[#ee3e99] transition-transform duration-300" />
                                     </div>
                                 </div>
 
@@ -74,7 +74,7 @@ const PainPointSection = () => {
                                         <div className="bg-gradient-to-br from-white to-gray-50 neu-shadow-inset-xs rounded-lg px-6 py-5 md:px-16 md:py-7 relative">
 
                                             {/* Decorative elements */}
-                                            <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-[#c08dfe]/35 to-transparent rounded-full blur-xl"></div>
+                                            <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-[#ee3e99]/35 to-transparent rounded-full blur-xl"></div>
 
                                             <div className="relative z-10">
                                                 <div className="flex justify-center mb-2">

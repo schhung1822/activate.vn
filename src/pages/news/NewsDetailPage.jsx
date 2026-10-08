@@ -106,7 +106,7 @@ const pickRelated = (news, count = 3) =>
 
 /* ---------------------------------------------------------------- kiểu chữ */
 
-const isExternal = (href = '') => /^https?:\/\//.test(href) && !href.includes('nextgency.vn');
+const isExternal = (href = '') => /^https?:\/\//.test(href) && !href.includes('activate.vn');
 
 // react-markdown truyền thêm prop `node` (cây cú pháp) - bỏ đi trước khi rải vào thẻ HTML
 const clean = (props) => {
@@ -138,14 +138,14 @@ const markdownComponents = {
     strong: (props) => <strong className="font-semibold text-black" {...clean(props)} />,
     a: (props) => (
         <a
-            className="font-medium text-black underline decoration-[#c08dfe] decoration-2 underline-offset-4 transition hover:decoration-black"
+            className="font-medium text-black underline decoration-[#ee3e99] decoration-2 underline-offset-4 transition hover:decoration-black"
             {...(isExternal(props.href) ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
             {...clean(props)}
         />
     ),
     blockquote: (props) => (
         <blockquote
-            className="mt-8 border-l-2 border-[#c08dfe] pl-6 text-[17px] leading-relaxed text-black/70 md:text-[20px] [&>p]:mt-0 [&>p]:text-[length:inherit] [&>p]:text-black/70"
+            className="mt-8 border-l-2 border-[#ee3e99] pl-6 text-[17px] leading-relaxed text-black/70 md:text-[20px] [&>p]:mt-0 [&>p]:text-[length:inherit] [&>p]:text-black/70"
             {...clean(props)}
         />
     ),
@@ -155,7 +155,7 @@ const markdownComponents = {
         <img alt="" decoding="async" fetchPriority="low" className="mt-8 w-full rounded-[16px] border border-black/[0.06]" {...clean(props)} />
     ),
     code: (props) => (
-        <code className="rounded-md bg-[#f4eeff] px-1.5 py-0.5 text-[0.88em] text-[#2B144D]" {...clean(props)} />
+        <code className="rounded-md bg-[#fef1f8] px-1.5 py-0.5 text-[0.88em] text-[#2D0F3B]" {...clean(props)} />
     ),
     // Code trong khối <pre> bỏ nền/khung của code nội dòng
     pre: (props) => (
@@ -212,7 +212,7 @@ const ReadingProgress = ({ targetRef }) => {
         <div className="pointer-events-none fixed inset-x-0 top-0 z-[60] h-[3px]" aria-hidden="true">
             <div
                 ref={barRef}
-                className="h-full origin-left bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#c08dfe]"
+                className="h-full origin-left bg-gradient-to-r from-[#2D0F3B] via-[#ee3e99] to-[#ee3e99]"
                 style={{ transform: 'scaleX(0)' }}
             />
         </div>
@@ -344,8 +344,6 @@ const AdjacentLink = ({ item, direction }) => {
     );
 };
 
-const openConsultationPopup = () => window.dispatchEvent(new Event('nextgency:open-consultation-popup'));
-
 /* ---------------------------------------------------------------- trang */
 
 const NotFound = () => {
@@ -465,7 +463,7 @@ const NewsDetailPage = () => {
                     </div>
 
                     {news.thumbnail && (
-                        <div className="overflow-hidden rounded-[16px] border border-black/[0.06] bg-[#f4eeff]">
+                        <div className="overflow-hidden rounded-[16px] border border-black/[0.06] bg-[#fef1f8]">
                             <img src={news.thumbnail} alt={news.title} decoding="async" className="aspect-[16/9] w-full object-cover" />
                         </div>
                     )}
@@ -539,22 +537,22 @@ const NewsDetailPage = () => {
             </div>
 
             <section className="mx-auto max-w-[1440px] px-6 lg:px-8">
-                <div className="relative overflow-hidden rounded-[16px] bg-[#2B144D] px-6 py-10 text-white sm:px-10 lg:flex lg:items-center lg:justify-between lg:gap-10 lg:px-14 lg:py-14">
-                    <div className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#c08dfe]/40 blur-3xl" aria-hidden="true" />
+                <div className="relative overflow-hidden rounded-[16px] bg-[#2D0F3B] px-6 py-10 text-white sm:px-10 lg:flex lg:items-center lg:justify-between lg:gap-10 lg:px-14 lg:py-14">
+                    <div className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-[#ee3e99]/40 blur-3xl" aria-hidden="true" />
                     <div className="relative max-w-xl">
                         <h2 className="font-archivo text-[24px] font-bold uppercase leading-tight lg:text-[32px]">
                             {t('news.detail.ctaTitle')}
                         </h2>
                         <p className="mt-3 text-[15px] text-white/70 sm:text-[16px]">{t('news.detail.ctaDescription')}</p>
                     </div>
-                    <button type="button" onClick={openConsultationPopup} className="group relative mt-8 shrink-0 lg:mt-0">
+                    <Link to="/contact" className="group relative mt-8 shrink-0 lg:mt-0">
                         <span className="flex w-fit items-center space-x-3 rounded-full bg-white py-1 pl-6 pr-1.5 text-[15px] font-medium text-black transition-transform duration-300 group-hover:scale-105 sm:text-[16px]">
-                            <span>{t('nav.cta')}</span>
+                            <span>{t('corporate.cta.partner')}</span>
                             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-black sm:h-10 sm:w-10">
                                 <ArrowUpRight className="h-5 w-5 text-white transition-transform duration-300 group-hover:rotate-12" strokeWidth={2.3} />
                             </span>
                         </span>
-                    </button>
+                    </Link>
                 </div>
             </section>
 

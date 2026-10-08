@@ -40,13 +40,13 @@ const TikTokAdsSection = () => {
                                     className={`group ${isLastCard ? 'bg-black' : 'bg-white'} border-2 border-gray-50 rounded-lg p-6 lg:p-8 ${isLastCard ? '' : 'neu-shadow-inset-xs'} transition-all duration-500 hover:-translate-y-2 ${service.delay}`}
                                 >
                                     <div className="flex items-start justify-between mb-4">
-                                        <div className={`w-14 h-14 ${isLastCard ? 'bg-gradient-to-br from-white to-gray-200' : 'bg-gradient-to-br from-black to-[#1a4498]'} rounded-xl flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3`}>
+                                        <div className={`w-14 h-14 ${isLastCard ? 'bg-gradient-to-br from-white to-gray-200' : 'bg-gradient-to-br from-black to-[#6a4fdb]'} rounded-xl flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3`}>
                                             <Icon className={`w-7 h-7 ${isLastCard ? 'text-black' : 'text-white'}`} strokeWidth={1.5} />
                                         </div>
                                     </div>
                                     <h3 className={`text-[14px] lg:text-[16px] font-medium ${isLastCard ? 'text-white' : 'text-black'} mb-3 relative`}>
                                         <span className="relative z-10">{service.title}</span>
-                                        <span className={`absolute inset-0 ${isLastCard ? 'bg-gradient-to-r from-transparent via-white/5 to-white/30' : 'bg-gradient-to-r from-transparent via-[#1a4498]/5 to-[#1a4498]/30'} rounded-2xl`}></span>
+                                        <span className={`absolute inset-0 ${isLastCard ? 'bg-gradient-to-r from-transparent via-white/5 to-white/30' : 'bg-gradient-to-r from-transparent via-[#6a4fdb]/5 to-[#6a4fdb]/30'} rounded-2xl`}></span>
                                     </h3>
                                     <p className={`${isLastCard ? 'text-gray-300' : 'text-gray-700'} text-[13px] lg:text-[15px]`}>
                                         {service.description}

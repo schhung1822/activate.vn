@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="md:max-w-[700px] lg:max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header Content */}
                 <div className="text-center mb-4 lg:mb-8">
-                    <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#c59efe] uppercase bg-clip-text text-transparent leading-none tracking-tight mb-1">
+                    <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#f06aae] uppercase bg-clip-text text-transparent leading-none tracking-tight mb-1">
                         {t('servicePages.googleAds.hero.title')}
                     </h1>
                     <p className="text-[15px] lg:text-[18px] text-black max-w-xl mx-auto">
@@ -42,7 +42,7 @@ const Hero = () => {
 
                     {/* Column 2 - Two stacked images */}
                     <div className="hidden md:flex flex-col gap-4 sm:gap-6 justify-center p-2 bg-gray-50 rounded-2xl">
-                        <div className="w-full aspect-[4/3] bg-gradient-to-br from-purple-100 to-pink-100 rounded-xl shadow-lg overflow-hidden">
+                        <div className="w-full aspect-[4/3] bg-gradient-to-br from-fuchsia-100 to-pink-100 rounded-xl shadow-lg overflow-hidden">
                             <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Hero = () => {
 
                     {/* Column 5 - Single tall image */}
                     <div className="hidden lg:flex items-center justify-center">
-                        <div className="w-full aspect-[4/4] bg-gradient-to-br from-violet-100 to-purple-100 rounded-2xl shadow-lg overflow-hidden">
+                        <div className="w-full aspect-[4/4] bg-gradient-to-br from-violet-100 to-fuchsia-100 rounded-2xl shadow-lg overflow-hidden">
                             <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                             </div>
                         </div>

@@ -10,8 +10,8 @@ const WhyChooseUs = () => {
                 <div className="text-center mb-4 lg:mb-8">
                     <h2 className="text-[24px] md:text-[32px] font-archivo font-semibold leading-tight">
                         {t('shared.whyChooseUs.titleLine1')}<br />
-                        <span className="bg-gradient-to-r from-black to-[#5534bb] bg-clip-text text-transparent font-archivo text-[40px] md:text-[50px] lg:text-[60px] uppercase">
-              Nextgency?
+                        <span className="bg-gradient-to-r from-black to-[#6a4fdb] bg-clip-text text-transparent font-archivo text-[40px] md:text-[50px] lg:text-[60px] uppercase">
+              Activate?
             </span>
                     </h2>
                 </div>
@@ -35,10 +35,10 @@ const WhyChooseUs = () => {
                                     <div className="bg-gradient-to-r from-[#2faeec] via-black to-black text-white px-4 py-2 rounded-full text-sm font-medium transform -rotate-3 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-cyan-500/25">
                                         {t('shared.whyChooseUs.badges.enthusiastic')}
                                     </div>
-                                    <div className="bg-gradient-to-r from-black via-black to-[#5534bb] text-white px-4 py-2 rounded-full text-sm font-medium transform rotate-2 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-purple-500/25">
+                                    <div className="bg-gradient-to-r from-black via-black to-[#6a4fdb] text-white px-4 py-2 rounded-full text-sm font-medium transform rotate-2 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-fuchsia-500/25">
                                         {t('shared.whyChooseUs.badges.young')}
                                     </div>
-                                    <div className="bg-gradient-to-r from-[#2faeec] via-black to-[#5534bb] text-white px-4 py-2 rounded-full text-sm font-medium transform -rotate-1 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-indigo-500/25">
+                                    <div className="bg-gradient-to-r from-[#2faeec] via-black to-[#6a4fdb] text-white px-4 py-2 rounded-full text-sm font-medium transform -rotate-1 hover:rotate-0 hover:scale-110 transition-all duration-300 ease-out cursor-pointer hover:shadow-lg hover:shadow-indigo-500/25">
                                         {t('shared.whyChooseUs.badges.experienced')}
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@ const WhyChooseUs = () => {
                             </div>
 
                             {/* Cột 40% */}
-                            <div className="md:col-span-2 bg-gradient-to-br from-[#5534bb] to-black rounded-2xl p-6 flex flex-col h-full">
+                            <div className="md:col-span-2 bg-gradient-to-br from-[#6a4fdb] to-black rounded-2xl p-6 flex flex-col h-full">
                                 <h3 className="text-[16px] lg:text-[20px] font-medium mb-4 text-white">
                                     {t('servicePages.aiData.why.highlightTitle')}
                                 </h3>

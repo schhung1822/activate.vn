@@ -37,13 +37,13 @@ const ProfileSection = () => {
                                 key={index}
                                 className={`group relative overflow-hidden rounded-lg border-2 border-white shadow-md transition-all duration-300 ${
                                     isExpanded
-                                        ? 'bg-white border-[#1a4498] shadow-lg'
+                                        ? 'bg-white border-[#6a4fdb] shadow-lg'
                                         : 'bg-white border-gray-200 hover:border-gray-300 hover:shadow-md'
                                 }`}
                             >
                                 {/* Active Indicator */}
                                 {isExpanded && (
-                                    <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-black to-[#1a4498]"></div>
+                                    <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-b from-black to-[#6a4fdb]"></div>
                                 )}
 
                                 {/* Header */}
@@ -57,8 +57,8 @@ const ProfileSection = () => {
                                         {/* Number Badge */}
                                         <div className={`flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center font-bold text-[16px] transition-all duration-300 ${
                                             isExpanded
-                                                ? 'bg-[#1a4498] text-white'
-                                                : 'bg-black text-white group-hover:bg-[#1a4498]'
+                                                ? 'bg-[#6a4fdb] text-white'
+                                                : 'bg-black text-white group-hover:bg-[#6a4fdb]'
                                         }`}>
                                             {String(index + 1).padStart(2,)}
                                         </div>
@@ -74,7 +74,7 @@ const ProfileSection = () => {
                                     {/* Expand Icon */}
                                     <button className={`ml-4 p-2 rounded-lg transition-all duration-300 ${
                                         isExpanded
-                                            ? ' text-[#1a4498] rotate-180'
+                                            ? ' text-[#6a4fdb] rotate-180'
                                             : ' text-gray-500 hover:bg-gray-200'
                                     }`}>
                                         <ChevronDown className="w-5 h-5" />

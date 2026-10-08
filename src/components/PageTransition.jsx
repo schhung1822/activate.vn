@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const PageTransition = ({ isTransitioning, onTransitionComplete, logoSrc = '/assets/images/header/navbarfavicon.png' }) => {
+const PageTransition = ({ isTransitioning, onTransitionComplete, logoSrc = '/assets/images/brand/activate-mark.svg' }) => {
     const [phase, setPhase] = useState('hidden'); // hidden, entering, exiting
 
     useEffect(() => {
@@ -51,7 +51,7 @@ const PageTransition = ({ isTransitioning, onTransitionComplete, logoSrc = '/ass
                 <div className="flex items-center justify-center">
                     <img
                         src={logoSrc}
-                        alt="Nextgency Logo"
+                        alt="Activate Logo"
                         className="w-20 h-20 md:w-28 md:h-28 object-contain opacity-90 transition-all duration-500"
                         style={{
                             animation: phase === 'entering' ? 'logoFadeIn 0.5s ease-out' : 'logoFadeOut 0.3s ease-in'

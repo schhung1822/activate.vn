@@ -42,7 +42,7 @@ const GrowthServicesSection = () => {
                                 <span className="flex h-[42px] w-[42px] items-center justify-center rounded-xl bg-gradient-to-br from-[#2e7bdf] to-[#41c8e6] text-white">
                                     {Icon && <Icon className="h-5 w-5" />}
                                 </span>
-                                <span className="text-[10.5px] font-semibold uppercase tracking-[0.14em] text-[#8a6cf0]">
+                                <span className="text-[10.5px] font-semibold uppercase tracking-[0.14em] text-[#7a6cea]">
                                     {service.tag}
                                 </span>
                             </div>

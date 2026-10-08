@@ -20,7 +20,7 @@ import './admin.css';
 const useNoIndex = () => {
     useEffect(() => {
         const previousTitle = document.title;
-        document.title = 'Quản trị nội dung | Nextgency';
+        document.title = 'Quản trị nội dung | Activate';
         const meta = document.createElement('meta');
         meta.name = 'robots';
         meta.content = 'noindex, nofollow';

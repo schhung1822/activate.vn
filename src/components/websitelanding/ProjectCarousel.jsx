@@ -12,10 +12,10 @@ const ProjectCarousel = () => {
     const carouselRef = useRef(null);
 
     const gradients = [
-        'from-[#A4FCFF]/20 to-[#C8A4FE]/20',
-        'from-[#C8A4FE]/20 to-[#5a37c0]/20',
+        'from-[#A4FCFF]/20 to-[#F39AC6]/20',
+        'from-[#F39AC6]/20 to-[#5a37c0]/20',
         'from-[#A4FCFF]/20 to-[#5a37c0]/20',
-        'from-[#C8A4FE]/20 to-[#A4FCFF]/20'
+        'from-[#F39AC6]/20 to-[#A4FCFF]/20'
     ];
 
     const localizedProjects = useProjects();
@@ -241,14 +241,14 @@ const ProjectCarousel = () => {
                                 <button
                                     onClick={handlePrev}
                                     disabled={isTransitioning}
-                                    className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:border-[#A368FE] hover:bg-[#A368FE] hover:text-white transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                                    className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:border-[#B04FCD] hover:bg-[#B04FCD] hover:text-white transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
                                 >
                                     <ChevronLeft className="w-5 h-5" strokeWidth={2.5}/>
                                 </button>
                                 <button
                                     onClick={handleNext}
                                     disabled={isTransitioning}
-                                    className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:border-[#A368FE] hover:bg-[#A368FE] hover:text-white transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                                    className="w-12 h-12 bg-black text-white rounded-full flex items-center justify-center hover:border-[#B04FCD] hover:bg-[#B04FCD] hover:text-white transition-all duration-300 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
                                 >
                                     <ChevronRight className="w-5 h-5" strokeWidth={2.5}/>
                                 </button>

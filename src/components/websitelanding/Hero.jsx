@@ -35,8 +35,8 @@ const Hero = () => {
                                 <div className="w-[6.6rem] h-[6.6rem] bg-white rounded-full flex items-center justify-center shadow-lg">
                                     {/* Logo/Favicon Image - Placeholder */}
                                     <img
-                                        src="/assets/images/header/navbarfavicon.png"
-                                        alt="Nextgency Logo"
+                                        src="/assets/images/brand/activate-mark.svg"
+                                        alt="Activate Logo"
                                         className="h-12 w-auto object-contain"
                                     />
                                 </div>
@@ -66,7 +66,7 @@ const Hero = () => {
                                             cx="25.4404"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#f3e8ff"
+                                            fill="#fdeef6"
                                             className="animate-pulse"
                                             style={{ animationDelay: '0s', animationDuration: '2s' }}
                                         />
@@ -74,7 +74,7 @@ const Hero = () => {
                                             cx="40.1005"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#e9d5ff"
+                                            fill="#fbd5e8"
                                             className="animate-pulse"
                                             style={{ animationDelay: '0.5s', animationDuration: '2s' }}
                                         />
@@ -82,7 +82,7 @@ const Hero = () => {
                                             cx="53.8994"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#d8b4fe"
+                                            fill="#f7b3d6"
                                             className="animate-pulse"
                                             style={{ animationDelay: '1s', animationDuration: '2s' }}
                                         />
@@ -90,7 +90,7 @@ const Hero = () => {
                                             cx="68.5596"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#c59efe"
+                                            fill="#f06aae"
                                             className="animate-pulse"
                                             style={{ animationDelay: '1.5s', animationDuration: '2s' }}
                                         />

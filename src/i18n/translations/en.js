@@ -1,6 +1,11 @@
 // src/i18n/translations/en.js
 // English (/en). Key nào thiếu ở đây sẽ tự rơi về bản tiếng Việt.
+import corporate from './corporate/en.js';
+
 export default {
+    // Nội dung hồ sơ doanh nghiệp Activate - xem ./corporate/en.js
+    corporate,
+
     language: {
         label: 'Language',
         switchTo: 'Switch to {{language}}'
@@ -15,7 +20,10 @@ export default {
         email: 'Email',
         website: 'Website',
         address: 'Address',
-        addressValue: '2/11 Vuong Thua Vu, Thanh Xuan, Hanoi',
+        addressValue: 'No. 16, Lane 250 Trinh Dinh Cuu, Dinh Cong Ward, Hanoi, Vietnam',
+        taxId: 'Tax ID',
+        legalName: 'International name',
+        brandLabel: 'Brand',
         home: 'Home',
         customers: 'Clients',
         trustedCustomers: 'Clients who trust us'
@@ -51,7 +59,8 @@ export default {
     },
 
     footer: {
-        tagline: 'AI - Marketing Automation Agency',
+        tagline: 'Digital Transformation & Product Retail',
+        about: 'Activate is a brand of CIVI GLOBAL COMPANY LIMITED - a company providing digital transformation solutions and product retail.',
         servicesTitle: 'Our services',
         services: {
             facebookAds: 'Facebook Ads service',
@@ -73,7 +82,7 @@ export default {
         },
         newsletterTitle: 'Subscribe to our newsletter',
         newsletterDescription:
-            'Subscribe for the latest updates on our services and technology trends from Nextgency.',
+            'Subscribe for the latest updates on our services and technology trends from Activate.',
         newsletterPlaceholder: 'Enter your email',
         newsletterButton: 'Subscribe',
         copyright: '© Copyright and operated by'
@@ -127,9 +136,9 @@ export default {
             titleLine1: 'Clients &',
             titleLine2: 'Strategic partners',
             subtitle:
-                'The companies walking with Nextgency on the journey towards lasting digital transformation',
+                'The companies walking with Activate on the journey towards lasting digital transformation',
             paragraph1:
-                'Throughout our journey, Nextgency has been proud to work with more than 100 businesses and organisations across a wide range of sectors: beauty, education, healthcare, technology, public services and manufacturing.',
+                'Throughout our journey, Activate has been proud to work with more than 100 businesses and organisations across a wide range of sectors: beauty, education, healthcare, technology, public services and manufacturing.',
             paragraph2:
                 'We do more than deliver technology projects – we act as a strategic advisory partner, analysing data with our clients, designing solutions and optimising business results stage by stage.'
         },
@@ -162,7 +171,7 @@ export default {
                 },
                 {
                     title: 'Professional complaint handling',
-                    description: 'Whenever a complaint is raised, Nextgency commits to:',
+                    description: 'Whenever a complaint is raised, Activate commits to:',
                     subCommitments: [
                         'Responding within 24 working hours',
                         'Producing a clear written record of responsibility, the fix and how it will be resolved for good',
@@ -204,8 +213,8 @@ export default {
         whyChooseUs: {
             titleLine1: 'Why choose',
             subtitle:
-                'Nextgency is a trusted agency with 3 years of experience, working alongside hundreds of businesses to raise their digital game',
-            teamAlt: 'The Nextgency specialist team',
+                'Activate is a trusted agency with 3 years of experience, working alongside hundreds of businesses to raise their digital game',
+            teamAlt: 'The Activate specialist team',
             badges: {
                 enthusiastic: 'Passionate',
                 young: 'Young',
@@ -245,27 +254,27 @@ export default {
     contact: {
         title: 'Talk to our team',
         description:
-            'Thank you for reaching out to Nextgency. Our team will review your information carefully and contact you within 24 working hours with the solution that fits you best.'
+            'Thank you for reaching out to Activate. Our team will review your information carefully and contact you within 24 working hours with the solution that fits you best.'
     },
 
     home: {
         hero: {
-            badge: 'Digital Solutions Agency',
+            badge: 'Digitalisation & Retail',
             description:
-                'Nextgency is a leading technology partner delivering end-to-end digitalisation. We turn ideas into reality with the most advanced technology available.',
+                'Activate helps businesses go digital end to end - from websites, advertising and CRM to AI & automation - while retailing quality, genuine products.',
             cta: 'View projects'
         },
         about: {
-            badge: 'About Nextgency',
+            badge: 'About Activate',
             titleLine1: 'Leading The',
             titleLine2: 'Digital Shift',
             description:
-                'Nextgency is your strategic partner in the digital era. We deliver digital transformation solutions that help your business grow faster.',
+                'Activate is your strategic partner in the digital era. We deliver digital transformation solutions that help your business grow faster.',
             cta: 'Learn more'
         },
         services: {
             badge: 'Services',
-            title: 'Services by Nextgency',
+            title: 'Services by Activate',
             descriptionLabel: 'Overview',
             technologiesLabel: 'Technologies used',
             durationLabel: 'Delivery time',
@@ -276,7 +285,7 @@ export default {
                     name: 'Automation - AI - Data',
                     title: 'Automation - AI - Data',
                     description:
-                        'Want to multiply output, cut manual work and improve customer experience? The answer lies in automation and AI. Nextgency helps businesses make their processes genuinely intelligent.',
+                        'Want to multiply output, cut manual work and improve customer experience? The answer lies in automation and AI. Activate helps businesses make their processes genuinely intelligent.',
                     duration: '14 - 30 days',
                     note: 'Streamlined operations, automated tasks and data you can actually act on'
                 },
@@ -284,7 +293,7 @@ export default {
                     name: 'Google Ads',
                     title: 'Google Ads',
                     description:
-                        'Nextgency runs Google Ads across a full range of campaign types so your business becomes the first name customers think of in your category.',
+                        'Activate runs Google Ads across a full range of campaign types so your business becomes the first name customers think of in your category.',
                     duration: '3 - 7 days',
                     note: 'Campaign setup, conversion tracking and continuous budget optimisation'
                 },
@@ -292,7 +301,7 @@ export default {
                     name: 'Facebook Ads',
                     title: 'Facebook Ads',
                     description:
-                        'Facebook Ads by Nextgency is the right hand that helps your business mine the gold still waiting in Facebook’s vast audience.',
+                        'Facebook Ads by Activate is the right hand that helps your business mine the gold still waiting in Facebook’s vast audience.',
                     duration: '3 - 7 days',
                     note: 'Audience building, campaign rollout and conversion rate optimisation'
                 },
@@ -300,7 +309,7 @@ export default {
                     name: 'Website & Landing Page',
                     title: 'Website & Landing Page',
                     description:
-                        'A website or landing page is not just somewhere customers drop by – it is where they stay, convert and come back. Nextgency builds modern digital platforms end to end.',
+                        'A website or landing page is not just somewhere customers drop by – it is where they stay, convert and come back. Activate builds modern digital platforms end to end.',
                     duration: '7 - 21 days',
                     note: 'Modern interface design, faster page loads and higher conversion rates'
                 },
@@ -316,7 +325,7 @@ export default {
                     name: 'Facebook Dataset & CRM',
                     title: 'Facebook Dataset & CRM',
                     description:
-                        'In an era where data is the real diamond mine, Nextgency turns every behaviour and every interaction into advertising leverage through our Facebook Dataset & CRM service.',
+                        'In an era where data is the real diamond mine, Activate turns every behaviour and every interaction into advertising leverage through our Facebook Dataset & CRM service.',
                     duration: '7 - 14 days',
                     note: 'Connected customer data, CRM sync and far more reliable ad measurement'
                 },
@@ -324,7 +333,7 @@ export default {
                     name: 'Outsourced Marketing Team',
                     title: 'Outsourced Marketing Department',
                     description:
-                        'Pouring our team’s expertise into the most promising projects of our clients is exactly what Nextgency commits to with our outsourced marketing department.',
+                        'Pouring our team’s expertise into the most promising projects of our clients is exactly what Activate commits to with our outsourced marketing department.',
                     duration: 'Monthly retainer',
                     note: 'We work like your in-house marketing team, from strategy through to execution'
                 },
@@ -332,7 +341,7 @@ export default {
                     name: 'Facebook Blue Badge',
                     title: 'Facebook Blue Badge',
                     description:
-                        'Nextgency handles Facebook blue badge verification from A to Z, shortening review time, standardising your documentation and raising your real approval rate.',
+                        'Activate handles Facebook blue badge verification from A to Z, shortening review time, standardising your documentation and raising your real approval rate.',
                     duration: '7 - 30 days',
                     note: 'Document consulting, profile standardisation and full verification support'
                 }
@@ -340,11 +349,11 @@ export default {
         },
         projectsShowcase: {
             badge: 'Projects',
-            title: 'Selected work by Nextgency',
+            title: 'Selected work by Activate',
             description: 'Explore the websites, platforms and digital solutions we have created with our clients.',
             viewAll: 'View all projects',
             hint: 'Move to explore · Select a project for a preview',
-            wallLabel: 'Nextgency animated project gallery',
+            wallLabel: 'Activate animated project gallery',
             preview: 'Project preview',
             close: 'Close project preview',
             noImage: 'No project image available',
@@ -362,36 +371,36 @@ export default {
             badge: 'Testimonials',
             title: 'what our partners say',
             description:
-                'We take pride in the positive feedback from our clients – it is what keeps Nextgency moving forward.',
+                'We take pride in the positive feedback from our clients – it is what keeps Activate moving forward.',
             items: [
-                'Nextgency delivered a brilliant solution for us. A professional, creative team that is always ready to help.',
-                'Nextgency brought us fresh, effective technology solutions that matched exactly where we wanted to grow.',
-                'Nextgency helped us optimise our business operations with professionalism, dedication and creative thinking.',
-                'Nextgency consistently brings creative ideas that are practical and effective for our communication projects.',
-                'Nextgency understood our brand needs and delivered solutions that were fitting, polished and effective.',
-                'Nextgency has walked alongside us with professionalism, creativity and genuinely dedicated support.',
-                'We have partnered with Nextgency on several projects and have always appreciated the team’s professionalism and effectiveness.',
-                'Nextgency provides dedicated support, responds quickly and stays closely involved throughout the entire implementation.'
+                'Activate delivered a brilliant solution for us. A professional, creative team that is always ready to help.',
+                'Activate brought us fresh, effective technology solutions that matched exactly where we wanted to grow.',
+                'Activate helped us optimise our business operations with professionalism, dedication and creative thinking.',
+                'Activate consistently brings creative ideas that are practical and effective for our communication projects.',
+                'Activate understood our brand needs and delivered solutions that were fitting, polished and effective.',
+                'Activate has walked alongside us with professionalism, creativity and genuinely dedicated support.',
+                'We have partnered with Activate on several projects and have always appreciated the team’s professionalism and effectiveness.',
+                'Activate provides dedicated support, responds quickly and stays closely involved throughout the entire implementation.'
             ]
         },
         clients: {
             titleLine1: 'Clients &',
             titleLine2: 'Strategic partners',
             description:
-                'The companies walking with Nextgency on the journey towards lasting digital transformation',
+                'The businesses, brands and organisations that have chosen to work with Activate.',
             summary:
-                'Nextgency is proud to work with more than 100 organisations across beauty, education, healthcare, technology, public services and manufacturing.',
+                'Activate is proud to work with more than 100 businesses and organisations across beauty, education, healthcare, technology, public services and manufacturing.',
             partnersLabel: 'Strategic partners'
         }
     },
 
     about: {
         hero: {
-            badge: 'About Nextgency',
+            badge: 'About Activate',
             titleLine1: 'Your all-round',
             titleLine2: 'digital transformation partner',
             description:
-                'Nextgency is your strategic partner in the digital era. We deliver digital transformation solutions that help your business grow faster.',
+                'Activate is your strategic partner in the digital era. We deliver digital transformation solutions that help your business grow faster.',
             cta: 'Get a consultation',
             cards: {
                 innovation: {
@@ -409,14 +418,14 @@ export default {
             }
         },
         story: {
-            badge: 'About Nextgency',
+            badge: 'About Activate',
             titleLine1: 'Our',
             titleLine2: 'Story',
             subtitle: 'Technology – the turning point for a breakthrough',
             paragraph1:
-                'Nextgency was founded in 2025, after our lead founder had spent more than five years running an e-commerce business. Along that journey the founder realised one thing: technology is the key that changes an entire business model – from operations management and marketing through to profit optimisation.',
+                'Activate was founded in 2025, after our lead founder had spent more than five years running an e-commerce business. Along that journey the founder realised one thing: technology is the key that changes an entire business model – from operations management and marketing through to profit optimisation.',
             paragraph2:
-                'By applying technology the right way, the founder’s own business broke through its old ceiling and opened up a new path to growth. That success became living proof that technology does not merely support a business, it reshapes its future. Built on that hands-on foundation, the core team came together to found Nextgency, with a mission to bring proven technology solutions to other businesses – helping them not only solve today’s problems but also build a long-term competitive edge.'
+                'By applying technology the right way, the founder’s own business broke through its old ceiling and opened up a new path to growth. That success became living proof that technology does not merely support a business, it reshapes its future. Built on that hands-on foundation, the core team came together to found Activate, with a mission to bring proven technology solutions to other businesses – helping them not only solve today’s problems but also build a long-term competitive edge.'
         }
     },
 
@@ -440,7 +449,7 @@ export default {
             hero: {
                 title: 'Google Ads service',
                 description:
-                    'Nextgency runs Google Ads across a full range of campaign types so your business becomes the first name customers think of in your category.'
+                    'Activate runs Google Ads across a full range of campaign types so your business becomes the first name customers think of in your category.'
             },
             divider: [
                 'Google Search Ads, Display, YouTube and Performance Max.',
@@ -496,7 +505,7 @@ export default {
                         'The agreed metrics tracked and monitored (CPC, CTR, conversions...)',
                         'Regular optimisation recommendations (weekly or monthly)',
                         'Performance reporting on a fixed cycle',
-                        'Regular account reviews by Nextgency',
+                        'Regular account reviews by Activate',
                         'Dedicated advice whenever you want to expand a campaign'
                     ]
                 },
@@ -510,16 +519,16 @@ export default {
                         'Regular reporting (weekly/monthly), performance explained, growth recommended',
                         'Automated reporting through Data Studio or Google Sheets',
                         'Help with landing pages, content and conversion funnel advice',
-                        'Dedicated Google support through the Nextgency partnership'
+                        'Dedicated Google support through the Activate partnership'
                     ]
                 },
                 advanced: {
                     title: 'Account rental',
                     features: [
                         'A Google Ads invoice account provided',
-                        'Nextgency creates the account and hands it over for you to use',
+                        'Activate creates the account and hands it over for you to use',
                         'Guidance on linking assets and assigning account permissions',
-                        'Dedicated Google support through the Nextgency partnership',
+                        'Dedicated Google support through the Activate partnership',
                         'Payment monitoring, account protection and incident handling',
                         'Help connecting to an MCC or other related technical platforms'
                     ]
@@ -601,7 +610,7 @@ export default {
             hero: {
                 titleLine1: 'OUR',
                 brand: 'Facebook Ads',
-                descriptionPrefix: 'Nextgency’s ',
+                descriptionPrefix: 'Activate’s ',
                 descriptionSuffix:
                     ' service is the right hand that helps your business "mine the gold" still hidden in this long-established platform, through:',
                 bullets: [
@@ -799,7 +808,7 @@ export default {
                     'A virus is tiny, but once it spreads the effect is enormous – exactly how your ads go viral on ',
                 brand: 'the TikTok platform',
                 descriptionSuffix:
-                    ' to drive revenue and put your brand everywhere. Here is what Nextgency’s TikTok Ads service delivers:',
+                    ' to drive revenue and put your brand everywhere. Here is what Activate’s TikTok Ads service delivers:',
                 bullets: [
                     'Short-burst viral campaigns tuned for consumer goods, fashion and beauty.',
                     'Video creative plus pixel tracking built to TikTok’s standard.',
@@ -853,7 +862,7 @@ export default {
             adFormats: {
                 title: 'TikTok ad formats',
                 subtitle:
-                    'Nextgency runs every TikTok advertising format, tuned to whichever business goal you are chasing',
+                    'Activate runs every TikTok advertising format, tuned to whichever business goal you are chasing',
                 items: [
                     {
                         title: 'Branding',
@@ -939,18 +948,18 @@ export default {
             carousel: {
                 brand: 'Website & Landing Page',
                 description:
-                    ' is not just somewhere customers drop by – it is where they stay, convert and come back. Nextgency builds modern digital platforms end to end.',
+                    ' is not just somewhere customers drop by – it is where they stay, convert and come back. Activate builds modern digital platforms end to end.',
                 projectFallback: 'the project',
                 viewDetail: 'View details of {{name}}'
             },
             portfolio: {
-                title: 'Projects by Nextgency'
+                title: 'Projects by Activate'
             },
             video: {
                 badge: 'Behind the process',
                 title: 'From the idea to the finished product',
                 description:
-                    'See how the Nextgency team turns ideas into outstanding websites. From research and design through to launch, every step is handled with care and craft.'
+                    'See how the Activate team turns ideas into outstanding websites. From research and design through to launch, every step is handled with care and craft.'
             },
             painPoints: {
                 title: 'Where businesses lose money',
@@ -1122,7 +1131,7 @@ export default {
                         items: [
                             'Handing the project over to you',
                             'You sign off and settle payment',
-                            'Nextgency provides 24/7 warranty support'
+                            'Activate provides 24/7 warranty support'
                         ]
                     }
                 ]
@@ -1136,7 +1145,7 @@ export default {
                     'Want to multiply output, cut manual work and improve customer experience? The answer lies in ',
                 brand: 'automation and AI.',
                 descriptionSuffix:
-                    ' Nextgency helps businesses make their processes genuinely intelligent, through:',
+                    ' Activate helps businesses make their processes genuinely intelligent, through:',
                 bullets: [
                     'Automating internal and marketing workflows with n8n.',
                     'Building AI agents: smart chatbots, DISC advisory, content generation.',
@@ -1267,7 +1276,7 @@ export default {
                 descriptionPrefix: 'In an era where data is the real "',
                 brand: 'diamond mine',
                 descriptionSuffix:
-                    '", Nextgency turns every behaviour and every interaction into advertising leverage, through our Facebook Dataset & CRM service:',
+                    '", Activate turns every behaviour and every interaction into advertising leverage, through our Facebook Dataset & CRM service:',
                 bullets: [
                     'Building high-quality datasets for your Facebook advertising.',
                     'Creating lookalike and remarketing audiences from CRM data, orders and user behaviour.',
@@ -1330,7 +1339,7 @@ export default {
                 titleLine1: 'OUTSOURCED',
                 titleLine2: 'MARKETING TEAM',
                 descriptionPrefix:
-                    'Pouring our team’s expertise into the most promising projects of our clients is exactly what Nextgency commits to with our ',
+                    'Pouring our team’s expertise into the most promising projects of our clients is exactly what Activate commits to with our ',
                 brand: 'outsourced marketing department:',
                 bullets: [
                     'An outsourced package covering the whole marketing team: ads, content, design, automation.',
@@ -1430,7 +1439,7 @@ export default {
                 highlight2: 'protect their brand',
                 descriptionPart3: ' on the platform.',
                 description2:
-                    'Nextgency handles Facebook blue badge registration from A to Z, shortening review time, standardising your documentation and raising your real approval rate.',
+                    'Activate handles Facebook blue badge registration from A to Z, shortening review time, standardising your documentation and raising your real approval rate.',
                 badges: {
                     verified: 'Verified',
                     safe: 'Safe',
@@ -1879,7 +1888,7 @@ export default {
             badge: 'News',
             title: 'News & Insights',
             subtitle:
-                'Articles on technology, AI, marketing and web design, organised so they are easy to find and easy to read.',
+                'Company news, partnership updates and market perspectives from Activate.',
             searchLabel: 'Search articles',
             searchPlaceholder: 'Search articles...',
             allCategories: 'All',
@@ -1907,8 +1916,8 @@ export default {
             copyLink: 'Copy link',
             previous: 'Previous article',
             next: 'Next article',
-            ctaTitle: 'Need a digital solution for your business?',
-            ctaDescription: 'Talk to Nextgency for advice tailored to your goals and budget.',
+            ctaTitle: 'Interested in partnering with Activate?',
+            ctaDescription: 'Send a distribution, supply or financial partnership proposal - the Activate team will get back to you shortly.',
             related: 'Related',
             relatedTitle: 'Related articles',
             viewAll: 'View all articles'
@@ -1928,8 +1937,8 @@ export default {
             vision: 'Vision – Mission – Core values',
             team: 'Structure & Team',
             process: 'How we deliver projects',
-            why: 'Why choose Nextgency',
-            services: 'Nextgency services',
+            why: 'Why choose Activate',
+            services: 'Activate services',
             clients: 'Clients & Partners',
             featured: 'Selected projects',
             nghe: 'Project: Nghe Content',
@@ -2037,7 +2046,7 @@ export default {
         hero: {
             title: 'The entire digital experience of the event — inside one mini app.',
             descriptionPrefix:
-                '19–20 June 2026 at the VEC Exhibition Centre, Hanoi — the largest edition to date, with more than 100 brands. After two years of proving it through results, Nextgency became the ',
+                '19–20 June 2026 at the VEC Exhibition Centre, Hanoi — the largest edition to date, with more than 100 brands. After two years of proving it through results, Activate became the ',
             techPartner: 'official Tech Partner',
             descriptionSuffix: ', designing and running the entire digital journey for attendees.',
             viewScope: 'See the scope',
@@ -2081,7 +2090,7 @@ export default {
             dataYears: '2 years',
             dataLabel: 'of data',
             dataDescription:
-                'Audience insight accumulated from advertising through to check-in across two editions let Nextgency design around how attendees actually behave — instead of guessing.'
+                'Audience insight accumulated from advertising through to check-in across two editions let Activate design around how attendees actually behave — instead of guessing.'
         },
 
         scope: {
@@ -2202,7 +2211,7 @@ export default {
             badge: 'Results · 19–20 June 2026',
             title: 'A record for the event series',
             description:
-                'The largest edition in the history of Beauty Summit Vietnam — running smoothly across every system Nextgency built: from advertising, to ticketing, to the in-app digital experience.',
+                'The largest edition in the history of Beauty Summit Vietnam — running smoothly across every system Activate built: from advertising, to ticketing, to the in-app digital experience.',
             metrics: [
                 'Attendees checked in across 2 days',
                 '+75% versus our first year together',
@@ -2218,7 +2227,7 @@ export default {
 
         why: {
             titleMiddle: 'it is a role earned after ',
-            badge: 'Why Nextgency?',
+            badge: 'Why Activate?',
             titleLine1: 'Tech Partner is not a title -',
             titleLine2: 'it is two years of results.',
             description:
@@ -2261,7 +2270,7 @@ export default {
             badge: 'Proof of capability',
             description:
                 'One client, three consecutive years - scope and operational scale growing every year.',
-            note: 'Nextgency designs, integrates and runs mini apps around how event attendees actually behave.'
+            note: 'Activate designs, integrates and runs mini apps around how event attendees actually behave.'
         }
     },
 
@@ -2270,7 +2279,7 @@ export default {
     // ================================================================
     booking: {
         consultant: {
-            bio: 'The person running Nextgency’s growth engine — performance advertising measured to the last dong, converting websites, branding, social content and AI automation systems — for businesses that never stop moving forward.',
+            bio: 'The person running Activate’s growth engine — performance advertising measured to the last dong, converting websites, branding, social content and AI automation systems — for businesses that never stop moving forward.',
             quote: '"Thirty minutes is not enough to solve your growth problem. But it is enough to point at exactly where it is blocked — and where the next dong should go first."'
         },
 
@@ -2345,7 +2354,7 @@ export default {
         refunds: [
             {
                 title: 'Before the call',
-                body: 'You change your mind, something urgent comes up, you want to reconsider, or no reason at all — one message and Nextgency refunds the full {{deposit}} within 24 hours. No pushback, no attempts to keep you, not a dong in cancellation fees.'
+                body: 'You change your mind, something urgent comes up, you want to reconsider, or no reason at all — one message and Activate refunds the full {{deposit}} within 24 hours. No pushback, no attempts to keep you, not a dong in cancellation fees.'
             },
             {
                 title: 'Mid-call',
@@ -2365,7 +2374,7 @@ export default {
             sendFailedPrefix: 'We could not send your details through. Your slot is still held — go ahead and transfer the deposit using the note below, or call ',
             sendFailedSuffix: ' directly and Son will confirm right away.',
             depositInstruction: ': a {{deposit}} holding deposit. Transfer with exactly the note below — the system alerts Son directly and he will call to confirm your slot today.',
-            refundDetail: ' Before the call, mid-call, or even after it finishes if you feel it was not worth it — one message and Nextgency refunds the full {{deposit}}. Sign a contract and it comes straight off the contract.',
+            refundDetail: ' Before the call, mid-call, or even after it finishes if you feel it was not worth it — one message and Activate refunds the full {{deposit}}. Sign a contract and it comes straight off the contract.',
             prevWeek: 'Previous week',
             nextWeek: 'Next week',
             session: '1-to-1 session · 30 minutes',
@@ -2408,7 +2417,7 @@ export default {
         },
 
         growth: {
-            descriptionPrefix: 'Growth is not magic that only a lucky few can pull off. It is an engineering problem — with inputs, outputs and every step measurable. Nextgency’s principle: keep only the channels that ',
+            descriptionPrefix: 'Growth is not magic that only a lucky few can pull off. It is an engineering problem — with inputs, outputs and every step measurable. Activate’s principle: keep only the channels that ',
             badge: 'Part 02 · The good news',
             title: 'Growth is a solvable problem — with numbers you can measure',
             highlight: 'can prove revenue with numbers',
@@ -2417,14 +2426,14 @@ export default {
         },
 
         callAgenda: {
-            closing: 'You leave the call with one thing clear in your head: where you are blocked, and what the next step is. Whether or not you go on to work with Nextgency, that view is yours to keep. That is why Son is happy to leave the deposit ',
+            closing: 'You leave the call with one thing clear in your head: where you are blocked, and what the next step is. Whether or not you go on to work with Activate, that view is yours to keep. That is why Son is happy to leave the deposit ',
             badge: 'Part 03 · What 30 minutes can do',
             title: 'One 30-minute session, enough to change the direction of the year ahead',
             description:
                 'Thirty minutes is not long, so this Growth Call does not wander. Son will not recite growth theory — he looks straight at your problem and does exactly three things:',
             refundHighlight: 'refundable at any time',
             refundSuffix:
-                '— if those 30 minutes do not give you that, you do not owe Nextgency a single dong.'
+                '— if those 30 minutes do not give you that, you do not owe Activate a single dong.'
         },
 
         deposit: {
@@ -2432,7 +2441,7 @@ export default {
             paragraph1: 'It sounds backwards: the consultation is free, so why a deposit? The reason is simple. Son only has a handful of these 1-to-1 sessions each week. When something is labelled "free" with a "one-click sign-up", half the people who register forget, get busy or never pick up — and that slot dies, while someone who genuinely needed it could not book. The {{deposit}} deposit filters for the people who are serious, so every session that happens is worth having.',
             paragraph2Prefix: 'But here is where many people misunderstand, so let us be completely clear: ',
             notAFee: 'the {{deposit}} is not payment for the consultation',
-            lastPrefix: 'Nextgency keeps the {{deposit}} in exactly ',
+            lastPrefix: 'Activate keeps the {{deposit}} in exactly ',
             lastMiddle: ' case: both sides move forward and sign a delivery contract — and even then it comes straight off the contract value, so you are still not a dong out of pocket. In every other case, the money is yours. That is why this is ',
             badge: 'Part 04 · Why there is a deposit',
             freeWord: 'free',
@@ -2471,7 +2480,7 @@ export default {
     },
 
     notFound: {
-        seoTitle: 'Page not found | Nextgency',
+        seoTitle: 'Page not found | Activate',
         seoDescription: 'The page you are looking for does not exist or has been moved elsewhere.',
         title: 'This page does not exist',
         description:
@@ -2479,19 +2488,10 @@ export default {
         homeCta: 'Back to home',
         backCta: 'Go back',
         links: {
-            about: {title: 'About us', description: 'An overview of who Nextgency is'},
-            ai: {
-                title: 'Automation Content AI',
-                description: 'SEO · AEO · GEO ready content written by AI.'
-            },
-            projects: {
-                title: 'Our work',
-                description: 'See what Nextgency has built for its clients.'
-            },
-            news: {
-                title: 'News & insights',
-                description: 'Practical perspectives on marketing and AI.'
-            }
+            about: {title: 'About us', description: 'An overview of Activate'},
+            fields: {title: 'Business areas', description: 'Wholesale, import & export and distribution agency.'},
+            contact: {title: 'Partner with us', description: 'Send Activate a partnership proposal.'},
+            news: {title: 'News', description: 'Company news and market perspectives.'}
         }
     }
 };

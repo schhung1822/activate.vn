@@ -23,9 +23,9 @@ const THUMBNAILS = [
 
 const IMAGES_PER_COLUMN = 11;
 
-// Tông nền tím nhạt lấy từ màu thương hiệu #c08dfe; giữ đồng bộ với `bg-`
+// Tông nền tím nhạt lấy từ màu thương hiệu #ee3e99; giữ đồng bộ với `bg-`
 // của <section> trong HomeProjectsSection.
-const BACKDROP_GROUND = '#f4eeff';
+const BACKDROP_GROUND = '#fef1f8';
 const FOG_RGB = '250, 246, 255';
 
 // Mép ngoài rõ nhất rồi tan dần vào giữa, không có đường cắt như lớp phủ chữ nhật.
@@ -109,7 +109,7 @@ const ProjectThumbBackdrop = () => (
         aria-hidden="true"
     >
         {/* Quầng sáng màu thương hiệu để sương có màu chứ không xám xịt. */}
-        <div className="absolute -left-40 top-[6%] h-[520px] w-[520px] rounded-full bg-[#c08dfe]/25 blur-[130px]" />
+        <div className="absolute -left-40 top-[6%] h-[520px] w-[520px] rounded-full bg-[#ee3e99]/25 blur-[130px]" />
         <div className="absolute -right-36 bottom-[4%] h-[460px] w-[460px] rounded-full bg-[#9ef5ae]/20 blur-[130px]" />
 
         <SideBand side="left">

@@ -185,7 +185,7 @@ const TestimonialsSection = () => {
                 </div>
 
                 {/* Main Content Container */}
-                <div ref={mainContainerRef} className="grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-8 p-2 rounded-md bg-gradient-to-br from-[#2B144D] via-black to-[#2B144D]">
+                <div ref={mainContainerRef} className="grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-8 p-2 rounded-md bg-gradient-to-br from-[#2D0F3B] via-black to-[#2D0F3B]">
                     {/* Left Column - Description & CTA */}
                     <div ref={leftColumnRef} className="lg:col-span-1 flex flex-col justify-between">
                         <div className="mb-2 lg:mb-6 lg:mb-0 p-4">
@@ -231,7 +231,7 @@ const TestimonialsSection = () => {
                                                             />
                                                             {/* Feedback Content */}
                                                             <div className="relative pl-10">
-                                                                <Quote className="absolute left-0 top-0 h-6 w-6 fill-[#2B144D] text-[#2B144D] opacity-[0.5]" />
+                                                                <Quote className="absolute left-0 top-0 h-6 w-6 fill-[#2D0F3B] text-[#2D0F3B] opacity-[0.5]" />
                                                                 <p className="text-black text-[14px] lg:text-[16px]">
                                                                     {testimonial.content}
                                                                 </p>
@@ -239,7 +239,7 @@ const TestimonialsSection = () => {
 
                                                             {/* Bottom Section - Author Info */}
                                                             <div className="relative z-10 text-right">
-                                                                <p className="text-[11px] sm:text-[13px] font-archivo font-medium text-[#2B144D] uppercase tracking-widest">
+                                                                <p className="text-[11px] sm:text-[13px] font-archivo font-medium text-[#2D0F3B] uppercase tracking-widest">
                                                                     {testimonial.company}
                                                                 </p>
                                                             </div>

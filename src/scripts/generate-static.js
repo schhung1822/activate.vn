@@ -33,7 +33,7 @@ import {
     seoRoutes,
     toAbsoluteUrl
 } from '../pages/seo-configs.js';
-import {generateArticleSchema, generateBreadcrumbSchema} from '../components/SEO/schemas.js';
+import {generateArticleSchema, generateBreadcrumbSchema, organizationSchema} from '../components/SEO/schemas.js';
 import {LOCALES, getLocaleConfig} from '../i18n/config.js';
 import {translate} from '../i18n/translate.js';
 
@@ -197,21 +197,8 @@ const buildSchemas = (route) => {
     const locale = route.locale;
     const localeConfig = getLocaleConfig(locale);
 
-    const organization = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        '@id': `${SITE.baseUrl}/#organization`,
-        name: SITE.name,
-        url: SITE.baseUrl,
-        logo: toAbsoluteUrl('/assets/images/header/navbarlogoblack.png'),
-        image: toAbsoluteUrl(DEFAULT_OG_IMAGE.url),
-        description: 'Agency digital marketing: thiết kế website, quảng cáo online, AI và chuyển đổi số.',
-        address: {
-            '@type': 'PostalAddress',
-            addressLocality: 'Hồ Chí Minh',
-            addressCountry: 'VN'
-        }
-    };
+    // Dùng chung organizationSchema với phía client để hai nơi không lệch nhau
+    const organization = organizationSchema;
 
     if (route.type === 'article' && route.headline) {
         return [
@@ -337,10 +324,14 @@ const buildHead = (route) => {
         `<meta name="twitter:title" content="${escapeHtml(route.title)}" />`,
         `<meta name="twitter:description" content="${escapeHtml(route.description)}" />`,
         `<meta name="twitter:image" content="${imageUrl}" />`,
-        `<meta name="twitter:image:alt" content="${escapeHtml(image.alt)}" />`,
-        `<meta name="twitter:site" content="${SITE.twitterHandle}" />`,
-        `<meta name="twitter:creator" content="${SITE.twitterHandle}" />`
+        `<meta name="twitter:image:alt" content="${escapeHtml(image.alt)}" />`
     );
+    if (SITE.twitterHandle) {
+        tags.push(
+            `<meta name="twitter:site" content="${SITE.twitterHandle}" />`,
+            `<meta name="twitter:creator" content="${SITE.twitterHandle}" />`
+        );
+    }
 
     buildSchemas(route).forEach((schema) => {
         // </script> trong chuỗi JSON sẽ đóng sớm thẻ script -> phải escape

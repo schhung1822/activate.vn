@@ -222,7 +222,7 @@ const BeautyVerseHero = () => {
                     <button
                         type="button"
                         onClick={() => window.dispatchEvent(new Event('nextgency:open-consultation-popup'))}
-                        className="group relative inline-flex w-fit items-center gap-4 overflow-hidden rounded-full bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#2B144D] py-1.5 pl-6 pr-1.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(160,112,255,0.32)] sm:text-[15px]"
+                        className="group relative inline-flex w-fit items-center gap-4 overflow-hidden rounded-full bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#6A4FDB] py-1.5 pl-6 pr-1.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(176,79,205,0.32)] sm:text-[15px]"
                         style={{ backgroundSize: '200% 200%', animation: 'final-cta-gradient 3s ease-in-out infinite' }}
                     >
                         <span className="relative z-10">{t('beautyverse.cta')}</span>

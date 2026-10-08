@@ -22,7 +22,7 @@ const CallAgendaSection = () => {
             <div className="mt-7 flex flex-col">
                 {CALL_AGENDA.map((item) => (
                     <div key={item.n} className="grid grid-cols-[42px_1fr] gap-4 border-t border-[#e2e8f1] py-6 sm:grid-cols-[52px_1fr] sm:gap-[18px]">
-                        <span className="bg-gradient-to-br from-[#2e7bdf] to-[#8a6cf0] bg-clip-text font-archivo text-[26px] font-bold text-transparent">
+                        <span className="bg-gradient-to-br from-[#2e7bdf] to-[#7a6cea] bg-clip-text font-archivo text-[26px] font-bold text-transparent">
                             {item.n}
                         </span>
                         <div>

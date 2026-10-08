@@ -6,6 +6,23 @@ export default {
   ],
   theme: {
     extend: {
+      // Bảng màu thương hiệu Activate - lấy từ gradient của logo (tím → hồng → cam)
+      colors: {
+        brand: {
+          violet: '#7A6CEA',
+          deep: '#6A4FDB',
+          purple: '#B04FCD',
+          magenta: '#D33CB8',
+          pink: '#EE3E99',
+          coral: '#F3726F',
+          amber: '#F8B736',
+          plum: '#2D0F3B',
+          blush: '#FBD5E8',
+        },
+      },
+      backgroundImage: {
+        'brand-gradient': 'linear-gradient(135deg, #7A6CEA 0%, #B04FCD 30%, #EE3E99 65%, #F3726F 82%, #F8B736 100%)',
+      },
       fontFamily: {
         'archivo': ['Archivo', 'sans-serif'],
         'fzpoppins': ['FzPoppins', 'sans-serif'],

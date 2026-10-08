@@ -27,7 +27,7 @@ const BookingCtaSection = ({ctx, title, description, buttonLabel}) => {
     const finalButtonLabel = buttonLabel || t('shared.bookingCta.button');
 
     return (
-        <section id='lilcontact' className="bg-gradient-to-t from-black via-black to-[#2B144D] py-[60px] lg:py-[90px] relative overflow-hidden">
+        <section id='lilcontact' className="bg-gradient-to-t from-black via-black to-[#2D0F3B] py-[60px] lg:py-[90px] relative overflow-hidden">
 
             <div className="relative z-10 mx-auto px-4 text-center md:max-w-[700px] sm:px-6 lg:max-w-[1280px] lg:px-8">
                 <h2 className="mb-2 font-archivo text-[24px] font-bold uppercase leading-[1.45] text-white md:text-[32px] lg:text-[40px]">
@@ -39,7 +39,7 @@ const BookingCtaSection = ({ctx, title, description, buttonLabel}) => {
                 <div className="flex items-center justify-center">
                     <Link
                         to={`/dat-lich?ctx=${encodeURIComponent(context)}`}
-                        className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#1a4498] via-[#c08dfe] to-[#1a4498] text-[16px] text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20 hover:scale-105 group animate-gradient-shift"
+                        className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#6a4fdb] via-[#ee3e99] to-[#6a4fdb] text-[16px] text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-fuchsia-500/20 hover:scale-105 group animate-gradient-shift"
                         style={{
                             backgroundSize: '200% 200%'
                         }}

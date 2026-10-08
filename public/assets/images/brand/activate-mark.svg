@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Activate">
+  <defs>
+    <linearGradient id="activate-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="108" y2="308">
+      <stop offset="0" stop-color="#7A6CEA"/>
+      <stop offset="0.06" stop-color="#836DE9"/>
+      <stop offset="0.3" stop-color="#B04FCD"/>
+      <stop offset="0.47" stop-color="#D33CB8"/>
+      <stop offset="0.68" stop-color="#EE3E99"/>
+      <stop offset="0.82" stop-color="#F3726F"/>
+      <stop offset="1" stop-color="#F8B736"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#activate-gradient)" stroke="url(#activate-gradient)" stroke-width="6" stroke-linejoin="round"
+        d="M86 3 L247 3 L253 9 L253 183 L96 45 L89 45 L71 57 L85 208 L161 170 L243 253
+           L86 253 L86 214 L80 211 L38 233 L38 253 L9 253 L3 247 L3 37 Z"/>
+</svg>

@@ -69,7 +69,7 @@ const PainPointsSection = () => {
                                 {/* Impact */}
                                 <div className={`
           inline-flex items-center gap-2 px-3 py-1 rounded-full text-[13px] lg:text-[15px] font-medium mt-4 self-start
-          ${point.isDark ? 'bg-[#c08dfe]/20 text-[#c08dfe]' : 'bg-[#1a4498]/10 text-[#1a4498]'}
+          ${point.isDark ? 'bg-[#ee3e99]/20 text-[#ee3e99]' : 'bg-[#6a4fdb]/10 text-[#6a4fdb]'}
         `}>
                                     <span className="w-2 h-2 bg-current rounded-full"></span>
                                     {point.impact}

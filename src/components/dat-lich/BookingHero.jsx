@@ -16,8 +16,8 @@ const BookingHero = () => (
         <header className="relative z-10 flex h-[76px] items-center justify-between border-b border-white/[.08] px-5 sm:px-8 lg:px-14">
             <Link to="/" className="block">
                 <img
-                    src="/assets/images/footer/footerlogo.png"
-                    alt="Nextgency"
+                    src="/assets/images/brand/activate-logo-light.png"
+                    alt="Activate"
                     className="h-6 w-auto object-contain"
                 />
             </Link>

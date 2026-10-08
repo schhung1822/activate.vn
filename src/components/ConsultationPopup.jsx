@@ -135,7 +135,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                     }`}
                 >
                     {/* Main Popup */}
-                    <div className="bg-gradient-to-br from-[#2B144D] via-black to-black rounded-xl border-2 border-white/10 shadow-2xl overflow-hidden">
+                    <div className="bg-gradient-to-br from-[#2D0F3B] via-black to-black rounded-xl border-2 border-white/10 shadow-2xl overflow-hidden">
                         {/* Header */}
                         <div className="flex items-center justify-between p-6 border-b border-white/10">
                             <div className="mt-7 lg:mt-8">
@@ -161,27 +161,27 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                 <div className="hidden lg:block space-y-4">
                                     <div className="flex items-center space-x-3 bg-white/10 p-2 rounded-xl backdrop-blur-sm">
                                         <div>
-                                            <h3 className="text-[11px] sm:text-[12px] font-archivo font-medium text-[#c08dfe] mb-1 uppercase tracking-widest">{t('common.hotline')}</h3>
-                                            <p className="text-white text-[11px] lg:text-[13px]">033 208 3366</p>
+                                            <h3 className="text-[11px] sm:text-[12px] font-archivo font-medium text-[#ee3e99] mb-1 uppercase tracking-widest">{t('common.hotline')}</h3>
+                                            <p className="text-white text-[11px] lg:text-[13px]">(+84) 33 208 3366</p>
                                         </div>
                                     </div>
 
                                     <div className="flex items-center space-x-3 bg-white/10 p-2 rounded-xl backdrop-blur-sm">
                                         <div>
-                                            <h3 className="text-[11px] sm:text-[12px] font-archivo font-medium text-[#c08dfe] mb-1 uppercase tracking-widest">{t('common.email')}</h3>
-                                            <p className="text-white text-[11px] lg:text-[13px]">contact@nextgency.vn</p>
+                                            <h3 className="text-[11px] sm:text-[12px] font-archivo font-medium text-[#ee3e99] mb-1 uppercase tracking-widest">{t('common.email')}</h3>
+                                            <p className="text-white text-[11px] lg:text-[13px]">contact@activate.vn</p>
                                         </div>
                                     </div>
 
                                     <div className="flex items-center space-x-3 bg-white/10 p-2 rounded-xl backdrop-blur-sm">
                                         <div>
-                                            <h3 className="text-[11px] sm:text-[12px] font-archivo font-medium text-[#c08dfe] mb-1 uppercase tracking-widest">{t('common.address')}</h3>
+                                            <h3 className="text-[11px] sm:text-[12px] font-archivo font-medium text-[#ee3e99] mb-1 uppercase tracking-widest">{t('common.address')}</h3>
                                             <p className="text-white text-[11px] lg:text-[13px]">{t('common.addressValue')}</p>
                                         </div>
                                     </div>
 
                                     {/* Stats */}
-                                    <div className="bg-[#c59efe] rounded-xl p-4 text-center">
+                                    <div className="bg-[#f06aae] rounded-xl p-4 text-center">
                                         <div className="text-3xl font-bold text-white">500+</div>
                                         <div className="text-sm text-white">{t('common.trustedCustomers')}</div>
                                     </div>
@@ -215,7 +215,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                     name="customer_name"
                                                     value={formData.customer_name}
                                                     onChange={handleInputChange}
-                                                    className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg focus:outline-none"
+                                                    className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg focus:outline-none"
                                                     placeholder={t('form.namePlaceholder')}
                                                     required
                                                 />
@@ -232,7 +232,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                         name="phone"
                                                         value={formData.phone}
                                                         onChange={handleInputChange}
-                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg focus:outline-none"
+                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg focus:outline-none"
                                                         placeholder={t('form.phonePlaceholder')}
                                                         required
                                                     />
@@ -247,7 +247,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                         name="email"
                                                         value={formData.email}
                                                         onChange={handleInputChange}
-                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg focus:outline-none"
+                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg focus:outline-none"
                                                         placeholder={t('form.emailPlaceholder')}
                                                         required
                                                     />
@@ -265,7 +265,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                         name="business_field"
                                                         value={formData.business_field}
                                                         onChange={handleInputChange}
-                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg focus:outline-none"
+                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg focus:outline-none"
                                                         placeholder={t('form.businessFieldPlaceholder')}
                                                         required
                                                     />
@@ -280,7 +280,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                         name="brand_name"
                                                         value={formData.brand_name}
                                                         onChange={handleInputChange}
-                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg focus:outline-none"
+                                                        className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg focus:outline-none"
                                                         placeholder={t('form.brandPlaceholder')}
                                                     />
                                                 </div>
@@ -295,7 +295,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                     name="service"
                                                     value={formData.service}
                                                     onChange={handleInputChange}
-                                                    className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg focus:outline-none cursor-pointer"
+                                                    className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg focus:outline-none cursor-pointer"
                                                     required
                                                 >
                                                     <option value="" disabled>{t('form.servicePlaceholder')}</option>
@@ -315,7 +315,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                     name="consultation_request"
                                                     value={formData.consultation_request}
                                                     onChange={handleInputChange}
-                                                    className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg resize-none focus:outline-none"
+                                                    className="w-full px-3 py-2 bg-white/95 border border-white/20 rounded-lg text-black text-[12px] lg:text-[14px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg resize-none focus:outline-none"
                                                     placeholder={t('form.requestPlaceholder')}
                                                     required
                                                 />
@@ -326,7 +326,7 @@ export const ConsultationPopup = ({ isOpen, onClose }) => {
                                                 <button
                                                     type="submit"
                                                     disabled={isSubmitting}
-                                                    className="w-full px-8 py-4 bg-gradient-to-r from-[#c08dfe] via-[#c08dfe] to-[#c08dfe] rounded-lg text-white font-medium text-sm hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                                                    className="w-full px-8 py-4 bg-gradient-to-r from-[#ee3e99] via-[#ee3e99] to-[#ee3e99] rounded-lg text-white font-medium text-sm hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                                                     style={{ backgroundSize: '200% 200%' }}
                                                 >
                                                     <span className="flex items-center justify-center space-x-2">

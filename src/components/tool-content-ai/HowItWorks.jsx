@@ -34,15 +34,15 @@ const HowItWorks = () => {
                             <div key={index} className="relative group text-center">
                                 {/* Connector line (desktop only) */}
                                 {!isLast && (
-                                    <div className="hidden lg:block absolute top-8 left-[calc(50%+2.75rem)] right-[calc(-50%+2.75rem)] h-px border-t-2 border-dashed border-[#c08dfe]/50"></div>
+                                    <div className="hidden lg:block absolute top-8 left-[calc(50%+2.75rem)] right-[calc(-50%+2.75rem)] h-px border-t-2 border-dashed border-[#ee3e99]/50"></div>
                                 )}
 
                                 {/* Icon + number badge */}
                                 <div className="relative inline-flex mb-4">
                                     <div className="w-16 h-16 bg-white border-2 border-black rounded-2xl flex items-center justify-center shadow-md transform-gpu transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-lg">
-                                        <Icon className="w-6 h-6 text-[#1a4498]" strokeWidth={2} />
+                                        <Icon className="w-6 h-6 text-[#6a4fdb]" strokeWidth={2} />
                                     </div>
-                                    <span className="absolute -top-2.5 -right-2.5 w-7 h-7 rounded-full bg-gradient-to-r from-[#1a4498] to-[#c08dfe] text-white text-[13px] font-bold flex items-center justify-center border-2 border-white shadow-md">
+                                    <span className="absolute -top-2.5 -right-2.5 w-7 h-7 rounded-full bg-gradient-to-r from-[#6a4fdb] to-[#ee3e99] text-white text-[13px] font-bold flex items-center justify-center border-2 border-white shadow-md">
                                         {index + 1}
                                     </span>
                                 </div>

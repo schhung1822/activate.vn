@@ -47,7 +47,7 @@ const LandingPagePackages = () => {
                             <div className="space-y-4 mb-8">
                                 {basicFeatures.map((feature, index) => (
                                     <div key={index} className="flex items-start space-x-3">
-                                        <div className="flex-shrink-0 w-5 h-5 bg-[#c08dfe] rounded-full flex items-center justify-center mt-0.5">
+                                        <div className="flex-shrink-0 w-5 h-5 bg-[#ee3e99] rounded-full flex items-center justify-center mt-0.5">
                                             <Check className="w-3 h-3 text-white" />
                                         </div>
                                         <span className="text-gray-700 text-[13px] lg:text-[14px]">
@@ -78,7 +78,7 @@ const LandingPagePackages = () => {
                     <div className="bg-black border-2 border-black rounded-lg p-8  shadow-xl hover:shadow-2xl transition-all duration-300 relative flex flex-col justify-between">
                         {/* Popular Badge */}
                         <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                            <div className="bg-gradient-to-r from-[#c08dfe] via-black to-[#c08dfe] text-white px-6 py-2 rounded-full text-sm font-semibold flex items-center space-x-1">
+                            <div className="bg-gradient-to-r from-[#ee3e99] via-black to-[#ee3e99] text-white px-6 py-2 rounded-full text-sm font-semibold flex items-center space-x-1">
                                 <Star className="w-4 h-4 fill-current" />
                                 <span>{t('shared.packages.popular')}</span>
                             </div>
@@ -94,7 +94,7 @@ const LandingPagePackages = () => {
                             <div className="space-y-4 mb-8">
                                 {advancedFeatures.map((feature, index) => (
                                     <div key={index} className="flex items-start space-x-3">
-                                        <div className="flex-shrink-0 w-5 h-5 bg-[#c08dfe] rounded-full flex items-center justify-center mt-0.5">
+                                        <div className="flex-shrink-0 w-5 h-5 bg-[#ee3e99] rounded-full flex items-center justify-center mt-0.5">
                                             <Check className="w-3 h-3 text-white" />
                                         </div>
                                         <span className="text-gray-100 text-[13px] lg:text-[14px] leading-relaxed">

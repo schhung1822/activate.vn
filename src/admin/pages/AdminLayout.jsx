@@ -37,8 +37,8 @@ const AdminLayout = ({children}) => {
             <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/90 backdrop-blur">
                 <div className="mx-auto flex max-w-[1600px] flex-wrap items-center gap-3 px-4 py-3 sm:px-6">
                     <a href="/admin" className="mr-2 flex items-center gap-2.5">
-                        <img src="/assets/images/header/navbarfavicon.png" alt="" className="h-8 w-8 rounded-lg" />
-                        <span className="font-bold">Nextgency Admin</span>
+                        <img src="/assets/images/brand/activate-mark.svg" alt="" className="h-8 w-8 rounded-lg" />
+                        <span className="font-bold">Activate Admin</span>
                     </a>
                     <nav className="flex gap-1">
                         <NavLink to="/admin/news" className={navClass}>

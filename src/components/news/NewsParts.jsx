@@ -8,7 +8,7 @@ import {newsPath, useNewsDateFormat} from './newsUtils.js';
 
 /** Ảnh bìa; bài chưa có ảnh thì hiện nền tím nhạt. Đặt trong phần tử có class `group` để có hiệu ứng hover. */
 export const NewsThumbnail = ({item, className = '', eager = false}) => (
-    <div className={`overflow-hidden bg-[#f4eeff] ${className}`}>
+    <div className={`overflow-hidden bg-[#fef1f8] ${className}`}>
         {item.thumbnail && (
             <img
                 src={item.thumbnail}

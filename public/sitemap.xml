@@ -1,577 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://nextgency.vn/</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/en</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/en</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/cn</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/cn</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/about</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/about" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/about</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/about" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/en/about</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/about" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/about" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/cn/about</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/about" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/about" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/cn/about</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/about" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/news</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/news" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/news" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/news" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/news" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/linh-vuc</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/en/linh-vuc</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/cn/linh-vuc</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/linh-vuc/thuong-mai-phan-phoi</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/thuong-mai-phan-phoi" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/en/linh-vuc/thuong-mai-phan-phoi</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/thuong-mai-phan-phoi" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/cn/linh-vuc/thuong-mai-phan-phoi</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/thuong-mai-phan-phoi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/thuong-mai-phan-phoi" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/linh-vuc/xuat-nhap-khau</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/xuat-nhap-khau" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/en/linh-vuc/xuat-nhap-khau</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/xuat-nhap-khau" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/cn/linh-vuc/xuat-nhap-khau</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/xuat-nhap-khau" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/xuat-nhap-khau" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/linh-vuc/dai-ly-ban-le</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/dai-ly-ban-le" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/en/linh-vuc/dai-ly-ban-le</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/dai-ly-ban-le" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/cn/linh-vuc/dai-ly-ban-le</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/linh-vuc/dai-ly-ban-le" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/linh-vuc/dai-ly-ban-le" />
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://activate.vn/news</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/news" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/news" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/en/news</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/news" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/news" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/news" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/news" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/en/news</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/news" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/news" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/cn/news</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/news" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/news" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/news" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/news" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/cn/news</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/news" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/news" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/news" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/contact</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/contact" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/contact</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/contact" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/en/contact</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/contact" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/contact" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/cn/contact</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/contact" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/contact" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/cn/contact</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/contact" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/contact" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/chinh-sach-bao-mat</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/chinh-sach-bao-mat" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/chinh-sach-bao-mat</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/chinh-sach-bao-mat" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/en/chinh-sach-bao-mat</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/chinh-sach-bao-mat" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/en/chinh-sach-bao-mat</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/chinh-sach-bao-mat" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/cn/chinh-sach-bao-mat</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/chinh-sach-bao-mat" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/chinh-sach-bao-mat" />
-    <lastmod>2026-10-02</lastmod>
+    <loc>https://activate.vn/cn/chinh-sach-bao-mat</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://activate.vn/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://activate.vn/en/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://activate.vn/cn/chinh-sach-bao-mat" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://activate.vn/chinh-sach-bao-mat" />
+    <lastmod>2026-10-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://nextgency.vn/dat-lich</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/dat-lich" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/dat-lich</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/dat-lich" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/dat-lich</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/dat-lich" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/dat-lich" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/website-landing-page</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/website-landing-page" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/website-landing-page</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/website-landing-page" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/website-landing-page</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/website-landing-page" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/website-landing-page" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/ai-data</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/ai-data" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/ai-data</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/ai-data" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/ai-data</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/ai-data" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/ai-data" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/ai</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/ai" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/ai" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/ai" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/ai" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/ai</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/ai" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/ai" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/ai" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/ai" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/ai</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/ai" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/ai" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/ai" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/ai" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/google-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/google-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/google-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/google-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/google-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/google-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/google-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/facebook-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/facebook-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/facebook-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/facebook-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/facebook-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/facebook-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/facebook-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/tiktok-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/tiktok-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/tiktok-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/tiktok-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/tiktok-ads</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/tiktok-ads" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/tiktok-ads" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/facebook-crm</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/facebook-crm" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/facebook-crm</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/facebook-crm" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/facebook-crm</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/facebook-crm" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/facebook-crm" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/marketing-outsource</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/marketing-outsource" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/marketing-outsource</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/marketing-outsource" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/marketing-outsource</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/marketing-outsource" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/marketing-outsource" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/services/tick-xanh-facebook</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/tick-xanh-facebook" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/services/tick-xanh-facebook</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/tick-xanh-facebook" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/services/tick-xanh-facebook</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/services/tick-xanh-facebook" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/services/tick-xanh-facebook" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/projects/all</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/all" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/all" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/all" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/all" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/projects/all</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/all" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/all" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/all" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/all" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/projects/all</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/all" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/all" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/all" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/all" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/projects/portfolio</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/portfolio" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/projects/portfolio</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/portfolio" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/projects/portfolio</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/portfolio" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/portfolio" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/projects/workflow</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/workflow" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/projects/workflow</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/workflow" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/projects/workflow</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/workflow" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/workflow" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/projects/miniapp-beautysummit-2026</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/miniapp-beautysummit-2026" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/en/projects/miniapp-beautysummit-2026</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/miniapp-beautysummit-2026" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/cn/projects/miniapp-beautysummit-2026</loc>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://nextgency.vn/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://nextgency.vn/en/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://nextgency.vn/cn/projects/miniapp-beautysummit-2026" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nextgency.vn/projects/miniapp-beautysummit-2026" />
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://nextgency.vn/news/xu-huong-thiet-ke-web-2025-1</loc>
+    <loc>https://activate.vn/news/xu-huong-thiet-ke-web-2025-1</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -580,7 +280,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/mobile-first-design-10</loc>
+    <loc>https://activate.vn/news/mobile-first-design-10</loc>
     <lastmod>2024-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -589,61 +289,70 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/chuyen-doi-so-cap-xa-zalo-mini-app-2026-11</loc>
+    <loc>https://activate.vn/news/chuyen-doi-so-cap-xa-zalo-mini-app-2026-11</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://nextgency.vn/assets/images/news/bai11.webp</image:loc>
+      <image:loc>https://activate.vn/assets/images/news/bai11.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/ung-dung-cong-dan-so-tren-zalo-mini-app-la-gi-12</loc>
+    <loc>https://activate.vn/news/ung-dung-cong-dan-so-tren-zalo-mini-app-la-gi-12</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://nextgency.vn/assets/images/news/b12.webp</image:loc>
+      <image:loc>https://activate.vn/assets/images/news/b12.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/mien-phi-zalo-oa-cho-xa-phuong-2026-13</loc>
+    <loc>https://activate.vn/news/mien-phi-zalo-oa-cho-xa-phuong-2026-13</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://nextgency.vn/assets/images/news/b13.webp</image:loc>
+      <image:loc>https://activate.vn/assets/images/news/b13.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/tra-cuu-dich-vu-cong-cong-dan-so-zalo-2026-14</loc>
+    <loc>https://activate.vn/news/tra-cuu-dich-vu-cong-cong-dan-so-zalo-2026-14</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://nextgency.vn/assets/images/news/b14.webp</image:loc>
+      <image:loc>https://activate.vn/assets/images/news/b14.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/lo-trinh-trien-khai-ung-dung-cong-dan-so-zalo-mini-app-15</loc>
+    <loc>https://activate.vn/news/lo-trinh-trien-khai-ung-dung-cong-dan-so-zalo-mini-app-15</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://nextgency.vn/assets/images/news/b15.webp</image:loc>
+      <image:loc>https://activate.vn/assets/images/news/b15.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/ai-chay-facebook-ads-toi-uu-chi-phi-16</loc>
+    <loc>https://activate.vn/news/ai-chay-facebook-ads-toi-uu-chi-phi-16</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://nextgency.vn/assets/images/uploads/news/2026-10/cover-post-tuha-17-654dcb.webp</image:loc>
+      <image:loc>https://activate.vn/assets/images/uploads/news/2026-10/cover-post-tuha-17-654dcb.webp</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/react-19-features-2</loc>
+    <loc>https://activate.vn/news/tich-xanh-doanh-nghiep-17</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://activate.vn/assets/images/uploads/news/2026-10/tich-xanh-facebook-thumbnail-2d9ac6.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://activate.vn/news/react-19-features-2</loc>
     <lastmod>2025-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -652,7 +361,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/chien-luoc-digital-marketing-3</loc>
+    <loc>https://activate.vn/news/chien-luoc-digital-marketing-3</loc>
     <lastmod>2025-01-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -661,7 +370,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/ux-ui-best-practices-4</loc>
+    <loc>https://activate.vn/news/ux-ui-best-practices-4</loc>
     <lastmod>2025-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -670,7 +379,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/toi-uu-hoa-hieu-suat-website-5</loc>
+    <loc>https://activate.vn/news/toi-uu-hoa-hieu-suat-website-5</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -679,7 +388,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/headless-cms-tuong-lai-6</loc>
+    <loc>https://activate.vn/news/headless-cms-tuong-lai-6</loc>
     <lastmod>2025-01-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -688,7 +397,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/microinteractions-chi-tiet-nho-7</loc>
+    <loc>https://activate.vn/news/microinteractions-chi-tiet-nho-7</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -697,7 +406,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/jamstack-architecture-8</loc>
+    <loc>https://activate.vn/news/jamstack-architecture-8</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -706,7 +415,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://nextgency.vn/news/content-strategy-9</loc>
+    <loc>https://activate.vn/news/content-strategy-9</loc>
     <lastmod>2024-12-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

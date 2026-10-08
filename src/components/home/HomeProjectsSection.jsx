@@ -116,7 +116,7 @@ const HomeProjectsSection = () => {
     return (
         <section
             ref={sectionRef}
-            className="relative isolate overflow-hidden border-y border-[#e7dbfb] bg-[#f4eeff] py-[60px] lg:py-[90px]"
+            className="relative isolate overflow-hidden border-y border-[#e7dbfb] bg-[#fef1f8] py-[60px] lg:py-[90px]"
         >
             <ProjectThumbBackdrop />
 
@@ -163,9 +163,9 @@ const HomeProjectsSection = () => {
                                         id={`featured-project-tab-${item.id}`}
                                         tabIndex={selected ? 0 : -1}
                                         onClick={() => setActiveIndex(index)}
-                                        className={`group flex min-h-14 items-center justify-center rounded-[8px] border px-4 py-4 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c08dfe] ${
+                                        className={`group flex min-h-14 items-center justify-center rounded-[8px] border px-4 py-4 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ee3e99] ${
                                             selected
-                                                ? 'border-transparent bg-[#2B144D] text-white'
+                                                ? 'border-transparent bg-[#2D0F3B] text-white'
                                                 : 'border-black/10 bg-black/[0.02] text-black/45 hover:bg-black/[0.05] hover:text-black/75'
                                         }`}
                                     >
@@ -220,7 +220,7 @@ const HomeProjectsSection = () => {
                                                 key={metric.label}
                                                 className={`flex min-h-[100px] sm:min-h-[112px] flex-col justify-between rounded-[8px] p-4 ${
                                                     highlighted
-                                                        ? 'animate-gradient-shift bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#2B144D] text-white'
+                                                        ? 'animate-gradient-shift bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#6A4FDB] text-white'
                                                         : 'border border-black/[0.06] bg-white text-black'
                                                 } ${index === 2 ? 'col-span-2 sm:col-span-1' : ''}`}
                                             >
@@ -284,7 +284,7 @@ const HomeProjectsSection = () => {
                     <button
                         type="button"
                         onClick={showPrevious}
-                        className="absolute left-1 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black text-white shadow-lg transition hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c08dfe] sm:flex lg:-left-4"
+                        className="absolute left-1 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black text-white shadow-lg transition hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ee3e99] sm:flex lg:-left-4"
                         aria-label={`${t('home.projectsShowcase.preview')} ${featuredProjects[(activeIndex - 1 + featuredProjects.length) % featuredProjects.length].project.name}`}
                     >
                         <ArrowLeft className="h-5 w-5" />
@@ -292,7 +292,7 @@ const HomeProjectsSection = () => {
                     <button
                         type="button"
                         onClick={showNext}
-                        className="absolute right-1 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black text-white shadow-lg transition hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c08dfe] sm:flex lg:-right-4"
+                        className="absolute right-1 top-1/2 z-20 hidden h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black text-white shadow-lg transition hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ee3e99] sm:flex lg:-right-4"
                         aria-label={`${t('home.projectsShowcase.preview')} ${featuredProjects[(activeIndex + 1) % featuredProjects.length].project.name}`}
                     >
                         <ArrowRight className="h-5 w-5" />
@@ -303,7 +303,7 @@ const HomeProjectsSection = () => {
                     <button
                         type="button"
                         onClick={openConsultationPopup}
-                        className="group relative flex items-center space-x-3 rounded-full bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#2B144D] py-1.5 pl-6 pr-1.5 text-[15px] font-medium text-white transition-all duration-300 hover:scale-105 animate-gradient-shift sm:text-[16px]"
+                        className="group relative flex items-center space-x-3 rounded-full bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#6A4FDB] py-1.5 pl-6 pr-1.5 text-[15px] font-medium text-white transition-all duration-300 hover:scale-105 animate-gradient-shift sm:text-[16px]"
                     >
                         <span>{t('nav.cta')}</span>
                         <span className="flex h-9 w-9 items-center justify-center rounded-full bg-black sm:h-10 sm:w-10">

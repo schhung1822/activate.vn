@@ -43,7 +43,7 @@ const CommitmentSection = () => {
                                         <div className="relative">
                                             <div className={`w-10 h-10 sm:w-14 sm:h-14 rounded-full flex items-center justify-center transition-all duration-300 ${
                                                 commitment.id === 6
-                                                    ? 'bg-[#c59efe]'
+                                                    ? 'bg-[#f06aae]'
                                                     : 'bg-black'
                                             }`}>
                                                 {commitment.id === 6 ? (
@@ -71,7 +71,7 @@ const CommitmentSection = () => {
                                                 <div className="space-y-2 mt-2 pl-4 ml-1 border-l-2 border-white">
                                                     {commitment.subCommitments.map((subCommitment, index) => (
                                                         <div key={index} className="flex items-start space-x-2">
-                                                            <div className="flex-shrink-0 w-6 h-6 bg-[#c59efe] rounded-full flex items-center justify-center mt-0.5">
+                                                            <div className="flex-shrink-0 w-6 h-6 bg-[#f06aae] rounded-full flex items-center justify-center mt-0.5">
                                                                 <span className="text-xs font-semibold text-white">
                                                                     {index + 1}
                                                                 </span>

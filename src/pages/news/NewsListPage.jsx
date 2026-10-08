@@ -8,9 +8,7 @@ import { Link, useI18n } from '../../i18n';
 import { newsItems } from '../../data/newsData';
 import { ArticleCard, NewsMeta, NewsThumbnail, PillLabel } from '../../components/news/NewsParts.jsx';
 import { newsPath, toDate } from '../../components/news/newsUtils.js';
-import ConsultationSection from '../../components/ConsultationSection.jsx';
-import ServicesSection from '../../components/ServicesSection.jsx';
-import HomeClientsPartnersSection from '../../components/home/HomeClientsPartnersSection.jsx';
+import CtaBandSection from '../../components/sections/CtaBandSection.jsx';
 
 const PAGE_SIZE = 9;
 const ALL = 'all';
@@ -32,7 +30,7 @@ const FeaturedArticle = ({ item, t }) => (
         <NewsThumbnail item={item} eager className="aspect-[16/10] rounded-[12px]" />
         <div className="flex flex-col justify-center px-2 pb-4 md:px-0 md:pb-0 md:pr-6">
             <div className="flex flex-wrap items-center gap-3">
-                <span className="animate-gradient-shift rounded-full bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#2B144D] px-3 py-1 text-[11px] font-medium text-white lg:text-[12px]">
+                <span className="animate-gradient-shift rounded-full bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#6A4FDB] px-3 py-1 text-[11px] font-medium text-white lg:text-[12px]">
                     {t('news.list.featured')}
                 </span>
                 <NewsMeta item={item} />
@@ -191,9 +189,7 @@ const NewsListPage = () => {
                 )}
             </section>
 
-            <HomeClientsPartnersSection />
-            <ConsultationSection />
-            <ServicesSection />
+            <CtaBandSection />
         </div>
     );
 };

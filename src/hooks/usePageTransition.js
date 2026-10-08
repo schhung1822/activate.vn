@@ -43,6 +43,9 @@ export const usePageTransition = () => {
             if (link && link.getAttribute('href')) {
                 const href = link.getAttribute('href');
 
+                // File tải về (hồ sơ năng lực PDF...) và link mở tab mới để trình duyệt tự xử lý
+                if (link.hasAttribute('download') || link.target === '_blank') return;
+
                 // Chỉ intercept internal links
                 if (href.startsWith('/') && href !== currentPath) {
                     e.preventDefault();

@@ -36,7 +36,7 @@ const ServicesDivider = () => {
                                 </div>
                                 {/* Content */}
                                 <div className="p-1 sm:p-2 text-center">
-                                    <h3 className="text-[12px] lg:text-[16px] text-white group-hover:text-[#c08dfe] transition-colors duration-300">
+                                    <h3 className="text-[12px] lg:text-[16px] text-white group-hover:text-[#ee3e99] transition-colors duration-300">
                                         {service.title}
                                     </h3>
                                 </div>

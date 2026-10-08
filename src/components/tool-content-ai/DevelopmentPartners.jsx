@@ -4,9 +4,9 @@ import { useI18n } from '../../i18n';
 /* Hai đơn vị cùng phát triển Tool Content AI */
 const DEVELOPERS = [
     {
-        name: 'Nextgency',
+        name: 'Activate',
         roleKey: 'strategy',
-        logo: '/assets/images/header/navbarlogoblack.png',
+        logo: '/assets/images/brand/activate-logo-dark.png',
         logoClass: 'max-h-10 lg:max-h-12 max-w-[80%]'
     },
     {
@@ -42,11 +42,11 @@ const DevelopmentPartners = () => {
                         <div
                             key={developer.name}
                             className="group relative flex min-h-[160px] flex-col items-center justify-center gap-4
-                                       overflow-hidden rounded-xl border border-[#e9d5ff] bg-white p-6
+                                       overflow-hidden rounded-xl border border-[#fbd5e8] bg-white p-6
                                        transition-all duration-300 ease-in-out
-                                       hover:-translate-y-1 hover:border-[#c08dfe] hover:shadow-lg cursor-pointer"
+                                       hover:-translate-y-1 hover:border-[#ee3e99] hover:shadow-lg cursor-pointer"
                         >
-                            <div className="pointer-events-none absolute -top-8 -right-8 h-24 w-24 rounded-full bg-gradient-to-br from-[#c08dfe]/30 to-transparent blur-xl" />
+                            <div className="pointer-events-none absolute -top-8 -right-8 h-24 w-24 rounded-full bg-gradient-to-br from-[#ee3e99]/30 to-transparent blur-xl" />
                             <img
                                 src={developer.logo}
                                 alt={`Logo ${developer.name}`}
@@ -61,23 +61,23 @@ const DevelopmentPartners = () => {
 
                     {/* Khung đen mô tả */}
                     <div className="group col-span-2 relative flex items-center overflow-hidden rounded-xl
-                                    border border-[#c08dfe]/25 bg-gradient-to-br from-[#151233] via-[#0d0f26] to-[#070818]
+                                    border border-[#ee3e99]/25 bg-gradient-to-br from-[#1f0b2a] via-[#0d0f26] to-[#070818]
                                     p-4 lg:p-6 shadow-[0_24px_60px_-28px_rgba(85,52,187,.85)]
                                     transition-all duration-500 ease-in-out cursor-pointer
-                                    hover:-translate-y-1 hover:border-[#c08dfe]/50 hover:shadow-[0_30px_70px_-26px_rgba(85,52,187,1)]">
+                                    hover:-translate-y-1 hover:border-[#ee3e99]/50 hover:shadow-[0_30px_70px_-26px_rgba(85,52,187,1)]">
                         {/* Lưới nền mờ */}
                         <div className="pointer-events-none absolute inset-0 opacity-40
-                                        bg-[linear-gradient(rgba(192,141,254,.05)_1px,transparent_1px),linear-gradient(90deg,rgba(192,141,254,.05)_1px,transparent_1px)]
+                                        bg-[linear-gradient(rgba(238,62,153,.05)_1px,transparent_1px),linear-gradient(90deg,rgba(238,62,153,.05)_1px,transparent_1px)]
                                         bg-[size:26px_26px]" />
                         {/* Hào quang tím - xanh */}
-                        <div className="pointer-events-none absolute -top-16 -right-10 h-48 w-48 rounded-full bg-[#c08dfe]/25 blur-3xl" />
-                        <div className="pointer-events-none absolute -bottom-20 -left-12 h-48 w-48 rounded-full bg-[#1a4498]/30 blur-3xl" />
+                        <div className="pointer-events-none absolute -top-16 -right-10 h-48 w-48 rounded-full bg-[#ee3e99]/25 blur-3xl" />
+                        <div className="pointer-events-none absolute -bottom-20 -left-12 h-48 w-48 rounded-full bg-[#6a4fdb]/30 blur-3xl" />
                         {/* Vạch nhấn bên trái */}
-                        <span className="pointer-events-none absolute inset-y-4 left-0 w-[3px] rounded-full bg-gradient-to-b from-[#c08dfe] via-[#8866ee] to-[#1a4498]" />
+                        <span className="pointer-events-none absolute inset-y-4 left-0 w-[3px] rounded-full bg-gradient-to-b from-[#ee3e99] via-[#7a6cea] to-[#6a4fdb]" />
 
                         <div className="relative pl-3 lg:pl-4">
                             <p className="text-[14px] lg:text-[15px] text-gray-300 leading-relaxed mb-2">
-                                {t('servicePages.toolContentAi.partners.descriptionPrefix')}<strong className="font-bold text-[#d9c2ff]">Noti.vn</strong>{t('servicePages.toolContentAi.partners.and')}<strong className="font-bold text-[#d9c2ff]">Nextgency</strong>{t('servicePages.toolContentAi.partners.descriptionSuffix')}
+                                {t('servicePages.toolContentAi.partners.descriptionPrefix')}<strong className="font-bold text-[#f9c3df]">Noti.vn</strong>{t('servicePages.toolContentAi.partners.and')}<strong className="font-bold text-[#f9c3df]">Activate</strong>{t('servicePages.toolContentAi.partners.descriptionSuffix')}
                             </p>
                             <p className="text-[14px] lg:text-[15px] text-gray-300 leading-relaxed">
                                 {t('servicePages.toolContentAi.partners.paragraph2')}

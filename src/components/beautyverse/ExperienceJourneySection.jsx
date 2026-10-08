@@ -44,12 +44,12 @@ const ExperienceJourneySection = () => {
         <section ref={sectionRef} className="relative overflow-hidden bg-white py-18 sm:py-20 lg:py-28">
             <div className="pointer-events-none absolute inset-0">
                 <div className="absolute right-[10%] top-[16%] h-56 w-56 rounded-full bg-[#9ed6ff]/14 blur-3xl" />
-                <div className="absolute bottom-[10%] left-[8%] h-64 w-64 rounded-full bg-[#9a63ff]/10 blur-3xl" />
+                <div className="absolute bottom-[10%] left-[8%] h-64 w-64 rounded-full bg-[#b04fcd]/10 blur-3xl" />
             </div>
 
             <div className="relative mx-auto max-w-[1280px] py-12 sm:py-2 px-4 sm:px-6 lg:px-8">
                 <div className={`max-w-[820px] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#214eab]">
+                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#5a3fc8]">
                         {t('beautyverse.journey.badge')}
                     </p>
                     <h2 className="mt-5 font-archivo text-[30px] font-black leading-[0.98] tracking-normal text-[#05050b] sm:text-[42px] lg:text-[50px]">

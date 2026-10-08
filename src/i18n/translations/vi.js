@@ -1,6 +1,11 @@
 // src/i18n/translations/vi.js
 // Tiếng Việt - ngôn ngữ gốc, đồng thời là bản dự phòng khi en/cn còn thiếu key.
+import corporate from './corporate/vi.js';
+
 export default {
+    // Nội dung hồ sơ doanh nghiệp Activate - xem ./corporate/vi.js
+    corporate,
+
     language: {
         label: 'Ngôn ngữ',
         switchTo: 'Chuyển sang {{language}}'
@@ -14,8 +19,11 @@ export default {
         hotline: 'Hotline',
         email: 'Email',
         website: 'Website',
-        address: 'Address',
-        addressValue: '2/11 Vương Thừa Vũ, Thanh Xuân, Hà Nội',
+        address: 'Địa chỉ',
+        addressValue: 'Số 16, Ngõ 250 Trịnh Đình Cửu, Phường Định Công, TP Hà Nội, Việt Nam',
+        taxId: 'Mã số thuế',
+        legalName: 'Tên quốc tế',
+        brandLabel: 'Thương hiệu',
         home: 'Trang chủ',
         customers: 'Khách hàng',
         trustedCustomers: 'Khách hàng tin tương'
@@ -51,7 +59,8 @@ export default {
     },
 
     footer: {
-        tagline: 'AI - Marketing Automation Agency',
+        tagline: 'Chuyển đổi số & Bán lẻ sản phẩm',
+        about: 'Activate là thương hiệu của CIVI GLOBAL COMPANY LIMITED - doanh nghiệp kinh doanh giải pháp chuyển đổi số và bán lẻ sản phẩm.',
         servicesTitle: 'Dịch vụ của chúng tôi',
         services: {
             facebookAds: 'Dịch vụ Facebook Ads',
@@ -73,7 +82,7 @@ export default {
         },
         newsletterTitle: 'Đăng ký nhận thông tin',
         newsletterDescription:
-            'Đăng ký để nhận thông tin mới nhất về dịch vụ và xu hướng công nghệ từ Nextgency.',
+            'Đăng ký để nhận thông tin mới nhất về dịch vụ và xu hướng công nghệ từ Activate.',
         newsletterPlaceholder: 'Nhập email của bạn',
         newsletterButton: 'Đăng ký',
         copyright: '© Bản quyền thuộc về & cung cấp bởi'
@@ -127,9 +136,9 @@ export default {
             titleLine1: 'Khách hàng &',
             titleLine2: 'Đối tác chiến lược',
             subtitle:
-                'Những người bạn đồng hành cùng Nextgency trên hành trình kiến tạo chuyển đổi số bền vững',
+                'Những người bạn đồng hành cùng Activate trên hành trình kiến tạo chuyển đổi số bền vững',
             paragraph1:
-                'Trong suốt hành trình phát triển, Nextgency tự hào được đồng hành cùng hơn 100+ doanh nghiệp và tổ chức trong nhiều lĩnh vực khác nhau: từ làm đẹp, giáo dục, y tế, công nghệ đến dịch vụ công và sản xuất.',
+                'Trong suốt hành trình phát triển, Activate tự hào được đồng hành cùng hơn 100+ doanh nghiệp và tổ chức trong nhiều lĩnh vực khác nhau: từ làm đẹp, giáo dục, y tế, công nghệ đến dịch vụ công và sản xuất.',
             paragraph2:
                 'Chúng tôi không chỉ triển khai các dự án công nghệ, mà còn đóng vai trò là đối tác tư vấn chiến lược – cùng khách hàng phân tích dữ liệu, thiết kế giải pháp và tối ưu hiệu quả kinh doanh theo từng giai đoạn.'
         },
@@ -163,7 +172,7 @@ export default {
                 },
                 {
                     title: 'Xử lý khiếu nại chuyên nghiệp',
-                    description: 'Trong mọi tình huống khiếu nại, Nextgency cam kết:',
+                    description: 'Trong mọi tình huống khiếu nại, Activate cam kết:',
                     subCommitments: [
                         'Phản hồi trong vòng 24h làm việc',
                         'Có biên bản làm việc rõ ràng về trách nhiệm, giải pháp và phương án xử lý triệt để',
@@ -205,8 +214,8 @@ export default {
         whyChooseUs: {
             titleLine1: 'Vì sao bạn nên chọn',
             subtitle:
-                'Nextgency là đơn vị uy tín với 3 năm kinh nghiệm – đồng hành cùng hàng trăm doanh nghiệp nâng tầm thương hiệu số',
-            teamAlt: 'Đội ngũ chuyên gia Nextgency',
+                'Activate là đơn vị uy tín với 3 năm kinh nghiệm – đồng hành cùng hàng trăm doanh nghiệp nâng tầm thương hiệu số',
+            teamAlt: 'Đội ngũ chuyên gia Activate',
             badges: {
                 enthusiastic: 'Nhiệt tình',
                 young: 'Trẻ trung',
@@ -240,20 +249,20 @@ export default {
     consultation: {
         title: 'Nhận tư vấn',
         description:
-            'Nextgency chân thành cảm ơn bạn đã dành thời gian điền bảng khảo sát này. Đội ngũ của chúng tôi sẽ xem xét kỹ thông tin và liên hệ trong vòng 24h làm việc để tư vấn giải pháp phù hợp nhất.'
+            'Activate chân thành cảm ơn bạn đã dành thời gian điền bảng khảo sát này. Đội ngũ của chúng tôi sẽ xem xét kỹ thông tin và liên hệ trong vòng 24h làm việc để tư vấn giải pháp phù hợp nhất.'
     },
 
     contact: {
         title: 'Nhận tư vấn ngay',
         description:
-            'Nextgency chân thành cảm ơn bạn đã dành thời gian liên hệ với chúng tôi. Đội ngũ của chúng tôi sẽ xem xét kỹ thông tin và liên hệ trong vòng 24h làm việc để tư vấn giải pháp phù hợp nhất.'
+            'Activate chân thành cảm ơn bạn đã dành thời gian liên hệ với chúng tôi. Đội ngũ của chúng tôi sẽ xem xét kỹ thông tin và liên hệ trong vòng 24h làm việc để tư vấn giải pháp phù hợp nhất.'
     },
 
     home: {
         hero: {
-            badge: 'Digital Solutions Agency',
+            badge: 'Chuyển đổi số & Bán lẻ',
             description:
-                'Nextgency là đối tác công nghệ hàng đầu, chuyên cung cấp giải pháp số hóa toàn diện. Chúng tôi biến ý tưởng thành hiện thực với công nghệ tiên tiến nhất.',
+                'Activate đồng hành cùng doanh nghiệp chuyển đổi số toàn diện - từ website, quảng cáo, CRM đến AI & tự động hoá - đồng thời cung cấp sản phẩm bán lẻ chất lượng, chính hãng.',
             cta: 'Xem dự án'
         },
         about: {
@@ -261,12 +270,12 @@ export default {
             titleLine1: 'Tiên Phong',
             titleLine2: 'Chuyển Đổi Số',
             description:
-                'Nextgency là đối tác chiến lược của bạn trong kỷ nguyên số. Chúng tôi cung cấp giải pháp chuyển đổi số, giúp doanh nghiệp bạn tăng tốc phát triển.',
+                'Activate là đối tác chiến lược của bạn trong kỷ nguyên số. Chúng tôi cung cấp giải pháp chuyển đổi số, giúp doanh nghiệp bạn tăng tốc phát triển.',
             cta: 'Xem thêm'
         },
         services: {
             badge: 'Services',
-            title: 'Dịch vụ từ Nextgency',
+            title: 'Dịch vụ từ Activate',
             descriptionLabel: 'Mô tả',
             technologiesLabel: 'Công nghệ sử dụng',
             durationLabel: 'Ngày hoàn thành',
@@ -277,7 +286,7 @@ export default {
                     name: 'Automation - Ai - Data',
                     title: 'Automation - AI - Data',
                     description:
-                        'Muốn nhân bản năng suất, giảm thủ công, tăng trải nghiệm? Câu trả lời nằm ở Automation và AI. Nextgency giúp doanh nghiệp chuyển mình thông minh hóa quy trình.',
+                        'Muốn nhân bản năng suất, giảm thủ công, tăng trải nghiệm? Câu trả lời nằm ở Automation và AI. Activate giúp doanh nghiệp chuyển mình thông minh hóa quy trình.',
                     duration: '14 - 30 ngày',
                     note: 'Tối ưu quy trình vận hành, tự động hóa tác vụ và khai thác dữ liệu hiệu quả'
                 },
@@ -285,7 +294,7 @@ export default {
                     name: 'Google Ads',
                     title: 'Google Ads',
                     description:
-                        'Nextgency triển khai Google Ads với đa dạng chiến dịch để đưa doanh nghiệp lên top 1 trong tâm trí người dùng khi nhắc tới lĩnh vực của bạn.',
+                        'Activate triển khai Google Ads với đa dạng chiến dịch để đưa doanh nghiệp lên top 1 trong tâm trí người dùng khi nhắc tới lĩnh vực của bạn.',
                     duration: '3 - 7 ngày',
                     note: 'Thiết lập chiến dịch, đo lường chuyển đổi và tối ưu ngân sách quảng cáo'
                 },
@@ -293,7 +302,7 @@ export default {
                     name: 'Facebook Ads',
                     title: 'Facebook Ads',
                     description:
-                        'Dịch vụ Facebook Ads từ Nextgency chính là cánh tay phải đắc lực giúp doanh nghiệp "khai thác mỏ vàng" từ vùng đất Facebook đầy cơ hội.',
+                        'Dịch vụ Facebook Ads từ Activate chính là cánh tay phải đắc lực giúp doanh nghiệp "khai thác mỏ vàng" từ vùng đất Facebook đầy cơ hội.',
                     duration: '3 - 7 ngày',
                     note: 'Xây dựng tệp khách hàng, triển khai quảng cáo và tối ưu hiệu quả chuyển đổi'
                 },
@@ -301,7 +310,7 @@ export default {
                     name: 'Website & Landing Page',
                     title: 'Website & Landing Page',
                     description:
-                        'Website & Landing Page không chỉ là nơi khách hàng "ghé chơi", mà là đích đến giúp họ ở lại – chuyển đổi – và quay lại. Nextgency thiết kế nền tảng số hiện đại với giải pháp trọn gói.',
+                        'Website & Landing Page không chỉ là nơi khách hàng "ghé chơi", mà là đích đến giúp họ ở lại – chuyển đổi – và quay lại. Activate thiết kế nền tảng số hiện đại với giải pháp trọn gói.',
                     duration: '7 - 21 ngày',
                     note: 'Thiết kế giao diện hiện đại, tối ưu tốc độ tải trang và tăng tỷ lệ chuyển đổi'
                 },
@@ -317,7 +326,7 @@ export default {
                     name: 'Facebook Dataset & CRM',
                     title: 'Facebook Dataset & CRM',
                     description:
-                        'Trong thời đại dữ liệu là "mỏ kim cương", Nextgency giúp doanh nghiệp biến từng hành vi, từng tương tác thành đòn bẩy quảng cáo hiệu quả qua dịch vụ Facebook Dataset & CRM.',
+                        'Trong thời đại dữ liệu là "mỏ kim cương", Activate giúp doanh nghiệp biến từng hành vi, từng tương tác thành đòn bẩy quảng cáo hiệu quả qua dịch vụ Facebook Dataset & CRM.',
                     duration: '7 - 14 ngày',
                     note: 'Kết nối dữ liệu khách hàng, đồng bộ CRM và tối ưu khả năng đo lường quảng cáo'
                 },
@@ -325,7 +334,7 @@ export default {
                     name: 'Thuê Phòng Marketing',
                     title: 'Phòng Marketing Thuê Ngoài',
                     description:
-                        'Đem chất xám từ đội ngũ của chúng tôi để rót vào những dự án đầy tiềm năng của các doanh nghiệp chính là phương châm cống hiến của Nextgency khi cung cấp dịch vụ Phòng Marketing thuê ngoài.',
+                        'Đem chất xám từ đội ngũ của chúng tôi để rót vào những dự án đầy tiềm năng của các doanh nghiệp chính là phương châm cống hiến của Activate khi cung cấp dịch vụ Phòng Marketing thuê ngoài.',
                     duration: 'Theo tháng',
                     note: 'Đồng hành như một đội ngũ marketing nội bộ, từ chiến lược đến triển khai thực tế'
                 },
@@ -333,7 +342,7 @@ export default {
                     name: 'Tick Xanh Facebook',
                     title: 'Tick Xanh Facebook',
                     description:
-                        'Nextgency cung cấp dịch vụ đăng ký tích xanh Facebook trọn gói từ A–Z, giúp khách hàng rút ngắn thời gian xét duyệt, chuẩn hóa hồ sơ và tăng tỷ lệ được phê duyệt thực tế.',
+                        'Activate cung cấp dịch vụ đăng ký tích xanh Facebook trọn gói từ A–Z, giúp khách hàng rút ngắn thời gian xét duyệt, chuẩn hóa hồ sơ và tăng tỷ lệ được phê duyệt thực tế.',
                     duration: '7 - 30 ngày',
                     note: 'Tư vấn hồ sơ, chuẩn hóa thông tin và hỗ trợ quy trình xác minh Facebook'
                 }
@@ -341,11 +350,11 @@ export default {
         },
         projectsShowcase: {
             badge: 'Projects',
-            title: 'Dự án nổi bật của Nextgency',
+            title: 'Dự án nổi bật của Activate',
             description: 'Khám phá những website, nền tảng và giải pháp số chúng tôi đã cùng khách hàng kiến tạo.',
             viewAll: 'Xem tất cả dự án',
             hint: 'Di chuột để khám phá · Nhấn vào dự án để xem trước',
-            wallLabel: 'Thư viện dự án chuyển động của Nextgency',
+            wallLabel: 'Thư viện dự án chuyển động của Activate',
             preview: 'Xem trước dự án',
             close: 'Đóng cửa sổ xem trước',
             noImage: 'Chưa có hình ảnh dự án',
@@ -363,25 +372,25 @@ export default {
             badge: 'Testimonials',
             title: 'đối tác nói gì về chúng tôi',
             description:
-                'Chúng tôi tự hào về những phản hồi tích cực từ khách hàng, là động lực để Nextgency không ngừng phát triển.',
+                'Chúng tôi tự hào về những phản hồi tích cực từ khách hàng, là động lực để Activate không ngừng phát triển.',
             items: [
-                'Nextgency đã mang đến cho chúng tôi một giải pháp tuyệt vời. Đội ngũ chuyên nghiệp, sáng tạo và luôn hỗ trợ nhiệt tình.',
-                'Nextgency đã mang đến cho chúng tôi những giải pháp công nghệ mới mẻ, hiệu quả và phù hợp với nhu cầu phát triển.',
-                'Nextgency đã giúp chúng tôi tối ưu hoạt động kinh doanh bằng sự chuyên nghiệp, tận tâm và tư duy sáng tạo.',
-                'Nextgency luôn mang đến những ý tưởng sáng tạo, thực tế và hiệu quả cho các dự án truyền thông của chúng tôi.',
-                'Nextgency thấu hiểu nhu cầu thương hiệu và mang đến cho chúng tôi những giải pháp phù hợp, chỉn chu và hiệu quả.',
-                'Nextgency đã đồng hành cùng chúng tôi bằng sự chuyên nghiệp, sáng tạo và tinh thần hỗ trợ rất tận tâm.',
-                'Chúng tôi đã hợp tác cùng Nextgency qua nhiều dự án và luôn hài lòng với sự chuyên nghiệp, hiệu quả của đội ngũ.',
-                'Nextgency hỗ trợ rất tận tình, phản hồi nhanh và luôn đồng hành sát sao trong suốt quá trình triển khai.'
+                'Activate đã mang đến cho chúng tôi một giải pháp tuyệt vời. Đội ngũ chuyên nghiệp, sáng tạo và luôn hỗ trợ nhiệt tình.',
+                'Activate đã mang đến cho chúng tôi những giải pháp công nghệ mới mẻ, hiệu quả và phù hợp với nhu cầu phát triển.',
+                'Activate đã giúp chúng tôi tối ưu hoạt động kinh doanh bằng sự chuyên nghiệp, tận tâm và tư duy sáng tạo.',
+                'Activate luôn mang đến những ý tưởng sáng tạo, thực tế và hiệu quả cho các dự án truyền thông của chúng tôi.',
+                'Activate thấu hiểu nhu cầu thương hiệu và mang đến cho chúng tôi những giải pháp phù hợp, chỉn chu và hiệu quả.',
+                'Activate đã đồng hành cùng chúng tôi bằng sự chuyên nghiệp, sáng tạo và tinh thần hỗ trợ rất tận tâm.',
+                'Chúng tôi đã hợp tác cùng Activate qua nhiều dự án và luôn hài lòng với sự chuyên nghiệp, hiệu quả của đội ngũ.',
+                'Activate hỗ trợ rất tận tình, phản hồi nhanh và luôn đồng hành sát sao trong suốt quá trình triển khai.'
             ]
         },
         clients: {
             titleLine1: 'Khách hàng &',
             titleLine2: 'Đối tác chiến lược',
             description:
-                'Những người bạn đồng hành cùng Nextgency trên hành trình kiến tạo chuyển đổi số bền vững',
+                'Những doanh nghiệp, thương hiệu và tổ chức đã tin tưởng hợp tác cùng Activate.',
             summary:
-                'Nextgency tự hào đồng hành cùng hơn 100+ tổ chức trong nhiều lĩnh vực: từ làm đẹp, giáo dục, y tế, công nghệ đến dịch vụ công và sản xuất.',
+                'Activate tự hào đồng hành cùng hơn 100+ doanh nghiệp và tổ chức trong nhiều lĩnh vực: làm đẹp, giáo dục, y tế, công nghệ, dịch vụ công và sản xuất.',
             partnersLabel: 'Đối tác chiến lược'
         }
     },
@@ -392,7 +401,7 @@ export default {
             titleLine1: 'Đối tác',
             titleLine2: 'chuyển đổi số đa năng',
             description:
-                'Nextgency là đối tác chiến lược của bạn trong kỷ nguyên số. Chúng tôi cung cấp giải pháp chuyển đổi số, giúp doanh nghiệp bạn tăng tốc phát triển.',
+                'Activate là đối tác chiến lược của bạn trong kỷ nguyên số. Chúng tôi cung cấp giải pháp chuyển đổi số, giúp doanh nghiệp bạn tăng tốc phát triển.',
             cta: 'Tư vấn ngay',
             cards: {
                 innovation: {
@@ -410,14 +419,14 @@ export default {
             }
         },
         story: {
-            badge: 'About Nextgency',
+            badge: 'About Activate',
             titleLine1: 'Câu chuyện',
             titleLine2: 'Của chúng tôi',
             subtitle: 'Công nghệ – Bước ngoặt cho sự bứt phá',
             paragraph1:
-                'Nextgency được thành lập vào năm 2025, sau khi founder chính đã có hơn 5 năm kinh nghiệm kinh doanh trong lĩnh vực thương mại điện tử. Trong hành trình đó, founder nhận ra: công nghệ chính là chìa khóa thay đổi toàn bộ mô hình kinh doanh – từ quản lý vận hành, marketing cho đến tối ưu lợi nhuận.',
+                'Activate được thành lập vào năm 2025, sau khi founder chính đã có hơn 5 năm kinh nghiệm kinh doanh trong lĩnh vực thương mại điện tử. Trong hành trình đó, founder nhận ra: công nghệ chính là chìa khóa thay đổi toàn bộ mô hình kinh doanh – từ quản lý vận hành, marketing cho đến tối ưu lợi nhuận.',
             paragraph2:
-                'Nhờ ứng dụng công nghệ đúng cách, doanh nghiệp của founder đã bứt phá mạnh mẽ, vượt qua giới hạn cũ và mở ra con đường tăng trưởng mới. Thành công ấy trở thành minh chứng sống động rằng công nghệ không chỉ hỗ trợ, mà còn tái định hình tương lai doanh nghiệp. Từ nền tảng thực tiễn này, đội ngũ core team đã cùng nhau thành lập Nextgency, với sứ mệnh đồng hành và mang giải pháp công nghệ đã được kiểm chứng đến nhiều doanh nghiệp khác, giúp họ không chỉ giải quyết vấn đề hiện tại mà còn kiến tạo lợi thế cạnh tranh dài hạn.'
+                'Nhờ ứng dụng công nghệ đúng cách, doanh nghiệp của founder đã bứt phá mạnh mẽ, vượt qua giới hạn cũ và mở ra con đường tăng trưởng mới. Thành công ấy trở thành minh chứng sống động rằng công nghệ không chỉ hỗ trợ, mà còn tái định hình tương lai doanh nghiệp. Từ nền tảng thực tiễn này, đội ngũ core team đã cùng nhau thành lập Activate, với sứ mệnh đồng hành và mang giải pháp công nghệ đã được kiểm chứng đến nhiều doanh nghiệp khác, giúp họ không chỉ giải quyết vấn đề hiện tại mà còn kiến tạo lợi thế cạnh tranh dài hạn.'
         }
     },
 
@@ -441,7 +450,7 @@ export default {
             hero: {
                 title: 'Dịch vụ google ads',
                 description:
-                    'Nextgency triển khai Google Ads với đa dạng chiến dịch để đưa doanh nghiệp lên top 1 trong tâm trí người dùng khi nhắc tới lĩnh vực của bạn.'
+                    'Activate triển khai Google Ads với đa dạng chiến dịch để đưa doanh nghiệp lên top 1 trong tâm trí người dùng khi nhắc tới lĩnh vực của bạn.'
             },
             divider: [
                 'Triển khai Google Search Ads, Display, YouTube và Performance Max.',
@@ -497,7 +506,7 @@ export default {
                         'Cài đặt và theo dõi các chỉ số đã cam kết (CPC, CTR, Conversion...)',
                         'Đề xuất phương án tối ưu định kỳ (theo tuần hoặc theo tháng)',
                         'Hệ thống báo cáo hiệu suất theo chu kỳ',
-                        'Nextgency hỗ trợ review tài khoản định kỳ',
+                        'Activate hỗ trợ review tài khoản định kỳ',
                         'Được hỗ trợ tư vấn riêng nếu cần mở rộng thêm chiến dịch'
                     ]
                 },
@@ -511,16 +520,16 @@ export default {
                         'Báo cáo định kỳ (tuần/tháng), giải trình hiệu quả, khuyến nghị mở rộng',
                         'Hệ thống báo cáo tự động hóa qua Data Studio hoặc Google Sheet',
                         'Hỗ trợ xây dựng landing page, nội dung, tư vấn funnel chuyển đổi',
-                        'Được support riêng từ Google thông qua hệ thống của Nextgency'
+                        'Được support riêng từ Google thông qua hệ thống của Activate'
                     ]
                 },
                 advanced: {
                     title: 'Thuê tài khoản',
                     features: [
                         'Cung cấp tài khoản Google Ads Invoice',
-                        'Nextgency tạo tài khoản và gửi lại cho khách hàng sử dụng',
+                        'Activate tạo tài khoản và gửi lại cho khách hàng sử dụng',
                         'Hướng dẫn kết nối tài sản, phân quyền tài khoản',
-                        'Được hỗ trợ riêng từ Google thông qua hệ thống Nextgency',
+                        'Được hỗ trợ riêng từ Google thông qua hệ thống Activate',
                         'Theo dõi thanh toán, hỗ trợ bảo vệ tài khoản, xử lý sự cố',
                         'Hỗ trợ kết nối với MCC hoặc các nền tảng kỹ thuật liên quan'
                     ]
@@ -604,7 +613,7 @@ export default {
                 brand: 'Facebook Ads',
                 descriptionPrefix: 'Dịch vụ ',
                 descriptionSuffix:
-                    ' từ Nextgency chính là cánh tay phải đắc lực giúp doanh nghiệp "khai thác mỏ vàng" từ vùng đất tiềm ẩn đầy cơ hội trên nền tảng lâu đời này bằng giải pháp:',
+                    ' từ Activate chính là cánh tay phải đắc lực giúp doanh nghiệp "khai thác mỏ vàng" từ vùng đất tiềm ẩn đầy cơ hội trên nền tảng lâu đời này bằng giải pháp:',
                 bullets: [
                     'Cho thuê tài khoản quảng cáo.',
                     'Xây dựng chiến dịch chuyển đổi, remarketing và thu phễu đa tầng (TOFU – MOFU – BOFU).',
@@ -800,7 +809,7 @@ export default {
                     'Virus tuy nhỏ nhưng một khi đã lây lan thì sẽ tạo nên hiệu ứng khổng lồ, cũng như cách quảng cáo của anh chị viral trên ',
                 brand: 'nền tảng Tiktok',
                 descriptionSuffix:
-                    ' để mang về doanh thu và độ nhận diện phủ khắp. Giải pháp từ dịch vụ Tiktok Ads của Nextgency:',
+                    ' để mang về doanh thu và độ nhận diện phủ khắp. Giải pháp từ dịch vụ Tiktok Ads của Activate:',
                 bullets: [
                     'Tối ưu quảng cáo viral ngắn hạn cho ngành hàng tiêu dùng, thời trang, làm đẹp.',
                     'Thiết kế nội dung video + tracking pixel chuẩn TikTok.',
@@ -853,7 +862,7 @@ export default {
             adFormats: {
                 title: 'Định dạng quảng cáo Tiktok',
                 subtitle:
-                    'Nextgency hỗ trợ triển khai đầy đủ các hình thức quảng cáo Tiktok, tối ưu cho từng mục tiêu kinh doanh của bạn',
+                    'Activate hỗ trợ triển khai đầy đủ các hình thức quảng cáo Tiktok, tối ưu cho từng mục tiêu kinh doanh của bạn',
                 items: [
                     {
                         title: 'Branding',
@@ -939,18 +948,18 @@ export default {
             carousel: {
                 brand: 'Website & Landing Page',
                 description:
-                    ' không chỉ là nơi khách hàng "ghé chơi", mà là đích đến giúp họ ở lại – chuyển đổi – và quay lại. Nextgency thiết kế nền tảng số hiện đại với giải pháp trọn gói.',
+                    ' không chỉ là nơi khách hàng "ghé chơi", mà là đích đến giúp họ ở lại – chuyển đổi – và quay lại. Activate thiết kế nền tảng số hiện đại với giải pháp trọn gói.',
                 projectFallback: 'dự án',
                 viewDetail: 'Xem chi tiết {{name}}'
             },
             portfolio: {
-                title: 'Dự án của Nextgency'
+                title: 'Dự án của Activate'
             },
             video: {
                 badge: 'Khám phá quy trình',
                 title: 'Từ ý tưởng đến sản phẩm hoàn thiện',
                 description:
-                    'Xem cách đội ngũ Nextgency biến những ý tưởng thành những website xuất sắc. Từ nghiên cứu, thiết kế cho đến triển khai - mỗi bước đều được thực hiện với sự tỉ mỉ và chuyên nghiệp.'
+                    'Xem cách đội ngũ Activate biến những ý tưởng thành những website xuất sắc. Từ nghiên cứu, thiết kế cho đến triển khai - mỗi bước đều được thực hiện với sự tỉ mỉ và chuyên nghiệp.'
             },
             painPoints: {
                 title: 'Nỗi đau của doanh nghiệp',
@@ -1122,7 +1131,7 @@ export default {
                         items: [
                             'Bàn giao dự án cho khách hàng',
                             'Khách hàng nghiệm thu và thanh toán',
-                            'Nextgency hỗ trợ bảo hành 24/7'
+                            'Activate hỗ trợ bảo hành 24/7'
                         ]
                     }
                 ]
@@ -1137,7 +1146,7 @@ export default {
                     'Muốn nhân bản năng suất, giảm thủ công, tăng trải nghiệm? Câu trả lời nằm ở ',
                 brand: 'Automation và AI.',
                 descriptionSuffix:
-                    ' Nextgency giúp doanh nghiệp chuyển mình thông minh hóa quy trình bằng các giải pháp:',
+                    ' Activate giúp doanh nghiệp chuyển mình thông minh hóa quy trình bằng các giải pháp:',
                 bullets: [
                     'Tự động hoá quy trình nội bộ & marketing bằng n8n.',
                     'Xây dựng AI Agent: Chatbot thông minh, tư vấn DISC, tạo nội dung.',
@@ -1270,7 +1279,7 @@ export default {
                 descriptionPrefix: 'Trong thời đại dữ liệu là "',
                 brand: 'mỏ kim cương',
                 descriptionSuffix:
-                    '", Nextgency giúp doanh nghiệp biến từng hành vi, từng tương tác thành đòn bẩy quảng cáo hiệu quả qua dịch vụ Facebook Dataset & CRM:',
+                    '", Activate giúp doanh nghiệp biến từng hành vi, từng tương tác thành đòn bẩy quảng cáo hiệu quả qua dịch vụ Facebook Dataset & CRM:',
                 bullets: [
                     'Xây dựng tệp dataset chất lượng cho quảng cáo Facebook.',
                     'Tạo đối tượng lookalike & remarketing từ dữ liệu CRM, đơn hàng, hành vi người dùng.',
@@ -1333,7 +1342,7 @@ export default {
                 titleLine1: 'PHÒNG MARKETING',
                 titleLine2: 'THUÊ NGOÀI',
                 descriptionPrefix:
-                    'Đem chất xám từ đội ngũ của chúng tôi để rót vào những dự án đầy tiềm năng của các doanh nghiệp chính là phương chấm cống hiến của Nextgency khi cung cấp dịch vụ ',
+                    'Đem chất xám từ đội ngũ của chúng tôi để rót vào những dự án đầy tiềm năng của các doanh nghiệp chính là phương chấm cống hiến của Activate khi cung cấp dịch vụ ',
                 brand: 'Phòng Marketing thuê ngoài:',
                 bullets: [
                     'Gói dịch vụ thuê ngoài toàn bộ team Marketing: Ads – Content – Design – Automation.',
@@ -1432,7 +1441,7 @@ export default {
                 highlight2: 'bảo vệ thương hiệu',
                 descriptionPart3: ' của mình trên nền tảng.',
                 description2:
-                    'Nextgency cung cấp dịch vụ đăng ký tích xanh Facebook trọn gói từ A–Z, giúp khách hàng rút ngắn thời gian xét duyệt, chuẩn hóa hồ sơ và tăng tỷ lệ được phê duyệt thực tế.',
+                    'Activate cung cấp dịch vụ đăng ký tích xanh Facebook trọn gói từ A–Z, giúp khách hàng rút ngắn thời gian xét duyệt, chuẩn hóa hồ sơ và tăng tỷ lệ được phê duyệt thực tế.',
                 badges: {
                     verified: 'Đã xác thực',
                     safe: 'An toàn',
@@ -1882,7 +1891,7 @@ export default {
             badge: 'News',
             title: 'Tin tức & Kiến thức',
             subtitle:
-                'Tổng hợp bài viết về công nghệ, AI, marketing và thiết kế web, được sắp xếp gọn gàng để dễ tìm và dễ đọc.',
+                'Tin tức doanh nghiệp, hoạt động hợp tác và góc nhìn thị trường từ Activate.',
             searchLabel: 'Tìm kiếm bài viết',
             searchPlaceholder: 'Tìm bài viết...',
             allCategories: 'Tất cả',
@@ -1910,8 +1919,8 @@ export default {
             copyLink: 'Sao chép link',
             previous: 'Bài trước',
             next: 'Bài sau',
-            ctaTitle: 'Cần giải pháp số cho doanh nghiệp của bạn?',
-            ctaDescription: 'Trao đổi với Nextgency để nhận tư vấn phù hợp với mục tiêu và ngân sách.',
+            ctaTitle: 'Quan tâm hợp tác cùng Activate?',
+            ctaDescription: 'Gửi đề xuất hợp tác phân phối, cung ứng hoặc tài chính - đội ngũ Activate sẽ liên hệ lại sớm nhất.',
             related: 'Related',
             relatedTitle: 'Bài viết liên quan',
             viewAll: 'Xem tất cả bài viết'
@@ -1933,8 +1942,8 @@ export default {
             vision: 'Tầm nhìn – Sứ mệnh – Giá trị cốt lõi',
             team: 'Cơ cấu tổ chức & Đội ngũ',
             process: 'Quy trình triển khai dự án',
-            why: 'Lý do chọn Nextgency',
-            services: 'Dịch vụ Nextgency',
+            why: 'Lý do chọn Activate',
+            services: 'Dịch vụ Activate',
             clients: 'Khách hàng & Đối tác',
             featured: 'Dự án tiêu biểu',
             nghe: 'Dự án: Nghề Content',
@@ -2042,7 +2051,7 @@ export default {
         hero: {
             title: 'Toàn bộ trải nghiệm số của sự kiện — trong một mini app.',
             descriptionPrefix:
-                '19–20/06/2026 tại Trung tâm Triển lãm VEC, Hà Nội — kỳ sự kiện quy mô lớn nhất từ trước đến nay với hơn 100 thương hiệu. Sau 2 năm chứng minh bằng kết quả, Nextgency trở thành ',
+                '19–20/06/2026 tại Trung tâm Triển lãm VEC, Hà Nội — kỳ sự kiện quy mô lớn nhất từ trước đến nay với hơn 100 thương hiệu. Sau 2 năm chứng minh bằng kết quả, Activate trở thành ',
             techPartner: 'Tech Partner chính thức',
             descriptionSuffix: ', thiết kế và vận hành toàn bộ hành trình số của khách tham dự.',
             viewScope: 'Xem phạm vi',
@@ -2086,7 +2095,7 @@ export default {
             dataYears: '2 năm',
             dataLabel: 'dữ liệu',
             dataDescription:
-                'Hiểu biết tệp khách tích lũy từ quảng cáo đến check-in qua 2 kỳ sự kiện cho phép Nextgency thiết kế đúng hành vi thực tế của khách tham dự — thay vì đoán.'
+                'Hiểu biết tệp khách tích lũy từ quảng cáo đến check-in qua 2 kỳ sự kiện cho phép Activate thiết kế đúng hành vi thực tế của khách tham dự — thay vì đoán.'
         },
 
         scope: {
@@ -2208,7 +2217,7 @@ export default {
             badge: 'Kết quả · 19–20/06/2026',
             title: 'Kỷ lục của chuỗi sự kiện',
             description:
-                'Kỳ sự kiện lớn nhất trong lịch sử Beauty Summit Vietnam — vận hành thông suốt trên toàn bộ hệ thống do Nextgency phát triển: từ quảng cáo, luồng vé, đến trải nghiệm số trong app.',
+                'Kỳ sự kiện lớn nhất trong lịch sử Beauty Summit Vietnam — vận hành thông suốt trên toàn bộ hệ thống do Activate phát triển: từ quảng cáo, luồng vé, đến trải nghiệm số trong app.',
             metrics: [
                 'Khách check-in trong 2 ngày',
                 '+75% so với năm đầu hợp tác',
@@ -2224,7 +2233,7 @@ export default {
 
         why: {
             titleMiddle: 'là vai trò được nâng cấp sau ',
-            badge: 'Vì sao là Nextgency?',
+            badge: 'Vì sao là Activate?',
             titleLine1: 'Tech Partner không phải danh xưng -',
             titleLine2: '2 năm kết quả.',
             description:
@@ -2267,7 +2276,7 @@ export default {
             badge: 'Điểm chứng minh năng lực',
             description:
                 'Một khách hàng, ba năm liên tục - phạm vi và quy mô vận hành tăng qua từng năm.',
-            note: 'Nextgency thiết kế, tích hợp và vận hành mini app theo đúng hành vi khách tham dự sự kiện.'
+            note: 'Activate thiết kế, tích hợp và vận hành mini app theo đúng hành vi khách tham dự sự kiện.'
         }
     },
 
@@ -2276,7 +2285,7 @@ export default {
     // ================================================================
     booking: {
         consultant: {
-            bio: 'Người vận hành cỗ máy tăng trưởng của Nextgency — quảng cáo performance đo được từng đồng, website chuyển đổi, branding, social content và hệ thống AI tự động hoá — cho những doanh nghiệp không ngừng tiến về phía trước.',
+            bio: 'Người vận hành cỗ máy tăng trưởng của Activate — quảng cáo performance đo được từng đồng, website chuyển đổi, branding, social content và hệ thống AI tự động hoá — cho những doanh nghiệp không ngừng tiến về phía trước.',
             quote: '"30 phút không đủ để giải xong bài toán tăng trưởng của anh/chị. Nhưng đủ để chỉ đúng chỗ đang nghẽn — và đồng tiền tiếp theo nên tiêu vào đâu trước."'
         },
 
@@ -2351,7 +2360,7 @@ export default {
         refunds: [
             {
                 title: 'Trước cuộc gọi',
-                body: 'Anh/chị đổi ý, bận đột xuất, cân nhắc lại, hay không vì lý do gì cả — chỉ cần nhắn một câu, Nextgency hoàn đủ {{deposit}} trong 24 giờ. Không hỏi ngược, không giữ chân, không một đồng phí hủy.'
+                body: 'Anh/chị đổi ý, bận đột xuất, cân nhắc lại, hay không vì lý do gì cả — chỉ cần nhắn một câu, Activate hoàn đủ {{deposit}} trong 24 giờ. Không hỏi ngược, không giữ chân, không một đồng phí hủy.'
             },
             {
                 title: 'Đang giữa cuộc gọi',
@@ -2371,7 +2380,7 @@ export default {
             sendFailedPrefix: 'Hệ thống chưa gửi được thông tin của anh/chị. Khung giờ vẫn giữ nguyên — anh/chị cứ chuyển cọc theo nội dung bên dưới, hoặc gọi thẳng ',
             sendFailedSuffix: ' để Sơn xác nhận ngay.',
             depositInstruction: ': cọc giữ chỗ {{deposit}}. Chuyển đúng nội dung bên dưới — hệ thống báo thẳng Sơn, và Sơn sẽ gọi xác nhận lịch trong hôm nay.',
-            refundDetail: ' Trước buổi gọi, giữa buổi gọi, hay kể cả sau khi gọi xong mà anh/chị thấy chưa xứng đáng — nhắn một câu, Nextgency hoàn đủ {{deposit}}. Ký hợp đồng thì khoản này trừ thẳng vào hợp đồng.',
+            refundDetail: ' Trước buổi gọi, giữa buổi gọi, hay kể cả sau khi gọi xong mà anh/chị thấy chưa xứng đáng — nhắn một câu, Activate hoàn đủ {{deposit}}. Ký hợp đồng thì khoản này trừ thẳng vào hợp đồng.',
             prevWeek: 'Tuần trước',
             nextWeek: 'Tuần sau',
             session: 'Phiên 1-1 · 30 phút',
@@ -2414,7 +2423,7 @@ export default {
         },
 
         growth: {
-            descriptionPrefix: 'Tăng trưởng không phải phép màu chỉ vài người có duyên mới làm được. Nó là một bài toán kỹ thuật — có đầu vào, có đầu ra, đo được từng bước. Nguyên tắc của Nextgency: chỉ giữ lại những kênh ',
+            descriptionPrefix: 'Tăng trưởng không phải phép màu chỉ vài người có duyên mới làm được. Nó là một bài toán kỹ thuật — có đầu vào, có đầu ra, đo được từng bước. Nguyên tắc của Activate: chỉ giữ lại những kênh ',
             badge: 'Phần 02 · Tin vui',
             title: 'Tăng trưởng là bài toán có lời giải — bằng những con số đo được',
             highlight: 'chứng minh được ra tiền bằng số',
@@ -2423,14 +2432,14 @@ export default {
         },
 
         callAgenda: {
-            closing: 'Anh/chị rời cuộc gọi với một thứ rõ ràng trong đầu: mình đang nghẽn ở đâu, và bước kế tiếp là gì. Dù sau đó có làm cùng Nextgency hay không, cái nhìn đó là của anh/chị giữ. Đó là lý do Sơn dám để khoản cọc ',
+            closing: 'Anh/chị rời cuộc gọi với một thứ rõ ràng trong đầu: mình đang nghẽn ở đâu, và bước kế tiếp là gì. Dù sau đó có làm cùng Activate hay không, cái nhìn đó là của anh/chị giữ. Đó là lý do Sơn dám để khoản cọc ',
             badge: 'Phần 03 · 30 phút làm được gì',
             title: 'Một buổi 30 phút đủ để đổi hướng cả năm tới',
             description:
                 '30 phút không dài, nên buổi Growth Call này không lan man. Sơn không kể lý thuyết tăng trưởng — mà soi thẳng vào bài toán của riêng anh/chị và làm đúng ba việc:',
             refundHighlight: 'hoàn lại bất kỳ lúc nào',
             refundSuffix:
-                '— nếu 30 phút không cho anh/chị được điều đó, anh/chị không nợ Nextgency một đồng nào.'
+                '— nếu 30 phút không cho anh/chị được điều đó, anh/chị không nợ Activate một đồng nào.'
         },
 
         deposit: {
@@ -2438,7 +2447,7 @@ export default {
             paragraph1: 'Nghe hơi ngược: buổi tư vấn miễn phí, sao lại có cọc? Lý do rất thẳng. Lịch của Sơn mỗi tuần chỉ có vài buổi 1-1 như thế này. Khi thứ gì đó dán nhãn "miễn phí" và "đăng ký một cú click", một nửa người đăng ký sẽ quên, sẽ bận, sẽ không bắt máy — và khung giờ đó chết, trong khi một anh/chị thật sự cần thì không đặt được. Khoản cọc {{deposit}} lọc ra đúng những người nghiêm túc, để buổi nào diễn ra cũng là buổi đáng.',
             paragraph2Prefix: 'Nhưng đây là chỗ nhiều anh/chị hiểu nhầm, nên nói cho thật rõ: ',
             notAFee: '{{deposit}} không phải là tiền mua buổi tư vấn',
-            lastPrefix: 'Nextgency chỉ giữ lại {{deposit}} trong đúng ',
+            lastPrefix: 'Activate chỉ giữ lại {{deposit}} trong đúng ',
             lastMiddle: ' trường hợp: hai bên đi tiếp và ký hợp đồng triển khai — mà khi đó khoản này được trừ thẳng vào giá trị hợp đồng, nên anh/chị vẫn không mất thêm một đồng nào. Mọi trường hợp còn lại, tiền là của anh/chị. Đó là lý do đây là ',
             badge: 'Phần 04 · Vì sao có cọc',
             freeWord: 'miễn phí',
@@ -2477,7 +2486,7 @@ export default {
     },
 
     notFound: {
-        seoTitle: 'Không tìm thấy trang | Nextgency',
+        seoTitle: 'Không tìm thấy trang | Activate',
         seoDescription: 'Đường dẫn bạn truy cập không tồn tại hoặc đã được chuyển sang địa chỉ khác.',
         title: 'Trang này không tồn tại',
         description:
@@ -2485,19 +2494,10 @@ export default {
         homeCta: 'Về trang chủ',
         backCta: 'Quay lại trang trước',
         links: {
-            about: {title: 'Giới thiệu', description: 'Giới thiệu tổng quan về Nextgency'},
-            ai: {
-                title: 'Automation Content AI',
-                description: 'Viết nội dung chuẩn SEO · AEO · GEO bằng AI.'
-            },
-            projects: {
-                title: 'Dự án đã triển khai',
-                description: 'Xem Nextgency đã làm gì cho khách hàng.'
-            },
-            news: {
-                title: 'Tin tức & kiến thức',
-                description: 'Góc nhìn thực chiến về marketing và AI.'
-            }
+            about: {title: 'Giới thiệu', description: 'Giới thiệu tổng quan về Activate'},
+            fields: {title: 'Lĩnh vực hoạt động', description: 'Bán buôn, xuất nhập khẩu và đại lý phân phối.'},
+            contact: {title: 'Liên hệ hợp tác', description: 'Gửi đề xuất hợp tác tới Activate.'},
+            news: {title: 'Tin tức', description: 'Tin tức doanh nghiệp và góc nhìn thị trường.'}
         }
     }
 };

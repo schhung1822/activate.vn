@@ -61,7 +61,7 @@ export default function ConsultationSection() {
     };
 
     return (
-        <section id="lilcontact" className="bg-gradient-to-t from-black via-black to-[#2B144D] py-[60px] lg:py-[90px] relative overflow-hidden">
+        <section id="lilcontact" className="bg-gradient-to-t from-black via-black to-[#2D0F3B] py-[60px] lg:py-[90px] relative overflow-hidden">
             <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className="text-left mb-4 lg:mb-8">
@@ -101,7 +101,7 @@ export default function ConsultationSection() {
                                         name="customer_name"
                                         value={formData.customer_name}
                                         onChange={handleInputChange}
-                                        className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg"
+                                        className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg"
                                         placeholder={t('form.namePlaceholder')}
                                         required
                                     />
@@ -119,7 +119,7 @@ export default function ConsultationSection() {
                                             name="phone"
                                             value={formData.phone}
                                             onChange={handleInputChange}
-                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg"
+                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg"
                                             placeholder={t('form.phonePlaceholder')}
                                             required
                                         />
@@ -135,7 +135,7 @@ export default function ConsultationSection() {
                                             name="email"
                                             value={formData.email}
                                             onChange={handleInputChange}
-                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg"
+                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg"
                                             placeholder={t('form.emailPlaceholder')}
                                             required
                                         />
@@ -154,7 +154,7 @@ export default function ConsultationSection() {
                                             name="business_field"
                                             value={formData.business_field}
                                             onChange={handleInputChange}
-                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg"
+                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg"
                                             placeholder={t('form.businessFieldPlaceholder')}
                                             required
                                         />
@@ -170,7 +170,7 @@ export default function ConsultationSection() {
                                             name="brand_name"
                                             value={formData.brand_name}
                                             onChange={handleInputChange}
-                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg"
+                                            className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg"
                                             placeholder={t('form.brandPlaceholder')}
                                         />
                                     </div>
@@ -185,7 +185,7 @@ export default function ConsultationSection() {
                                         name="service"
                                         value={formData.service}
                                         onChange={handleInputChange}
-                                        className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg cursor-pointer"
+                                        className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg cursor-pointer"
                                         required
                                     >
                                         <option value="" disabled>{t('form.servicePlaceholder')}</option>
@@ -205,7 +205,7 @@ export default function ConsultationSection() {
                                         name="consultation_request"
                                         value={formData.consultation_request}
                                         onChange={handleInputChange}
-                                        className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#1a4498] focus:bg-white focus:shadow-lg resize-none"
+                                        className="w-full px-4 py-2.5 bg-white/95 border-2 border-white/20 rounded-lg text-black text-[13px] lg:text-[15px] placeholder-gray-400 transition-all duration-300 focus:border-[#6a4fdb] focus:bg-white focus:shadow-lg resize-none"
                                         placeholder={t('form.requestPlaceholder')}
                                         required
                                     />
@@ -216,7 +216,7 @@ export default function ConsultationSection() {
                                     <button
                                         type="submit"
                                         disabled={isSubmitting}
-                                        className="w-full group relative px-8 py-4 bg-[#c59efe] rounded-lg text-white font-medium text-[15px] lg:text-[16px] hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                                        className="w-full group relative px-8 py-4 bg-[#f06aae] rounded-lg text-white font-medium text-[15px] lg:text-[16px] hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                                     >
                                         <span className="flex items-center justify-center space-x-2">
                                             {isSubmitting ? (
@@ -240,28 +240,28 @@ export default function ConsultationSection() {
                             <div className="space-y-4">
                                 <div className="flex items-center space-x-3 bg-white/10 p-4 rounded-lg shadow-lg backdrop-blur-3xl">
                                     <div>
-                                        <h3 className="text-[10px] sm:text-[12px] font-archivo font-medium text-[#c08dfe] mb-1 uppercase tracking-widest">{t('common.hotline')}</h3>
-                                        <p className="text-white text-[13px] lg:text-[15px]">033 208 3366</p>
+                                        <h3 className="text-[10px] sm:text-[12px] font-archivo font-medium text-[#ee3e99] mb-1 uppercase tracking-widest">{t('common.hotline')}</h3>
+                                        <p className="text-white text-[13px] lg:text-[15px]">(+84) 33 208 3366</p>
                                     </div>
                                 </div>
 
                                 <div className="flex items-center space-x-3 bg-white/10 p-4 rounded-lg shadow-lg backdrop-blur-3xl">
                                     <div>
-                                        <h3 className="text-[10px] sm:text-[12px] font-archivo font-medium text-[#c08dfe] mb-1 uppercase tracking-widest">{t('common.email')}</h3>
-                                        <p className="text-white text-[13px] lg:text-[15px]">contact@nextgency.vn</p>
+                                        <h3 className="text-[10px] sm:text-[12px] font-archivo font-medium text-[#ee3e99] mb-1 uppercase tracking-widest">{t('common.email')}</h3>
+                                        <p className="text-white text-[13px] lg:text-[15px]">contact@activate.vn</p>
                                     </div>
                                 </div>
 
                                 <div className="flex items-center space-x-3 bg-white/10 p-4 rounded-lg shadow-lg backdrop-blur-3xl">
                                     <div>
-                                        <h3 className="text-[10px] sm:text-[12px] font-archivo font-medium text-[#c08dfe] mb-1 uppercase tracking-widest">{t('common.address')}</h3>
+                                        <h3 className="text-[10px] sm:text-[12px] font-archivo font-medium text-[#ee3e99] mb-1 uppercase tracking-widest">{t('common.address')}</h3>
                                         <p className="text-white text-[13px] lg:text-[15px]">{t('common.addressValue')}</p>
                                     </div>
                                 </div>
                             </div>
 
                             {/* Floating Stats */}
-                            <div className="absolute -top-4 -right-0 bg-[#c59efe] rounded-lg px-4 py-2">
+                            <div className="absolute -top-4 -right-0 bg-[#f06aae] rounded-lg px-4 py-2">
                                 <div className="text-center">
                                     <div className="text-2xl font-bold text-white">500+</div>
                                     <div className="text-xs text-white">{t('common.customers')}</div>

@@ -7,13 +7,13 @@ const BookingFooter = () => (
         <div className="mx-auto flex max-w-[1180px] flex-wrap items-center justify-between gap-3.5">
             <Link to="/" className="block">
                 <img
-                    src="/assets/images/footer/footerlogo.png"
-                    alt="Nextgency"
+                    src="/assets/images/brand/activate-logo-light.png"
+                    alt="Activate"
                     className="h-[18px] w-auto object-contain opacity-90"
                 />
             </Link>
             <span className="text-[12px] font-semibold uppercase tracking-[0.1em] text-white/50">
-                Nextgency · Hotline {HOTLINE.display}
+                Activate · Hotline {HOTLINE.display}
             </span>
         </div>
     </footer>

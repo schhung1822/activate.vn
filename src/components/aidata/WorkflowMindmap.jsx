@@ -193,7 +193,7 @@
 
                     {/* GIAI ĐOẠN 3 */}
                     <div className=" p-2 bg-gray-50 rounded-2xl">
-                        <div className=" p-2 bg-gradient-to-br from-[#c08dfe] via-black to-[#c08dfe] rounded-xl">
+                        <div className=" p-2 bg-gradient-to-br from-[#ee3e99] via-black to-[#ee3e99] rounded-xl">
                         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 p-2 bg-gray-50 neu-shadow-inset-xs rounded-xl">
                             {/* Cột trái - Nội dung */}
                             <div className="flex flex-col justify-center">

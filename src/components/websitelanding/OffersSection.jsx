@@ -12,7 +12,7 @@ const OffersSection = () => {
         discountLabel: index === 2 ? t('servicePages.websiteLanding.offers.inLabel') : t('servicePages.websiteLanding.offers.discountLabel'),
         discountSuffix: index === 2 ? '1' : undefined,
         align: index === 2 ? 'center' : 'left',
-        gradient: ['from-[#D4CEF5] to-[#C5BCF1]', 'from-[#C5BCF1] to-[#C5BCF1]', 'from-orange-600 to-red-600'][index],
+        gradient: ['from-[#D4CEF5] to-[#EEC3E0]', 'from-[#EEC3E0] to-[#EEC3E0]', 'from-orange-600 to-red-600'][index],
         isRadial: index === 2,
         isWhiteText: index === 2
     }));
@@ -49,7 +49,7 @@ const OffersSection = () => {
                                     style={{
                                         clipPath: 'polygon(0% 0%, 75% 0%, 100% 25%, 100% 100%, 25% 100%, 0% 75%)',
                                         ...(offer.isRadial && {
-                                            background: 'radial-gradient(circle at center, #5534bb, #8866ee , #B3BDEE)'
+                                            background: 'radial-gradient(circle at center, #6a4fdb, #7a6cea , #B3BDEE)'
                                         })
                                     }}
                                 >
@@ -60,7 +60,7 @@ const OffersSection = () => {
                   `}>
                                         {/* Title */}
                                         <h3 className={`font-archivo font-semibold text-[20px] sm:text-[22px] mb-4 leading-tight w-full ${
-                                            offer.isWhiteText ? 'text-white' : 'text-[#5534bb]'
+                                            offer.isWhiteText ? 'text-white' : 'text-[#6a4fdb]'
                                         }`}>
                                             {offer.title.split('\n').map((line, index) => (
                                                 <React.Fragment key={index}>
@@ -75,26 +75,26 @@ const OffersSection = () => {
                                             {/* Only show discountLabel if there's no discountSuffix */}
                                             {!offer.discountSuffix && (
                                                 <p className={`text-[13px] sm:text-[15px] font-medium ${
-                                                    offer.isWhiteText ? 'text-white' : 'text-[#5534bb]'
+                                                    offer.isWhiteText ? 'text-white' : 'text-[#6a4fdb]'
                                                 }`}>
                                                     {offer.discountLabel}
                                                 </p>
                                             )}
                                             <div className={`flex items-baseline ${offer.align === 'center' ? 'justify-start' : 'justify-start'}`}>
                         <span className={`font-black text-5xl lg:text-7xl ${
-                            offer.isWhiteText ? 'text-white' : 'text-[#5534bb]'
+                            offer.isWhiteText ? 'text-white' : 'text-[#6a4fdb]'
                         }`}>
                           {offer.discount}
                         </span>
                                                 {offer.discountSuffix && (
                                                     <>
                             <span className={`text-base sm:text-lg font-medium mx-1 ${
-                                offer.isWhiteText ? 'text-white' : 'text-[#5534bb]'
+                                offer.isWhiteText ? 'text-white' : 'text-[#6a4fdb]'
                             }`}>
                               {offer.discountLabel}
                             </span>
                                                         <span className={`font-black text-5xl lg:text-7xl ${
-                                                            offer.isWhiteText ? 'text-white' : 'text-[#5534bb]'
+                                                            offer.isWhiteText ? 'text-white' : 'text-[#6a4fdb]'
                                                         }`}>
                               {offer.discountSuffix}
                             </span>
@@ -105,7 +105,7 @@ const OffersSection = () => {
 
                                         {/* Description */}
                                         <p className={`text-[13px] sm:text-[15px] font-medium leading-relaxed w-full ${
-                                            offer.isWhiteText ? 'text-white' : 'text-[#5534bb]'
+                                            offer.isWhiteText ? 'text-white' : 'text-[#6a4fdb]'
                                         }`}>
                                             {offer.description}
                                         </p>

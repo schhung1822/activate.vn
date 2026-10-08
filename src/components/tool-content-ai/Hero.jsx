@@ -3,32 +3,32 @@ import { useI18n } from '../../i18n';
 import {Link} from "react-router-dom";
 import {ArrowUpRight, Check, Copy, Link2, RotateCcw, Send, Sparkles, TrendingUp} from "lucide-react";
 
-/* Bảng màu preview - bám tông tím/xanh của trang (#c08dfe · #8866ee · #5534bb · #1a4498) */
+/* Bảng màu preview - bám tông tím/xanh của trang (#ee3e99 · #7a6cea · #6a4fdb · #6a4fdb) */
 
 const CHANNELS = [
-    { name: 'TikTok', value: '21.7k', width: '92%', color: '#c08dfe' },
+    { name: 'TikTok', value: '21.7k', width: '92%', color: '#ee3e99' },
     { name: 'Facebook', value: '8.4k', width: '82%', color: '#a07af6' },
     { name: 'YouTube', value: '5.9k', width: '68%', color: '#7a6bf0' },
     { name: 'Shopee', value: '3.1k', width: '55%', color: '#4f7fe0' }
 ];
 
 const SCORES = [
-    { label: 'SEO', value: 94, color: '#c08dfe' },
-    { label: 'AEO', value: 90, color: '#8866ee' },
+    { label: 'SEO', value: 94, color: '#ee3e99' },
+    { label: 'AEO', value: 90, color: '#7a6cea' },
     { label: 'GEO', value: 96, color: '#4f7fe0' }
 ];
 
 // Toạ độ giữ trong code, nhãn lấy từ từ điển
 const LINK_NODE_POSITIONS = [
-    {x: 16, y: 18, color: '#c08dfe'},
+    {x: 16, y: 18, color: '#ee3e99'},
     {x: 84, y: 22, color: '#a07af6'},
     {x: 18, y: 82, color: '#7a6bf0'},
     {x: 82, y: 79, color: '#4f7fe0'}
 ];
 
 const PUBLISH_TARGETS = [
-    { name: 'WordPress', short: 'WP', color: '#c08dfe', width: '100%' },
-    { name: 'Wix', short: 'WX', color: '#8866ee', width: '100%' },
+    { name: 'WordPress', short: 'WP', color: '#ee3e99', width: '100%' },
+    { name: 'Wix', short: 'WX', color: '#7a6cea', width: '100%' },
     { name: 'Shopify', short: 'SP', color: '#4f7fe0', width: '100%' }
 ];
 
@@ -60,11 +60,11 @@ const CountUp = ({value, duration = 900, className}) => {
 const AnalyticsFrame = () => (
     <div className="hero-frame flex h-full flex-col">
         <div className="flex items-center gap-1.5 mb-3">
-            <span className="h-2 w-2 rounded-full bg-[#c08dfe]" />
-            <span className="h-2 w-2 rounded-full bg-[#8866ee]" />
+            <span className="h-2 w-2 rounded-full bg-[#ee3e99]" />
+            <span className="h-2 w-2 rounded-full bg-[#7a6cea]" />
             <span className="h-2 w-2 rounded-full bg-[#4f7fe0]" />
             <span className="ml-2 text-[11px] font-bold text-gray-400">social · shop</span>
-            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#c08dfe]/25 bg-[#c08dfe]/12 px-2.5 py-1 text-[10px] font-bold text-[#d9c2ff]" style={{'--delay': '.35s'}}>
+            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#ee3e99]/25 bg-[#ee3e99]/12 px-2.5 py-1 text-[10px] font-bold text-[#f9c3df]" style={{'--delay': '.35s'}}>
                 <TrendingUp className="h-3 w-3" />+38%
             </span>
         </div>
@@ -72,12 +72,12 @@ const AnalyticsFrame = () => (
         <svg viewBox="0 0 260 54" className="mb-3 h-[54px] w-full" preserveAspectRatio="none" fill="none">
             <defs>
                 <linearGradient id="heroAreaFill" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#c08dfe" stopOpacity=".38" />
-                    <stop offset="100%" stopColor="#1a4498" stopOpacity="0" />
+                    <stop offset="0%" stopColor="#ee3e99" stopOpacity=".38" />
+                    <stop offset="100%" stopColor="#6a4fdb" stopOpacity="0" />
                 </linearGradient>
                 <linearGradient id="heroAreaStroke" x1="0" y1="0" x2="1" y2="0">
                     <stop offset="0%" stopColor="#4f7fe0" />
-                    <stop offset="100%" stopColor="#c08dfe" />
+                    <stop offset="100%" stopColor="#ee3e99" />
                 </linearGradient>
             </defs>
             <path className="hero-fade" style={{'--delay': '.45s'}} d="M0 44 L37 38 L74 41 L111 27 L148 29 L185 15 L222 18 L260 6 L260 54 L0 54 Z" fill="url(#heroAreaFill)" />
@@ -126,7 +126,7 @@ const PlanFrame = ({t}) => (
             {['seo cho ai', 'geo optimization', 'ai overviews', 'answer engine'].map((keyword, index) => (
                 <span
                     key={keyword}
-                    className="hero-pop rounded-full border border-[#c08dfe]/25 bg-[#c08dfe]/10 px-3 py-1.5 text-[11.5px] font-bold text-[#e2d3ff]"
+                    className="hero-pop rounded-full border border-[#ee3e99]/25 bg-[#ee3e99]/10 px-3 py-1.5 text-[11.5px] font-bold text-[#e2d3ff]"
                     style={{'--delay': `${index * 0.09}s`}}
                 >
                     {keyword}
@@ -134,9 +134,9 @@ const PlanFrame = ({t}) => (
             ))}
         </div>
         <div className="mb-4 flex items-center gap-2">
-            <span className="h-px flex-1 bg-gradient-to-r from-transparent via-[#c08dfe]/45 to-transparent" />
+            <span className="h-px flex-1 bg-gradient-to-r from-transparent via-[#ee3e99]/45 to-transparent" />
             <span className="text-[10px] font-bold uppercase tracking-[.14em] text-[#c9b0ff]">{t('servicePages.toolContentAi.hero.preview.aiCluster')}</span>
-            <span className="h-px flex-1 bg-gradient-to-r from-transparent via-[#c08dfe]/45 to-transparent" />
+            <span className="h-px flex-1 bg-gradient-to-r from-transparent via-[#ee3e99]/45 to-transparent" />
         </div>
         <div className="flex-1 space-y-2.5">
             {t('servicePages.toolContentAi.hero.preview.topics').map((topic, index) => (
@@ -145,8 +145,8 @@ const PlanFrame = ({t}) => (
                     className="hero-pop flex items-center gap-3 rounded-lg border border-white/10 bg-white/[.05] px-3 py-2.5"
                     style={{'--delay': `${0.45 + index * 0.12}s`}}
                 >
-                    <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#c08dfe]/18">
-                        <Check className="h-3 w-3 text-[#c08dfe]" />
+                    <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#ee3e99]/18">
+                        <Check className="h-3 w-3 text-[#ee3e99]" />
                     </span>
                     <span className="text-[12px] sm:text-[12.5px] font-bold text-white">{topic}</span>
                 </div>
@@ -160,7 +160,7 @@ const ScoreFrame = ({t}) => (
     <div className="hero-frame flex h-full flex-col">
         <div className="mb-3 flex items-center gap-2">
             <p className="text-[10px] font-archivo font-bold uppercase tracking-[.14em] text-gray-500">{t('servicePages.toolContentAi.hero.preview.draft')}</p>
-            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#c08dfe]/25 bg-[#c08dfe]/12 px-2.5 py-1 text-[10px] font-bold text-[#d9c2ff]" style={{'--delay': '.75s'}}>
+            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#ee3e99]/25 bg-[#ee3e99]/12 px-2.5 py-1 text-[10px] font-bold text-[#f9c3df]" style={{'--delay': '.75s'}}>
                 <Sparkles className="h-3 w-3" />{t('servicePages.toolContentAi.hero.preview.written')}
             </span>
         </div>
@@ -168,12 +168,12 @@ const ScoreFrame = ({t}) => (
         {/* Khung soạn thảo với hiệu ứng gõ chữ */}
         <div className="relative mb-4 overflow-hidden rounded-xl border border-white/10 bg-white/[.04] p-3">
             <span className="hero-shine pointer-events-none absolute inset-y-0 -left-1/2 w-1/2 bg-gradient-to-r from-transparent via-white/8 to-transparent" />
-            <span className="hero-type mb-2.5 block h-2.5 rounded bg-gradient-to-r from-[#c08dfe] to-[#8866ee]" style={{'--w': '58%', '--delay': '.05s'}} />
+            <span className="hero-type mb-2.5 block h-2.5 rounded bg-gradient-to-r from-[#ee3e99] to-[#7a6cea]" style={{'--w': '58%', '--delay': '.05s'}} />
             <span className="hero-type mb-1.5 block h-1.5 rounded bg-white/20" style={{'--w': '100%', '--delay': '.25s'}} />
             <span className="hero-type mb-1.5 block h-1.5 rounded bg-white/20" style={{'--w': '86%', '--delay': '.4s'}} />
             <span className="flex items-center gap-1">
                 <span className="hero-type block h-1.5 rounded bg-white/20" style={{'--w': '52%', '--delay': '.55s'}} />
-                <span className="hero-caret block h-3 w-[2px] rounded-full bg-[#c08dfe]" />
+                <span className="hero-caret block h-3 w-[2px] rounded-full bg-[#ee3e99]" />
             </span>
         </div>
 
@@ -215,7 +215,7 @@ const ScoreFrame = ({t}) => (
                     className="hero-pop inline-flex items-center gap-1 rounded-full border border-white/10 bg-white/[.04] px-2.5 py-1 text-[10px] font-bold text-gray-300"
                     style={{'--delay': `${0.65 + index * 0.1}s`}}
                 >
-                    <Check className="h-2.5 w-2.5 text-[#c08dfe]" />{tag}
+                    <Check className="h-2.5 w-2.5 text-[#ee3e99]" />{tag}
                 </span>
             ))}
         </div>
@@ -227,7 +227,7 @@ const LinkFrame = ({t, linkNodes}) => (
     <div className="hero-frame flex h-full flex-col">
         <div className="mb-2 flex items-center gap-2">
             <p className="text-[10px] font-archivo font-bold uppercase tracking-[.14em] text-gray-500">{t('servicePages.toolContentAi.hero.preview.linkNetwork')}</p>
-            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#c08dfe]/25 bg-[#c08dfe]/12 px-2.5 py-1 text-[10px] font-bold text-[#d9c2ff]" style={{'--delay': '.9s'}}>
+            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#ee3e99]/25 bg-[#ee3e99]/12 px-2.5 py-1 text-[10px] font-bold text-[#f9c3df]" style={{'--delay': '.9s'}}>
                 <Link2 className="h-3 w-3" />{t('servicePages.toolContentAi.hero.preview.auto')}
             </span>
         </div>
@@ -240,7 +240,7 @@ const LinkFrame = ({t, linkNodes}) => (
                             className="hero-draw"
                             pathLength="100"
                             d={`M50 50 L${node.x} ${node.y}`}
-                            stroke="rgba(192,141,254,.32)"
+                            stroke="rgba(238,62,153,.32)"
                             strokeWidth="1.4"
                             vectorEffect="non-scaling-stroke"
                             style={{'--delay': `${0.2 + index * 0.12}s`}}
@@ -272,7 +272,7 @@ const LinkFrame = ({t, linkNodes}) => (
             </svg>
 
             {/* Nút trung tâm */}
-            <div className="hero-hub absolute left-1/2 top-1/2 flex h-[68px] w-[68px] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full border-2 border-[#c08dfe] bg-gradient-to-br from-[#8866ee] to-[#5534bb] text-white">
+            <div className="hero-hub absolute left-1/2 top-1/2 flex h-[68px] w-[68px] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full border-2 border-[#ee3e99] bg-gradient-to-br from-[#7a6cea] to-[#6a4fdb] text-white">
                 <Sparkles className="h-3.5 w-3.5" />
                 <span className="mt-0.5 text-[9px] font-black uppercase tracking-wide">{t('servicePages.toolContentAi.hero.preview.pillar')}</span>
             </div>
@@ -298,7 +298,7 @@ const LinkFrame = ({t, linkNodes}) => (
         <div className="mt-2 grid grid-cols-2 gap-2">
             <div className="hero-pop rounded-lg border border-white/10 bg-white/[.04] px-3 py-1.5" style={{'--delay': '.85s'}}>
                 <p className="text-[10px] font-semibold uppercase tracking-wide text-gray-500">Internal link</p>
-                <CountUp value={24} className="text-[14px] font-archivo font-black text-[#c08dfe]" />
+                <CountUp value={24} className="text-[14px] font-archivo font-black text-[#ee3e99]" />
             </div>
             <div className="hero-pop rounded-lg border border-white/10 bg-white/[.04] px-3 py-1.5" style={{'--delay': '.95s'}}>
                 <p className="text-[10px] font-semibold uppercase tracking-wide text-gray-500">Backlink</p>
@@ -313,7 +313,7 @@ const PublishFrame = ({t}) => (
     <div className="hero-frame flex h-full flex-col">
         <div className="mb-3 flex items-center gap-2">
             <p className="text-[10px] font-archivo font-bold uppercase tracking-[.14em] text-gray-500">{t('servicePages.toolContentAi.hero.preview.publish')}</p>
-            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#c08dfe]/25 bg-[#c08dfe]/12 px-2.5 py-1 text-[10px] font-bold text-[#d9c2ff]" style={{'--delay': '.8s'}}>
+            <span className="hero-pop ml-auto inline-flex items-center gap-1 rounded-full border border-[#ee3e99]/25 bg-[#ee3e99]/12 px-2.5 py-1 text-[10px] font-bold text-[#f9c3df]" style={{'--delay': '.8s'}}>
                 <Send className="h-3 w-3" />{t('servicePages.toolContentAi.hero.preview.channels')}
             </span>
         </div>
@@ -345,7 +345,7 @@ const PublishFrame = ({t}) => (
                         </span>
                     </div>
                     <span
-                        className="hero-pop inline-flex shrink-0 items-center gap-1 rounded-full border border-[#c08dfe]/30 bg-[#c08dfe]/14 px-2 py-1 text-[10px] font-bold text-[#e2d3ff]"
+                        className="hero-pop inline-flex shrink-0 items-center gap-1 rounded-full border border-[#ee3e99]/30 bg-[#ee3e99]/14 px-2 py-1 text-[10px] font-bold text-[#e2d3ff]"
                         style={{'--delay': `${0.6 + index * 0.12}s`}}
                     >
                         <Check className="h-2.5 w-2.5" />{t('servicePages.toolContentAi.hero.preview.posted')}
@@ -356,7 +356,7 @@ const PublishFrame = ({t}) => (
 
         <div className="hero-pop mt-2 flex items-center gap-3 rounded-xl border border-white/10 bg-white/[.05] p-3" style={{'--delay': '.9s'}}>
             <span className="text-[11px] font-bold text-gray-500">{t('servicePages.toolContentAi.hero.preview.shareLink')}</span>
-            <span className="truncate text-[11px] font-bold text-[#d9c2ff]">/share/r/8f2c...</span>
+            <span className="truncate text-[11px] font-bold text-[#f9c3df]">/share/r/8f2c...</span>
             <Copy className="ml-auto h-4 w-4 shrink-0 text-gray-500" />
         </div>
     </div>
@@ -453,14 +453,14 @@ const HeroAutomationPreview = () => {
                     to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
                 }
                 @keyframes heroHubGlow {
-                    0%, 100% { transform: translate(-50%, -50%) scale(1); box-shadow: 0 0 26px rgba(192,141,254,.45); }
-                    50% { transform: translate(-50%, -50%) scale(1.06); box-shadow: 0 0 42px rgba(192,141,254,.85); }
+                    0%, 100% { transform: translate(-50%, -50%) scale(1); box-shadow: 0 0 26px rgba(238,62,153,.45); }
+                    50% { transform: translate(-50%, -50%) scale(1.06); box-shadow: 0 0 42px rgba(238,62,153,.85); }
                 }
                 @keyframes heroDashFlow { to { stroke-dashoffset: -26; } }
                 @keyframes heroOrbit { to { transform: rotate(360deg); } }
                 @keyframes heroLiveDot {
-                    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(192,141,254,.55); }
-                    70% { opacity: .65; box-shadow: 0 0 0 7px rgba(192,141,254,0); }
+                    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(238,62,153,.55); }
+                    70% { opacity: .65; box-shadow: 0 0 0 7px rgba(238,62,153,0); }
                 }
                 @keyframes heroSpin { from { transform: rotate(0); } to { transform: rotate(-360deg); } }
 
@@ -499,9 +499,9 @@ const HeroAutomationPreview = () => {
             `}</style>
 
             {/* Hào quang nền */}
-            <div className="absolute -inset-5 rounded-[2.2rem] bg-[radial-gradient(circle_at_72%_8%,rgba(192,141,254,.32),transparent_38%),radial-gradient(circle_at_18%_78%,rgba(26,68,152,.3),transparent_36%)] blur-3xl" />
+            <div className="absolute -inset-5 rounded-[2.2rem] bg-[radial-gradient(circle_at_72%_8%,rgba(238,62,153,.32),transparent_38%),radial-gradient(circle_at_18%_78%,rgba(26,68,152,.3),transparent_36%)] blur-3xl" />
             <div className="absolute -inset-px overflow-hidden rounded-[1.5rem] opacity-70">
-                <div className="hero-orbit absolute left-1/2 top-1/2 h-[180%] w-[180%] -translate-x-1/2 -translate-y-1/2 bg-[conic-gradient(from_0deg,transparent_0deg,rgba(192,141,254,.5)_50deg,transparent_120deg,transparent_240deg,rgba(26,68,152,.55)_300deg,transparent_360deg)]" />
+                <div className="hero-orbit absolute left-1/2 top-1/2 h-[180%] w-[180%] -translate-x-1/2 -translate-y-1/2 bg-[conic-gradient(from_0deg,transparent_0deg,rgba(238,62,153,.5)_50deg,transparent_120deg,transparent_240deg,rgba(26,68,152,.55)_300deg,transparent_360deg)]" />
             </div>
 
             <div
@@ -509,13 +509,13 @@ const HeroAutomationPreview = () => {
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
             >
-                <div className="absolute inset-0 bg-[linear-gradient(rgba(192,141,254,.05)_1px,transparent_1px),linear-gradient(90deg,rgba(192,141,254,.05)_1px,transparent_1px)] bg-[size:26px_26px] opacity-40" />
+                <div className="absolute inset-0 bg-[linear-gradient(rgba(238,62,153,.05)_1px,transparent_1px),linear-gradient(90deg,rgba(238,62,153,.05)_1px,transparent_1px)] bg-[size:26px_26px] opacity-40" />
 
-                <div className="relative rounded-[1.2rem] border border-white/10 bg-gradient-to-br from-[#151233] via-[#0d0f26] to-[#070818] p-4 sm:p-5">
+                <div className="relative rounded-[1.2rem] border border-white/10 bg-gradient-to-br from-[#1f0b2a] via-[#0d0f26] to-[#070818] p-4 sm:p-5">
                     {/* Thanh tiêu đề */}
                     <div className="mb-4 flex items-center justify-between gap-3">
                         <div className="flex min-w-0 items-center gap-2.5">
-                            <span className={`h-2 w-2 shrink-0 rounded-full ${paused ? 'bg-[#4f7fe0]' : 'hero-live-dot bg-[#c08dfe]'}`} />
+                            <span className={`h-2 w-2 shrink-0 rounded-full ${paused ? 'bg-[#4f7fe0]' : 'hero-live-dot bg-[#ee3e99]'}`} />
                             <span className="text-[10px] sm:text-[11px] font-archivo font-bold uppercase tracking-[.14em] text-[#c9b0ff]">
                                 {paused ? t('servicePages.toolContentAi.hero.preview.paused') : t('servicePages.toolContentAi.hero.preview.running')}
                             </span>
@@ -523,7 +523,7 @@ const HeroAutomationPreview = () => {
                             <span className="truncate text-[12px] sm:text-[13px] font-semibold text-white">{steps[activeStep]?.title}</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <span className="hidden items-center gap-1.5 rounded-full border border-[#c08dfe]/30 bg-[#c08dfe]/10 px-2.5 py-1 text-[10px] font-bold text-[#d9c2ff] sm:inline-flex">
+                            <span className="hidden items-center gap-1.5 rounded-full border border-[#ee3e99]/30 bg-[#ee3e99]/10 px-2.5 py-1 text-[10px] font-bold text-[#f9c3df] sm:inline-flex">
                                 <Sparkles className="h-3 w-3" />Auto
                             </span>
                             <button
@@ -531,7 +531,7 @@ const HeroAutomationPreview = () => {
                                 onClick={restart}
                                 aria-label={t('servicePages.toolContentAi.hero.preview.restartAria')}
                                 title={t('servicePages.toolContentAi.hero.preview.restartTitle')}
-                                className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-white/60 transition-colors duration-200 hover:border-[#c08dfe]/50 hover:bg-[#c08dfe]/15 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c08dfe]/70"
+                                className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/5 text-white/60 transition-colors duration-200 hover:border-[#ee3e99]/50 hover:bg-[#ee3e99]/15 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ee3e99]/70"
                             >
                                 <RotateCcw key={runId} className="hero-spin h-3.5 w-3.5" />
                             </button>
@@ -550,19 +550,19 @@ const HeroAutomationPreview = () => {
                                         type="button"
                                         onClick={() => goToStep(index)}
                                         aria-current={isActive ? 'step' : undefined}
-                                        className={`group relative w-full border-white/10 overflow-hidden rounded-xl border px-3 py-2.5 text-left transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#c08dfe]/70 ${
+                                        className={`group relative w-full border-white/10 overflow-hidden rounded-xl border px-3 py-2.5 text-left transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ee3e99]/70 ${
                                             isActive
-                                                ? 'border-[#c08dfe]/55 bg-[#c08dfe]/12 shadow-[0_10px_30px_-12px_rgba(85,52,187,.9)]'
-                                                : 'border-white/8 bg-white/[.02] hover:border-[#c08dfe]/35 hover:bg-white/[.06]'
+                                                ? 'border-[#ee3e99]/55 bg-[#ee3e99]/12 shadow-[0_10px_30px_-12px_rgba(85,52,187,.9)]'
+                                                : 'border-white/8 bg-white/[.02] hover:border-[#ee3e99]/35 hover:bg-white/[.06]'
                                         }`}
                                     >
                                         <div className="flex items-start gap-3">
                                             <div
                                                 className={`mt-0.5 flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full border text-[12px] font-black transition-all duration-300 ${
                                                     isActive
-                                                        ? 'border-[#c08dfe]/90 bg-gradient-to-br from-[#c08dfe] to-[#5534bb] text-white shadow-[0_0_0_4px_rgba(192,141,254,.14)]'
+                                                        ? 'border-[#ee3e99]/90 bg-gradient-to-br from-[#ee3e99] to-[#6a4fdb] text-white shadow-[0_0_0_4px_rgba(238,62,153,.14)]'
                                                         : isDone
-                                                            ? 'border-[#c08dfe]/35 bg-[#c08dfe]/15 text-[#c08dfe]'
+                                                            ? 'border-[#ee3e99]/35 bg-[#ee3e99]/15 text-[#ee3e99]'
                                                             : 'border-white/10 bg-white/[.06] text-gray-400 group-hover:text-white'
                                                 }`}
                                             >
@@ -579,7 +579,7 @@ const HeroAutomationPreview = () => {
                                         {isActive && (
                                             <span className="absolute inset-x-0 bottom-0 h-[2px] bg-white/8">
                                                 <span
-                                                    className="block h-full rounded-full bg-gradient-to-r from-[#c08dfe] to-[#4f7fe0]"
+                                                    className="block h-full rounded-full bg-gradient-to-r from-[#ee3e99] to-[#4f7fe0]"
                                                     style={{width: `${progress * 100}%`}}
                                                 />
                                             </span>
@@ -626,10 +626,10 @@ const Hero = () => {
                     <div className="lg:col-span-2 space-y-4 mb-4 pr-4 lg:mb-0">
                         {/* Badge */}
                         <div className="inline-flex rounded-full border border-black/10 bg-white p-1 neu-shadow-xs">
-                            <span className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#0d0f26] to-[#151233] pl-3.5 pr-4 py-2 shadow-[0_10px_24px_-14px_rgba(85,52,187,.9)]">
+                            <span className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-[#0d0f26] to-[#1f0b2a] pl-3.5 pr-4 py-2 shadow-[0_10px_24px_-14px_rgba(85,52,187,.9)]">
                                 <span className="relative flex h-2 w-2 shrink-0">
-                                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#c08dfe] opacity-75" />
-                                    <span className="relative inline-flex h-2 w-2 rounded-full bg-[#c08dfe]" />
+                                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#ee3e99] opacity-75" />
+                                    <span className="relative inline-flex h-2 w-2 rounded-full bg-[#ee3e99]" />
                                 </span>
                                 <span className="text-[12px] lg:text-[13px] font-archivo font-bold text-white whitespace-nowrap">
                                     {t('servicePages.toolContentAi.hero.badge')}
@@ -643,7 +643,7 @@ const Hero = () => {
                                 {t('servicePages.toolContentAi.hero.titleLine1')}
                             </h1>
                             <div className="flex items-center gap-4">
-                                <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#c08dfe] bg-clip-text text-transparent leading-[1.4] tracking-tight">
+                                <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#ee3e99] bg-clip-text text-transparent leading-[1.4] tracking-tight">
                                     {t('servicePages.toolContentAi.hero.titleLine2')}
                                 </h1>
                                 {/* SVG Circles */}
@@ -660,7 +660,7 @@ const Hero = () => {
                                             cx="25.4404"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#f3e8ff"
+                                            fill="#fdeef6"
                                             className="animate-pulse"
                                             style={{ animationDelay: '0s', animationDuration: '2s' }}
                                         />
@@ -668,7 +668,7 @@ const Hero = () => {
                                             cx="40.1005"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#e9d5ff"
+                                            fill="#fbd5e8"
                                             className="animate-pulse"
                                             style={{ animationDelay: '0.5s', animationDuration: '2s' }}
                                         />
@@ -676,7 +676,7 @@ const Hero = () => {
                                             cx="53.8994"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#d8b4fe"
+                                            fill="#f7b3d6"
                                             className="animate-pulse"
                                             style={{ animationDelay: '1s', animationDuration: '2s' }}
                                         />
@@ -684,7 +684,7 @@ const Hero = () => {
                                             cx="68.5596"
                                             cy="25.4404"
                                             r="25.4404"
-                                            fill="#c59efe"
+                                            fill="#f06aae"
                                             className="animate-pulse"
                                             style={{ animationDelay: '1.5s', animationDuration: '2s' }}
                                         />
@@ -711,7 +711,7 @@ const Hero = () => {
                         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 mt-4">
                             <button
                                 onClick={OpenNewSite}
-                                className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#1a4498] via-[#c08dfe] to-[#1a4498] text-[16px] text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20 hover:scale-105 group animate-gradient-shift"
+                                className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#6a4fdb] via-[#ee3e99] to-[#6a4fdb] text-[16px] text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-fuchsia-500/20 hover:scale-105 group animate-gradient-shift"
                                 style={{
                                     backgroundSize: '200% 200%'
                                 }}

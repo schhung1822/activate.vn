@@ -14,7 +14,7 @@ const ConsultantProfile = () => {
             </div>
 
             <div className="mt-6 flex items-center gap-5">
-                <div className="h-24 w-24 flex-none rounded-full bg-gradient-to-br from-[#2e7bdf] via-[#41c8e6] to-[#8a6cf0] p-[3px]">
+                <div className="h-24 w-24 flex-none rounded-full bg-gradient-to-br from-[#2e7bdf] via-[#41c8e6] to-[#7a6cea] p-[3px]">
                     {CONSULTANT.avatar && !avatarFailed ? (
                         <img
                             src={CONSULTANT.avatar}
@@ -74,8 +74,8 @@ const ConsultantProfile = () => {
 
             <div className="mt-9 flex items-center gap-4 text-[11.5px] font-semibold uppercase tracking-[0.12em] text-white/45">
                 <img
-                    src="/assets/images/footer/footerlogo.png"
-                    alt="Nextgency"
+                    src="/assets/images/brand/activate-logo-light.png"
+                    alt="Activate"
                     className="h-4 w-auto object-contain opacity-80"
                 />
                 <span>Hotline {HOTLINE.display}</span>

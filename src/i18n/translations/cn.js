@@ -1,6 +1,11 @@
 // src/i18n/translations/cn.js
 // 简体中文 (/cn). Key nào thiếu ở đây sẽ tự rơi về bản tiếng Việt.
+import corporate from './corporate/cn.js';
+
 export default {
+    // Nội dung hồ sơ doanh nghiệp Activate - xem ./corporate/cn.js
+    corporate,
+
     language: {
         label: '语言',
         switchTo: '切换到{{language}}'
@@ -15,7 +20,10 @@ export default {
         email: '邮箱',
         website: '网站',
         address: '地址',
-        addressValue: '河内市青春郡王承武街 2/11 号',
+        addressValue: '越南河内市定功坊郑廷久街 250 巷 16 号',
+        taxId: '税号',
+        legalName: '国际名称',
+        brandLabel: '品牌',
         home: '首页',
         customers: '客户',
         trustedCustomers: '客户的信赖'
@@ -51,7 +59,8 @@ export default {
     },
 
     footer: {
-        tagline: 'AI - 营销自动化代理机构',
+        tagline: '数字化转型与产品零售',
+        about: 'Activate 是 CIVI GLOBAL COMPANY LIMITED 旗下品牌，经营数字化转型解决方案与产品零售业务。',
         servicesTitle: '我们的服务',
         services: {
             facebookAds: 'Facebook 广告服务',
@@ -72,7 +81,7 @@ export default {
             payment: '付款规定'
         },
         newsletterTitle: '订阅最新资讯',
-        newsletterDescription: '订阅后即可第一时间收到 Nextgency 的服务动态与技术趋势。',
+        newsletterDescription: '订阅后即可第一时间收到 Activate 的服务动态与技术趋势。',
         newsletterPlaceholder: '请输入您的邮箱',
         newsletterButton: '订阅',
         copyright: '© 版权所有并由以下机构提供'
@@ -125,9 +134,9 @@ export default {
         clients: {
             titleLine1: '客户与',
             titleLine2: '战略合作伙伴',
-            subtitle: '与 Nextgency 一同在可持续数字化转型之路上并肩前行的伙伴',
+            subtitle: '与 Activate 一同在可持续数字化转型之路上并肩前行的伙伴',
             paragraph1:
-                '在一路发展的过程中，Nextgency 很荣幸与超过 100 家企业和机构携手合作，覆盖美妆、教育、医疗、科技乃至公共服务与制造等众多领域。',
+                '在一路发展的过程中，Activate 很荣幸与超过 100 家企业和机构携手合作，覆盖美妆、教育、医疗、科技乃至公共服务与制造等众多领域。',
             paragraph2:
                 '我们不只是交付技术项目，更是客户的战略咨询伙伴——与客户一起分析数据、设计方案，并分阶段优化经营成效。'
         },
@@ -157,7 +166,7 @@ export default {
                 },
                 {
                     title: '专业处理投诉',
-                    description: '在任何投诉情形下，Nextgency 承诺：',
+                    description: '在任何投诉情形下，Activate 承诺：',
                     subCommitments: [
                         '在 24 个工作小时内回复',
                         '出具清晰的书面记录，说明责任归属、解决方案与彻底处理的方式',
@@ -198,8 +207,8 @@ export default {
 
         whyChooseUs: {
             titleLine1: '为什么选择',
-            subtitle: 'Nextgency 拥有 3 年经验，已陪伴数百家企业提升数字化竞争力',
-            teamAlt: 'Nextgency 专家团队',
+            subtitle: 'Activate 拥有 3 年经验，已陪伴数百家企业提升数字化竞争力',
+            teamAlt: 'Activate 专家团队',
             badges: {
                 enthusiastic: '热情',
                 young: '年轻',
@@ -238,27 +247,27 @@ export default {
     contact: {
         title: '立即联系我们',
         description:
-            '感谢您联系 Nextgency。我们的团队会仔细审阅您的信息，并在 24 个工作小时内与您联系，为您推荐最合适的解决方案。'
+            '感谢您联系 Activate。我们的团队会仔细审阅您的信息，并在 24 个工作小时内与您联系，为您推荐最合适的解决方案。'
     },
 
     home: {
         hero: {
-            badge: 'Digital Solutions Agency',
+            badge: '数字化转型 & 产品零售',
             description:
-                'Nextgency 是领先的技术合作伙伴，专注于提供全方位的数字化解决方案。我们用最前沿的技术，把想法变成现实。',
+                'Activate 为企业提供全方位的数字化转型服务——从网站、广告、CRM 到 AI 与自动化，同时经营优质正品的产品零售。',
             cta: '查看项目'
         },
         about: {
-            badge: 'About Nextgency',
+            badge: 'About Activate',
             titleLine1: '引领',
             titleLine2: '数字化转型',
             description:
-                'Nextgency 是您在数字时代的战略伙伴。我们提供数字化转型解决方案，助力企业加速成长。',
+                'Activate 是您在数字时代的战略伙伴。我们提供数字化转型解决方案，助力企业加速成长。',
             cta: '了解更多'
         },
         services: {
             badge: 'Services',
-            title: 'Nextgency 的服务',
+            title: 'Activate 的服务',
             descriptionLabel: '服务介绍',
             technologiesLabel: '使用的技术',
             durationLabel: '交付周期',
@@ -269,7 +278,7 @@ export default {
                     name: '自动化 - AI - 数据',
                     title: '自动化 - AI - 数据',
                     description:
-                        '想让产出翻倍、减少人工、提升体验？答案就在自动化与 AI。Nextgency 帮助企业让流程真正智能化。',
+                        '想让产出翻倍、减少人工、提升体验？答案就在自动化与 AI。Activate 帮助企业让流程真正智能化。',
                     duration: '14 - 30 天',
                     note: '优化运营流程、实现任务自动化，并把数据真正用起来'
                 },
@@ -277,7 +286,7 @@ export default {
                     name: '谷歌广告',
                     title: '谷歌广告',
                     description:
-                        'Nextgency 通过多样化的谷歌广告投放组合，让客户一想到您所在的领域，第一个想到的就是您的品牌。',
+                        'Activate 通过多样化的谷歌广告投放组合，让客户一想到您所在的领域，第一个想到的就是您的品牌。',
                     duration: '3 - 7 天',
                     note: '搭建广告系列、追踪转化并持续优化广告预算'
                 },
@@ -285,7 +294,7 @@ export default {
                     name: 'Facebook 广告',
                     title: 'Facebook 广告',
                     description:
-                        'Nextgency 的 Facebook 广告服务，是帮助企业在 Facebook 这片充满机会的土地上“挖到金矿”的得力助手。',
+                        'Activate 的 Facebook 广告服务，是帮助企业在 Facebook 这片充满机会的土地上“挖到金矿”的得力助手。',
                     duration: '3 - 7 天',
                     note: '构建客户人群、投放广告并优化转化效果'
                 },
@@ -293,7 +302,7 @@ export default {
                     name: '网站与落地页',
                     title: '网站与落地页',
                     description:
-                        '网站和落地页不只是客户“路过”的地方，而是让他们留下来、完成转化并再次回访的终点。Nextgency 提供一站式的现代数字平台。',
+                        '网站和落地页不只是客户“路过”的地方，而是让他们留下来、完成转化并再次回访的终点。Activate 提供一站式的现代数字平台。',
                     duration: '7 - 21 天',
                     note: '现代化界面设计、更快的加载速度和更高的转化率'
                 },
@@ -309,7 +318,7 @@ export default {
                     name: 'Facebook 数据集与 CRM',
                     title: 'Facebook 数据集与 CRM',
                     description:
-                        '在数据即“钻石矿”的时代，Nextgency 通过 Facebook 数据集与 CRM 服务，把每一次行为、每一次互动都变成有效的广告杠杆。',
+                        '在数据即“钻石矿”的时代，Activate 通过 Facebook 数据集与 CRM 服务，把每一次行为、每一次互动都变成有效的广告杠杆。',
                     duration: '7 - 14 天',
                     note: '打通客户数据、同步 CRM，并大幅提升广告衡量能力'
                 },
@@ -317,7 +326,7 @@ export default {
                     name: '营销部门外包',
                     title: '外包营销部门',
                     description:
-                        '把我们团队的专业智慧投入到客户最具潜力的项目中，正是 Nextgency 提供营销部门外包服务时的初心。',
+                        '把我们团队的专业智慧投入到客户最具潜力的项目中，正是 Activate 提供营销部门外包服务时的初心。',
                     duration: '按月计费',
                     note: '像您的内部营销团队一样，从策略到落地全程陪跑'
                 },
@@ -325,7 +334,7 @@ export default {
                     name: 'Facebook 蓝标认证',
                     title: 'Facebook 蓝标认证',
                     description:
-                        'Nextgency 提供从头到尾的 Facebook 蓝标认证服务，帮助客户缩短审核时间、规范申请材料，并切实提高通过率。',
+                        'Activate 提供从头到尾的 Facebook 蓝标认证服务，帮助客户缩短审核时间、规范申请材料，并切实提高通过率。',
                     duration: '7 - 30 天',
                     note: '材料咨询、信息规范化，并全程协助完成认证流程'
                 }
@@ -333,11 +342,11 @@ export default {
         },
         projectsShowcase: {
             badge: 'Projects',
-            title: 'Nextgency 精选项目',
+            title: 'Activate 精选项目',
             description: '探索我们与客户共同打造的网站、平台与数字化解决方案。',
             viewAll: '查看全部项目',
             hint: '移动鼠标探索 · 点击项目即可预览',
-            wallLabel: 'Nextgency 动态项目画廊',
+            wallLabel: 'Activate 动态项目画廊',
             preview: '项目预览',
             close: '关闭项目预览',
             noImage: '暂无项目图片',
@@ -354,35 +363,35 @@ export default {
         testimonials: {
             badge: 'Testimonials',
             title: '合作伙伴的评价',
-            description: '客户的正面反馈是我们的骄傲，也是 Nextgency 不断向前的动力。',
+            description: '客户的正面反馈是我们的骄傲，也是 Activate 不断向前的动力。',
             items: [
-                'Nextgency 为我们带来了非常出色的解决方案。团队专业、有创意，而且始终热情支持。',
-                'Nextgency 为我们带来了新颖、高效并且切合发展需求的技术解决方案。',
-                'Nextgency 以专业、用心和富有创意的思维，帮助我们优化了业务运营。',
-                'Nextgency 总能为我们的传播项目带来既有创意又务实有效的想法。',
-                'Nextgency 深刻理解品牌需求，为我们提供了合适、细致而有效的解决方案。',
-                'Nextgency 以专业、创意和非常用心的支持精神，一路陪伴我们同行。',
-                '我们曾与 Nextgency 合作过多个项目，始终对团队的专业能力和执行效果感到满意。',
-                'Nextgency 的支持非常用心，响应迅速，并在整个实施过程中始终紧密配合。'
+                'Activate 为我们带来了非常出色的解决方案。团队专业、有创意，而且始终热情支持。',
+                'Activate 为我们带来了新颖、高效并且切合发展需求的技术解决方案。',
+                'Activate 以专业、用心和富有创意的思维，帮助我们优化了业务运营。',
+                'Activate 总能为我们的传播项目带来既有创意又务实有效的想法。',
+                'Activate 深刻理解品牌需求，为我们提供了合适、细致而有效的解决方案。',
+                'Activate 以专业、创意和非常用心的支持精神，一路陪伴我们同行。',
+                '我们曾与 Activate 合作过多个项目，始终对团队的专业能力和执行效果感到满意。',
+                'Activate 的支持非常用心，响应迅速，并在整个实施过程中始终紧密配合。'
             ]
         },
         clients: {
             titleLine1: '客户与',
             titleLine2: '战略合作伙伴',
-            description: '与 Nextgency 一同在可持续数字化转型之路上并肩前行的伙伴',
+            description: '信任并与 Activate 携手合作的企业、品牌与机构。',
             summary:
-                'Nextgency 很荣幸与超过 100 家机构携手合作，覆盖美妆、教育、医疗、科技乃至公共服务与制造等多个领域。',
+                'Activate 很荣幸与超过 100 家企业和机构携手合作，覆盖美妆、教育、医疗、科技、公共服务与制造等领域。',
             partnersLabel: '战略合作伙伴'
         }
     },
 
     about: {
         hero: {
-            badge: 'About Nextgency',
+            badge: 'About Activate',
             titleLine1: '全能的',
             titleLine2: '数字化转型伙伴',
             description:
-                'Nextgency 是您在数字时代的战略伙伴。我们提供数字化转型解决方案，助力企业加速成长。',
+                'Activate 是您在数字时代的战略伙伴。我们提供数字化转型解决方案，助力企业加速成长。',
             cta: '立即咨询',
             cards: {
                 innovation: {
@@ -400,14 +409,14 @@ export default {
             }
         },
         story: {
-            badge: 'About Nextgency',
+            badge: 'About Activate',
             titleLine1: '我们的',
             titleLine2: '故事',
             subtitle: '技术——实现突破的转折点',
             paragraph1:
-                'Nextgency 成立于 2025 年，此前主创始人已在电子商务领域拥有五年以上的经营经验。在这段历程中，创始人意识到：技术正是改变整个商业模式的钥匙——从运营管理、市场营销到利润优化。',
+                'Activate 成立于 2025 年，此前主创始人已在电子商务领域拥有五年以上的经营经验。在这段历程中，创始人意识到：技术正是改变整个商业模式的钥匙——从运营管理、市场营销到利润优化。',
             paragraph2:
-                '得益于正确地运用技术，创始人的企业实现了强劲突破，越过原有的天花板，开辟出新的增长道路。这份成功生动地证明：技术不只是辅助，更能重塑企业的未来。基于这一实战基础，核心团队共同创立了 Nextgency，使命是把已被验证的技术方案带给更多企业，帮助他们不仅解决眼前的问题，更构建长期的竞争优势。'
+                '得益于正确地运用技术，创始人的企业实现了强劲突破，越过原有的天花板，开辟出新的增长道路。这份成功生动地证明：技术不只是辅助，更能重塑企业的未来。基于这一实战基础，核心团队共同创立了 Activate，使命是把已被验证的技术方案带给更多企业，帮助他们不仅解决眼前的问题，更构建长期的竞争优势。'
         }
     },
 
@@ -431,7 +440,7 @@ export default {
             hero: {
                 title: '谷歌广告服务',
                 description:
-                    'Nextgency 通过多样化的谷歌广告投放组合，让客户一想到您所在的领域，第一个想到的就是您的品牌。'
+                    'Activate 通过多样化的谷歌广告投放组合，让客户一想到您所在的领域，第一个想到的就是您的品牌。'
             },
             divider: [
                 '投放 Google 搜索广告、展示广告、YouTube 与 Performance Max。',
@@ -480,7 +489,7 @@ export default {
                         '追踪并监控已约定的指标（CPC、CTR、转化等）',
                         '定期提出优化方案（每周或每月）',
                         '按周期输出效果报表',
-                        'Nextgency 定期协助复盘账户',
+                        'Activate 定期协助复盘账户',
                         '需要扩展广告系列时提供专属咨询'
                     ]
                 },
@@ -494,16 +503,16 @@ export default {
                         '定期报表（周／月），说明效果并给出扩量建议',
                         '通过 Data Studio 或 Google Sheet 实现报表自动化',
                         '协助搭建落地页、撰写内容并提供转化漏斗咨询',
-                        '通过 Nextgency 的合作体系获得谷歌专属支持'
+                        '通过 Activate 的合作体系获得谷歌专属支持'
                     ]
                 },
                 advanced: {
                     title: '账户租用',
                     features: [
                         '提供 Google Ads Invoice 账户',
-                        'Nextgency 开通账户并交付给客户使用',
+                        'Activate 开通账户并交付给客户使用',
                         '指导资产关联与账户权限分配',
-                        '通过 Nextgency 体系获得谷歌专属支持',
+                        '通过 Activate 体系获得谷歌专属支持',
                         '监控付款、协助保护账户并处理异常',
                         '协助对接 MCC 或其他相关技术平台'
                     ]
@@ -568,7 +577,7 @@ export default {
             hero: {
                 titleLine1: '我们的',
                 brand: 'Facebook 广告',
-                descriptionPrefix: 'Nextgency 的',
+                descriptionPrefix: 'Activate 的',
                 descriptionSuffix:
                     '服务，是帮助企业在这个老牌平台尚未被充分挖掘的沃土上「挖到金矿」的得力助手，具体方案包括：',
                 bullets: [
@@ -740,7 +749,7 @@ export default {
                     '病毒虽小，一旦扩散便能造成巨大效应——您的广告在',
                 brand: 'TikTok 平台',
                 descriptionSuffix:
-                    '上走红时也是如此，能带来营收并让品牌无处不在。Nextgency 的 TikTok 广告服务提供：',
+                    '上走红时也是如此，能带来营收并让品牌无处不在。Activate 的 TikTok 广告服务提供：',
                 bullets: [
                     '面向快消、时尚与美妆行业的短期爆量广告优化。',
                     '视频素材制作，并按 TikTok 标准配置像素追踪。',
@@ -786,7 +795,7 @@ export default {
             },
             adFormats: {
                 title: 'TikTok 广告形式',
-                subtitle: 'Nextgency 可投放全部 TikTok 广告形式，并针对您的每一个经营目标做优化',
+                subtitle: 'Activate 可投放全部 TikTok 广告形式，并针对您的每一个经营目标做优化',
                 items: [
                     {
                         title: '品牌曝光',
@@ -871,18 +880,18 @@ export default {
             carousel: {
                 brand: '网站与落地页',
                 description:
-                    '不只是客户「路过」的地方，而是让他们留下来、完成转化并再次回访的终点。Nextgency 提供一站式的现代数字平台。',
+                    '不只是客户「路过」的地方，而是让他们留下来、完成转化并再次回访的终点。Activate 提供一站式的现代数字平台。',
                 projectFallback: '该项目',
                 viewDetail: '查看{{name}}详情'
             },
             portfolio: {
-                title: 'Nextgency 的项目'
+                title: 'Activate 的项目'
             },
             video: {
                 badge: '走进我们的流程',
                 title: '从创意到成品',
                 description:
-                    '看看 Nextgency 团队如何把想法变成出色的网站。从调研、设计到上线，每一步都做得细致而专业。'
+                    '看看 Activate 团队如何把想法变成出色的网站。从调研、设计到上线，每一步都做得细致而专业。'
             },
             painPoints: {
                 title: '企业常见的痛点',
@@ -1041,7 +1050,7 @@ export default {
                     },
                     {
                         title: '交付与结算',
-                        items: ['向客户交付项目', '客户验收并完成付款', 'Nextgency 提供 7×24 小时质保支持']
+                        items: ['向客户交付项目', '客户验收并完成付款', 'Activate 提供 7×24 小时质保支持']
                     }
                 ]
             }
@@ -1052,7 +1061,7 @@ export default {
             hero: {
                 descriptionPrefix: '想让产出翻倍、减少人工、提升体验？答案就在',
                 brand: '自动化与 AI。',
-                descriptionSuffix: 'Nextgency 通过以下方案，帮助企业让流程真正智能化：',
+                descriptionSuffix: 'Activate 通过以下方案，帮助企业让流程真正智能化：',
                 bullets: [
                     '用 n8n 实现内部流程与营销流程的自动化。',
                     '搭建 AI Agent：智能聊天机器人、DISC 咨询、内容生成。',
@@ -1165,7 +1174,7 @@ export default {
                 descriptionPrefix: '在数据就是「',
                 brand: '钻石矿',
                 descriptionSuffix:
-                    '」的时代，Nextgency 通过 Facebook 数据集与 CRM 服务，把每一次行为、每一次互动都变成有效的广告杠杆：',
+                    '」的时代，Activate 通过 Facebook 数据集与 CRM 服务，把每一次行为、每一次互动都变成有效的广告杠杆：',
                 bullets: [
                     '为 Facebook 广告构建高质量的数据集。',
                     '基于 CRM 数据、订单与用户行为，创建相似受众与再营销人群。',
@@ -1223,7 +1232,7 @@ export default {
                 titleLine1: '营销部门',
                 titleLine2: '外包服务',
                 descriptionPrefix:
-                    '把我们团队的专业智慧投入到客户最具潜力的项目中，正是 Nextgency 提供',
+                    '把我们团队的专业智慧投入到客户最具潜力的项目中，正是 Activate 提供',
                 brand: '营销部门外包服务时的初心：',
                 bullets: [
                     '整支营销团队外包：广告、内容、设计、自动化。',
@@ -1319,7 +1328,7 @@ export default {
                 highlight2: '保护自身品牌',
                 descriptionPart3: '。',
                 description2:
-                    'Nextgency 提供从头到尾的 Facebook 蓝标认证服务，帮助客户缩短审核时间、规范申请材料，并切实提高通过率。',
+                    'Activate 提供从头到尾的 Facebook 蓝标认证服务，帮助客户缩短审核时间、规范申请材料，并切实提高通过率。',
                 badges: {
                     verified: '已认证',
                     safe: '安全',
@@ -1738,7 +1747,7 @@ export default {
         list: {
             badge: 'News',
             title: '资讯与洞察',
-            subtitle: '汇总关于技术、AI、营销与网页设计的文章，整理清晰，方便查找与阅读。',
+            subtitle: '来自 Activate 的企业新闻、合作动态与市场观察。',
             searchLabel: '搜索文章',
             searchPlaceholder: '搜索文章……',
             allCategories: '全部',
@@ -1766,8 +1775,8 @@ export default {
             copyLink: '复制链接',
             previous: '上一篇',
             next: '下一篇',
-            ctaTitle: '需要为您的企业打造数字化解决方案？',
-            ctaDescription: '与 Nextgency 沟通，获取符合您目标与预算的建议。',
+            ctaTitle: '有意与 Activate 合作？',
+            ctaDescription: '提交分销、供货或金融合作意向，Activate 团队将尽快与您联系。',
             related: 'Related',
             relatedTitle: '相关文章',
             viewAll: '查看全部文章'
@@ -1787,8 +1796,8 @@ export default {
             vision: '愿景 – 使命 – 核心价值',
             team: '组织架构与团队',
             process: '项目执行流程',
-            why: '为什么选择 Nextgency',
-            services: 'Nextgency 服务',
+            why: '为什么选择 Activate',
+            services: 'Activate 服务',
             clients: '客户与合作伙伴',
             featured: '代表项目',
             nghe: '项目：Nghe Content',
@@ -1896,7 +1905,7 @@ export default {
         hero: {
             title: '活动的全部数字体验——都在一个小程序里。',
             descriptionPrefix:
-                '2026 年 6 月 19–20 日于河内 VEC 展览中心举办——迄今规模最大的一届，超过 100 个品牌参与。经过两年用结果说话，Nextgency 成为',
+                '2026 年 6 月 19–20 日于河内 VEC 展览中心举办——迄今规模最大的一届，超过 100 个品牌参与。经过两年用结果说话，Activate 成为',
             techPartner: '官方技术合作伙伴',
             descriptionSuffix: '，负责设计并运营参会者的完整数字旅程。',
             viewScope: '查看服务范围',
@@ -1932,7 +1941,7 @@ export default {
             dataYears: '两年',
             dataLabel: '数据',
             dataDescription:
-                '从广告投放到现场签到、跨越两届活动积累下来的人群洞察，让 Nextgency 能够按参会者的真实行为来设计——而不是靠猜。'
+                '从广告投放到现场签到、跨越两届活动积累下来的人群洞察，让 Activate 能够按参会者的真实行为来设计——而不是靠猜。'
         },
 
         scope: {
@@ -2049,7 +2058,7 @@ export default {
             badge: '成果 · 2026 年 6 月 19–20 日',
             title: '系列活动的新纪录',
             description:
-                'Beauty Summit Vietnam 史上规模最大的一届——在 Nextgency 搭建的全部系统上顺畅运行：从广告投放、票务流程，到 App 内的数字体验。',
+                'Beauty Summit Vietnam 史上规模最大的一届——在 Activate 搭建的全部系统上顺畅运行：从广告投放、票务流程，到 App 内的数字体验。',
             metrics: [
                 '两天内签到人次',
                 '较合作首年增长 75%',
@@ -2065,7 +2074,7 @@ export default {
 
         why: {
             titleMiddle: '它是经过',
-            badge: '为什么选择 Nextgency？',
+            badge: '为什么选择 Activate？',
             titleLine1: '技术合作伙伴不是一个头衔——',
             titleLine2: '而是两年的结果。',
             description:
@@ -2107,7 +2116,7 @@ export default {
             summarySuffix: '而不是一个从纯技术视角搭出来的产品。',
             badge: '能力的实证',
             description: '一个客户，连续三年——服务范围与运营规模逐年提升。',
-            note: 'Nextgency 按活动参会者的真实行为，设计、集成并运营小程序。'
+            note: 'Activate 按活动参会者的真实行为，设计、集成并运营小程序。'
         }
     },
 
@@ -2116,7 +2125,7 @@ export default {
     // ================================================================
     booking: {
         consultant: {
-            bio: '负责运转 Nextgency 增长引擎的人——每一分钱都可衡量的效果广告、能转化的网站、品牌建设、社媒内容与 AI 自动化系统——服务于那些不断向前的企业。',
+            bio: '负责运转 Activate 增长引擎的人——每一分钱都可衡量的效果广告、能转化的网站、品牌建设、社媒内容与 AI 自动化系统——服务于那些不断向前的企业。',
             quote: '「30 分钟不足以解完您的增长难题。但足以指出究竟卡在哪里——以及下一笔钱该先花在什么地方。」'
         },
 
@@ -2191,7 +2200,7 @@ export default {
         refunds: [
             {
                 title: '通话之前',
-                body: '您改主意了、临时有事、想再考虑，或者根本没有理由——只要说一声，Nextgency 会在 24 小时内全额退还 {{deposit}}。不追问、不挽留，也不收一分取消费。'
+                body: '您改主意了、临时有事、想再考虑，或者根本没有理由——只要说一声，Activate 会在 24 小时内全额退还 {{deposit}}。不追问、不挽留，也不收一分取消费。'
             },
             {
                 title: '通话进行中',
@@ -2211,7 +2220,7 @@ export default {
             sendFailedPrefix: '系统未能提交您的信息。时段仍为您保留——您可以直接按下方备注转账定金，或致电 ',
             sendFailedSuffix: '，Son 会立即为您确认。',
             depositInstruction: '：{{deposit}} 占位定金。请按下方备注准确转账——系统会直接通知 Son，他今天就会来电确认时间。',
-            refundDetail: ' 通话之前、通话之中，甚至通话结束后您觉得不值——只要说一声，Nextgency 会全额退还 {{deposit}}。签约的话则直接从合同中抵扣。',
+            refundDetail: ' 通话之前、通话之中，甚至通话结束后您觉得不值——只要说一声，Activate 会全额退还 {{deposit}}。签约的话则直接从合同中抵扣。',
             prevWeek: '上一周',
             nextWeek: '下一周',
             session: '一对一 · 30 分钟',
@@ -2254,7 +2263,7 @@ export default {
         },
 
         growth: {
-            descriptionPrefix: '增长不是只有少数有缘人才做得到的魔法。它是一道工程题——有输入、有输出，每一步都可衡量。Nextgency 的原则：只保留那些',
+            descriptionPrefix: '增长不是只有少数有缘人才做得到的魔法。它是一道工程题——有输入、有输出，每一步都可衡量。Activate 的原则：只保留那些',
             badge: '第 02 部分 · 好消息',
             title: '增长是一道有解的题——用可衡量的数字去解',
             highlight: '能用数字证明带来收入',
@@ -2262,13 +2271,13 @@ export default {
         },
 
         callAgenda: {
-            closing: '结束通话时，您脑子里会很清楚一件事：自己卡在哪里，下一步该做什么。无论之后是否与 Nextgency 合作，这份认知都归您所有。这也是 Son 敢把定金设为 ',
+            closing: '结束通话时，您脑子里会很清楚一件事：自己卡在哪里，下一步该做什么。无论之后是否与 Activate 合作，这份认知都归您所有。这也是 Son 敢把定金设为 ',
             badge: '第 03 部分 · 30 分钟能做什么',
             title: '一场 30 分钟，足以改变来年的方向',
             description:
                 '30 分钟并不长，所以这场 Growth Call 不绕弯子。Son 不讲增长理论——而是直接盯着您自己的问题，把三件事做到位：',
             refundHighlight: '随时可退',
-            refundSuffix: '——如果这 30 分钟没能给到您这些，您不欠 Nextgency 一分钱。'
+            refundSuffix: '——如果这 30 分钟没能给到您这些，您不欠 Activate 一分钱。'
         },
 
         deposit: {
@@ -2276,7 +2285,7 @@ export default {
             paragraph1: '听起来有点反常：咨询是免费的，为什么还要定金？原因很直接。Son 每周只安排几场这样的一对一。当一件事被贴上「免费」和「一键报名」的标签，报名的人有一半会忘记、会临时有事、会不接电话——那个时段就此作废，而真正需要的人却约不上。{{deposit}} 的定金筛选出真正认真的人，让每一场都开得值得。',
             paragraph2Prefix: '但这里很多人会误解，所以要说得非常清楚：',
             notAFee: '{{deposit}} 并不是购买咨询的费用',
-            lastPrefix: 'Nextgency 只在恰好 ',
+            lastPrefix: 'Activate 只在恰好 ',
             lastMiddle: ' 种情况下留下这笔 {{deposit}}：双方继续合作并签署执行合同——而那时这笔钱会直接从合同金额中抵扣，您依然一分钱都没多花。其余任何情况，钱都归您。这也是为什么这是 ',
             badge: '第 04 部分 · 为什么要收定金',
             freeWord: '免费',
@@ -2315,26 +2324,17 @@ export default {
     },
 
     notFound: {
-        seoTitle: '页面未找到 | Nextgency',
+        seoTitle: '页面未找到 | Activate',
         seoDescription: '您访问的链接不存在，或者已经迁移到其他地址。',
         title: '该页面不存在',
         description: '这个链接可能已经更换地址、输入有误，或者不再使用。您可以返回上一页，或前往下面的页面。',
         homeCta: '返回首页',
         backCta: '返回上一页',
         links: {
-            about: {title: '关于我们', description: 'Nextgency 的整体介绍'},
-            ai: {
-                title: 'Automation Content AI',
-                description: '用 AI 撰写符合 SEO · AEO · GEO 标准的内容。'
-            },
-            projects: {
-                title: '已交付项目',
-                description: '看看 Nextgency 为客户做过什么。'
-            },
-            news: {
-                title: '资讯与洞察',
-                description: '关于营销与 AI 的实战视角。'
-            }
+            about: {title: '关于我们', description: 'Activate 概况'},
+            fields: {title: '业务领域', description: '批发、进出口及分销代理。'},
+            contact: {title: '洽谈合作', description: '向 Activate 提交合作意向。'},
+            news: {title: '新闻资讯', description: '企业新闻与市场观察。'}
         }
     }
 };

@@ -1,14 +1,16 @@
 import React, { useEffect, useRef } from 'react';
-import {ArrowRight, ArrowUpRight, Sparkles, Zap} from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import {Link, useI18n} from "../../i18n";
+import {useI18n} from "../../i18n";
+import {COMPANY} from "../../pages/seo-configs.js";
+import {ArrowButton} from "../sections/ui.jsx";
 
 // Register GSAP plugin
 gsap.registerPlugin(ScrollTrigger);
 
 const HeroSection = () => {
     const { t } = useI18n();
+    const [sloganHead, sloganTail] = t('corporate.home.hero.slogan').split(/(?<=\.)\s+/);
     const sectionRef = useRef(null);
     const bgLogoRef = useRef(null);
     const titleRef = useRef(null);
@@ -117,9 +119,9 @@ const HeroSection = () => {
             <div ref={bgLogoRef} className="absolute inset-0 flex top-20 lg:items-center justify-center will-change-transform">
                 <div className="w-80 h-80 md:w-[600px] md:h-[600px] xl:w-[750px] xl:h-[750px]">
                     <img
-                        src="/assets/images/main.webp"
-                        alt="Nextgency Innovation"
-                        className="w-full h-full object-contain opacity-70"
+                        src="/assets/images/brand/activate-mark.svg"
+                        alt="Activate Innovation"
+                        className="w-full h-full object-contain opacity-30"
                     />
                 </div>
             </div>
@@ -129,52 +131,55 @@ const HeroSection = () => {
 
                 {/* Main title */}
                 <h1 ref={titleRef} className="text-[55px] md:text-[115px] lg:text-[150px] xl:text-[200px] 2xl:text-[230px] tracking-tighter font-archivo font-bold will-change-transform">
-                    NEXTGENCY
+                    ACTIVATE
                 </h1>
 
                 {/* Glassmorphism card */}
                 <div ref={glassCardRef} className="w-full max-w-[1440px] mb-4 will-change-transform">
                     <div className="backdrop-blur-md bg-white/30 border-2 border-white rounded-sm px-4 py-6 md:px-6">
                         <div className="grid md:grid-cols-2 gap-8 items-center">
-                            {/* Column A - Description */}
-                            <div className="space-y-10">
-                                <div className="inline-flex items-center justify-center">
-                        <span className=" text-[#c08dfe] rounded-full text-[11px] lg:text-[13px] font-medium font-archivo tracking-[0.4rem] uppercase">
-                            {t('home.hero.badge')}
-                        </span>
-                                </div>
-                                <p className="text-black text-[15px] lg:text-[18px] max-w-sm text-justify">
-                                    {t('home.hero.description')}
+                            {/* Column A - Định vị + 2 nút B2B */}
+                            <div className="space-y-6 lg:space-y-8">
+                                <span className="inline-block text-[#ee3e99] text-[11px] lg:text-[13px] font-medium font-archivo tracking-[0.3rem] uppercase">
+                                    {t('corporate.home.hero.badge')}
+                                </span>
+                                {/* Slogan 2 vế ("Kết nối nguồn cung. Kích hoạt thị trường.") - vế sau tô màu thương hiệu */}
+                                <h2 className="text-[24px] md:text-[30px] lg:text-[40px] font-archivo font-bold leading-[1.15] text-black">
+                                    {sloganHead}
+                                    {sloganTail && (
+                                        <span className="block bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#F8B736] bg-clip-text text-transparent">
+                                            {sloganTail}
+                                        </span>
+                                    )}
+                                </h2>
+                                <p className="text-black text-[15px] lg:text-[18px] max-w-lg">
+                                    {t('corporate.home.hero.description')}
                                 </p>
-                                <div className="">
-                                    {/* Column A - CTAs */}
-                                    <div className="flex flex-row gap-2 will-change-transform justify-start">
-                                        <Link
-                                            to="/contact"
-                                            className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-black text-[15px] sm:text-[16px] text-white rounded-full transition-all duration-300 hover:scale-105 group"
-
-                                        >
-        <span className="">
-            {t('home.hero.cta')}
-        </span>
-                                            <div
-                                                className="w-9 h-9 sm:w-[2.5rem] sm:h-[2.5rem] bg-white rounded-full flex items-center justify-center neu-shadow-xs transition-all duration-300">
-                                                <ArrowUpRight
-                                                    className="w-5 h-5 text-black transition-all duration-300 group-hover:rotate-12 group-hover:scale-105"
-                                                    strokeWidth={2.3}/>
-                                            </div>
-                                        </Link>
-                                    </div>
+                                <div className="flex flex-wrap gap-3">
+                                    <ArrowButton to="/contact" variant="gradient">{t('corporate.cta.partner')}</ArrowButton>
+                                    <ArrowButton href={COMPANY.profilePdf} download icon="download">{t('corporate.cta.profile')}</ArrowButton>
                                 </div>
                             </div>
 
-                            {/* Column B - Image */}
-                            <div className="relative h-64 md:h-96 overflow-hidden rounded-md">
+                            {/* Column B - Ảnh + dải thông tin pháp nhân */}
+                            <div className="relative h-72 md:h-96 overflow-hidden rounded-md">
                                 <img
-                                    src="/assets/images/test.webp"
-                                    alt="Nextgency Innovation"
+                                    src="/assets/images/tangtruong.webp"
+                                    alt="Activate"
                                     className="w-full h-full object-cover rounded-md"
                                 />
+                                <dl className="absolute left-3 right-3 bottom-3 grid grid-cols-1 sm:grid-cols-3 gap-2">
+                                    {[
+                                        {label: t('corporate.home.hero.facts.legal'), value: COMPANY.legalName},
+                                        {label: t('corporate.home.hero.facts.taxId'), value: COMPANY.taxId},
+                                        {label: t('corporate.home.hero.facts.headquarters'), value: t('corporate.home.hero.facts.headquartersValue')}
+                                    ].map((fact) => (
+                                        <div key={fact.label} className="bg-black/55 backdrop-blur-md border border-white/15 rounded-sm px-3 py-2">
+                                            <dt className="text-[10px] lg:text-[11px] uppercase tracking-widest text-[#f7a8cf]">{fact.label}</dt>
+                                            <dd className="text-[12px] lg:text-[13px] font-semibold text-white">{fact.value}</dd>
+                                        </div>
+                                    ))}
+                                </dl>
                             </div>
                         </div>
                     </div>

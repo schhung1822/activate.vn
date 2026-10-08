@@ -100,7 +100,7 @@ const VideoSection = () => {
                                     <div
                                         className={`play-button absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 lg:w-20 lg:h-20 rounded-full flex items-center justify-center cursor-pointer transition-all duration-300 border-2 ${
                                             isHovered || isMobile
-                                                ? 'bg-purple-400/95 border-purple-400/30 scale-110 shadow-lg shadow-purple-400/40'
+                                                ? 'bg-fuchsia-400/95 border-fuchsia-400/30 scale-110 shadow-lg shadow-fuchsia-400/40'
                                                 : 'bg-white/95 border-white/30'
                                         }`}
                                         onClick={handleVideoClick}

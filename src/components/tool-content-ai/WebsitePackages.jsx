@@ -39,7 +39,7 @@ const WebsitePackages = () => {
                         {/* Cột 1: Thông tin gói */}
                         <div className="lg:col-span-2 bg-white border-2 border-white rounded-lg p-5 xl:p-8 neu-shadow-inset-xs transition-all duration-300 relative flex flex-col justify-between">
                             {/* Decorative elements */}
-                            <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-[#c08dfe]/35 to-transparent rounded-full blur-xl"></div>
+                            <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-[#ee3e99]/35 to-transparent rounded-full blur-xl"></div>
                             <div>
                                 <div className="mb-6 pb-2 border-b border-black">
                                     <h3 className="text-[20px] lg:text-[24px] font-bold text-black">
@@ -50,7 +50,7 @@ const WebsitePackages = () => {
                                 <div className="space-y-4 mb-8">
                                     {enterpriseFeatures.map((feature, index) => (
                                         <div key={index} className="flex items-start space-x-3">
-                                            <div className="flex-shrink-0 w-5 h-5 bg-[#c08dfe] rounded-full flex items-center justify-center mt-0.5">
+                                            <div className="flex-shrink-0 w-5 h-5 bg-[#ee3e99] rounded-full flex items-center justify-center mt-0.5">
                                                 <Check className="w-3 h-3 text-white" />
                                             </div>
                                             <span className="text-gray-700 text-[13px] lg:text-[14px] text-left">
@@ -65,7 +65,7 @@ const WebsitePackages = () => {
                             <div className="flex items-center justify-center pt-2">
                                 <button
                                     onClick={OpenNewSite}
-                                    className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#1a4498] via-[#c08dfe] to-[#1a4498] text-[16px] text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/20 hover:scale-105 group animate-gradient-shift"
+                                    className="relative flex items-center space-x-3 pl-6 pr-1.5 py-1.5 bg-gradient-to-r from-[#6a4fdb] via-[#ee3e99] to-[#6a4fdb] text-[16px] text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-fuchsia-500/20 hover:scale-105 group animate-gradient-shift"
                                     style={{
                                         backgroundSize: '200% 200%'
                                     }}
@@ -92,13 +92,13 @@ const WebsitePackages = () => {
                                     }`}>
                                     {/* Decorative elements */}
                                     {!plan.featured && (
-                                        <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-[#c08dfe]/35 to-transparent rounded-full blur-xl"></div>
+                                        <div className="absolute top-0 left-0 w-24 h-24 bg-gradient-to-br from-[#ee3e99]/35 to-transparent rounded-full blur-xl"></div>
                                     )}
 
                                     {/* Badge */}
                                     {plan.badge && (
                                         <div className="absolute -top-3 left-6 md:left-8">
-                                            <div className="bg-gradient-to-r from-[#c08dfe] via-black to-[#c08dfe] text-white px-5 py-1.5 rounded-full text-[12px] lg:text-sm font-semibold flex items-center space-x-1">
+                                            <div className="bg-gradient-to-r from-[#ee3e99] via-black to-[#ee3e99] text-white px-5 py-1.5 rounded-full text-[12px] lg:text-sm font-semibold flex items-center space-x-1">
                                                 <Star className="w-3.5 h-3.5 fill-current" />
                                                 <span>{plan.badge}</span>
                                             </div>
@@ -119,7 +119,7 @@ const WebsitePackages = () => {
                                             {plan.perMonth}
                                         </span>
                                         <div className="flex items-center space-x-2">
-                                            <div className="flex-shrink-0 w-5 h-5 bg-[#c08dfe] rounded-full flex items-center justify-center">
+                                            <div className="flex-shrink-0 w-5 h-5 bg-[#ee3e99] rounded-full flex items-center justify-center">
                                                 <Check className="w-3 h-3 text-white" />
                                             </div>
                                             <span className={`text-[13px] lg:text-[14px] ${plan.featured ? 'text-gray-300' : 'text-gray-700'}`}>

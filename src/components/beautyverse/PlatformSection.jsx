@@ -52,13 +52,13 @@ const PlatformSection = () => {
         <section ref={sectionRef} className="relative overflow-hidden bg-[#f5f7fc] py-18 sm:py-20 lg:py-28">
             <div className="pointer-events-none absolute inset-0">
                 <div className="absolute right-[12%] top-[10%] h-64 w-64 rounded-full bg-[#9ed6ff]/16 blur-3xl" />
-                <div className="absolute bottom-[12%] left-[8%] h-72 w-72 rounded-full bg-[#9a63ff]/10 blur-3xl" />
+                <div className="absolute bottom-[12%] left-[8%] h-72 w-72 rounded-full bg-[#b04fcd]/10 blur-3xl" />
                 <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#d9def4] to-transparent" />
             </div>
 
             <div className="relative mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
                 <div className={`max-w-[860px] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#214eab]">
+                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#5a3fc8]">
                         {t('beautyverse.platform.badge')}
                     </p>
                     <h2 className="mt-5 font-archivo text-[30px] font-black leading-[0.98] tracking-normal text-[#05050b] sm:text-[46px] lg:text-[54px]">
@@ -82,12 +82,12 @@ const PlatformSection = () => {
                                 }`}
                                 style={{ transitionDelay: `${140 + index * 80}ms` }}
                             >
-                                <div className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-[linear-gradient(90deg,#214eab,#9a63ff,#9ed6ff)] transition-transform duration-500 group-hover:scale-x-100" />
-                                <div className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-[12px] bg-[#f5f7fc] text-[#214eab] transition group-hover:bg-[#101645] group-hover:text-white">
+                                <div className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-[linear-gradient(90deg,#5a3fc8,#b04fcd,#9ed6ff)] transition-transform duration-500 group-hover:scale-x-100" />
+                                <div className="absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-[12px] bg-[#f5f7fc] text-[#5a3fc8] transition group-hover:bg-[#101645] group-hover:text-white">
                                     <Icon className="h-5 w-5" />
                                 </div>
 
-                                <p className="font-mono text-[11px] font-bold uppercase tracking-[0.24em] text-[#214eab]">
+                                <p className="font-mono text-[11px] font-bold uppercase tracking-[0.24em] text-[#5a3fc8]">
                                     {item.kicker}
                                 </p>
                                 <h3 className="mt-4 max-w-[280px] font-archivo text-[23px] font-black leading-tight tracking-normal text-[#05050b]">
@@ -97,7 +97,7 @@ const PlatformSection = () => {
                                     {item.text}
                                 </p>
 
-                                <div className="absolute bottom-0 right-0 h-20 w-20 translate-x-8 translate-y-8 rounded-full bg-[#9a63ff]/10 blur-2xl transition group-hover:bg-[#9ed6ff]/20" />
+                                <div className="absolute bottom-0 right-0 h-20 w-20 translate-x-8 translate-y-8 rounded-full bg-[#b04fcd]/10 blur-2xl transition group-hover:bg-[#9ed6ff]/20" />
                             </article>
                         );
                     })}

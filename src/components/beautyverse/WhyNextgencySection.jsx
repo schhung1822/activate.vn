@@ -53,7 +53,7 @@ const WhyNextgencySection = () => {
 
             <div className="relative mx-auto max-w-[1280px] py-12 sm:py-2 px-4 sm:px-6 lg:px-8">
                 <div className={`max-w-[980px] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#214eab]">
+                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#5a3fc8]">
                         {t('beautyverse.why.badge')}
                     </p>
                     <h2 className="mt-5 font-archivo text-[30px] font-black leading-[0.98] tracking-normal text-[#05050b] sm:text-[36px] lg:text-[42px]">
@@ -78,7 +78,7 @@ const WhyNextgencySection = () => {
                                 isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
                             } ${
                                 item.featured
-                                    ? 'border-transparent bg-[linear-gradient(135deg,#060614_0%,#263d8f_42%,#9a63ff_78%,#9ed6ff_100%)] text-white shadow-[0_28px_70px_rgba(65,74,175,0.28)]'
+                                    ? 'border-transparent bg-[linear-gradient(135deg,#060614_0%,#263d8f_42%,#b04fcd_78%,#9ed6ff_100%)] text-white shadow-[0_28px_70px_rgba(65,74,175,0.28)]'
                                     : 'border-[#dfe4f1] bg-white text-[#070816] shadow-[0_18px_55px_rgba(13,20,45,0.06)]'
                             }`}
                             style={{ transitionDelay: `${160 + index * 120}ms` }}
@@ -98,7 +98,7 @@ const WhyNextgencySection = () => {
                                         <h3 className="font-archivo text-[40px] font-black leading-none tracking-normal">
                                             {item.year}
                                         </h3>
-                                        <p className={`mt-4 text-[11px] font-black uppercase tracking-[0.26em] ${item.featured ? 'text-[#c5f5ff]' : 'text-[#214eab]'}`}>
+                                        <p className={`mt-4 text-[11px] font-black uppercase tracking-[0.26em] ${item.featured ? 'text-[#c5f5ff]' : 'text-[#5a3fc8]'}`}>
                                             {item.featured && <Sparkles className="mr-2 inline h-3.5 w-3.5" />}
                                             {item.eyebrow}
                                         </p>

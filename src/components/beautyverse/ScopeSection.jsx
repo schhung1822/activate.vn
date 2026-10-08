@@ -42,7 +42,7 @@ const ScopeRow = ({ module, index, isVisible }) => {
             style={{ transitionDelay: `${160 + index * 90}ms` }}
         >
             <div className={`absolute top-16 hidden h-px w-28 overflow-hidden bg-[#dfe4f1] lg:block ${reverse ? 'right-[46%]' : 'left-[46%]'}`}>
-                <span className="beautyverse-scope-line block h-px w-full origin-left bg-[linear-gradient(90deg,#214eab,#9a63ff,#9ed6ff)]" />
+                <span className="beautyverse-scope-line block h-px w-full origin-left bg-[linear-gradient(90deg,#5a3fc8,#b04fcd,#9ed6ff)]" />
             </div>
 
             <div className={`${reverse ? 'lg:order-2' : ''}`}>
@@ -59,7 +59,7 @@ const ScopeRow = ({ module, index, isVisible }) => {
                     {module.tags.map((tag) => (
                         <span
                             key={tag}
-                            className="rounded-full border border-[#dfe4f1] bg-white/70 px-4 py-2 font-mono text-[11px] font-bold tracking-[0.12em] text-[#214eab] shadow-[0_8px_22px_rgba(24,34,74,0.04)] backdrop-blur"
+                            className="rounded-full border border-[#dfe4f1] bg-white/70 px-4 py-2 font-mono text-[11px] font-bold tracking-[0.12em] text-[#5a3fc8] shadow-[0_8px_22px_rgba(24,34,74,0.04)] backdrop-blur"
                         >
                             {tag}
                         </span>
@@ -107,15 +107,15 @@ const ScopeSection = () => {
     return (
         <section id="scope" ref={sectionRef} className="relative overflow-hidden bg-[linear-gradient(180deg,#f4f8ff_0%,#ffffff_38%,#f6f3ff_100%)] py-18 sm:py-20 lg:py-28">
             <div className="pointer-events-none absolute inset-0">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_12%,rgba(158,214,255,0.28),transparent_28%),radial-gradient(circle_at_82%_38%,rgba(154,99,255,0.18),transparent_30%)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_12%,rgba(158,214,255,0.28),transparent_28%),radial-gradient(circle_at_82%_38%,rgba(176,79,205,0.18),transparent_30%)]" />
                 <div className="absolute inset-0 opacity-[0.28] [background-image:linear-gradient(rgba(33,78,171,0.12)_1px,transparent_1px),linear-gradient(90deg,rgba(33,78,171,0.12)_1px,transparent_1px)] [background-size:52px_52px]" />
                 <div className="absolute right-[12%] top-[12%] h-64 w-64 rounded-full bg-[#9ed6ff]/20 blur-3xl" />
-                <div className="absolute bottom-[12%] left-[8%] h-72 w-72 rounded-full bg-[#9a63ff]/14 blur-3xl" />
+                <div className="absolute bottom-[12%] left-[8%] h-72 w-72 rounded-full bg-[#b04fcd]/14 blur-3xl" />
             </div>
 
             <div className="relative mx-auto max-w-[1280px] py-14 sm:py-2 px-4 sm:px-6 lg:px-8">
                 <div className={`transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#214eab]">
+                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#5a3fc8]">
                         {t('beautyverse.scope.badge')}
                     </p>
                     <div className="flex flex-col gap-7 lg:flex-row lg:items-end lg:justify-between">
@@ -134,7 +134,7 @@ const ScopeSection = () => {
                 <button
                     type="button"
                     onClick={() => window.dispatchEvent(new Event('nextgency:open-consultation-popup'))}
-                    className="group relative inline-flex w-fit items-center gap-4 overflow-hidden rounded-full bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#2B144D] py-1.5 pl-6 pr-1.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(160,112,255,0.32)] sm:text-[15px]"
+                    className="group relative inline-flex w-fit items-center gap-4 overflow-hidden rounded-full bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#6A4FDB] py-1.5 pl-6 pr-1.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(176,79,205,0.32)] sm:text-[15px]"
                     style={{ backgroundSize: '200% 200%', animation: 'final-cta-gradient 3s ease-in-out infinite' }}
                 >
                     <span className="relative z-10">{t('beautyverse.cta')}</span>
@@ -156,7 +156,7 @@ const ScopeSection = () => {
                     position: absolute;
                     inset: -22px;
                     border-radius: 44px;
-                    background: linear-gradient(135deg, rgba(33,78,171,0.16), rgba(154,99,255,0.16), rgba(158,214,255,0.2));
+                    background: linear-gradient(135deg, rgba(33,78,171,0.16), rgba(176,79,205,0.16), rgba(158,214,255,0.2));
                     filter: blur(18px);
                     opacity: 0.72;
                     z-index: -1;

@@ -1,22 +1,6 @@
 {
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/services/tool-content-ai",
-      "destination": "/ai",
-      "permanent": true
-    },
-    {
-      "source": "/en/services/tool-content-ai",
-      "destination": "/en/ai",
-      "permanent": true
-    },
-    {
-      "source": "/cn/services/tool-content-ai",
-      "destination": "/cn/ai",
-      "permanent": true
-    }
-  ],
+  "redirects": [],
   "rewrites": [
     {
       "source": "/en",
@@ -37,6 +21,54 @@
     {
       "source": "/cn/about",
       "destination": "/cn/about/index.html"
+    },
+    {
+      "source": "/linh-vuc",
+      "destination": "/linh-vuc/index.html"
+    },
+    {
+      "source": "/en/linh-vuc",
+      "destination": "/en/linh-vuc/index.html"
+    },
+    {
+      "source": "/cn/linh-vuc",
+      "destination": "/cn/linh-vuc/index.html"
+    },
+    {
+      "source": "/linh-vuc/thuong-mai-phan-phoi",
+      "destination": "/linh-vuc/thuong-mai-phan-phoi/index.html"
+    },
+    {
+      "source": "/en/linh-vuc/thuong-mai-phan-phoi",
+      "destination": "/en/linh-vuc/thuong-mai-phan-phoi/index.html"
+    },
+    {
+      "source": "/cn/linh-vuc/thuong-mai-phan-phoi",
+      "destination": "/cn/linh-vuc/thuong-mai-phan-phoi/index.html"
+    },
+    {
+      "source": "/linh-vuc/xuat-nhap-khau",
+      "destination": "/linh-vuc/xuat-nhap-khau/index.html"
+    },
+    {
+      "source": "/en/linh-vuc/xuat-nhap-khau",
+      "destination": "/en/linh-vuc/xuat-nhap-khau/index.html"
+    },
+    {
+      "source": "/cn/linh-vuc/xuat-nhap-khau",
+      "destination": "/cn/linh-vuc/xuat-nhap-khau/index.html"
+    },
+    {
+      "source": "/linh-vuc/dai-ly-ban-le",
+      "destination": "/linh-vuc/dai-ly-ban-le/index.html"
+    },
+    {
+      "source": "/en/linh-vuc/dai-ly-ban-le",
+      "destination": "/en/linh-vuc/dai-ly-ban-le/index.html"
+    },
+    {
+      "source": "/cn/linh-vuc/dai-ly-ban-le",
+      "destination": "/cn/linh-vuc/dai-ly-ban-le/index.html"
     },
     {
       "source": "/news",
@@ -85,174 +117,6 @@
     {
       "source": "/cn/chinh-sach-bao-mat",
       "destination": "/cn/chinh-sach-bao-mat/index.html"
-    },
-    {
-      "source": "/dat-lich",
-      "destination": "/dat-lich/index.html"
-    },
-    {
-      "source": "/en/dat-lich",
-      "destination": "/en/dat-lich/index.html"
-    },
-    {
-      "source": "/cn/dat-lich",
-      "destination": "/cn/dat-lich/index.html"
-    },
-    {
-      "source": "/services/website-landing-page",
-      "destination": "/services/website-landing-page/index.html"
-    },
-    {
-      "source": "/en/services/website-landing-page",
-      "destination": "/en/services/website-landing-page/index.html"
-    },
-    {
-      "source": "/cn/services/website-landing-page",
-      "destination": "/cn/services/website-landing-page/index.html"
-    },
-    {
-      "source": "/services/ai-data",
-      "destination": "/services/ai-data/index.html"
-    },
-    {
-      "source": "/en/services/ai-data",
-      "destination": "/en/services/ai-data/index.html"
-    },
-    {
-      "source": "/cn/services/ai-data",
-      "destination": "/cn/services/ai-data/index.html"
-    },
-    {
-      "source": "/ai",
-      "destination": "/ai/index.html"
-    },
-    {
-      "source": "/en/ai",
-      "destination": "/en/ai/index.html"
-    },
-    {
-      "source": "/cn/ai",
-      "destination": "/cn/ai/index.html"
-    },
-    {
-      "source": "/services/google-ads",
-      "destination": "/services/google-ads/index.html"
-    },
-    {
-      "source": "/en/services/google-ads",
-      "destination": "/en/services/google-ads/index.html"
-    },
-    {
-      "source": "/cn/services/google-ads",
-      "destination": "/cn/services/google-ads/index.html"
-    },
-    {
-      "source": "/services/facebook-ads",
-      "destination": "/services/facebook-ads/index.html"
-    },
-    {
-      "source": "/en/services/facebook-ads",
-      "destination": "/en/services/facebook-ads/index.html"
-    },
-    {
-      "source": "/cn/services/facebook-ads",
-      "destination": "/cn/services/facebook-ads/index.html"
-    },
-    {
-      "source": "/services/tiktok-ads",
-      "destination": "/services/tiktok-ads/index.html"
-    },
-    {
-      "source": "/en/services/tiktok-ads",
-      "destination": "/en/services/tiktok-ads/index.html"
-    },
-    {
-      "source": "/cn/services/tiktok-ads",
-      "destination": "/cn/services/tiktok-ads/index.html"
-    },
-    {
-      "source": "/services/facebook-crm",
-      "destination": "/services/facebook-crm/index.html"
-    },
-    {
-      "source": "/en/services/facebook-crm",
-      "destination": "/en/services/facebook-crm/index.html"
-    },
-    {
-      "source": "/cn/services/facebook-crm",
-      "destination": "/cn/services/facebook-crm/index.html"
-    },
-    {
-      "source": "/services/marketing-outsource",
-      "destination": "/services/marketing-outsource/index.html"
-    },
-    {
-      "source": "/en/services/marketing-outsource",
-      "destination": "/en/services/marketing-outsource/index.html"
-    },
-    {
-      "source": "/cn/services/marketing-outsource",
-      "destination": "/cn/services/marketing-outsource/index.html"
-    },
-    {
-      "source": "/services/tick-xanh-facebook",
-      "destination": "/services/tick-xanh-facebook/index.html"
-    },
-    {
-      "source": "/en/services/tick-xanh-facebook",
-      "destination": "/en/services/tick-xanh-facebook/index.html"
-    },
-    {
-      "source": "/cn/services/tick-xanh-facebook",
-      "destination": "/cn/services/tick-xanh-facebook/index.html"
-    },
-    {
-      "source": "/projects/all",
-      "destination": "/projects/all/index.html"
-    },
-    {
-      "source": "/en/projects/all",
-      "destination": "/en/projects/all/index.html"
-    },
-    {
-      "source": "/cn/projects/all",
-      "destination": "/cn/projects/all/index.html"
-    },
-    {
-      "source": "/projects/portfolio",
-      "destination": "/projects/portfolio/index.html"
-    },
-    {
-      "source": "/en/projects/portfolio",
-      "destination": "/en/projects/portfolio/index.html"
-    },
-    {
-      "source": "/cn/projects/portfolio",
-      "destination": "/cn/projects/portfolio/index.html"
-    },
-    {
-      "source": "/projects/workflow",
-      "destination": "/projects/workflow/index.html"
-    },
-    {
-      "source": "/en/projects/workflow",
-      "destination": "/en/projects/workflow/index.html"
-    },
-    {
-      "source": "/cn/projects/workflow",
-      "destination": "/cn/projects/workflow/index.html"
-    },
-    {
-      "source": "/projects/miniapp-beautysummit-2026",
-      "destination": "/projects/miniapp-beautysummit-2026/index.html"
-    },
-    {
-      "source": "/en/projects/miniapp-beautysummit-2026",
-      "destination": "/en/projects/miniapp-beautysummit-2026/index.html"
-    },
-    {
-      "source": "/cn/projects/miniapp-beautysummit-2026",
-      "destination": "/cn/projects/miniapp-beautysummit-2026/index.html"
     },
     {
       "source": "/((?!api/).*)",

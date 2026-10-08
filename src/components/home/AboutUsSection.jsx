@@ -106,7 +106,7 @@ const AboutUsSection = () => {
                         {/* Tiêu đề */}
                         <h2 ref={titleRef} className="text-[26px] md:text-[32px] lg:text-[60px] font-archivo font-bold text-black uppercase leading-[1.45] mb-1">
                             {t('home.about.titleLine1')}
-                            <span className="block font-archivo text-transparent bg-clip-text bg-gradient-to-r from-black to-[#c08dfe] lg:-mt-3">
+                            <span className="block font-archivo text-transparent bg-clip-text bg-gradient-to-r from-black to-[#ee3e99] lg:-mt-3">
                                 {t('home.about.titleLine2')}
                             </span>
                         </h2>

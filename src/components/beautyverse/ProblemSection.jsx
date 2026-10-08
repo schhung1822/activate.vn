@@ -48,7 +48,7 @@ const ProblemSection = () => {
 
             <div className="relative mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
                 <div className={`max-w-[980px] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#214eab]">{t('beautyverse.problem.badge')}</p>
+                    <p className="text-[13px] font-black uppercase tracking-[0.36em] text-[#5a3fc8]">{t('beautyverse.problem.badge')}</p>
                     <h2 className="mt-5 font-archivo text-[30px] font-black leading-[0.98] tracking-normal text-[#05050b] sm:text-[42px] lg:text-[50px]">
                         {t('beautyverse.problem.titleLine1')}
                         <span className="block">
@@ -64,7 +64,7 @@ const ProblemSection = () => {
                     <button
                         type="button"
                         onClick={() => window.dispatchEvent(new Event('nextgency:open-consultation-popup'))}
-                        className="group relative inline-flex w-fit items-center gap-4 overflow-hidden rounded-full bg-gradient-to-r from-[#2B144D] via-[#c08dfe] to-[#2B144D] py-1.5 pl-6 pr-1.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(160,112,255,0.32)] sm:text-[15px]"
+                        className="group relative inline-flex w-fit items-center gap-4 overflow-hidden rounded-full bg-gradient-to-r from-[#6A4FDB] via-[#ee3e99] to-[#6A4FDB] py-1.5 pl-6 pr-1.5 text-sm font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_20px_60px_rgba(176,79,205,0.32)] sm:text-[15px]"
                         style={{ backgroundSize: '200% 200%', animation: 'final-cta-gradient 3s ease-in-out infinite' }}
                     >
                         <span className="relative z-10">{t('beautyverse.cta')}</span>
@@ -110,7 +110,7 @@ const ProblemSection = () => {
                     </article>
 
                     <article
-                        className={`relative overflow-hidden rounded-[18px] border border-transparent bg-[linear-gradient(135deg,#060614_0%,#263d8f_42%,#9a63ff_78%,#9ed6ff_100%)] p-7 text-white shadow-[0_28px_70px_rgba(65,74,175,0.28)] transition-all duration-700 hover:-translate-y-1 ${
+                        className={`relative overflow-hidden rounded-[18px] border border-transparent bg-[linear-gradient(135deg,#060614_0%,#263d8f_42%,#b04fcd_78%,#9ed6ff_100%)] p-7 text-white shadow-[0_28px_70px_rgba(65,74,175,0.28)] transition-all duration-700 hover:-translate-y-1 ${
                             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-8 opacity-0'
                         }`}
                         style={{ transitionDelay: '260ms' }}

@@ -43,7 +43,7 @@ const Hero = () => {
                                         cx="25.4404"
                                         cy="25.4404"
                                         r="25.4404"
-                                        fill="#f3e8ff"
+                                        fill="#fdeef6"
                                         className="animate-pulse"
                                         style={{ animationDelay: '0s', animationDuration: '2s' }}
                                     />
@@ -51,7 +51,7 @@ const Hero = () => {
                                         cx="40.1005"
                                         cy="25.4404"
                                         r="25.4404"
-                                        fill="#e9d5ff"
+                                        fill="#fbd5e8"
                                         className="animate-pulse"
                                         style={{ animationDelay: '0.5s', animationDuration: '2s' }}
                                     />
@@ -59,7 +59,7 @@ const Hero = () => {
                                         cx="53.8994"
                                         cy="25.4404"
                                         r="25.4404"
-                                        fill="#d8b4fe"
+                                        fill="#f7b3d6"
                                         className="animate-pulse"
                                         style={{ animationDelay: '1s', animationDuration: '2s' }}
                                     />
@@ -67,7 +67,7 @@ const Hero = () => {
                                         cx="68.5596"
                                         cy="25.4404"
                                         r="25.4404"
-                                        fill="#c59efe"
+                                        fill="#f06aae"
                                         className="animate-pulse"
                                         style={{ animationDelay: '1.5s', animationDuration: '2s' }}
                                     />
@@ -75,7 +75,7 @@ const Hero = () => {
                             </div>
                             </div>
                             <div className="">
-                                <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#c08dfe] bg-clip-text text-transparent leading-none tracking-tight">
+                                <h1 className="text-[32px] md:text-[40px] lg:text-[60px] font-archivo font-bold bg-gradient-to-r from-black to-[#ee3e99] bg-clip-text text-transparent leading-none tracking-tight">
                                     FACEBOOK ADS
                                 </h1>
                             </div>
@@ -94,7 +94,7 @@ const Hero = () => {
                             <div className="space-y-4">
                                 {tm('servicePages.facebookAds.hero.bullets').map((bullet, index) => (
                                     <div key={index} className="flex items-start space-x-2">
-                                        <div className="w-1.5 h-1.5 bg-[#c08dfe] rounded-full mt-2 flex-shrink-0"></div>
+                                        <div className="w-1.5 h-1.5 bg-[#ee3e99] rounded-full mt-2 flex-shrink-0"></div>
                                         <p className="text-[13px] lg:text-[16px] text-gray-700">
                                             {bullet}
                                         </p>

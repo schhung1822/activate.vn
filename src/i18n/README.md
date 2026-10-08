@@ -8,7 +8,7 @@ Ba ngôn ngữ, phân biệt bằng prefix trong URL:
 | English | `en` | `/en`, `/en/about` | `en` |
 | 简体中文 | `cn` | `/cn`, `/cn/about` | `zh-Hans` |
 
-**Ngôn ngữ nằm ở URL, không nằm ở state.** Vào `nextgency.vn` luôn ra tiếng Việt;
+**Ngôn ngữ nằm ở URL, không nằm ở state.** Vào `activate.vn` luôn ra tiếng Việt;
 không có chuyển hướng tự động theo trình duyệt. Nhờ vậy mọi link chia sẻ mở đúng ngôn
 ngữ, và crawler thấy đúng nội dung mà không cần chạy JavaScript.
 
